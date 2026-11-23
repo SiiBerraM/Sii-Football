@@ -6,7 +6,7 @@
       "enabled": true,
       "type": "pdf",
       "parser": "ibsa_text",
-      "url": "https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
+      "url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "sport": "blind",
       "competition": "ibsa-world-championships",
       "year": 2018,
