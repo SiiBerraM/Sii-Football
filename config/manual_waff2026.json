@@ -1,12 +1,12 @@
 [
   {
-    "date": "19 November 2026",
+    "date": "18 November 2026",
     "time": "00:00",
     "home": "Ghana",
     "away": "USA",
     "score": "3-1",
     "status": "finished",
-    "venue": "Mexico"
+    "venue": "San Juan de los Lagos, Mexico"
   },
   {
     "date": "22 November 2026",
@@ -32,6 +32,33 @@
     "home": "Morocco",
     "away": "Italy",
     "score": "4-1",
+    "status": "finished",
+    "venue": "San Juan de los Lagos, Mexico"
+  },
+  {
+    "date": "16 November 2026",
+    "time": "00:00",
+    "home": "Ghana",
+    "away": "Iraq",
+    "score": "6-0",
+    "status": "finished",
+    "venue": "San Juan de los Lagos, Mexico"
+  },
+  {
+    "date": "19 November 2026",
+    "time": "00:00",
+    "home": "Ghana",
+    "away": "Egypt",
+    "score": "2-0",
+    "status": "finished",
+    "venue": "San Juan de los Lagos, Mexico"
+  },
+  {
+    "date": "20 November 2026",
+    "time": "00:00",
+    "home": "Ghana",
+    "away": "Turkiye",
+    "score": "1-1",
     "status": "finished",
     "venue": "San Juan de los Lagos, Mexico"
   }
