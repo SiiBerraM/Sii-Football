@@ -1,7 +1,49 @@
 {
-  "generated_at": "2026-11-23T22:05:53Z",
-  "count": 1,
+  "generated_at": "2026-11-23T22:09:05Z",
+  "count": 4,
   "data": [
+    {
+      "match_id": "0bedb79b30d248d8",
+      "sport": "amputee",
+      "competition": "waff-world-cup",
+      "date_utc": "2026-11-22T06:00:00Z",
+      "status": "finished",
+      "home_team": {
+        "name": "Ghana",
+        "code": "GHA",
+        "score": 1
+      },
+      "away_team": {
+        "name": "Morocco",
+        "code": "MOR",
+        "score": 0
+      },
+      "venue": "San Juan de los Lagos, Mexico",
+      "source_url": "manual://waff-2026",
+      "is_stale": false,
+      "source_updated_at": "2026-11-23T22:09:05Z"
+    },
+    {
+      "match_id": "ff345a87d272b0ae",
+      "sport": "amputee",
+      "competition": "waff-world-cup",
+      "date_utc": "2026-11-20T06:00:00Z",
+      "status": "finished",
+      "home_team": {
+        "name": "Morocco",
+        "code": "MOR",
+        "score": 2
+      },
+      "away_team": {
+        "name": "Brazil",
+        "code": "BRA",
+        "score": 1
+      },
+      "venue": "San Juan de los Lagos, Mexico",
+      "source_url": "manual://waff-2026",
+      "is_stale": false,
+      "source_updated_at": "2026-11-23T22:09:05Z"
+    },
     {
       "match_id": "e94db2004702252b",
       "sport": "amputee",
@@ -21,7 +63,28 @@
       "venue": "Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-23T22:05:53Z"
+      "source_updated_at": "2026-11-23T22:09:05Z"
+    },
+    {
+      "match_id": "2133e1b5ac29fdb9",
+      "sport": "amputee",
+      "competition": "waff-world-cup",
+      "date_utc": "2026-11-18T06:00:00Z",
+      "status": "finished",
+      "home_team": {
+        "name": "Morocco",
+        "code": "MOR",
+        "score": 4
+      },
+      "away_team": {
+        "name": "Italy",
+        "code": "ITA",
+        "score": 1
+      },
+      "venue": "San Juan de los Lagos, Mexico",
+      "source_url": "manual://waff-2026",
+      "is_stale": false,
+      "source_updated_at": "2026-11-23T22:09:05Z"
     }
   ]
 }
