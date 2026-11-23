@@ -29,8 +29,11 @@ def record(conn, sid, ok, err, count):
 def run_source(src):
     sid = src["id"]
     try:
-        content = fetch(src["url"])
-        rows = PARSERS[src["type"]](content, src)
+        if src["type"] == "manual":
+            rows = json.loads((CONFIG_DIR / src["file"]).read_text(encoding="utf-8"))
+        else:
+            content = fetch(src["url"])
+            rows = PARSERS[src["type"]](content, src)
         found, skipped = rows_to_matches(rows, src, now_iso())
         if not found:
             raise RuntimeError(f"0 valid rows (raw={len(rows)}, skipped={skipped})")

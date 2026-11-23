@@ -1,5 +1,27 @@
 {
-  "generated_at": "2026-11-23T21:58:07Z",
-  "count": 0,
-  "data": []
+  "generated_at": "2026-11-23T22:05:53Z",
+  "count": 1,
+  "data": [
+    {
+      "match_id": "e94db2004702252b",
+      "sport": "amputee",
+      "competition": "waff-world-cup",
+      "date_utc": "2026-11-19T06:00:00Z",
+      "status": "finished",
+      "home_team": {
+        "name": "Ghana",
+        "code": "GHA",
+        "score": 3
+      },
+      "away_team": {
+        "name": "USA",
+        "code": "USA",
+        "score": 1
+      },
+      "venue": "Mexico",
+      "source_url": "manual://waff-2026",
+      "is_stale": false,
+      "source_updated_at": "2026-11-23T22:05:53Z"
+    }
+  ]
 }
