@@ -52,3 +52,12 @@ Project brief file (اوامر_المشروع_والافكار_الاضافية.
 - Lesson: verify hosting free-tier terms (card/PRO) before planning around them
 - Lesson: bot commits cause push conflicts, use git pull --rebase and take generated data files
 - Next: more IBSA sources, current-year sources, manual_matches source for WAFF 2026, tests, optional Vercel/Cloudflare dynamic API with keys
+
+## Session 01 - Part 4
+- Added source type "manual" (config/manual_waff2026.json) for tournaments whose sites publish images only
+- WAFF 2026 source: 1 verified match so far (Ghana 3-1 USA), more to add after verification
+- Mistake fixed: a patch zip overwrote sources.json with an old copy; restored IBSA source via a python one-liner
+- Lesson: build patches from the latest synced copy, and prefer small in-place edits over replacing shared config files
+- Lesson: download/transfer of zip files from chat is unreliable on phone; prefer commands typed in Termux
+- Now: 2 real sources, 45 matches
+- Next: verified WAFF 2026 results, more IBSA PDFs, tests, optional dynamic API with keys
