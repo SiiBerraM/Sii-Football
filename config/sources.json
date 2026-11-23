@@ -1,6 +1,19 @@
 {
-  "_comment": "Add real sources here. Set enabled=true after replacing url and verifying columns. Each source is isolated: one failure never stops others.",
+  "_comment": "Each source is isolated. Set enabled=true after verifying. parser 'ibsa_text' handles IBSA results PDFs.",
   "sources": [
+    {
+      "id": "ibsa-wc-2018-madrid",
+      "enabled": true,
+      "type": "pdf",
+      "parser": "ibsa_text",
+      "url": "https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
+      "sport": "blind",
+      "competition": "ibsa-world-championships",
+      "year": 2018,
+      "timezone": "Europe/Madrid",
+      "venue": "Madrid, Spain",
+      "dayfirst": true
+    },
     {
       "id": "example-html-amputee",
       "enabled": false,
@@ -13,18 +26,6 @@
       "row_selector": "table tr",
       "cell_selector": "td",
       "columns": {"date": 0, "time": 1, "home": 2, "score": 3, "away": 4, "venue": 5, "status": 6}
-    },
-    {
-      "id": "example-pdf-blind",
-      "enabled": false,
-      "type": "pdf",
-      "url": "https://example.org/blind/schedule.pdf",
-      "sport": "blind",
-      "competition": "ibsa-world-championships",
-      "timezone": "UTC",
-      "dayfirst": true,
-      "columns": {"date": 0, "time": 1, "home": 2, "score": 3, "away": 4, "venue": 5},
-      "line_regex": "(?P<date>\\d{1,2}[./]\\d{1,2}[./]\\d{2,4})\\s+(?P<time>\\d{1,2}:\\d{2})\\s+(?P<home>.+?)\\s+(?P<score>\\d+\\s*[-:]\\s*\\d+|vs|v)\\s+(?P<away>.+)"
     }
   ]
 }

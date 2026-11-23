@@ -1,5 +1,6 @@
 import io, re
 import pdfplumber
+from . import ibsa_text
 
 
 def _tables(content):
@@ -11,19 +12,20 @@ def _tables(content):
     return rows
 
 
-def _text_lines(content):
-    text = ""
+def _text(content):
     try:
-        import fitz  # PyMuPDF
+        import fitz  # PyMuPDF (optional)
         with fitz.open(stream=content, filetype="pdf") as doc:
-            text = "\n".join(p.get_text() for p in doc)
+            return "\n".join(p.get_text() for p in doc)
     except Exception:
         with pdfplumber.open(io.BytesIO(content)) as pdf:
-            text = "\n".join((p.extract_text() or "") for p in pdf.pages)
-    return text.splitlines()
+            return "\n".join((p.extract_text() or "") for p in pdf.pages)
 
 
 def parse(content: bytes, src: dict):
+    mode = src.get("parser")
+    if mode == "ibsa_text":
+        return ibsa_text.parse_text(_text(content), src)
     rows = _tables(content)
     if rows:
         return rows
@@ -32,7 +34,7 @@ def parse(content: bytes, src: dict):
         return []
     pat = re.compile(rx)
     out = []
-    for line in _text_lines(content):
+    for line in _text(content).splitlines():
         m = pat.search(line.strip())
         if m:
             out.append(m.groupdict())
