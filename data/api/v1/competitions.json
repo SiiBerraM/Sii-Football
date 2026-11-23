@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-11-23T21:45:45Z",
+  "count": 5,
+  "data": [
+    {
+      "code": "deaflympics-football",
+      "sport": "deaf",
+      "name": "Deaflympics Football",
+      "country": "INT",
+      "season": "2026"
+    },
+    {
+      "code": "fipfa-world-cup",
+      "sport": "powerchair",
+      "name": "FIPFA Powerchair Football World Cup",
+      "country": "INT",
+      "season": "2026"
+    },
+    {
+      "code": "ibsa-world-championships",
+      "sport": "blind",
+      "name": "IBSA Blind Football World Championships",
+      "country": "INT",
+      "season": "2026"
+    },
+    {
+      "code": "ifcpf-world-cup",
+      "sport": "para",
+      "name": "IFCPF CP Football World Cup",
+      "country": "INT",
+      "season": "2026"
+    },
+    {
+      "code": "waff-world-cup",
+      "sport": "amputee",
+      "name": "WAFF Amputee World Cup",
+      "country": "INT",
+      "season": "2026"
+    }
+  ]
+}

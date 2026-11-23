@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-11-23T21:45:45Z",
+  "count": 1,
+  "data": [
+    {
+      "match_id": "seed0000000000001",
+      "sport": "amputee",
+      "competition": "waff-world-cup",
+      "date_utc": "2026-12-01T15:00:00Z",
+      "status": "scheduled",
+      "home_team": {
+        "name": "Demo Team A",
+        "code": "DTA",
+        "score": null
+      },
+      "away_team": {
+        "name": "Demo Team B",
+        "code": "DTB",
+        "score": null
+      },
+      "venue": "Demo Stadium",
+      "source_url": "seed://demo",
+      "is_stale": false,
+      "source_updated_at": "2026-11-23T01:18:24Z"
+    }
+  ]
+}
