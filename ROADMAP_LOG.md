@@ -68,3 +68,10 @@ Project brief file (اوامر_المشروع_والافكار_الاضافية.
 - DB now 48 matches (44 IBSA 2018 + 4 WAFF 2026)
 - Lesson: record the source and confidence of each manual result; prefer sources with explicit dates
 - Next: fix Ghana-USA date, add remaining WAFF 2026 results, more IBSA PDFs, tests, optional dynamic API with keys
+
+## Session 01 - Part 6
+- Fixed Ghana-USA date to 18 Nov 2026 (earlier 19 Nov was the article date, not the match date)
+- Added Ghana 6-0 Iraq (16 Nov, inferred from Monday night), Ghana 2-0 Egypt (19 Nov), Ghana 1-1 Turkiye (20 Nov, Ghana won 4-3 on penalties; penalties not stored)
+- WAFF 2026 manual source now 7 matches, DB 51 matches
+- Lesson: article publication date is not match date; cross-check with 2+ sources
+- Next: add penalties field to schema, remaining WAFF 2026 results, more IBSA PDFs, tests, optional dynamic API with keys
