@@ -27,3 +27,10 @@ Project brief file (اوامر_المشروع_والافكار_الاضافية.
 - Config-driven scrapers: new source = JSON entry, no code.
 - Always wrap each source in try/except and flag is_stale rather than failing the run.
 - Keep a single normalize layer so any source maps to one schema.
+
+## Session 01 - Termux
+- Reminder: run termux-setup-storage at the start of each session
+- Project copied to ~/sii, deps installed (python-cryptography via pkg)
+- API tested locally, GitHub repo created: SiiBerraM/Sii-Football
+- GitHub Actions workflow ran successfully
+- Next: add real sources, tests, deploy to Render
