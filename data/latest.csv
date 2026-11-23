@@ -1,0 +1,3 @@
+match_id,sport,competition,date_utc,status,home_name,home_code,home_score,away_name,away_code,away_score,venue,source_url,is_stale,source_updated_at
+seed0000000000002,blind,ibsa-world-championships,2026-11-20T12:00:00Z,finished,Demo Team C,DTC,2,Demo Team D,DTD,1,Demo Arena,seed://demo,False,2026-11-23T01:18:24Z
+seed0000000000001,amputee,waff-world-cup,2026-12-01T15:00:00Z,scheduled,Demo Team A,DTA,,Demo Team B,DTB,,Demo Stadium,seed://demo,False,2026-11-23T01:18:24Z
