@@ -75,3 +75,11 @@ Project brief file (اوامر_المشروع_والافكار_الاضافية.
 - WAFF 2026 manual source now 7 matches, DB 51 matches
 - Lesson: article publication date is not match date; cross-check with 2+ sources
 - Next: add penalties field to schema, remaining WAFF 2026 results, more IBSA PDFs, tests, optional dynamic API with keys
+
+## Session 01 - Part 7
+- Found duplicate Ghana-USA record (match_id includes date, so a date fix created a new record). Removed it manually.
+- Fixed root cause in scripts/run_scrapers.py: after each successful source run, delete matches of that source_id not present in the new results
+- Verified public API via web fetch: amputee results count matched DB
+- DB now 51 matches (44 IBSA 2018 + 7 WAFF 2026)
+- Lesson: upsert-only pipelines need a prune step, otherwise corrected data leaves ghosts
+- Next: add penalties field, remaining WAFF 2026 results, more IBSA PDFs, tests, optional dynamic API with keys
