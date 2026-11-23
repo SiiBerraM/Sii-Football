@@ -34,3 +34,11 @@ Project brief file (اوامر_المشروع_والافكار_الاضافية.
 - API tested locally, GitHub repo created: SiiBerraM/Sii-Football
 - GitHub Actions workflow ran successfully
 - Next: add real sources, tests, deploy to Render
+
+## Session 01 - Part 2
+- Added scrapers/ibsa_text.py (IBSA results PDF parser) and updated pdf_scraper.py
+- blindfootball.sport is unreachable (DNS fails on phone and GitHub); used web.archive.org snapshot URL instead
+- First real source working: ibsa-wc-2018-madrid = 44 matches, 0 skipped
+- WAFF site publishes schedules as images, not scrapable; planned manual_matches.json source
+- Lesson: always test a source URL from the real runner before trusting it
+- Next: more IBSA PDFs, current-year sources, manual source, tests, deploy to Render
