@@ -83,3 +83,11 @@ Project brief file (اوامر_المشروع_والافكار_الاضافية.
 - DB now 51 matches (44 IBSA 2018 + 7 WAFF 2026)
 - Lesson: upsert-only pipelines need a prune step, otherwise corrected data leaves ghosts
 - Next: add penalties field, remaining WAFF 2026 results, more IBSA PDFs, tests, optional dynamic API with keys
+
+## Session 01 - Part 8
+- Added WAFF 2026: Morocco 4-1 Angola (QF 19 Nov), Angola 2-1 Poland and Egypt 2-1 England (R16 18 Nov, dates inferred)
+- Excluded bladi.net reports (Turkey 4-1 Morocco, Morocco 3-0 Italy): they are from the 2022 World Cup in Istanbul, not 2026
+- WAFF 2026 manual source: 10 matches, DB 54 matches. Group stage still missing (dates not in sources)
+- Goal reminder: all data must feed the SiiMatchMind app via the public JSON API (https://siiberram.github.io/Sii-Football/data/api/v1/)
+- Lesson: check the tournament year of every article before using a result
+- Next: group stage results, penalties field, SiiMatchMind integration, more IBSA PDFs, tests
