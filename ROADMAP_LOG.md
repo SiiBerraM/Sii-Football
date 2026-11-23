@@ -42,3 +42,13 @@ Project brief file (اوامر_المشروع_والافكار_الاضافية.
 - WAFF site publishes schedules as images, not scrapable; planned manual_matches.json source
 - Lesson: always test a source URL from the real runner before trusting it
 - Next: more IBSA PDFs, current-year sources, manual source, tests, deploy to Render
+
+## Session 01 - Part 3
+- Render and HuggingFace Docker Spaces both require a payment card/PRO: rejected (zero-cost rule)
+- Built static JSON API on GitHub Pages: data/api/v1/{sports,competitions,fixtures,results}.json and per-sport files
+- Public base URL: https://siiberram.github.io/Sii-Football/data/api/v1/
+- Removed demo seed matches; DB has 44 real IBSA 2018 matches
+- Workflow now commits the whole data folder
+- Lesson: verify hosting free-tier terms (card/PRO) before planning around them
+- Lesson: bot commits cause push conflicts, use git pull --rebase and take generated data files
+- Next: more IBSA sources, current-year sources, manual_matches source for WAFF 2026, tests, optional Vercel/Cloudflare dynamic API with keys
