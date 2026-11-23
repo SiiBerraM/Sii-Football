@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23T22:15:16Z",
-  "count": 7,
+  "generated_at": "2026-11-23T22:30:05Z",
+  "count": 10,
   "data": [
     {
       "match_id": "0bedb79b30d248d8",
@@ -21,7 +21,7 @@
       "venue": "San Juan de los Lagos, Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-23T22:15:16Z"
+      "source_updated_at": "2026-11-23T22:30:05Z"
     },
     {
       "match_id": "ff345a87d272b0ae",
@@ -42,7 +42,7 @@
       "venue": "San Juan de los Lagos, Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-23T22:15:16Z"
+      "source_updated_at": "2026-11-23T22:30:05Z"
     },
     {
       "match_id": "267d3be17daf65fc",
@@ -63,7 +63,7 @@
       "venue": "San Juan de los Lagos, Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-23T22:15:16Z"
+      "source_updated_at": "2026-11-23T22:30:05Z"
     },
     {
       "match_id": "cb5c6eb41487528b",
@@ -84,7 +84,28 @@
       "venue": "San Juan de los Lagos, Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-23T22:15:16Z"
+      "source_updated_at": "2026-11-23T22:30:05Z"
+    },
+    {
+      "match_id": "29f45642c0e8febc",
+      "sport": "amputee",
+      "competition": "waff-world-cup",
+      "date_utc": "2026-11-19T06:00:00Z",
+      "status": "finished",
+      "home_team": {
+        "name": "Morocco",
+        "code": "MOR",
+        "score": 4
+      },
+      "away_team": {
+        "name": "Angola",
+        "code": "ANG",
+        "score": 1
+      },
+      "venue": "San Juan de los Lagos, Mexico",
+      "source_url": "manual://waff-2026",
+      "is_stale": false,
+      "source_updated_at": "2026-11-23T22:30:05Z"
     },
     {
       "match_id": "2133e1b5ac29fdb9",
@@ -105,7 +126,7 @@
       "venue": "San Juan de los Lagos, Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-23T22:15:16Z"
+      "source_updated_at": "2026-11-23T22:30:05Z"
     },
     {
       "match_id": "fe0c6281b4448446",
@@ -126,7 +147,49 @@
       "venue": "San Juan de los Lagos, Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-23T22:15:16Z"
+      "source_updated_at": "2026-11-23T22:30:05Z"
+    },
+    {
+      "match_id": "f8511c6399e47003",
+      "sport": "amputee",
+      "competition": "waff-world-cup",
+      "date_utc": "2026-11-18T06:00:00Z",
+      "status": "finished",
+      "home_team": {
+        "name": "Angola",
+        "code": "ANG",
+        "score": 2
+      },
+      "away_team": {
+        "name": "Poland",
+        "code": "POL",
+        "score": 1
+      },
+      "venue": "San Juan de los Lagos, Mexico",
+      "source_url": "manual://waff-2026",
+      "is_stale": false,
+      "source_updated_at": "2026-11-23T22:30:05Z"
+    },
+    {
+      "match_id": "ccab753d55ba6c96",
+      "sport": "amputee",
+      "competition": "waff-world-cup",
+      "date_utc": "2026-11-18T06:00:00Z",
+      "status": "finished",
+      "home_team": {
+        "name": "Egypt",
+        "code": "EGY",
+        "score": 2
+      },
+      "away_team": {
+        "name": "England",
+        "code": "ENG",
+        "score": 1
+      },
+      "venue": "San Juan de los Lagos, Mexico",
+      "source_url": "manual://waff-2026",
+      "is_stale": false,
+      "source_updated_at": "2026-11-23T22:30:05Z"
     },
     {
       "match_id": "ab33e3b1ae047740",
@@ -147,7 +210,7 @@
       "venue": "San Juan de los Lagos, Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-23T22:15:16Z"
+      "source_updated_at": "2026-11-23T22:30:05Z"
     }
   ]
 }
