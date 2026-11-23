@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T22:14:01Z",
+  "generated_at": "2026-11-23T22:15:16Z",
   "count": 7,
   "data": [
     {
@@ -21,7 +21,7 @@
       "venue": "San Juan de los Lagos, Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-23T22:11:09Z"
+      "source_updated_at": "2026-11-23T22:15:16Z"
     },
     {
       "match_id": "ff345a87d272b0ae",
@@ -42,7 +42,7 @@
       "venue": "San Juan de los Lagos, Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-23T22:11:09Z"
+      "source_updated_at": "2026-11-23T22:15:16Z"
     },
     {
       "match_id": "267d3be17daf65fc",
@@ -63,7 +63,7 @@
       "venue": "San Juan de los Lagos, Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-23T22:11:09Z"
+      "source_updated_at": "2026-11-23T22:15:16Z"
     },
     {
       "match_id": "cb5c6eb41487528b",
@@ -84,7 +84,7 @@
       "venue": "San Juan de los Lagos, Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-23T22:11:09Z"
+      "source_updated_at": "2026-11-23T22:15:16Z"
     },
     {
       "match_id": "2133e1b5ac29fdb9",
@@ -105,7 +105,7 @@
       "venue": "San Juan de los Lagos, Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-23T22:11:09Z"
+      "source_updated_at": "2026-11-23T22:15:16Z"
     },
     {
       "match_id": "fe0c6281b4448446",
@@ -126,7 +126,7 @@
       "venue": "San Juan de los Lagos, Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-23T22:11:09Z"
+      "source_updated_at": "2026-11-23T22:15:16Z"
     },
     {
       "match_id": "ab33e3b1ae047740",
@@ -147,7 +147,7 @@
       "venue": "San Juan de los Lagos, Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-23T22:11:09Z"
+      "source_updated_at": "2026-11-23T22:15:16Z"
     }
   ]
 }

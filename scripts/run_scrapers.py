@@ -40,6 +40,7 @@ def run_source(src):
         with engine.begin() as c:
             for m in found:
                 upsert_match(c, m)
+            c.execute(matches.delete().where(matches.c.source_id == sid, matches.c.match_id.notin_([m["match_id"] for m in found])))
             record(c, sid, True, "", len(found))
         print(f"[OK]   {sid}: {len(found)} matches ({skipped} skipped)")
     except Exception as e:
