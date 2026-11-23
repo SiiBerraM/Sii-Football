@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23T21:45:45Z",
-  "count": 46,
+  "generated_at": "2026-11-23T21:58:07Z",
+  "count": 44,
   "matches": [
     {
       "match_id": "e4febbe377a8138d",
@@ -925,48 +925,6 @@
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
       "source_updated_at": "2026-11-23T21:45:45Z"
-    },
-    {
-      "match_id": "seed0000000000002",
-      "sport": "blind",
-      "competition": "ibsa-world-championships",
-      "date_utc": "2026-11-20T12:00:00Z",
-      "status": "finished",
-      "home_team": {
-        "name": "Demo Team C",
-        "code": "DTC",
-        "score": 2
-      },
-      "away_team": {
-        "name": "Demo Team D",
-        "code": "DTD",
-        "score": 1
-      },
-      "venue": "Demo Arena",
-      "source_url": "seed://demo",
-      "is_stale": false,
-      "source_updated_at": "2026-11-23T01:18:24Z"
-    },
-    {
-      "match_id": "seed0000000000001",
-      "sport": "amputee",
-      "competition": "waff-world-cup",
-      "date_utc": "2026-12-01T15:00:00Z",
-      "status": "scheduled",
-      "home_team": {
-        "name": "Demo Team A",
-        "code": "DTA",
-        "score": null
-      },
-      "away_team": {
-        "name": "Demo Team B",
-        "code": "DTB",
-        "score": null
-      },
-      "venue": "Demo Stadium",
-      "source_url": "seed://demo",
-      "is_stale": false,
-      "source_updated_at": "2026-11-23T01:18:24Z"
     }
   ]
 }

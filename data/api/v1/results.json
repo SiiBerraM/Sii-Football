@@ -1,28 +1,7 @@
 {
-  "generated_at": "2026-11-23T21:45:45Z",
-  "count": 45,
+  "generated_at": "2026-11-23T21:58:07Z",
+  "count": 44,
   "data": [
-    {
-      "match_id": "seed0000000000002",
-      "sport": "blind",
-      "competition": "ibsa-world-championships",
-      "date_utc": "2026-11-20T12:00:00Z",
-      "status": "finished",
-      "home_team": {
-        "name": "Demo Team C",
-        "code": "DTC",
-        "score": 2
-      },
-      "away_team": {
-        "name": "Demo Team D",
-        "code": "DTD",
-        "score": 1
-      },
-      "venue": "Demo Arena",
-      "source_url": "seed://demo",
-      "is_stale": false,
-      "source_updated_at": "2026-11-23T01:18:24Z"
-    },
     {
       "match_id": "9ad6b4e82a3b9264",
       "sport": "blind",
