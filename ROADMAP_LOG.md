@@ -61,3 +61,10 @@ Project brief file (اوامر_المشروع_والافكار_الاضافية.
 - Lesson: download/transfer of zip files from chat is unreliable on phone; prefer commands typed in Termux
 - Now: 2 real sources, 45 matches
 - Next: verified WAFF 2026 results, more IBSA PDFs, tests, optional dynamic API with keys
+
+## Session 01 - Part 5
+- Added 3 verified WAFF 2026 results to config/manual_waff2026.json (Final Ghana 1-0 Morocco 22 Nov; SF Morocco 2-1 Brazil 20 Nov; R16 Morocco 4-1 Italy 18 Nov)
+- Caveats: times set to 00:00, home/away order nominal, Ghana 3-1 USA date (19 Nov) unverified
+- DB now 48 matches (44 IBSA 2018 + 4 WAFF 2026)
+- Lesson: record the source and confidence of each manual result; prefer sources with explicit dates
+- Next: fix Ghana-USA date, add remaining WAFF 2026 results, more IBSA PDFs, tests, optional dynamic API with keys
