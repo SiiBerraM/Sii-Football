@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T03:55:42Z",
+  "generated_at": "2026-11-24T17:28:05Z",
   "count": 10,
   "data": [
     {
@@ -21,7 +21,7 @@
       "venue": "San Juan de los Lagos, Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-24T03:55:42Z"
+      "source_updated_at": "2026-11-24T17:28:05Z"
     },
     {
       "match_id": "ff345a87d272b0ae",
@@ -42,7 +42,7 @@
       "venue": "San Juan de los Lagos, Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-24T03:55:42Z"
+      "source_updated_at": "2026-11-24T17:28:05Z"
     },
     {
       "match_id": "267d3be17daf65fc",
@@ -63,7 +63,7 @@
       "venue": "San Juan de los Lagos, Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-24T03:55:42Z"
+      "source_updated_at": "2026-11-24T17:28:05Z"
     },
     {
       "match_id": "cb5c6eb41487528b",
@@ -84,7 +84,7 @@
       "venue": "San Juan de los Lagos, Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-24T03:55:42Z"
+      "source_updated_at": "2026-11-24T17:28:05Z"
     },
     {
       "match_id": "29f45642c0e8febc",
@@ -105,7 +105,7 @@
       "venue": "San Juan de los Lagos, Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-24T03:55:42Z"
+      "source_updated_at": "2026-11-24T17:28:05Z"
     },
     {
       "match_id": "2133e1b5ac29fdb9",
@@ -126,7 +126,7 @@
       "venue": "San Juan de los Lagos, Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-24T03:55:42Z"
+      "source_updated_at": "2026-11-24T17:28:05Z"
     },
     {
       "match_id": "fe0c6281b4448446",
@@ -147,7 +147,7 @@
       "venue": "San Juan de los Lagos, Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-24T03:55:42Z"
+      "source_updated_at": "2026-11-24T17:28:05Z"
     },
     {
       "match_id": "f8511c6399e47003",
@@ -168,7 +168,7 @@
       "venue": "San Juan de los Lagos, Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-24T03:55:42Z"
+      "source_updated_at": "2026-11-24T17:28:05Z"
     },
     {
       "match_id": "ccab753d55ba6c96",
@@ -189,7 +189,7 @@
       "venue": "San Juan de los Lagos, Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-24T03:55:42Z"
+      "source_updated_at": "2026-11-24T17:28:05Z"
     },
     {
       "match_id": "ab33e3b1ae047740",
@@ -210,7 +210,7 @@
       "venue": "San Juan de los Lagos, Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-24T03:55:42Z"
+      "source_updated_at": "2026-11-24T17:28:05Z"
     }
   ]
 }
