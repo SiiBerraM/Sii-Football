@@ -3,35 +3,49 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Sii-Football covers football news, match results, standings, and team analysis." />
-  <meta name="google-site-verification" content="h_2s3LM1W1s7tN0nN8wk6mA4TCDh4LdBkU9L7lBmt-E" />
-  <title>Sii-Football — Football News, Match Updates & Standings</title>
+  <title>Sii-Football API — Para-Football Data &amp; Leagues</title>
+  <style>
+    body { font-family: system-ui, -apple-system, sans-serif; margin: 0; background: #0f172a; color: #e2e8f0; line-height: 1.6; }
+    .wrap { max-width: 900px; margin: 0 auto; padding: 32px 20px; }
+    h1 { margin: 0 0 8px; color: #38bdf8; }
+    .badge { display: inline-block; background: #1e293b; border: 1px solid #334155; padding: 4px 10px; border-radius: 999px; font-size: 13px; color: #94a3b8; }
+    .card { background: #1e293b; border: 1px solid #334155; border-radius: 10px; padding: 18px; margin-top: 18px; }
+    code, pre { background: #020617; color: #7dd3fc; padding: 2px 6px; border-radius: 6px; font-family: monospace; }
+    pre { padding: 14px; overflow-x: auto; }
+    a { color: #38bdf8; }
+    ul { padding-left: 20px; margin: 8px 0; }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Sii-Football</h1>
-    <p>Football news, match summaries, tournament standings, and team updates.</p>
-  </header>
+  <div class="wrap">
+    <span class="badge">Open &amp; Free JSON API • HTML &amp; PDF Aggregator</span>
+    <h1>Sii-Football API</h1>
+    <p>Structured disability and para-football data (Amputee, Blind, CP Football) aggregated from public HTML and PDF sources with attribution, powering <strong>SiiMatchMind</strong> and open developers.</p>
 
-  <main>
-    <section>
-      <h2>Latest Match Coverage</h2>
-      <p>Follow key fixtures, scorelines, and turning points from major domestic leagues and international competitions.</p>
-    </section>
+    <div class="card">
+      <h2>Endpoints</h2>
+      <ul>
+        <li><code>GET /api/index.json</code> — <a href="api/index.json">Service &amp; endpoint catalog</a></li>
+        <li><code>GET /api/sources.json</code> — <a href="api/sources.json">Registered HTML/PDF sources</a></li>
+        <li><code>GET /api/news.json</code> — <a href="api/news.json">Extracted HTML &amp; PDF items</a></li>
+        <li><code>GET /api/leagues.json</code> — <a href="api/leagues.json">Competitions &amp; structured matches</a></li>
+      </ul>
+    </div>
 
-    <section>
-      <h2>Team &amp; Player Highlights</h2>
-      <p>Track form streaks, goalscorers, tactical shifts, and squad news across top football clubs.</p>
-    </section>
-
-    <section>
-      <h2>Standings &amp; Schedule</h2>
-      <p>Check upcoming match dates, table positions, and recent results in one place.</p>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; Sii-Football. All rights reserved.</p>
-  </footer>
+    <div class="card">
+      <h2>Live Endpoint Status</h2>
+      <pre id="live-status">Loading /api/index.json...</pre>
+    </div>
+  </div>
+  <script>
+    fetch("api/index.json")
+      .then(r => r.json())
+      .then(data => {
+        document.getElementById("live-status").textContent = JSON.stringify(data, null, 2);
+      })
+      .catch(err => {
+        document.getElementById("live-status").textContent = "Error: " + err.message;
+      });
+  </script>
 </body>
 </html>

@@ -1,0 +1,18 @@
+{
+  "service": "Sii-Football API",
+  "owner": "SiiBerraM",
+  "consumer_app": "SiiMatchMind",
+  "access": "free_open",
+  "base_url": "https://siiberram.github.io/Sii-Football/api",
+  "endpoints": {
+    "index": "/api/index.json",
+    "sources": "/api/sources.json",
+    "news": "/api/news.json",
+    "leagues": "/api/leagues.json"
+  },
+  "categories": [
+    "amputee-football",
+    "blind-football",
+    "cp-football"
+  ]
+}
