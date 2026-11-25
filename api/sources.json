@@ -12,29 +12,57 @@
     },
     {
       "id": 2,
+      "name": "WAFF World Cup 2026 – Matches & Results",
+      "url": "https://amputeefootball.org/Worldcup-test/",
+      "type": "html",
+      "category": "amputee-football"
+    },
+    {
+      "id": 3,
+      "name": "2026 Amputee Football World Cup (Tables & Results)",
+      "url": "https://en.wikipedia.org/wiki/2026_Amputee_Football_World_Cup",
+      "type": "html",
+      "category": "amputee-football"
+    },
+    {
+      "id": 4,
       "name": "IBSA Football Historical Results",
       "url": "https://ibsasport.org/sports/football/about/historical-results/",
       "type": "html",
       "category": "blind-football"
     },
     {
-      "id": 3,
+      "id": 5,
       "name": "IBSA European Blind Football Championship 2026",
       "url": "https://ibsablindeuro2026.com/en/home-2/",
       "type": "html",
       "category": "blind-football"
     },
     {
-      "id": 4,
+      "id": 6,
       "name": "IBSA Men's Blind Football Nations Cup",
       "url": "https://www.blindfootball.in/ibsa-mens-2025",
       "type": "html",
       "category": "blind-football"
     },
     {
-      "id": 5,
+      "id": 7,
       "name": "IFCPF Tournaments & Results",
       "url": "https://www.ifcpf.com/tournaments",
+      "type": "html",
+      "category": "cp-football"
+    },
+    {
+      "id": 8,
+      "name": "IFCPF Official Results Page",
+      "url": "https://www.ifcpf.com/tournaments/results",
+      "type": "html",
+      "category": "cp-football"
+    },
+    {
+      "id": 9,
+      "name": "IFCPF Tournament Standings & Matches (View 121)",
+      "url": "https://www.ifcpf.com/tournaments/view/121",
       "type": "html",
       "category": "cp-football"
     }
