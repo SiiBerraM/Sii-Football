@@ -1,8 +1,97 @@
 {
   "project": "Sii-Football",
   "consumer_app": "SiiMatchMind",
-  "license_note": "Structured para-football match records from public HTML and PDF sources with attribution.",
-  "updated_at": "2026-11-25T18:22:26Z",
+  "license_note": "Structured para-football leagues and match records from public HTML and PDF sources with attribution.",
+  "updated_at": "2026-11-25T18:23:06Z",
+  "competitions_count": 8,
+  "competitions": [
+    {
+      "id": 1,
+      "name": "World Amputee Football Federation (WAFF)",
+      "category": "amputee-football",
+      "source_type": "html",
+      "source_url": "https://amputeefootball.org/",
+      "discovered_pdfs": [],
+      "char_length": 4863,
+      "fetched_at": "2026-11-25T18:23:06Z"
+    },
+    {
+      "id": 2,
+      "name": "IBSA Football Results & Reports",
+      "category": "blind-football",
+      "source_type": "html",
+      "source_url": "https://ibsasport.org/sports/football/about/historical-results/",
+      "discovered_pdfs": [],
+      "char_length": 1636,
+      "fetched_at": "2026-11-25T18:23:06Z"
+    },
+    {
+      "id": 3,
+      "name": "International Federation of CP Football (IFCPF)",
+      "category": "cp-football",
+      "source_type": "html",
+      "source_url": "https://www.ifcpf.com/",
+      "discovered_pdfs": [
+        "https://www.ifcpf.com/static/upload/raw/3f4a132d-dc98-41d4-bb95-c20144870d69/IFCPF+-+Only+the+Captain+Guidelines+%281%29.pdf",
+        "https://www.ifcpf.com/static/upload/raw/d8e2411a-a2d4-4cd0-945c-0f781b19abf5/IFCPF+-+Age+Dispensation+Policy.pdf",
+        "https://www.ifcpf.com/static/upload/raw/1f83a3b2-08c7-4eef-acc3-0d3dd2f1a139/20180110+-+IFCPF+-+Athlete+Nationality+Policy.pdf",
+        "https://www.ifcpf.com/static/upload/raw/f17c1cb9-92eb-4a5d-b46d-fbb532a7ec87/IFCPF+-+Competition+Rules+-+2022.pdf",
+        "https://www.ifcpf.com/static/upload/raw/71933712-5882-4625-92cb-24bbacc9067d/IFCPF+-+Modifications+to+the+Laws+of+the+Game+-+2022.pdf"
+      ],
+      "char_length": 7515,
+      "fetched_at": "2026-11-25T18:23:06Z"
+    },
+    {
+      "id": 4,
+      "name": "International Federation of CP Football (IFCPF) (PDF)",
+      "category": "cp-football",
+      "source_type": "pdf",
+      "source_url": "https://www.ifcpf.com/static/upload/raw/3f4a132d-dc98-41d4-bb95-c20144870d69/IFCPF+-+Only+the+Captain+Guidelines+%281%29.pdf",
+      "discovered_pdfs": [],
+      "char_length": 23878,
+      "fetched_at": "2026-11-25T18:23:06Z"
+    },
+    {
+      "id": 5,
+      "name": "International Federation of CP Football (IFCPF) (PDF)",
+      "category": "cp-football",
+      "source_type": "pdf",
+      "source_url": "https://www.ifcpf.com/static/upload/raw/d8e2411a-a2d4-4cd0-945c-0f781b19abf5/IFCPF+-+Age+Dispensation+Policy.pdf",
+      "discovered_pdfs": [],
+      "char_length": 22645,
+      "fetched_at": "2026-11-25T18:23:06Z"
+    },
+    {
+      "id": 6,
+      "name": "International Federation of CP Football (IFCPF) (PDF)",
+      "category": "cp-football",
+      "source_type": "pdf",
+      "source_url": "https://www.ifcpf.com/static/upload/raw/1f83a3b2-08c7-4eef-acc3-0d3dd2f1a139/20180110+-+IFCPF+-+Athlete+Nationality+Policy.pdf",
+      "discovered_pdfs": [],
+      "char_length": 14015,
+      "fetched_at": "2026-11-25T18:23:06Z"
+    },
+    {
+      "id": 7,
+      "name": "International Federation of CP Football (IFCPF) (PDF)",
+      "category": "cp-football",
+      "source_type": "pdf",
+      "source_url": "https://www.ifcpf.com/static/upload/raw/f17c1cb9-92eb-4a5d-b46d-fbb532a7ec87/IFCPF+-+Competition+Rules+-+2022.pdf",
+      "discovered_pdfs": [],
+      "char_length": 175980,
+      "fetched_at": "2026-11-25T18:23:06Z"
+    },
+    {
+      "id": 8,
+      "name": "International Federation of CP Football (IFCPF) (PDF)",
+      "category": "cp-football",
+      "source_type": "pdf",
+      "source_url": "https://www.ifcpf.com/static/upload/raw/71933712-5882-4625-92cb-24bbacc9067d/IFCPF+-+Modifications+to+the+Laws+of+the+Game+-+2022.pdf",
+      "discovered_pdfs": [],
+      "char_length": 821535,
+      "fetched_at": "2026-11-25T18:23:06Z"
+    }
+  ],
   "matches_count": 0,
   "matches": []
 }
