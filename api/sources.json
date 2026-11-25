@@ -128,6 +128,22 @@
       "url": "https://feeds.bbci.co.uk/sport/rss.xml",
       "type": "rss",
       "category": "multi-sport"
+    },
+    {
+      "id": "bbc-motorsport-rss",
+      "name": "BBC Sport Motorsport RSS",
+      "category": "motorsport",
+      "type": "rss",
+      "url": "https://feeds.bbci.co.uk/sport/motorsport/rss.xml",
+      "enabled": true
+    },
+    {
+      "id": "espn-f1-rss",
+      "name": "ESPN Formula 1 RSS",
+      "category": "motorsport",
+      "type": "rss",
+      "url": "https://www.espn.com/espn/rss/rpm/news",
+      "enabled": true
     }
   ]
 }
