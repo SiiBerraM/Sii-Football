@@ -6,19 +6,30 @@ from datetime import datetime, timezone
 
 def extract_matches_from_text(text: str, source_name: str, source_url: str, category: str, fetched_at: str):
     matches = []
-    pattern = re.compile(r"([A-Z][A-Za-z0-9\s\-]{1,30}?)\s+(\d{1,2})\s*[-–]\s*(\d{1,2})\s+([A-Z][A-Za-z0-9\s\-]{1,30}?)(?=\s|$|[.,;])")
-    for idx, m in enumerate(pattern.finditer(text), start=1):
-        home = re.sub(r"\s+", " ", m.group(1)).strip()
-        away = re.sub(r"\s+", " ", m.group(4)).strip()
-        if len(home) < 2 or len(away) < 2:
+    seen = set()
+    pattern = re.compile(
+        r"\b([A-Z][A-Za-z0-9\s\.\-]{1,28}?)\s+(\d{1,2})\s*(?:[-–:]|vs\.?)\s*(\d{1,2})\s+([A-Z][A-Za-z0-9\s\.\-]{1,28}?)(?=\s|$|[.,;()|])"
+    )
+    for m in pattern.finditer(text):
+        home = re.sub(r"\s+", " ", m.group(1)).strip(" -–.")
+        away = re.sub(r"\s+", " ", m.group(4)).strip(" -–.")
+        h_score = int(m.group(2))
+        a_score = int(m.group(3))
+        if len(home) < 2 or len(away) < 2 or home.lower() == away.lower():
             continue
+        if h_score > 30 or a_score > 30:
+            continue
+        key = (category, home.lower(), away.lower(), h_score, a_score)
+        if key in seen:
+            continue
+        seen.add(key)
         matches.append({
-            "match_id": f"{category[:3]}-{idx}",
+            "match_id": f"{category[:3]}-{len(matches) + 1}",
             "category": category,
             "home_team": home,
             "away_team": away,
-            "home_score": int(m.group(2)),
-            "away_score": int(m.group(3)),
+            "home_score": h_score,
+            "away_score": a_score,
             "status": "finished",
             "source_name": source_name,
             "source_url": source_url,
@@ -30,15 +41,15 @@ def extract_matches_from_text(text: str, source_name: str, source_url: str, cate
 def extract_competitions(items: list, fetched_at: str):
     competitions = []
     seen_urls = set()
-    for idx, item in enumerate(items, start=1):
+    for item in items:
         if item.get("status") != "ok":
             continue
         src_url = item.get("source_url", "")
-        if src_url in seen_urls:
+        if not src_url or src_url in seen_urls:
             continue
         seen_urls.add(src_url)
         competitions.append({
-            "id": idx,
+            "id": len(competitions) + 1,
             "name": item.get("source_name", "Para-Football Competition"),
             "category": item.get("category", "para-football"),
             "source_type": item.get("source_type", "html"),
@@ -64,10 +75,10 @@ def main():
     for item in items:
         if item.get("status") != "ok":
             continue
-        excerpt = item.get("excerpt", "")
+        blob = " ".join(filter(None, [item.get("excerpt", ""), item.get("full_text", "")]))
         all_matches.extend(
             extract_matches_from_text(
-                excerpt,
+                blob,
                 item.get("source_name", "Para-Football Source"),
                 item.get("source_url", ""),
                 item.get("category", "para-football"),

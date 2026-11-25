@@ -2,7 +2,7 @@
   "project": "Sii-Football",
   "consumer_app": "SiiMatchMind",
   "license_note": "Structured para-football leagues and match records from public HTML and PDF sources with attribution.",
-  "updated_at": "2026-11-25T18:23:06Z",
+  "updated_at": "2026-11-25T18:24:23Z",
   "competitions_count": 8,
   "competitions": [
     {
@@ -13,7 +13,7 @@
       "source_url": "https://amputeefootball.org/",
       "discovered_pdfs": [],
       "char_length": 4863,
-      "fetched_at": "2026-11-25T18:23:06Z"
+      "fetched_at": "2026-11-25T18:24:23Z"
     },
     {
       "id": 2,
@@ -23,7 +23,7 @@
       "source_url": "https://ibsasport.org/sports/football/about/historical-results/",
       "discovered_pdfs": [],
       "char_length": 1636,
-      "fetched_at": "2026-11-25T18:23:06Z"
+      "fetched_at": "2026-11-25T18:24:23Z"
     },
     {
       "id": 3,
@@ -39,7 +39,7 @@
         "https://www.ifcpf.com/static/upload/raw/71933712-5882-4625-92cb-24bbacc9067d/IFCPF+-+Modifications+to+the+Laws+of+the+Game+-+2022.pdf"
       ],
       "char_length": 7515,
-      "fetched_at": "2026-11-25T18:23:06Z"
+      "fetched_at": "2026-11-25T18:24:23Z"
     },
     {
       "id": 4,
@@ -49,7 +49,7 @@
       "source_url": "https://www.ifcpf.com/static/upload/raw/3f4a132d-dc98-41d4-bb95-c20144870d69/IFCPF+-+Only+the+Captain+Guidelines+%281%29.pdf",
       "discovered_pdfs": [],
       "char_length": 23878,
-      "fetched_at": "2026-11-25T18:23:06Z"
+      "fetched_at": "2026-11-25T18:24:23Z"
     },
     {
       "id": 5,
@@ -59,7 +59,7 @@
       "source_url": "https://www.ifcpf.com/static/upload/raw/d8e2411a-a2d4-4cd0-945c-0f781b19abf5/IFCPF+-+Age+Dispensation+Policy.pdf",
       "discovered_pdfs": [],
       "char_length": 22645,
-      "fetched_at": "2026-11-25T18:23:06Z"
+      "fetched_at": "2026-11-25T18:24:23Z"
     },
     {
       "id": 6,
@@ -69,7 +69,7 @@
       "source_url": "https://www.ifcpf.com/static/upload/raw/1f83a3b2-08c7-4eef-acc3-0d3dd2f1a139/20180110+-+IFCPF+-+Athlete+Nationality+Policy.pdf",
       "discovered_pdfs": [],
       "char_length": 14015,
-      "fetched_at": "2026-11-25T18:23:06Z"
+      "fetched_at": "2026-11-25T18:24:23Z"
     },
     {
       "id": 7,
@@ -79,7 +79,7 @@
       "source_url": "https://www.ifcpf.com/static/upload/raw/f17c1cb9-92eb-4a5d-b46d-fbb532a7ec87/IFCPF+-+Competition+Rules+-+2022.pdf",
       "discovered_pdfs": [],
       "char_length": 175980,
-      "fetched_at": "2026-11-25T18:23:06Z"
+      "fetched_at": "2026-11-25T18:24:23Z"
     },
     {
       "id": 8,
@@ -89,7 +89,7 @@
       "source_url": "https://www.ifcpf.com/static/upload/raw/71933712-5882-4625-92cb-24bbacc9067d/IFCPF+-+Modifications+to+the+Laws+of+the+Game+-+2022.pdf",
       "discovered_pdfs": [],
       "char_length": 821535,
-      "fetched_at": "2026-11-25T18:23:06Z"
+      "fetched_at": "2026-11-25T18:24:23Z"
     }
   ],
   "matches_count": 0,
