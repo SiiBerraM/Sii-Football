@@ -30,13 +30,18 @@ def main():
         except Exception as exc:
             errors.append(f"JSON decode error in {path}: {exc}")
 
+    with open("api/leagues.json", "r", encoding="utf-8") as f:
+        leagues = json.load(f)
+    for m in leagues.get("matches", []):
+        for req_field in ["match_id", "category", "home_team", "away_team", "home_score", "away_score", "source_name", "source_url"]:
+            if req_field not in m or m[req_field] in (None, ""):
+                errors.append(f"Match missing '{req_field}': {m}")
+
     if errors:
         for e in errors:
             print("ERROR:", e)
         sys.exit(1)
 
-    with open("api/leagues.json", "r", encoding="utf-8") as f:
-        leagues = json.load(f)
     with open("api/news.json", "r", encoding="utf-8") as f:
         news = json.load(f)
     with open("api/standings.json", "r", encoding="utf-8") as f:
