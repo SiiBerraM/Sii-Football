@@ -8,7 +8,8 @@
     "index": "/api/index.json",
     "sources": "/api/sources.json",
     "news": "/api/news.json",
-    "leagues": "/api/leagues.json"
+    "leagues": "/api/leagues.json",
+    "standings": "/api/standings.json"
   },
   "categories": [
     "amputee-football",
