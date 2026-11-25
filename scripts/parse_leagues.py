@@ -28,6 +28,8 @@ def _is_valid_team_name(name: str, blocked_words: set) -> bool:
     if not re.search(r"[A-Za-zÀ-ÿ]", cleaned):
         return False
     # Reject bracket/group codes or schedule codes like "E3 4Th B..."
+    if re.search(r"\b(?:19|20)\d{2}[-/]\d{1,2}[-/]\d{1,2}\b", cleaned):
+        return False
     if re.search(r"\b(?:1st|2nd|3rd|4th|5th|6th|7th|8th)\b", cleaned, flags=re.IGNORECASE):
         return False
     if len(cleaned.split()) > 4:
@@ -76,7 +78,7 @@ def extract_matches_from_text(
         "jul", "aug", "rest", "no", "matches", "match", "november", "december",
         "january", "february", "march", "april", "may", "june", "july", "august",
         "september", "october", "monday", "tuesday", "wednesday", "thursday", "friday",
-        "saturday", "sunday", "venue", "stadium", "city", "location", "date", "dates",
+        "mon", "tue", "wed", "thu", "fri", "sat", "sun", "saturday", "sunday", "venue", "stadium", "city", "location", "date", "dates",
         "vs", "each", "state", "currently", "has", "coaches", "plan", "development",
         "grassroots", "player", "players", "team", "teams"
     }
