@@ -2,7 +2,7 @@
   "project": "Sii-Football",
   "consumer_app": "SiiMatchMind",
   "license_note": "Structured para-football standings from public HTML and PDF sources with attribution.",
-  "updated_at": "2026-11-25T18:42:43Z",
+  "updated_at": "2026-11-25T18:45:10Z",
   "standings_count": 6,
   "standings": [
     {
@@ -13,7 +13,7 @@
       "won": 4,
       "drawn": 1,
       "lost": 0,
-      "points": 12,
+      "points": 1,
       "source_name": "IBSA Men's Blind Football Nations Cup",
       "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
       "fetched_at": "2026-11-25T18:41:46Z"
@@ -26,7 +26,7 @@
       "won": 4,
       "drawn": 1,
       "lost": 0,
-      "points": 11,
+      "points": 0,
       "source_name": "IBSA Men's Blind Football Nations Cup",
       "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
       "fetched_at": "2026-11-25T18:41:46Z"
@@ -39,7 +39,7 @@
       "won": 3,
       "drawn": 0,
       "lost": 2,
-      "points": 8,
+      "points": 4,
       "source_name": "IBSA Men's Blind Football Nations Cup",
       "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
       "fetched_at": "2026-11-25T18:41:46Z"
@@ -52,7 +52,7 @@
       "won": 2,
       "drawn": 0,
       "lost": 3,
-      "points": 7,
+      "points": 10,
       "source_name": "IBSA Men's Blind Football Nations Cup",
       "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
       "fetched_at": "2026-11-25T18:41:46Z"
@@ -65,7 +65,7 @@
       "won": 1,
       "drawn": 0,
       "lost": 4,
-      "points": 2,
+      "points": 14,
       "source_name": "IBSA Men's Blind Football Nations Cup",
       "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
       "fetched_at": "2026-11-25T18:41:46Z"
@@ -78,7 +78,7 @@
       "won": 0,
       "drawn": 0,
       "lost": 5,
-      "points": 0,
+      "points": 11,
       "source_name": "IBSA Men's Blind Football Nations Cup",
       "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
       "fetched_at": "2026-11-25T18:41:46Z"

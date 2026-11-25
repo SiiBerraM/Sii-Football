@@ -4,52 +4,102 @@ import re
 from datetime import datetime, timezone
 
 
+def _clean_team(raw: str) -> str:
+    team = re.sub(r"\s+", " ", (raw or "")).strip(" -–—.:|/()[]")
+    if len(team) < 2 or len(team) > 32:
+        return ""
+    if not re.search(r"[A-Za-zÀ-ÿ]", team):
+        return ""
+    if re.fullmatch(r"(?:19|20)\d{2}(?:\s*[-–/]\s*(?:19|20)\d{2})?", team):
+        return ""
+    bad_tokens = {
+        "pos", "position", "rank", "team", "club", "nation", "country", "played",
+        "mp", "p", "w", "d", "l", "won", "drawn", "lost", "pts", "points", "gd",
+        "gf", "ga", "menu", "home", "news", "results", "standings", "table", "group"
+    }
+    tokens = set(re.findall(r"[a-z0-9]+", team.lower()))
+    if not tokens or (tokens & bad_tokens):
+        return ""
+    return team.title()
+
+
 def extract_standings_rows(text: str, source_name: str, source_url: str, category: str, fetched_at: str):
     rows = []
     seen = set()
-    patterns = [
-        re.compile(
-            r"\b([1-9]|1[0-9]|20)\s+([A-Z][A-Za-z\s\.\'-]{2,24}?)\s+(\d{1,2})\s+(\d{1,2})\s+(\d{1,2})\s+(\d{1,2})\s+(\d{1,3})\b"
-        ),
-        re.compile(
-            r"\b([1-9]|1[0-9]|20)\.\s+([A-Z][A-Za-z\s\.\'-]{2,24}?)\s+[-–|:]?\s*(\d{1,2})\s*(?:pts?|points?)\b",
-            re.IGNORECASE,
-        ),
-    ]
-    for idx, pattern in enumerate(patterns):
-        for m in pattern.finditer(text):
-            pos = int(m.group(1))
-            team = re.sub(r"\s+", " ", m.group(2)).strip(" -–.:")
-            if len(team) < 2:
-                continue
-            if idx == 0:
-                played = int(m.group(3))
-                won = int(m.group(4))
-                drawn = int(m.group(5))
-                lost = int(m.group(6))
-                pts = int(m.group(7))
-                if played < won + drawn + lost or pts > played * 6:
-                    continue
-            else:
-                played = won = drawn = lost = 0
-                pts = int(m.group(3))
-            key = (category, team.lower(), pos)
-            if key in seen:
-                continue
-            seen.add(key)
-            rows.append({
-                "position": pos,
-                "team": team.title(),
-                "category": category,
-                "played": played,
-                "won": won,
-                "drawn": drawn,
-                "lost": lost,
-                "points": pts,
-                "source_name": source_name,
-                "source_url": source_url,
-                "fetched_at": fetched_at,
-            })
+
+    # Pattern 1: Full table row -> pos team played won drawn lost pts
+    full_table_re = re.compile(
+        r"\b([1-9]|1[0-9]|20)[\.\)\s]+([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ0-9\s\.\'\-]{1,28}?)\s+(\d{1,2})\s+(\d{1,2})\s+(\d{1,2})\s+(\d{1,2})\s+(?:[+-]?\d{1,3}\s+)?(\d{1,3})\b"
+    )
+
+    # Pattern 2: Ranked points row -> 1. Team - 9 pts / 9 points
+    ranked_pts_re = re.compile(
+        r"\b([1-9]|1[0-9]|20)[\.\)]\s+([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ0-9\s\.\'\-]{1,28}?)\s*[-–—|:]?\s*(\d{1,3})\s*(?:pts?|points?)\b",
+        re.IGNORECASE,
+    )
+
+    for m in full_table_re.finditer(text or ""):
+        pos = int(m.group(1))
+        team = _clean_team(m.group(2))
+        if not team:
+            continue
+        played = int(m.group(3))
+        won = int(m.group(4))
+        drawn = int(m.group(5))
+        lost = int(m.group(6))
+        pts = int(m.group(7))
+
+        if played < (won + drawn + lost) or played > 60 or pts > played * 6:
+            continue
+
+        key = (category, team.lower(), pos)
+        if key in seen:
+            continue
+        seen.add(key)
+
+        rows.append({
+            "position": pos,
+            "team": team,
+            "category": category,
+            "played": played,
+            "won": won,
+            "drawn": drawn,
+            "lost": lost,
+            "points": pts,
+            "source_name": source_name,
+            "source_url": source_url,
+            "fetched_at": fetched_at,
+        })
+
+    for m in ranked_pts_re.finditer(text or ""):
+        pos = int(m.group(1))
+        team = _clean_team(m.group(2))
+        if not team:
+            continue
+        pts = int(m.group(3))
+        if pts > 200:
+            continue
+
+        key = (category, team.lower(), pos)
+        if key in seen:
+            continue
+        seen.add(key)
+
+        rows.append({
+            "position": pos,
+            "team": team,
+            "category": category,
+            "played": 0,
+            "won": 0,
+            "drawn": 0,
+            "lost": 0,
+            "points": pts,
+            "source_name": source_name,
+            "source_url": source_url,
+            "fetched_at": fetched_at,
+        })
+
+    rows.sort(key=lambda r: (r["position"], -r["points"], r["team"]))
     return rows
 
 

@@ -5,54 +5,78 @@ from datetime import datetime, timezone
 
 
 def clean_prefix(category: str) -> str:
-    slug = re.sub(r"[^a-z0-9]+", "", category.lower())
+    slug = re.sub(r"[^a-z0-9]+", "", (category or "").lower())
     return (slug[:3] or "mat")
+
+
+def _is_valid_team_name(name: str, blocked_words: set) -> bool:
+    cleaned = re.sub(r"\s+", " ", (name or "")).strip(" -–—.:|/()[]")
+    if len(cleaned) < 2 or len(cleaned) > 32:
+        return False
+    if not re.search(r"[A-Za-zÀ-ÿ]", cleaned):
+        return False
+    if re.fullmatch(r"(?:19|20)\d{2}(?:\s*[-–/]\s*(?:19|20)\d{2})?", cleaned):
+        return False
+    tokens = set(re.findall(r"[a-z0-9]+", cleaned.lower()))
+    if not tokens or (tokens & blocked_words):
+        return False
+    return True
 
 
 def extract_matches_from_text(text: str, source_name: str, source_url: str, category: str, fetched_at: str):
     matches = []
     seen = set()
+
     patterns = [
+        # e.g. Morocco 2 - 1 Ghana (a.e.t.) or Brazil 3–0 Argentina
         re.compile(
-            r"\b([A-Za-z][A-Za-z0-9\s\.\'-]{2,24}?)\s+(\d{1,2})\s*(?:[-–:]|vs\.?)\s*(\d{1,2})\s+([A-Za-z][A-Za-z0-9\s\.\'-]{2,24}?)(?=\s|$|[.,;()|\[\]])"
+            r"\b([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ0-9\s\.\'\-]{1,28}?)\s+(\d{1,2})\s*(?:[-–—:]|vs\.?|v)\s*(\d{1,2})\s*(?:\((?:a\.?e\.?t\.?|et|pen\.?|p)\))?\s+([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ0-9\s\.\'\-]{1,28}?)(?=\s|$|[.,;()|\[\]])",
+            re.IGNORECASE,
         ),
+        # e.g. Morocco vs Ghana 2-1 or Spain v France 1:0
         re.compile(
-            r"\b([A-Za-z][A-Za-z0-9\s\.\'-]{2,24}?)\s+(?:vs\.?|v)\s+([A-Za-z][A-Za-z0-9\s\.\'-]{2,24}?)\s+(\d{1,2})\s*[-–:]\s*(\d{1,2})(?=\s|$|[.,;()|\[\]])",
+            r"\b([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ0-9\s\.\'\-]{1,28}?)\s+(?:vs\.?|v)\s+([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ0-9\s\.\'\-]{1,28}?)\s+(\d{1,2})\s*[-–—:]\s*(\d{1,2})(?=\s|$|[.,;()|\[\]])",
             re.IGNORECASE,
         ),
     ]
+
     blocked_words = {
-        "cookie", "privacy", "copyright", "version", "page", "http", "menu", "home",
-        "news", "about", "contact", "login", "search", "defeat", "win", "draw", "in",
-        "on", "at", "to", "for", "from", "with", "by", "the", "and", "or", "of"
+        "cookie", "cookies", "privacy", "copyright", "version", "page", "http", "https",
+        "menu", "home", "news", "about", "contact", "login", "search", "defeat", "win",
+        "draw", "loss", "in", "on", "at", "to", "for", "from", "with", "by", "the", "and",
+        "or", "of", "cup", "world", "euro", "championship", "tournaments", "results",
+        "fixtures", "schedule", "report", "reports", "live", "history", "rules", "table",
+        "standings", "group", "stage", "final", "semi", "quarter", "round", "season",
+        "year", "month", "day", "time", "gmt", "utc"
     }
+
     prefix = clean_prefix(category)
 
     for pat_idx, pattern in enumerate(patterns):
-        for m in pattern.finditer(text):
+        for m in pattern.finditer(text or ""):
             if pat_idx == 0:
-                home, h_s, a_s, away = m.group(1), m.group(2), m.group(3), m.group(4)
+                home_raw, h_s, a_s, away_raw = m.group(1), m.group(2), m.group(3), m.group(4)
             else:
-                home, away, h_s, a_s = m.group(1), m.group(2), m.group(3), m.group(4)
+                home_raw, away_raw, h_s, a_s = m.group(1), m.group(2), m.group(3), m.group(4)
 
-            home = re.sub(r"\s+", " ", home).strip(" -–.:")
-            away = re.sub(r"\s+", " ", away).strip(" -–.:")
+            if not _is_valid_team_name(home_raw, blocked_words) or not _is_valid_team_name(away_raw, blocked_words):
+                continue
+
+            home = re.sub(r"\s+", " ", home_raw).strip(" -–—.:|/()[]")
+            away = re.sub(r"\s+", " ", away_raw).strip(" -–—.:|/()[]")
             h_score = int(h_s)
             a_score = int(a_s)
 
-            if len(home) < 3 or len(away) < 3 or home.lower() == away.lower():
+            if home.lower() == away.lower():
                 continue
             if h_score > 25 or a_score > 25:
-                continue
-            home_tokens = set(home.lower().split())
-            away_tokens = set(away.lower().split())
-            if (home_tokens & blocked_words) or (away_tokens & blocked_words):
                 continue
 
             key = (category, home.lower(), away.lower(), h_score, a_score)
             if key in seen:
                 continue
             seen.add(key)
+
             matches.append({
                 "match_id": f"{prefix}-{len(matches) + 1}",
                 "category": category,
@@ -65,6 +89,7 @@ def extract_matches_from_text(text: str, source_name: str, source_url: str, cate
                 "source_url": source_url,
                 "fetched_at": fetched_at,
             })
+
     return matches
 
 
