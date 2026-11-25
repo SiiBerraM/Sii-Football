@@ -7,37 +7,53 @@ from datetime import datetime, timezone
 def extract_matches_from_text(text: str, source_name: str, source_url: str, category: str, fetched_at: str):
     matches = []
     seen = set()
-    pattern = re.compile(
-        r"([A-Z][A-Za-z0-9\s\.\'-]{1,26}?)\s+(\d{1,2})\s*(?:[-–:]|vs\.?|x)\s*(\d{1,2})\s+([A-Z][A-Za-z0-9\s\.\'-]{1,26}?)(?=\s|$|[.,;()|\[\]])",
-        re.IGNORECASE,
-    )
-    for m in pattern.finditer(text):
-        home = re.sub(r"\s+", " ", m.group(1)).strip(" -–.:")
-        away = re.sub(r"\s+", " ", m.group(4)).strip(" -–.:")
-        h_score = int(m.group(2))
-        a_score = int(m.group(3))
-        if len(home) < 2 or len(away) < 2 or home.lower() == away.lower():
-            continue
-        if h_score > 30 or a_score > 30:
-            continue
-        if any(w in (home + " " + away).lower() for w in ["cookie", "privacy", "copyright", "version", "page", "http"]):
-            continue
-        key = (category, home.lower(), away.lower(), h_score, a_score)
-        if key in seen:
-            continue
-        seen.add(key)
-        matches.append({
-            "match_id": f"{category[:3]}-{len(matches) + 1}",
-            "category": category,
-            "home_team": home.title(),
-            "away_team": away.title(),
-            "home_score": h_score,
-            "away_score": a_score,
-            "status": "finished",
-            "source_name": source_name,
-            "source_url": source_url,
-            "fetched_at": fetched_at,
-        })
+    patterns = [
+        re.compile(
+            r"\b([A-Za-z][A-Za-z0-9\s\.\'-]{1,25}?)\s+(\d{1,2})\s*(?:[-–:]|vs\.?)\s*(\d{1,2})\s+([A-Za-z][A-Za-z0-9\s\.\'-]{1,25}?)(?=\s|$|[.,;()|\[\]])"
+        ),
+        re.compile(
+            r"\b([A-Za-z][A-Za-z0-9\s\.\'-]{1,25}?)\s+(?:vs\.?|v)\s+([A-Za-z][A-Za-z0-9\s\.\'-]{1,25}?)\s+(\d{1,2})\s*[-–:]\s*(\d{1,2})(?=\s|$|[.,;()|\[\]])",
+            re.IGNORECASE,
+        ),
+    ]
+    blocked_words = {"cookie", "privacy", "copyright", "version", "page", "http", "menu", "home", "news", "about", "contact", "login", "search"}
+
+    for pat_idx, pattern in enumerate(patterns):
+        for m in pattern.finditer(text):
+            if pat_idx == 0:
+                home, h_s, a_s, away = m.group(1), m.group(2), m.group(3), m.group(4)
+            else:
+                home, away, h_s, a_s = m.group(1), m.group(2), m.group(3), m.group(4)
+
+            home = re.sub(r"\s+", " ", home).strip(" -–.:")
+            away = re.sub(r"\s+", " ", away).strip(" -–.:")
+            h_score = int(h_s)
+            a_score = int(a_s)
+
+            if len(home) < 2 or len(away) < 2 or home.lower() == away.lower():
+                continue
+            if h_score > 25 or a_score > 25:
+                continue
+            combined_tokens = set((home + " " + away).lower().split())
+            if combined_tokens & blocked_words:
+                continue
+
+            key = (category, home.lower(), away.lower(), h_score, a_score)
+            if key in seen:
+                continue
+            seen.add(key)
+            matches.append({
+                "match_id": f"{category[:3]}-{len(matches) + 1}",
+                "category": category,
+                "home_team": home.title(),
+                "away_team": away.title(),
+                "home_score": h_score,
+                "away_score": a_score,
+                "status": "finished",
+                "source_name": source_name,
+                "source_url": source_url,
+                "fetched_at": fetched_at,
+            })
     return matches
 
 
@@ -78,7 +94,7 @@ def main():
     for item in items:
         if item.get("status") != "ok":
             continue
-        blob = " ".join(filter(None, [item.get("excerpt", ""), item.get("full_text", "")]))
+        blob = " ".join(filter(None, [item.get("full_text", ""), item.get("excerpt", "")]))
         all_matches.extend(
             extract_matches_from_text(
                 blob,

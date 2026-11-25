@@ -66,7 +66,7 @@ def parse_html(url: str):
     raw = fetch_bytes(url).decode("utf-8", errors="ignore")
     parser = LinkAndTextExtractor(url)
     parser.feed(raw)
-    return " ".join(parser.chunks), parser.pdf_links[:5]
+    return " ".join(parser.chunks), parser.pdf_links[:8]
 
 
 def parse_pdf(path_or_url: str) -> str:
@@ -141,6 +141,7 @@ def main():
                 "status": "ok",
                 "discovered_pdfs": discovered_pdfs,
                 "excerpt": content[:1200],
+                "full_text": content[:15000],
                 "char_length": len(content),
                 "fetched_at": now_iso,
             })
@@ -160,6 +161,7 @@ def main():
                             "category": category,
                             "status": "ok",
                             "excerpt": pdf_text[:1200],
+                            "full_text": pdf_text[:15000],
                             "char_length": len(pdf_text),
                             "fetched_at": now_iso,
                         })
@@ -193,7 +195,7 @@ def main():
     with open("api/news.json", "w", encoding="utf-8") as f:
         json.dump(news_payload, f, ensure_ascii=False, indent=2)
 
-    print(f"Done. Processed {len(items)} items (HTML + discovered PDFs) -> api/news.json")
+    print(f"Done. Processed {len(items)} items -> api/news.json")
 
 
 if __name__ == "__main__":
