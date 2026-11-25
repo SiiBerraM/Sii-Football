@@ -100,3 +100,8 @@ jobs:
             git pull --rebase origin main
             git push origin main
           fi
+
+      - name: Notify on workflow failure
+        if: failure()
+        run: |
+          echo "::error::Update Sii-Football API workflow failed on ref ${{ github.ref_name }} (run ${{ github.run_id }})"
