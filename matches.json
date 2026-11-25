@@ -1,0 +1,14 @@
+{
+  "service": "Sii-Football API",
+  "version": "1.0",
+  "updated_at": "2026-11-25",
+  "matches": [
+    {
+      "id": 1,
+      "competition": "Sample League",
+      "home": "Team A",
+      "away": "Team B",
+      "status": "scheduled"
+    }
+  ]
+}
