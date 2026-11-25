@@ -7,36 +7,49 @@ from datetime import datetime, timezone
 def extract_standings_rows(text: str, source_name: str, source_url: str, category: str, fetched_at: str):
     rows = []
     seen = set()
-    pattern = re.compile(
-        r"\b([1-9]|1[0-9]|20)\s+([A-Z][A-Za-z\s\.\'-]{2,24}?)\s+(\d{1,2})\s+(\d{1,2})\s+(\d{1,2})\s+(\d{1,2})\s+(\d{1,3})\b"
-    )
-    for m in pattern.finditer(text):
-        pos = int(m.group(1))
-        team = re.sub(r"\s+", " ", m.group(2)).strip()
-        played = int(m.group(3))
-        won = int(m.group(4))
-        drawn = int(m.group(5))
-        lost = int(m.group(6))
-        pts = int(m.group(7))
-        if played < won + drawn + lost or pts > played * 6:
-            continue
-        key = (category, team.lower(), pos)
-        if key in seen:
-            continue
-        seen.add(key)
-        rows.append({
-            "position": pos,
-            "team": team.title(),
-            "category": category,
-            "played": played,
-            "won": won,
-            "drawn": drawn,
-            "lost": lost,
-            "points": pts,
-            "source_name": source_name,
-            "source_url": source_url,
-            "fetched_at": fetched_at,
-        })
+    patterns = [
+        re.compile(
+            r"\b([1-9]|1[0-9]|20)\s+([A-Z][A-Za-z\s\.\'-]{2,24}?)\s+(\d{1,2})\s+(\d{1,2})\s+(\d{1,2})\s+(\d{1,2})\s+(\d{1,3})\b"
+        ),
+        re.compile(
+            r"\b([1-9]|1[0-9]|20)\.\s+([A-Z][A-Za-z\s\.\'-]{2,24}?)\s+[-–|:]?\s*(\d{1,2})\s*(?:pts?|points?)\b",
+            re.IGNORECASE,
+        ),
+    ]
+    for idx, pattern in enumerate(patterns):
+        for m in pattern.finditer(text):
+            pos = int(m.group(1))
+            team = re.sub(r"\s+", " ", m.group(2)).strip(" -–.:")
+            if len(team) < 2:
+                continue
+            if idx == 0:
+                played = int(m.group(3))
+                won = int(m.group(4))
+                drawn = int(m.group(5))
+                lost = int(m.group(6))
+                pts = int(m.group(7))
+                if played < won + drawn + lost or pts > played * 6:
+                    continue
+            else:
+                played = won = drawn = lost = 0
+                pts = int(m.group(3))
+            key = (category, team.lower(), pos)
+            if key in seen:
+                continue
+            seen.add(key)
+            rows.append({
+                "position": pos,
+                "team": team.title(),
+                "category": category,
+                "played": played,
+                "won": won,
+                "drawn": drawn,
+                "lost": lost,
+                "points": pts,
+                "source_name": source_name,
+                "source_url": source_url,
+                "fetched_at": fetched_at,
+            })
     return rows
 
 
