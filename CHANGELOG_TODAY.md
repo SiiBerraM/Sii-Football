@@ -6,3 +6,4 @@
 - **تحسين محلل الترتيب (`scripts/parse_standings.py`):** ضبط قراءة النقاط والإحصائيات بدقة (`played`, `won`, `drawn`, `lost`, `points`).
 - **ملخص SiiMatchMind (`api/siimatchmind_summary.json`):** تصدير الملخص الموحد وتحديثه فقط عند تغير البيانات الفعلية.
 - **سير عمل GitHub Actions (`.github/workflows/update_api.yml`):** توليد وفحص ملفات JSON الحية على GitHub Pages.
+- **توسيع التغطية الرياضية ():** إضافة بطولات ورياضات متعددة (`world-football`، `basketball`، `motorsport`، `tennis`، `volleyball`، `handball`).

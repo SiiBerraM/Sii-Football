@@ -65,6 +65,90 @@
       "url": "https://www.ifcpf.com/tournaments/view/121",
       "type": "html",
       "category": "cp-football"
+    },
+    {
+      "id": 10,
+      "name": "2026 FIFA World Cup",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "type": "html",
+      "category": "world-football"
+    },
+    {
+      "id": 11,
+      "name": "2026-27 Premier League",
+      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League",
+      "type": "html",
+      "category": "world-football"
+    },
+    {
+      "id": 12,
+      "name": "2026-27 La Liga",
+      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga",
+      "type": "html",
+      "category": "world-football"
+    },
+    {
+      "id": 13,
+      "name": "2026-27 Serie A",
+      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A",
+      "type": "html",
+      "category": "world-football"
+    },
+    {
+      "id": 14,
+      "name": "2026-27 Bundesliga",
+      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga",
+      "type": "html",
+      "category": "world-football"
+    },
+    {
+      "id": 15,
+      "name": "2026-27 Ligue 1",
+      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Ligue_1",
+      "type": "html",
+      "category": "world-football"
+    },
+    {
+      "id": 16,
+      "name": "2026 NBA Cup",
+      "url": "https://en.wikipedia.org/wiki/2026_NBA_Cup",
+      "type": "html",
+      "category": "basketball"
+    },
+    {
+      "id": 17,
+      "name": "2026-27 NBA Season",
+      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_NBA_season",
+      "type": "html",
+      "category": "basketball"
+    },
+    {
+      "id": 18,
+      "name": "2026 Formula One World Championship",
+      "url": "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship",
+      "type": "html",
+      "category": "motorsport"
+    },
+    {
+      "id": 19,
+      "name": "2026 Tennis Season",
+      "url": "https://en.wikipedia.org/wiki/2026_ATP_Tour",
+      "type": "html",
+      "category": "tennis"
+    },
+    {
+      "id": 20,
+      "name": "2026 Men's Volleyball World Championship",
+      "url": "https://en.wikipedia.org/wiki/2026_FIVB_Volleyball_Men%27s_World_Championship",
+      "type": "html",
+      "category": "volleyball"
+    },
+    {
+      "id": 21,
+      "name": "2026 European Men's Handball Championship",
+      "url": "https://en.wikipedia.org/wiki/2026_European_Men%27s_Handball_Championship",
+      "type": "html",
+      "category": "handball"
     }
   ]
 }
