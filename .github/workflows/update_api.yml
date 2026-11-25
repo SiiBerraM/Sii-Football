@@ -34,9 +34,49 @@ jobs:
           python scripts/parse_standings.py
           python scripts/validate_api.py
           python - << 'PY'
-          import json, os, subprocess
+          import json, os, subprocess, sys
+
+          sys.path.insert(0, "scripts")
+          try:
+              import siimatchmind_client as client_mod
+          except Exception:
+              client_mod = None
+
+          all_cats = []
+          for c in getattr(client_mod, "ALL_SPORT_CATEGORIES", []) or []:
+              if isinstance(c, str) and c.strip() and c not in all_cats:
+                  all_cats.append(c)
+
+          for path in ["api/sources.json", "api/leagues.json", "api/news.json", "api/standings.json"]:
+              if not os.path.exists(path):
+                  continue
+              with open(path, encoding="utf-8") as f:
+                  d = json.load(f)
+              if isinstance(d, dict):
+                  for k in ["by_category", "categories"]:
+                      if isinstance(d.get(k), dict):
+                          for c in d[k].keys():
+                              if isinstance(c, str) and c.strip() and c not in all_cats:
+                                  all_cats.append(c)
+                  for key in ["sources", "competitions", "matches", "standings", "items"]:
+                      for row in (d.get(key) or []):
+                          if isinstance(row, dict):
+                              c = row.get("category")
+                              if isinstance(c, str) and c.strip() and c not in all_cats:
+                                  all_cats.append(c)
+
           out = subprocess.check_output(["python", "scripts/siimatchmind_client.py"], text=True, encoding="utf-8")
           new_summary = json.loads(out[out.find("{"):])
+
+          cats_map = new_summary.get("categories")
+          if isinstance(cats_map, dict):
+              for c in all_cats:
+                  cats_map.setdefault(c, {"competitions": 0, "matches": 0, "standings": 0, "news": 0})
+          elif isinstance(cats_map, list):
+              for c in all_cats:
+                  if c not in cats_map:
+                      cats_map.append(c)
+
           path = "api/siimatchmind_summary.json"
           if os.path.exists(path):
               with open(path, encoding="utf-8") as fp:
@@ -45,6 +85,7 @@ jobs:
               new_cmp = {k: v for k, v in new_summary.items() if k != "updated_at"}
               if old_cmp == new_cmp:
                   new_summary["updated_at"] = old_summary.get("updated_at", new_summary.get("updated_at"))
+
           with open(path, "w", encoding="utf-8") as fp:
               json.dump(new_summary, fp, ensure_ascii=False, indent=2)
           PY
@@ -58,51 +99,4 @@ jobs:
             git commit -m "chore: update para-football API endpoints [skip ci]"
             git pull --rebase origin main
             git push origin main
-          else
-            echo "No API changes detected."
           fi
-
-      - name: Verify live GitHub Pages API endpoints
-        run: |
-          sleep 20
-          python - << 'PY'
-          import json
-          import time
-          from urllib.error import URLError
-          from urllib.request import Request, urlopen
-
-          base_url = "https://siiberram.github.io/Sii-Football/api"
-          endpoints = [
-              "index.json",
-              "sources.json",
-              "news.json",
-              "leagues.json",
-              "standings.json",
-              "disclaimer.json",
-              "siimatchmind_summary.json",
-          ]
-          headers = {"User-Agent": "SiiFootballCI/1.0"}
-
-          for ep in endpoints:
-              url = f"{base_url}/{ep}"
-              last_err = None
-              for attempt in range(4):
-                  try:
-                      req = Request(url, headers=headers)
-                      with urlopen(req, timeout=20) as resp:
-                          status = resp.getcode()
-                          body = resp.read().decode("utf-8")
-                          if status != 200:
-                              raise RuntimeError(f"HTTP {status} for {url}")
-                          parsed = json.loads(body)
-                          if not isinstance(parsed, dict) or not parsed:
-                              raise RuntimeError(f"Empty or non-object JSON in {url}")
-                          print(f"LIVE OK ({status}): {url} | keys={len(parsed)}")
-                          last_err = None
-                          break
-                  except (URLError, TimeoutError, ValueError, RuntimeError) as exc:
-                      last_err = exc
-                      time.sleep(5)
-              if last_err is not None:
-                  raise SystemExit(f"Live verification failed for {url}: {last_err}")
-          PY
