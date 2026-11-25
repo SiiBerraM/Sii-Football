@@ -1,0 +1,160 @@
+import io
+import json
+import os
+import re
+import time
+from datetime import datetime, timezone
+from html.parser import HTMLParser
+from urllib.parse import urljoin, urlparse
+from urllib.request import Request, urlopen
+from urllib.robotparser import RobotFileParser
+
+
+USER_AGENT = "SiiFootballBot/1.0 (+https://siiberram.github.io/Sii-Football/)"
+
+
+class TextExtractor(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.chunks = []
+        self.skip = False
+
+    def handle_starttag(self, tag, attrs):
+        if tag in ("script", "style", "noscript", "svg"):
+            self.skip = True
+
+    def handle_endtag(self, tag):
+        if tag in ("script", "style", "noscript", "svg"):
+            self.skip = False
+
+    def handle_data(self, data):
+        if not self.skip:
+            cleaned = re.sub(r"\s+", " ", data).strip()
+            if cleaned:
+                self.chunks.append(cleaned)
+
+
+def is_allowed_by_robots(url: str) -> bool:
+    try:
+        parsed = urlparse(url)
+        if not parsed.scheme or not parsed.netloc:
+            return False
+        robots_url = f"{parsed.scheme}://{parsed.netloc}/robots.txt"
+        rp = RobotFileParser()
+        rp.set_url(robots_url)
+        rp.read()
+        return rp.can_fetch(USER_AGENT, url)
+    except Exception:
+        # في حال تعذر قراءة robots.txt نسمح مع الالتزام بالهدوء والاحترام
+        return True
+
+
+def fetch_bytes(url: str, timeout: int = 25) -> bytes:
+    req = Request(url, headers={"User-Agent": USER_AGENT})
+    with urlopen(req, timeout=timeout) as resp:
+        return resp.read()
+
+
+def parse_html(url: str) -> str:
+    raw = fetch_bytes(url).decode("utf-8", errors="ignore")
+    parser = TextExtractor()
+    parser.feed(raw)
+    return " ".join(parser.chunks)
+
+
+def parse_pdf(path_or_url: str) -> str:
+    if path_or_url.startswith(("http://", "https://")):
+        raw_bytes = fetch_bytes(path_or_url)
+    else:
+        with open(path_or_url, "rb") as f:
+            raw_bytes = f.read()
+
+    try:
+        from pypdf import PdfReader
+        reader = PdfReader(io.BytesIO(raw_bytes))
+        pages_text = [(page.extract_text() or "").strip() for page in reader.pages]
+        joined = "\n".join(t for t in pages_text if t)
+        if joined:
+            return re.sub(r"\s+", " ", joined).strip()
+    except Exception:
+        pass
+
+    strings = re.findall(rb"\(([^()]{3,200})\)", raw_bytes)
+    text = " ".join(s.decode("latin-1", errors="ignore") for s in strings)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def main():
+    os.makedirs("api", exist_ok=True)
+    now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+    sources = []
+    if os.path.exists("api/sources.json"):
+        with open("api/sources.json", "r", encoding="utf-8") as f:
+            sources = json.load(f).get("sources", [])
+
+    items = []
+    for idx, src in enumerate(sources):
+        name = src.get("name", f"Source {idx + 1}")
+        url = src.get("url", "").strip()
+        src_type = src.get("type", "html").lower()
+        category = src.get("category", "para-football")
+        if not url:
+            continue
+
+        if url.startswith(("http://", "https://")) and not is_allowed_by_robots(url):
+            items.append({
+                "id": idx + 1,
+                "source_name": name,
+                "source_url": url,
+                "source_type": src_type,
+                "category": category,
+                "status": "blocked_by_robots",
+                "fetched_at": now_iso,
+            })
+            continue
+
+        try:
+            content = parse_pdf(url) if src_type == "pdf" else parse_html(url)
+            items.append({
+                "id": idx + 1,
+                "source_name": name,
+                "source_url": url,
+                "source_type": src_type,
+                "category": category,
+                "status": "ok",
+                "excerpt": content[:600],
+                "char_length": len(content),
+                "fetched_at": now_iso,
+            })
+        except Exception as exc:
+            items.append({
+                "id": idx + 1,
+                "source_name": name,
+                "source_url": url,
+                "source_type": src_type,
+                "category": category,
+                "status": "error",
+                "error": str(exc),
+                "fetched_at": now_iso,
+            })
+
+        time.sleep(1.0)
+
+    news_payload = {
+        "project": "Sii-Football",
+        "consumer_app": "SiiMatchMind",
+        "license_note": "Aggregated from public para-football HTML and PDF sources with attribution.",
+        "updated_at": now_iso,
+        "count": len(items),
+        "items": items,
+    }
+
+    with open("api/news.json", "w", encoding="utf-8") as f:
+        json.dump(news_payload, f, ensure_ascii=False, indent=2)
+
+    print(f"Done. Processed {len(items)} sources -> api/news.json")
+
+
+if __name__ == "__main__":
+    main()
