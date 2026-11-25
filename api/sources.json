@@ -18,13 +18,6 @@
       "category": "amputee-football"
     },
     {
-      "id": 3,
-      "name": "2026 Amputee Football World Cup (Tables & Results)",
-      "url": "https://en.wikipedia.org/wiki/2026_Amputee_Football_World_Cup",
-      "type": "html",
-      "category": "amputee-football"
-    },
-    {
       "id": 4,
       "name": "IBSA Football Historical Results",
       "url": "https://ibsasport.org/sports/football/about/historical-results/",
@@ -68,87 +61,73 @@
     },
     {
       "id": 10,
-      "name": "2026 FIFA World Cup",
-      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
-      "type": "html",
+      "name": "ESPN Soccer News RSS",
+      "url": "https://www.espn.com/espn/rss/soccer/news",
+      "type": "rss",
       "category": "world-football"
     },
     {
       "id": 11,
-      "name": "2026-27 Premier League",
-      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League",
-      "type": "html",
+      "name": "BBC Sport Football RSS",
+      "url": "https://feeds.bbci.co.uk/sport/football/rss.xml",
+      "type": "rss",
       "category": "world-football"
     },
     {
       "id": 12,
-      "name": "2026-27 La Liga",
-      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga",
-      "type": "html",
-      "category": "world-football"
+      "name": "ESPN NBA News RSS",
+      "url": "https://www.espn.com/espn/rss/nba/news",
+      "type": "rss",
+      "category": "basketball"
     },
     {
       "id": 13,
-      "name": "2026-27 Serie A",
-      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A",
-      "type": "html",
-      "category": "world-football"
+      "name": "BBC Sport Basketball RSS",
+      "url": "https://feeds.bbci.co.uk/sport/basketball/rss.xml",
+      "type": "rss",
+      "category": "basketball"
     },
     {
       "id": 14,
-      "name": "2026-27 Bundesliga",
-      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga",
-      "type": "html",
-      "category": "world-football"
-    },
-    {
-      "id": 15,
-      "name": "2026-27 Ligue 1",
-      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Ligue_1",
-      "type": "html",
-      "category": "world-football"
-    },
-    {
-      "id": 16,
-      "name": "2026 NBA Cup",
-      "url": "https://en.wikipedia.org/wiki/2026_NBA_Cup",
-      "type": "html",
-      "category": "basketball"
-    },
-    {
-      "id": 17,
-      "name": "2026-27 NBA Season",
-      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_NBA_season",
-      "type": "html",
-      "category": "basketball"
-    },
-    {
-      "id": 18,
-      "name": "2026 Formula One World Championship",
-      "url": "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship",
-      "type": "html",
+      "name": "ESPN F1 News RSS",
+      "url": "https://www.espn.com/espn/rss/f1/news",
+      "type": "rss",
       "category": "motorsport"
     },
     {
-      "id": 19,
-      "name": "2026 Tennis Season",
-      "url": "https://en.wikipedia.org/wiki/2026_ATP_Tour",
-      "type": "html",
+      "id": 15,
+      "name": "BBC Sport Formula 1 RSS",
+      "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
+      "type": "rss",
+      "category": "motorsport"
+    },
+    {
+      "id": 16,
+      "name": "ESPN Tennis News RSS",
+      "url": "https://www.espn.com/espn/rss/tennis/news",
+      "type": "rss",
       "category": "tennis"
     },
     {
-      "id": 20,
-      "name": "2026 Men's Volleyball World Championship",
-      "url": "https://en.wikipedia.org/wiki/2026_FIVB_Volleyball_Men%27s_World_Championship",
-      "type": "html",
-      "category": "volleyball"
+      "id": 17,
+      "name": "BBC Sport Tennis RSS",
+      "url": "https://feeds.bbci.co.uk/sport/tennis/rss.xml",
+      "type": "rss",
+      "category": "tennis"
     },
     {
-      "id": 21,
-      "name": "2026 European Men's Handball Championship",
-      "url": "https://en.wikipedia.org/wiki/2026_European_Men%27s_Handball_Championship",
-      "type": "html",
-      "category": "handball"
+      "id": 18,
+      "name": "ESPN General Sports RSS",
+      "url": "https://www.espn.com/espn/rss/news",
+      "type": "rss",
+      "category": "multi-sport"
+    },
+    {
+      "id": 19,
+      "name": "BBC Sport All Sports RSS",
+      "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+      "type": "rss",
+      "category": "multi-sport"
     }
   ]
 }
