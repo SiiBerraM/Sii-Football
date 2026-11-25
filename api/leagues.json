@@ -2,7 +2,7 @@
   "project": "Sii-Football",
   "consumer_app": "SiiMatchMind",
   "license_note": "Structured para-football leagues and match records from public HTML and PDF sources with attribution.",
-  "updated_at": "2026-11-25T18:32:36Z",
+  "updated_at": "2026-11-25T18:40:08Z",
   "by_category": {
     "amputee-football": {
       "competitions": 1,
@@ -13,11 +13,11 @@
       "matches": 0
     },
     "cp-football": {
-      "competitions": 8,
-      "matches": 0
+      "competitions": 9,
+      "matches": 1
     }
   },
-  "competitions_count": 10,
+  "competitions_count": 11,
   "competitions": [
     {
       "id": 1,
@@ -26,8 +26,8 @@
       "source_type": "html",
       "source_url": "https://amputeefootball.org/",
       "discovered_pdfs": [],
-      "char_length": 4863,
-      "fetched_at": "2026-11-25T18:32:36Z"
+      "char_length": 4730,
+      "fetched_at": "2026-11-25T18:40:08Z"
     },
     {
       "id": 2,
@@ -36,8 +36,8 @@
       "source_type": "html",
       "source_url": "https://ibsasport.org/sports/football/about/historical-results/",
       "discovered_pdfs": [],
-      "char_length": 1636,
-      "fetched_at": "2026-11-25T18:32:36Z"
+      "char_length": 337,
+      "fetched_at": "2026-11-25T18:40:08Z"
     },
     {
       "id": 3,
@@ -46,90 +46,100 @@
       "source_type": "html",
       "source_url": "https://www.ifcpf.com/",
       "discovered_pdfs": [
-        "https://www.ifcpf.com/static/upload/raw/3f4a132d-dc98-41d4-bb95-c20144870d69/IFCPF+-+Only+the+Captain+Guidelines+%281%29.pdf",
-        "https://www.ifcpf.com/static/upload/raw/d8e2411a-a2d4-4cd0-945c-0f781b19abf5/IFCPF+-+Age+Dispensation+Policy.pdf",
-        "https://www.ifcpf.com/static/upload/raw/1f83a3b2-08c7-4eef-acc3-0d3dd2f1a139/20180110+-+IFCPF+-+Athlete+Nationality+Policy.pdf",
         "https://www.ifcpf.com/static/upload/raw/f17c1cb9-92eb-4a5d-b46d-fbb532a7ec87/IFCPF+-+Competition+Rules+-+2022.pdf",
         "https://www.ifcpf.com/static/upload/raw/71933712-5882-4625-92cb-24bbacc9067d/IFCPF+-+Modifications+to+the+Laws+of+the+Game+-+2022.pdf",
         "https://www.ifcpf.com/static/upload/raw/dcc5743d-6f05-49b0-a01d-63755aeb6da6/2022+IFCPF+World+Cup+-+Schedules+-+Women.pdf",
         "https://www.ifcpf.com/static/upload/raw/bc11b7db-b385-47f9-8321-d8f813a2d9c4/2022+IFCPF+World+Cup+-+Schedules+-+Men.pdf",
-        "https://www.ifcpf.com/static/upload/raw/718b9093-aec3-46af-bb3b-18280dfa80c0/20220323+Draw+procedure+Women%27s+World+Cup+Spain.pdf"
+        "https://www.ifcpf.com/static/upload/raw/718b9093-aec3-46af-bb3b-18280dfa80c0/20220323+Draw+procedure+Women%27s+World+Cup+Spain.pdf",
+        "https://www.ifcpf.com/static/upload/raw/41ad350f-472e-4758-b1b5-3ae46df631a4/20220323+Draw+procedure+Men%27s+World+Cup+Spain.pdf",
+        "https://www.ifcpf.com/static/upload/raw/4abe972b-6d87-4173-b41d-a8d833493c7b/IFCPF+-+AD+-+Results+Management+Procedures+Guide.pdf",
+        "https://www.ifcpf.com/static/upload/raw/71cbe2b1-a44d-47f0-a371-6837cb604ee6/IFCPF+-+2019++Clean+Sports+Report.pdf"
       ],
-      "char_length": 7515,
-      "fetched_at": "2026-11-25T18:32:36Z"
+      "char_length": 1645,
+      "fetched_at": "2026-11-25T18:40:08Z"
     },
     {
       "id": 4,
       "name": "International Federation of CP Football (IFCPF) (PDF)",
       "category": "cp-football",
       "source_type": "pdf",
-      "source_url": "https://www.ifcpf.com/static/upload/raw/3f4a132d-dc98-41d4-bb95-c20144870d69/IFCPF+-+Only+the+Captain+Guidelines+%281%29.pdf",
+      "source_url": "https://www.ifcpf.com/static/upload/raw/f17c1cb9-92eb-4a5d-b46d-fbb532a7ec87/IFCPF+-+Competition+Rules+-+2022.pdf",
       "discovered_pdfs": [],
-      "char_length": 23878,
-      "fetched_at": "2026-11-25T18:32:36Z"
+      "char_length": 26916,
+      "fetched_at": "2026-11-25T18:40:08Z"
     },
     {
       "id": 5,
       "name": "International Federation of CP Football (IFCPF) (PDF)",
       "category": "cp-football",
       "source_type": "pdf",
-      "source_url": "https://www.ifcpf.com/static/upload/raw/d8e2411a-a2d4-4cd0-945c-0f781b19abf5/IFCPF+-+Age+Dispensation+Policy.pdf",
+      "source_url": "https://www.ifcpf.com/static/upload/raw/71933712-5882-4625-92cb-24bbacc9067d/IFCPF+-+Modifications+to+the+Laws+of+the+Game+-+2022.pdf",
       "discovered_pdfs": [],
-      "char_length": 22645,
-      "fetched_at": "2026-11-25T18:32:36Z"
+      "char_length": 15620,
+      "fetched_at": "2026-11-25T18:40:08Z"
     },
     {
       "id": 6,
       "name": "International Federation of CP Football (IFCPF) (PDF)",
       "category": "cp-football",
       "source_type": "pdf",
-      "source_url": "https://www.ifcpf.com/static/upload/raw/1f83a3b2-08c7-4eef-acc3-0d3dd2f1a139/20180110+-+IFCPF+-+Athlete+Nationality+Policy.pdf",
+      "source_url": "https://www.ifcpf.com/static/upload/raw/dcc5743d-6f05-49b0-a01d-63755aeb6da6/2022+IFCPF+World+Cup+-+Schedules+-+Women.pdf",
       "discovered_pdfs": [],
-      "char_length": 14015,
-      "fetched_at": "2026-11-25T18:32:36Z"
+      "char_length": 653,
+      "fetched_at": "2026-11-25T18:40:08Z"
     },
     {
       "id": 7,
       "name": "International Federation of CP Football (IFCPF) (PDF)",
       "category": "cp-football",
       "source_type": "pdf",
-      "source_url": "https://www.ifcpf.com/static/upload/raw/f17c1cb9-92eb-4a5d-b46d-fbb532a7ec87/IFCPF+-+Competition+Rules+-+2022.pdf",
+      "source_url": "https://www.ifcpf.com/static/upload/raw/bc11b7db-b385-47f9-8321-d8f813a2d9c4/2022+IFCPF+World+Cup+-+Schedules+-+Men.pdf",
       "discovered_pdfs": [],
-      "char_length": 175980,
-      "fetched_at": "2026-11-25T18:32:36Z"
+      "char_length": 3461,
+      "fetched_at": "2026-11-25T18:40:08Z"
     },
     {
       "id": 8,
       "name": "International Federation of CP Football (IFCPF) (PDF)",
       "category": "cp-football",
       "source_type": "pdf",
-      "source_url": "https://www.ifcpf.com/static/upload/raw/dcc5743d-6f05-49b0-a01d-63755aeb6da6/2022+IFCPF+World+Cup+-+Schedules+-+Women.pdf",
+      "source_url": "https://www.ifcpf.com/static/upload/raw/718b9093-aec3-46af-bb3b-18280dfa80c0/20220323+Draw+procedure+Women%27s+World+Cup+Spain.pdf",
       "discovered_pdfs": [],
-      "char_length": 73976,
-      "fetched_at": "2026-11-25T18:32:36Z"
+      "char_length": 929,
+      "fetched_at": "2026-11-25T18:40:08Z"
     },
     {
       "id": 9,
       "name": "International Federation of CP Football (IFCPF) (PDF)",
       "category": "cp-football",
       "source_type": "pdf",
-      "source_url": "https://www.ifcpf.com/static/upload/raw/bc11b7db-b385-47f9-8321-d8f813a2d9c4/2022+IFCPF+World+Cup+-+Schedules+-+Men.pdf",
+      "source_url": "https://www.ifcpf.com/static/upload/raw/41ad350f-472e-4758-b1b5-3ae46df631a4/20220323+Draw+procedure+Men%27s+World+Cup+Spain.pdf",
       "discovered_pdfs": [],
-      "char_length": 80780,
-      "fetched_at": "2026-11-25T18:32:36Z"
+      "char_length": 2330,
+      "fetched_at": "2026-11-25T18:40:08Z"
     },
     {
       "id": 10,
       "name": "International Federation of CP Football (IFCPF) (PDF)",
       "category": "cp-football",
       "source_type": "pdf",
-      "source_url": "https://www.ifcpf.com/static/upload/raw/718b9093-aec3-46af-bb3b-18280dfa80c0/20220323+Draw+procedure+Women%27s+World+Cup+Spain.pdf",
+      "source_url": "https://www.ifcpf.com/static/upload/raw/4abe972b-6d87-4173-b41d-a8d833493c7b/IFCPF+-+AD+-+Results+Management+Procedures+Guide.pdf",
       "discovered_pdfs": [],
-      "char_length": 18265,
-      "fetched_at": "2026-11-25T18:32:36Z"
+      "char_length": 6946,
+      "fetched_at": "2026-11-25T18:40:08Z"
+    },
+    {
+      "id": 11,
+      "name": "International Federation of CP Football (IFCPF) (PDF)",
+      "category": "cp-football",
+      "source_type": "pdf",
+      "source_url": "https://www.ifcpf.com/static/upload/raw/71cbe2b1-a44d-47f0-a371-6837cb604ee6/IFCPF+-+2019++Clean+Sports+Report.pdf",
+      "discovered_pdfs": [],
+      "char_length": 2143,
+      "fetched_at": "2026-11-25T18:40:08Z"
     }
   ],
-  "matches_count": 1,
+  "matches_count": 2,
   "matches": [
     {
       "match_id": "amp-1",
@@ -141,7 +151,19 @@
       "status": "finished",
       "source_name": "World Amputee Football Federation (WAFF)",
       "source_url": "https://amputeefootball.org/",
-      "fetched_at": "2026-11-25T18:32:06Z"
+      "fetched_at": "2026-11-25T18:39:33Z"
+    },
+    {
+      "match_id": "cpf-1",
+      "category": "cp-football",
+      "home_team": "Group E",
+      "away_team": "Group",
+      "home_score": 9,
+      "away_score": 14,
+      "status": "finished",
+      "source_name": "International Federation of CP Football (IFCPF) (PDF)",
+      "source_url": "https://www.ifcpf.com/static/upload/raw/bc11b7db-b385-47f9-8321-d8f813a2d9c4/2022+IFCPF+World+Cup+-+Schedules+-+Men.pdf",
+      "fetched_at": "2026-11-25T18:39:33Z"
     }
   ]
 }

@@ -11,6 +11,7 @@ from urllib.robotparser import RobotFileParser
 
 
 USER_AGENT = "SiiFootballBot/1.0 (+https://siiberram.github.io/Sii-Football/)"
+IGNORED_PDF_KEYWORDS = ("guideline", "policy", "anti-doping", "doping", "statute", "constitution", "form", "application")
 
 
 class LinkAndTextExtractor(HTMLParser):
@@ -22,17 +23,19 @@ class LinkAndTextExtractor(HTMLParser):
         self.skip = False
 
     def handle_starttag(self, tag, attrs):
-        if tag in ("script", "style", "noscript", "svg"):
+        if tag in ("script", "style", "noscript", "svg", "nav", "footer"):
             self.skip = True
         elif tag == "a":
             href = dict(attrs).get("href", "").strip()
             if href:
                 full_url = urljoin(self.base_url, href)
-                if ".pdf" in full_url.lower() and full_url not in self.pdf_links:
-                    self.pdf_links.append(full_url)
+                low = full_url.lower()
+                if ".pdf" in low and full_url not in self.pdf_links:
+                    if not any(k in low for k in IGNORED_PDF_KEYWORDS):
+                        self.pdf_links.append(full_url)
 
     def handle_endtag(self, tag):
-        if tag in ("script", "style", "noscript", "svg"):
+        if tag in ("script", "style", "noscript", "svg", "nav", "footer"):
             self.skip = False
 
     def handle_data(self, data):
@@ -81,14 +84,11 @@ def parse_pdf(path_or_url: str) -> str:
         reader = PdfReader(io.BytesIO(raw_bytes))
         pages_text = [(page.extract_text() or "").strip() for page in reader.pages]
         joined = "\n".join(t for t in pages_text if t)
-        if joined:
-            return re.sub(r"\s+", " ", joined).strip()
+        cleaned = re.sub(r"\s+", " ", joined).strip()
+        printable_ratio = sum(ch.isprintable() for ch in cleaned) / max(len(cleaned), 1)
+        return cleaned if printable_ratio > 0.92 else ""
     except Exception:
-        pass
-
-    strings = re.findall(rb"\(([^()]{3,200})\)", raw_bytes)
-    text = " ".join(s.decode("latin-1", errors="ignore") for s in strings)
-    return re.sub(r"\s+", " ", text).strip()
+        return ""
 
 
 def main():
@@ -138,7 +138,7 @@ def main():
                 "source_url": url,
                 "source_type": src_type,
                 "category": category,
-                "status": "ok",
+                "status": "ok" if content else "empty_or_unreadable",
                 "discovered_pdfs": discovered_pdfs,
                 "excerpt": content[:1200],
                 "full_text": content[:80000],
