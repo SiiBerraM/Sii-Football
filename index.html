@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sii-Football Data API – Free open data for disability football</title>
+<meta name="description" content="Free, open JSON/CSV API for disability football results and fixtures: Amputee, Blind, Deaf, Powerchair and Para football. No key, no signup.">
+<meta name="keywords" content="disability football API, amputee football data, blind football results, deaf football, powerchair football, para football, open data, free football API">
+<link rel="canonical" href="https://siiberram.github.io/Sii-Football/">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Sii-Football Data API">
+<meta property="og:description" content="Free open API for disability football results and fixtures.">
+<meta property="og:url" content="https://siiberram.github.io/Sii-Football/">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Sii-Football Data: disability football matches",
+  "description": "Open dataset of disability football (amputee, blind, deaf, powerchair, para) fixtures and results in standardized JSON and CSV, updated automatically every 6 hours.",
+  "url": "https://siiberram.github.io/Sii-Football/",
+  "keywords": ["disability football", "amputee football", "blind football", "deaf football", "powerchair football", "para football", "open data"],
+  "isAccessibleForFree": true,
+  "creator": {"@type": "Person", "name": "Berra", "email": "berramouhcine13@gmail.com"},
+  "distribution": [
+    {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://siiberram.github.io/Sii-Football/data/latest.json"},
+    {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://siiberram.github.io/Sii-Football/data/latest.csv"}
+  ]
+}
+</script>
+<style>
+:root{--bg:#fff;--fg:#14213d;--card:#f3f6f4;--accent:#0b3d2e;--gold:#b88a00}
+@media (prefers-color-scheme:dark){:root{--bg:#0e1512;--fg:#e8efe9;--card:#18231e;--accent:#6fd3a8;--gold:#f5b301}}
+body{font:16px/1.6 system-ui,sans-serif;background:var(--bg);color:var(--fg);margin:0;padding:0 16px 48px}
+main{max-width:760px;margin:0 auto}
+h1{margin:24px 0 4px}h2{margin-top:32px;color:var(--accent)}
+.card{background:var(--card);border-radius:12px;padding:12px 16px;margin:12px 0;overflow-x:auto}
+code,pre{font-family:ui-monospace,monospace;font-size:14px}
+a{color:var(--accent)}img{width:72px;height:72px;border-radius:16px}
+li{margin:6px 0}.note{border-left:4px solid var(--gold);padding-left:12px}
+</style>
+</head>
+<body>
+<main>
+<img src="assets/icon.svg" alt="Sii-Football logo">
+<h1>Sii-Football Data API</h1>
+<p>Free and open data for <strong>disability football</strong>: Amputee, Blind, Deaf, Powerchair and Para football. Standardized JSON and CSV, no API key, no signup. Updated automatically every 6 hours.</p>
+
+<h2>Endpoints</h2>
+<div class="card"><ul>
+<li><a href="data/api/v1/sports.json">/data/api/v1/sports.json</a> – sports</li>
+<li><a href="data/api/v1/competitions.json">/data/api/v1/competitions.json</a> – competitions</li>
+<li><a href="data/api/v1/fixtures.json">/data/api/v1/fixtures.json</a> – upcoming matches</li>
+<li><a href="data/api/v1/results.json">/data/api/v1/results.json</a> – finished matches</li>
+<li><a href="data/api/v1/sports/blind/results.json">/data/api/v1/sports/{sport}/results.json</a> – per sport (amputee, blind, deaf, powerchair, para)</li>
+<li><a href="data/latest.json">latest.json</a> and <a href="data/latest.csv">latest.csv</a> – everything in one file</li>
+</ul></div>
+
+<h2>Quick start</h2>
+<div class="card"><pre>fetch("https://siiberram.github.io/Sii-Football/data/api/v1/results.json")
+  .then(r =&gt; r.json())
+  .then(j =&gt; console.log(j.data));</pre></div>
+<p>Or use the ready JavaScript client:</p>
+<div class="card"><pre>&lt;script src="https://siiberram.github.io/Sii-Football/clients/siiFootballApi.js"&gt;&lt;/script&gt;
+&lt;script&gt;SiiFootball.results("amputee").then(console.log);&lt;/script&gt;</pre></div>
+
+<h2>Data format</h2>
+<div class="card"><pre>{
+  "match_id": "…", "sport": "amputee",
+  "competition": "waff-world-cup",
+  "date_utc": "2026-11-22T06:00:00Z", "status": "finished",
+  "home_team": {"name": "Ghana", "code": "GHA", "score": 1},
+  "away_team": {"name": "Morocco", "code": "MOR", "score": 0},
+  "venue": "…", "source_url": "…",
+  "is_stale": false, "source_updated_at": "…"
+}</pre></div>
+
+<h2>Current coverage</h2>
+<p class="note">The project is young. Today it includes the IBSA Blind Football World Championships 2018 and part of the WAFF Amputee World Cup 2026. Coverage of other competitions is being added. Some results are entered manually from public reports and may contain mistakes; each match lists its source.</p>
+
+<h2>About</h2>
+<p>Built by <strong>Berra</strong> as the data source for the SiiMatchMind football prediction app, and shared for everyone. Free to use; please credit "Sii-Football". Not affiliated with IBSA, WAFF, FIPFA, IFCPF or ICSD. Corrections and new sources are welcome.</p>
+<ul>
+<li><a href="https://github.com/SiiBerraM/Sii-Football">Source code on GitHub</a></li>
+<li>Contact: <a href="mailto:berramouhcine13@gmail.com">berramouhcine13@gmail.com</a></li>
+</ul>
+
+<h2 dir="rtl" lang="ar">واجهة برمجية مجانية لكرة القدم لذوي الإعاقة</h2>
+<p dir="rtl" lang="ar">بيانات مفتوحة ومجانية لنتائج ومباريات كرة القدم لذوي الإعاقة: بتر الأطراف، المكفوفين، الصم، الكراسي المتحركة، والشلل الدماغي. بصيغتي JSON وCSV بلا مفتاح ولا تسجيل، وتتحدث تلقائياً كل 6 ساعات.</p>
+</main>
+</body>
+</html>
