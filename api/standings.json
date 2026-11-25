@@ -2,7 +2,86 @@
   "project": "Sii-Football",
   "consumer_app": "SiiMatchMind",
   "license_note": "Structured para-football standings from public HTML and PDF sources with attribution.",
-  "updated_at": "2026-11-25T18:40:08Z",
-  "standings_count": 0,
-  "standings": []
+  "updated_at": "2026-11-25T18:42:43Z",
+  "standings_count": 6,
+  "standings": [
+    {
+      "position": 1,
+      "team": "England",
+      "category": "blind-football",
+      "played": 5,
+      "won": 4,
+      "drawn": 1,
+      "lost": 0,
+      "points": 12,
+      "source_name": "IBSA Men's Blind Football Nations Cup",
+      "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
+      "fetched_at": "2026-11-25T18:41:46Z"
+    },
+    {
+      "position": 2,
+      "team": "Iran",
+      "category": "blind-football",
+      "played": 5,
+      "won": 4,
+      "drawn": 1,
+      "lost": 0,
+      "points": 11,
+      "source_name": "IBSA Men's Blind Football Nations Cup",
+      "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
+      "fetched_at": "2026-11-25T18:41:46Z"
+    },
+    {
+      "position": 3,
+      "team": "Italy",
+      "category": "blind-football",
+      "played": 5,
+      "won": 3,
+      "drawn": 0,
+      "lost": 2,
+      "points": 8,
+      "source_name": "IBSA Men's Blind Football Nations Cup",
+      "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
+      "fetched_at": "2026-11-25T18:41:46Z"
+    },
+    {
+      "position": 4,
+      "team": "India",
+      "category": "blind-football",
+      "played": 5,
+      "won": 2,
+      "drawn": 0,
+      "lost": 3,
+      "points": 7,
+      "source_name": "IBSA Men's Blind Football Nations Cup",
+      "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
+      "fetched_at": "2026-11-25T18:41:46Z"
+    },
+    {
+      "position": 5,
+      "team": "Korea",
+      "category": "blind-football",
+      "played": 5,
+      "won": 1,
+      "drawn": 0,
+      "lost": 4,
+      "points": 2,
+      "source_name": "IBSA Men's Blind Football Nations Cup",
+      "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
+      "fetched_at": "2026-11-25T18:41:46Z"
+    },
+    {
+      "position": 6,
+      "team": "Poland",
+      "category": "blind-football",
+      "played": 5,
+      "won": 0,
+      "drawn": 0,
+      "lost": 5,
+      "points": 0,
+      "source_name": "IBSA Men's Blind Football Nations Cup",
+      "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
+      "fetched_at": "2026-11-25T18:41:46Z"
+    }
+  ]
 }

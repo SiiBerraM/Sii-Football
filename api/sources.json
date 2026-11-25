@@ -1,23 +1,40 @@
 {
   "project": "Sii-Football",
   "consumer_app": "SiiMatchMind",
-  "description": "Free API aggregating para-football leagues, news, and standings from HTML and PDF sources.",
+  "license_note": "Public official and tournament para-football sources with attribution.",
   "sources": [
     {
-      "name": "World Amputee Football Federation (WAFF)",
-      "url": "https://amputeefootball.org/",
+      "id": 1,
+      "name": "WAFF World Cup 2026 – Mexico",
+      "url": "https://amputeefootball.org/world-cup-2026/",
       "type": "html",
       "category": "amputee-football"
     },
     {
-      "name": "IBSA Football Results & Reports",
+      "id": 2,
+      "name": "IBSA Football Historical Results",
       "url": "https://ibsasport.org/sports/football/about/historical-results/",
       "type": "html",
       "category": "blind-football"
     },
     {
-      "name": "International Federation of CP Football (IFCPF)",
-      "url": "https://www.ifcpf.com/",
+      "id": 3,
+      "name": "IBSA European Blind Football Championship 2026",
+      "url": "https://ibsablindeuro2026.com/en/home-2/",
+      "type": "html",
+      "category": "blind-football"
+    },
+    {
+      "id": 4,
+      "name": "IBSA Men's Blind Football Nations Cup",
+      "url": "https://www.blindfootball.in/ibsa-mens-2025",
+      "type": "html",
+      "category": "blind-football"
+    },
+    {
+      "id": 5,
+      "name": "IFCPF Tournaments & Results",
+      "url": "https://www.ifcpf.com/tournaments",
       "type": "html",
       "category": "cp-football"
     }
