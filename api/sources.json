@@ -1,5 +1,25 @@
 {
   "project": "Sii-Football",
+  "consumer_app": "SiiMatchMind",
   "description": "Free API aggregating para-football leagues, news, and standings from HTML and PDF sources.",
-  "sources": []
+  "sources": [
+    {
+      "name": "World Amputee Football Federation (WAFF)",
+      "url": "https://amputeefootball.org/",
+      "type": "html",
+      "category": "amputee-football"
+    },
+    {
+      "name": "IBSA Football Results & Reports",
+      "url": "https://ibsasport.org/sports/football/about/historical-results/",
+      "type": "html",
+      "category": "blind-football"
+    },
+    {
+      "name": "International Federation of CP Football (IFCPF)",
+      "url": "https://www.ifcpf.com/",
+      "type": "html",
+      "category": "cp-football"
+    }
+  ]
 }

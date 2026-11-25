@@ -1,4 +1,42 @@
 {
-  "updated_at": "2026-11-25",
-  "items": []
+  "project": "Sii-Football",
+  "consumer_app": "SiiMatchMind",
+  "license_note": "Aggregated from public para-football HTML and PDF sources with attribution.",
+  "updated_at": "2026-11-25T18:11:59Z",
+  "count": 3,
+  "items": [
+    {
+      "id": 1,
+      "source_name": "World Amputee Football Federation (WAFF)",
+      "source_url": "https://amputeefootball.org/",
+      "source_type": "html",
+      "category": "amputee-football",
+      "status": "ok",
+      "excerpt": "World Ampute Football Federation – WAFF Website HOME ABOUT WAFF Who We Are WAFF Board What is Amputee Football History of Amputee Football Documents and Forms NEWS WAFF Projects Amputee Football Junior Camps 2026/2027 supported by UEFA Foundation NEW COUNTRIES WOMEN AMPUTEE FOOTBALL WAFF MEMBERS Africa America North America South Asia Europe WORLD CUPS WAFF World Cup 2026 WAFF Women`s World Cup 2024 WAFF World Cup 2022 WAFF World Cup 2018 WAFF World Cup 2014 WAFF World Cup 2012 CONTINENTAL TOURNAMENTS Asian Amputee Football Cup 2025 – Jakarta South American Amputee Football Cup – São Paulo Nor",
+      "char_length": 4863,
+      "fetched_at": "2026-11-25T18:11:59Z"
+    },
+    {
+      "id": 2,
+      "source_name": "IBSA Football Results & Reports",
+      "source_url": "https://ibsasport.org/sports/football/about/historical-results/",
+      "source_type": "html",
+      "category": "blind-football",
+      "status": "ok",
+      "excerpt": "IBSA | International Blind Sports IBSA - International Blind Sports Federation Contact Home Sports Paralympic Sports Football Goalball Judo Sport Blind Tennis Chess Ninepin Bowling Powerlifting Showdown Tenping Bowling Torball About Who we are History Executive Board IBSA Team IBSA Regions What we do Sports governing body IBSA World Games Vision, mission and values How we do it IBSA Committees Publications Our partners Our strategy Growing Sports IBSA World Games Overview IBSA World Games 2023 Past Games Host an IBSA World Games Growing blind sports Classification Support and resources Helping",
+      "char_length": 1636,
+      "fetched_at": "2026-11-25T18:11:59Z"
+    },
+    {
+      "id": 3,
+      "source_name": "International Federation of CP Football (IFCPF)",
+      "source_url": "https://www.ifcpf.com/",
+      "source_type": "html",
+      "category": "cp-football",
+      "status": "ok",
+      "excerpt": "Home - CP Football Member login Menu 🏠 About About IFCPF PayPal - Donate IFCPF Strategic Direction 2024 - 2028 IFCPF Player Representation IFCPF Annual Report Strategic Direction 2024-2028...and beyond Board Meeting Summary Organisation Sustainability What is CP Football? History of CP Football Becoming a Member Our Members 🇫🇷 France 🇩🇿 Algeria 🇦🇷 Argentina 🇦🇺 Australia 🇦🇹 Austria 🇧🇩 Bangladesh 🇧🇪 Belgium 🇧🇷 Brazil 🇨🇦 Canada 🇨🇱 Chile 🇨🇴 Colombia 🇩🇰 Denmark 🇪🇨 Ecuador 🇪🇬 Egypt 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 🇫🇮 Finland 🇬🇪 Georgia 🇩🇪 Germany 🇬🇭 Ghana 🇮🇳 India 🇮🇷 I.R. Iran 🇮🇪 Ireland 🇮🇹 Italy 🇯🇵 Japan 🇯🇴 Jordan ",
+      "char_length": 7515,
+      "fetched_at": "2026-11-25T18:11:59Z"
+    }
+  ]
 }
