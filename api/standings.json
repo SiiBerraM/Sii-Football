@@ -2,7 +2,7 @@
   "project": "Sii-Football",
   "consumer_app": "SiiMatchMind",
   "license_note": "Structured para-football standings from public HTML and PDF sources with attribution.",
-  "updated_at": "2026-11-25T19:28:50Z",
+  "updated_at": "2026-11-25T20:01:19Z",
   "standings_count": 12,
   "standings": [
     {
@@ -16,7 +16,7 @@
       "points": 13,
       "source_name": "IBSA Men's Blind Football Nations Cup",
       "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
-      "fetched_at": "2026-11-25T19:21:26Z"
+      "fetched_at": "2026-11-25T19:58:32Z"
     },
     {
       "position": 2,
@@ -29,7 +29,7 @@
       "points": 13,
       "source_name": "IBSA Men's Blind Football Nations Cup",
       "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
-      "fetched_at": "2026-11-25T19:21:26Z"
+      "fetched_at": "2026-11-25T19:58:32Z"
     },
     {
       "position": 3,
@@ -42,7 +42,7 @@
       "points": 9,
       "source_name": "IBSA Men's Blind Football Nations Cup",
       "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
-      "fetched_at": "2026-11-25T19:21:26Z"
+      "fetched_at": "2026-11-25T19:58:32Z"
     },
     {
       "position": 4,
@@ -55,7 +55,7 @@
       "points": 6,
       "source_name": "IBSA Men's Blind Football Nations Cup",
       "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
-      "fetched_at": "2026-11-25T19:21:26Z"
+      "fetched_at": "2026-11-25T19:58:32Z"
     },
     {
       "position": 5,
@@ -68,7 +68,7 @@
       "points": 3,
       "source_name": "IBSA Men's Blind Football Nations Cup",
       "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
-      "fetched_at": "2026-11-25T19:21:26Z"
+      "fetched_at": "2026-11-25T19:58:32Z"
     },
     {
       "position": 6,
@@ -81,7 +81,7 @@
       "points": 0,
       "source_name": "IBSA Men's Blind Football Nations Cup",
       "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
-      "fetched_at": "2026-11-25T19:21:26Z"
+      "fetched_at": "2026-11-25T19:58:32Z"
     },
     {
       "position": 1,
@@ -94,7 +94,7 @@
       "points": 1,
       "source_name": "IFCPF Tournament Standings & Matches (View 121)",
       "source_url": "https://www.ifcpf.com/tournaments/view/121",
-      "fetched_at": "2026-11-25T19:21:26Z"
+      "fetched_at": "2026-11-25T19:58:32Z"
     },
     {
       "position": 3,
@@ -107,7 +107,7 @@
       "points": 0,
       "source_name": "IFCPF Tournament Standings & Matches (View 121)",
       "source_url": "https://www.ifcpf.com/tournaments/view/121",
-      "fetched_at": "2026-11-25T19:21:26Z"
+      "fetched_at": "2026-11-25T19:58:32Z"
     },
     {
       "position": 3,
@@ -120,7 +120,7 @@
       "points": 0,
       "source_name": "IFCPF Tournament Standings & Matches (View 121)",
       "source_url": "https://www.ifcpf.com/tournaments/view/121",
-      "fetched_at": "2026-11-25T19:21:26Z"
+      "fetched_at": "2026-11-25T19:58:32Z"
     },
     {
       "position": 7,
@@ -133,7 +133,7 @@
       "points": 7,
       "source_name": "IFCPF Tournament Standings & Matches (View 121)",
       "source_url": "https://www.ifcpf.com/tournaments/view/121",
-      "fetched_at": "2026-11-25T19:21:26Z"
+      "fetched_at": "2026-11-25T19:58:32Z"
     },
     {
       "position": 9,
@@ -146,7 +146,7 @@
       "points": 6,
       "source_name": "IFCPF Tournament Standings & Matches (View 121)",
       "source_url": "https://www.ifcpf.com/tournaments/view/121",
-      "fetched_at": "2026-11-25T19:21:26Z"
+      "fetched_at": "2026-11-25T19:58:32Z"
     },
     {
       "position": 9,
@@ -159,7 +159,7 @@
       "points": 6,
       "source_name": "IFCPF Tournament Standings & Matches (View 121)",
       "source_url": "https://www.ifcpf.com/tournaments/view/121",
-      "fetched_at": "2026-11-25T19:21:26Z"
+      "fetched_at": "2026-11-25T19:58:32Z"
     }
   ]
 }
