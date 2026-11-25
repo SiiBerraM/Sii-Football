@@ -28,6 +28,7 @@ jobs:
           python3 scripts/fetch_data.py
           python3 scripts/parse_leagues.py
           python3 scripts/parse_standings.py
+          python3 scripts/validate_api.py
 
       - name: Commit and push updated API JSON files
         run: |
