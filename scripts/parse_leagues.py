@@ -47,7 +47,11 @@ def extract_matches_from_text(text: str, source_name: str, source_url: str, cate
         "or", "of", "cup", "world", "euro", "championship", "tournaments", "results",
         "fixtures", "schedule", "report", "reports", "live", "history", "rules", "table",
         "standings", "group", "stage", "final", "semi", "quarter", "round", "season",
-        "year", "month", "day", "time", "gmt", "utc"
+        "year", "month", "day", "time", "gmt", "utc",
+        "rest", "day", "days", "no", "matches", "match", "november", "december",
+        "january", "february", "march", "april", "may", "june", "july", "august",
+        "september", "october", "monday", "tuesday", "wednesday", "thursday", "friday",
+        "saturday", "sunday", "venue", "stadium", "city", "location", "date", "dates",
     }
 
     prefix = clean_prefix(category)

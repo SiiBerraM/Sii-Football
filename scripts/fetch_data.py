@@ -1,4 +1,5 @@
 import io
+import logging
 import json
 import os
 import re
@@ -80,6 +81,7 @@ def parse_pdf(path_or_url: str) -> str:
             raw_bytes = f.read()
 
     try:
+        logging.getLogger("pypdf").setLevel(logging.ERROR)
         from pypdf import PdfReader
         reader = PdfReader(io.BytesIO(raw_bytes))
         pages_text = [(page.extract_text() or "").strip() for page in reader.pages]
