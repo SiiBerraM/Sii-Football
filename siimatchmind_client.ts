@@ -123,3 +123,21 @@ export async function fetchFilteredEndpointByCategory<T extends CategoryItem>(
     category: target,
   };
 }
+
+export interface SyncStatusBadge {
+  label: string;
+  source: DataSourceMode;
+  updatedAt: string | null;
+  isStale: boolean;
+}
+
+export function buildSyncStatus<T>(envelope: ApiEnvelope<T>): SyncStatusBadge {
+  const srcLabel = envelope.source === "network" ? "LIVE" : envelope.isStale ? "CACHED (STALE)" : "CACHED";
+  const timeLabel = envelope.updatedAt ? ` · ${envelope.updatedAt}` : "";
+  return {
+    label: `${srcLabel}${timeLabel}`,
+    source: envelope.source,
+    updatedAt: envelope.updatedAt,
+    isStale: envelope.isStale,
+  };
+}
