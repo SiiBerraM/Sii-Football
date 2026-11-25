@@ -33,6 +33,13 @@ jobs:
           python scripts/parse_leagues.py
           python scripts/parse_standings.py
           python scripts/validate_api.py
+          python - << 'PY'
+          import json, subprocess
+          out = subprocess.check_output(["python", "scripts/siimatchmind_client.py"], text=True, encoding="utf-8")
+          summary = json.loads(out[out.find("{"):])
+          with open("api/siimatchmind_summary.json", "w", encoding="utf-8") as fp:
+              json.dump(summary, fp, ensure_ascii=False, indent=2)
+          PY
 
       - name: Commit and push updated API files
         run: |
@@ -64,6 +71,7 @@ jobs:
               "leagues.json",
               "standings.json",
               "disclaimer.json",
+              "siimatchmind_summary.json",
           ]
           headers = {"User-Agent": "SiiFootballCI/1.0"}
 
