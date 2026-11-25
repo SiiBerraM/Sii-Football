@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 
 def _clean_team(raw: str) -> str:
     team = re.sub(r"\s+", " ", (raw or "")).strip(" -–—.:|/()[]")
-    if len(team) < 2 or len(team) > 32:
+    if len(team) < 2 or len(team) > 30:
         return ""
     if not re.search(r"[A-Za-zÀ-ÿ]", team):
         return ""
@@ -27,14 +27,14 @@ def extract_standings_rows(text: str, source_name: str, source_url: str, categor
     rows = []
     seen = set()
 
-    # Pattern 1: Full table row -> pos team played won drawn lost pts
+    # Match rows with P, W, D, L and optional trailing columns (GF, GA, GD, Pts)
+    # Using greedy trailing integer capture or taking the final number after W D L
     full_table_re = re.compile(
-        r"\b([1-9]|1[0-9]|20)[\.\)\s]+([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ0-9\s\.\'\-]{1,28}?)\s+(\d{1,2})\s+(\d{1,2})\s+(\d{1,2})\s+(\d{1,2})\s+(?:[+-]?\d{1,3}\s+)?(\d{1,3})\b"
+        r"\b([1-9]|1[0-9]|20)[\.\)\s]+([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ0-9\s\.\'\-]{1,26}?)\s+(\d{1,2})\s+(\d{1,2})\s+(\d{1,2})\s+(\d{1,2})(?:\s+[+-]?\d{1,3}){0,3}\s+(\d{1,3})\b"
     )
 
-    # Pattern 2: Ranked points row -> 1. Team - 9 pts / 9 points
     ranked_pts_re = re.compile(
-        r"\b([1-9]|1[0-9]|20)[\.\)]\s+([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ0-9\s\.\'\-]{1,28}?)\s*[-–—|:]?\s*(\d{1,3})\s*(?:pts?|points?)\b",
+        r"\b([1-9]|1[0-9]|20)[\.\)]\s+([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ0-9\s\.\'\-]{1,26}?)\s*[-–—|:]?\s*(\d{1,3})\s*(?:pts?|points?)\b",
         re.IGNORECASE,
     )
 
@@ -50,6 +50,10 @@ def extract_standings_rows(text: str, source_name: str, source_url: str, categor
         pts = int(m.group(7))
 
         if played < (won + drawn + lost) or played > 60 or pts > played * 6:
+            continue
+
+        # Sanity check: in standard football tables, points cannot be lower than `drawn`
+        if pts < drawn:
             continue
 
         key = (category, team.lower(), pos)

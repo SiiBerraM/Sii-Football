@@ -2,7 +2,7 @@
   "project": "Sii-Football",
   "consumer_app": "SiiMatchMind",
   "license_note": "Structured para-football leagues and match records from public HTML and PDF sources with attribution.",
-  "updated_at": "2026-11-25T18:45:47Z",
+  "updated_at": "2026-11-25T18:46:46Z",
   "by_category": {
     "amputee-football": {
       "competitions": 1,
@@ -10,7 +10,7 @@
     },
     "blind-football": {
       "competitions": 3,
-      "matches": 11
+      "matches": 7
     },
     "cp-football": {
       "competitions": 8,
@@ -27,7 +27,7 @@
       "source_url": "https://amputeefootball.org/world-cup-2026/",
       "discovered_pdfs": [],
       "char_length": 8322,
-      "fetched_at": "2026-11-25T18:45:47Z"
+      "fetched_at": "2026-11-25T18:46:46Z"
     },
     {
       "id": 2,
@@ -37,7 +37,7 @@
       "source_url": "https://ibsasport.org/sports/football/about/historical-results/",
       "discovered_pdfs": [],
       "char_length": 337,
-      "fetched_at": "2026-11-25T18:45:47Z"
+      "fetched_at": "2026-11-25T18:46:46Z"
     },
     {
       "id": 3,
@@ -50,7 +50,7 @@
         "https://www.blindfootball.in/storage/pdf/NationsCup_Schedule.pdf"
       ],
       "char_length": 4908,
-      "fetched_at": "2026-11-25T18:45:47Z"
+      "fetched_at": "2026-11-25T18:46:46Z"
     },
     {
       "id": 4,
@@ -60,7 +60,7 @@
       "source_url": "https://www.blindfootball.in/pdf/GRASSROOTS_DEVELOPMENT_PLAN.pdf",
       "discovered_pdfs": [],
       "char_length": 8008,
-      "fetched_at": "2026-11-25T18:45:47Z"
+      "fetched_at": "2026-11-25T18:46:46Z"
     },
     {
       "id": 5,
@@ -79,7 +79,7 @@
         "https://www.ifcpf.com/static/upload/raw/71cbe2b1-a44d-47f0-a371-6837cb604ee6/IFCPF+-+2019++Clean+Sports+Report.pdf"
       ],
       "char_length": 2061,
-      "fetched_at": "2026-11-25T18:45:47Z"
+      "fetched_at": "2026-11-25T18:46:46Z"
     },
     {
       "id": 6,
@@ -89,7 +89,7 @@
       "source_url": "https://www.ifcpf.com/static/upload/raw/f17c1cb9-92eb-4a5d-b46d-fbb532a7ec87/IFCPF+-+Competition+Rules+-+2022.pdf",
       "discovered_pdfs": [],
       "char_length": 26916,
-      "fetched_at": "2026-11-25T18:45:47Z"
+      "fetched_at": "2026-11-25T18:46:46Z"
     },
     {
       "id": 7,
@@ -99,7 +99,7 @@
       "source_url": "https://www.ifcpf.com/static/upload/raw/dcc5743d-6f05-49b0-a01d-63755aeb6da6/2022+IFCPF+World+Cup+-+Schedules+-+Women.pdf",
       "discovered_pdfs": [],
       "char_length": 653,
-      "fetched_at": "2026-11-25T18:45:47Z"
+      "fetched_at": "2026-11-25T18:46:46Z"
     },
     {
       "id": 8,
@@ -109,7 +109,7 @@
       "source_url": "https://www.ifcpf.com/static/upload/raw/bc11b7db-b385-47f9-8321-d8f813a2d9c4/2022+IFCPF+World+Cup+-+Schedules+-+Men.pdf",
       "discovered_pdfs": [],
       "char_length": 3461,
-      "fetched_at": "2026-11-25T18:45:47Z"
+      "fetched_at": "2026-11-25T18:46:46Z"
     },
     {
       "id": 9,
@@ -119,7 +119,7 @@
       "source_url": "https://www.ifcpf.com/static/upload/raw/718b9093-aec3-46af-bb3b-18280dfa80c0/20220323+Draw+procedure+Women%27s+World+Cup+Spain.pdf",
       "discovered_pdfs": [],
       "char_length": 929,
-      "fetched_at": "2026-11-25T18:45:47Z"
+      "fetched_at": "2026-11-25T18:46:46Z"
     },
     {
       "id": 10,
@@ -129,7 +129,7 @@
       "source_url": "https://www.ifcpf.com/static/upload/raw/41ad350f-472e-4758-b1b5-3ae46df631a4/20220323+Draw+procedure+Men%27s+World+Cup+Spain.pdf",
       "discovered_pdfs": [],
       "char_length": 2330,
-      "fetched_at": "2026-11-25T18:45:47Z"
+      "fetched_at": "2026-11-25T18:46:46Z"
     },
     {
       "id": 11,
@@ -139,7 +139,7 @@
       "source_url": "https://www.ifcpf.com/static/upload/raw/4abe972b-6d87-4173-b41d-a8d833493c7b/IFCPF+-+AD+-+Results+Management+Procedures+Guide.pdf",
       "discovered_pdfs": [],
       "char_length": 6946,
-      "fetched_at": "2026-11-25T18:45:47Z"
+      "fetched_at": "2026-11-25T18:46:46Z"
     },
     {
       "id": 12,
@@ -149,63 +149,15 @@
       "source_url": "https://www.ifcpf.com/static/upload/raw/71cbe2b1-a44d-47f0-a371-6837cb604ee6/IFCPF+-+2019++Clean+Sports+Report.pdf",
       "discovered_pdfs": [],
       "char_length": 2143,
-      "fetched_at": "2026-11-25T18:45:47Z"
+      "fetched_at": "2026-11-25T18:46:46Z"
     }
   ],
-  "matches_count": 12,
+  "matches_count": 8,
   "matches": [
     {
       "match_id": "bli-1",
       "category": "blind-football",
-      "home_team": "Sept England Vs Korea",
-      "away_team": "Am",
-      "home_score": 9,
-      "away_score": 0,
-      "status": "finished",
-      "source_name": "IBSA Men's Blind Football Nations Cup",
-      "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
-      "fetched_at": "2026-11-25T18:41:46Z"
-    },
-    {
-      "match_id": "bli-2",
-      "category": "blind-football",
-      "home_team": "Sept Iran Vs England",
-      "away_team": "Am",
-      "home_score": 9,
-      "away_score": 0,
-      "status": "finished",
-      "source_name": "IBSA Men's Blind Football Nations Cup",
-      "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
-      "fetched_at": "2026-11-25T18:41:46Z"
-    },
-    {
-      "match_id": "bli-3",
-      "category": "blind-football",
-      "home_team": "Sept England Vs Italy",
-      "away_team": "Am",
-      "home_score": 9,
-      "away_score": 0,
-      "status": "finished",
-      "source_name": "IBSA Men's Blind Football Nations Cup",
-      "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
-      "fetched_at": "2026-11-25T18:41:46Z"
-    },
-    {
-      "match_id": "bli-4",
-      "category": "blind-football",
-      "home_team": "Sept Poland Vs Italy",
-      "away_team": "Am",
-      "home_score": 9,
-      "away_score": 0,
-      "status": "finished",
-      "source_name": "IBSA Men's Blind Football Nations Cup",
-      "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
-      "fetched_at": "2026-11-25T18:41:46Z"
-    },
-    {
-      "match_id": "bli-5",
-      "category": "blind-football",
-      "home_team": "Vs Korea",
+      "home_team": "Korea",
       "away_team": "Poland",
       "home_score": 6,
       "away_score": 0,
@@ -215,9 +167,9 @@
       "fetched_at": "2026-11-25T18:41:46Z"
     },
     {
-      "match_id": "bli-6",
+      "match_id": "bli-2",
       "category": "blind-football",
-      "home_team": "Vs Korea",
+      "home_team": "Korea",
       "away_team": "India",
       "home_score": 3,
       "away_score": 0,
@@ -227,9 +179,9 @@
       "fetched_at": "2026-11-25T18:41:46Z"
     },
     {
-      "match_id": "bli-7",
+      "match_id": "bli-3",
       "category": "blind-football",
-      "home_team": "Vs Italy",
+      "home_team": "Italy",
       "away_team": "Korea",
       "home_score": 1,
       "away_score": 0,
@@ -239,9 +191,9 @@
       "fetched_at": "2026-11-25T18:41:46Z"
     },
     {
-      "match_id": "bli-8",
+      "match_id": "bli-4",
       "category": "blind-football",
-      "home_team": "Vs Poland",
+      "home_team": "Poland",
       "away_team": "Iran",
       "home_score": 2,
       "away_score": 0,
@@ -251,9 +203,9 @@
       "fetched_at": "2026-11-25T18:41:46Z"
     },
     {
-      "match_id": "bli-9",
+      "match_id": "bli-5",
       "category": "blind-football",
-      "home_team": "Vs Poland",
+      "home_team": "Poland",
       "away_team": "India",
       "home_score": 2,
       "away_score": 0,
@@ -263,7 +215,7 @@
       "fetched_at": "2026-11-25T18:41:46Z"
     },
     {
-      "match_id": "bli-10",
+      "match_id": "bli-6",
       "category": "blind-football",
       "home_team": "Sep 2025 Iran",
       "away_team": "England",
@@ -289,7 +241,7 @@
     {
       "match_id": "cpf-1",
       "category": "cp-football",
-      "home_team": "D E3 4Th B F3 4Th A 7 8Th 19",
+      "home_team": "E3 4Th B F3 4Th A 7 8Th 19",
       "away_team": "E3",
       "home_score": 9,
       "away_score": 14,

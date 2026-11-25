@@ -11,7 +11,9 @@ def clean_prefix(category: str) -> str:
 
 def _is_valid_team_name(name: str, blocked_words: set) -> bool:
     cleaned = re.sub(r"\s+", " ", (name or "")).strip(" -–—.:|/()[]")
-    if len(cleaned) < 2 or len(cleaned) > 32:
+    # Strip leading 'vs.' / 'v' if accidentally captured
+    cleaned = re.sub(r"^(?:vs\.?|v)\s+", "", cleaned, flags=re.IGNORECASE).strip()
+    if len(cleaned) < 2 or len(cleaned) > 30:
         return False
     if not re.search(r"[A-Za-zÀ-ÿ]", cleaned):
         return False
@@ -23,19 +25,24 @@ def _is_valid_team_name(name: str, blocked_words: set) -> bool:
     return True
 
 
+def _clean_team(name: str) -> str:
+    cleaned = re.sub(r"\s+", " ", (name or "")).strip(" -–—.:|/()[]")
+    cleaned = re.sub(r"^(?:vs\.?|v)\s+", "", cleaned, flags=re.IGNORECASE).strip()
+    return cleaned.title()
+
+
 def extract_matches_from_text(text: str, source_name: str, source_url: str, category: str, fetched_at: str):
     matches = []
     seen = set()
 
+    # Avoid time strings like "09:00 AM" or "14:30 PM" by requiring match context or non-clock separators
     patterns = [
-        # e.g. Morocco 2 - 1 Ghana (a.e.t.) or Brazil 3–0 Argentina
         re.compile(
-            r"\b([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ0-9\s\.\'\-]{1,28}?)\s+(\d{1,2})\s*(?:[-–—:]|vs\.?|v)\s*(\d{1,2})\s*(?:\((?:a\.?e\.?t\.?|et|pen\.?|p)\))?\s+([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ0-9\s\.\'\-]{1,28}?)(?=\s|$|[.,;()|\[\]])",
+            r"\b([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ0-9\s\.\'\-]{1,26}?)\s+(\d{1,2})\s*[-–—]\s*(\d{1,2})\s*(?:\((?:a\.?e\.?t\.?|et|pen\.?|p)\))?\s+([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ0-9\s\.\'\-]{1,26}?)(?=\s|$|[.,;()|\[\]])",
             re.IGNORECASE,
         ),
-        # e.g. Morocco vs Ghana 2-1 or Spain v France 1:0
         re.compile(
-            r"\b([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ0-9\s\.\'\-]{1,28}?)\s+(?:vs\.?|v)\s+([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ0-9\s\.\'\-]{1,28}?)\s+(\d{1,2})\s*[-–—:]\s*(\d{1,2})(?=\s|$|[.,;()|\[\]])",
+            r"\b([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ0-9\s\.\'\-]{1,26}?)\s+(?:vs\.?|v)\s+([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ0-9\s\.\'\-]{1,26}?)\s+(\d{1,2})\s*[-–—:]\s*(\d{1,2})(?!\s*(?:am|pm)\b)(?=\s|$|[.,;()|\[\]])",
             re.IGNORECASE,
         ),
     ]
@@ -47,11 +54,12 @@ def extract_matches_from_text(text: str, source_name: str, source_url: str, cate
         "or", "of", "cup", "world", "euro", "championship", "tournaments", "results",
         "fixtures", "schedule", "report", "reports", "live", "history", "rules", "table",
         "standings", "group", "stage", "final", "semi", "quarter", "round", "season",
-        "year", "month", "day", "time", "gmt", "utc",
-        "rest", "day", "days", "no", "matches", "match", "november", "december",
-        "january", "february", "march", "april", "may", "june", "july", "august",
-        "september", "october", "monday", "tuesday", "wednesday", "thursday", "friday",
-        "saturday", "sunday", "venue", "stadium", "city", "location", "date", "dates",
+        "year", "month", "day", "days", "time", "gmt", "utc", "am", "pm", "sept", "oct",
+        "nov", "dec", "jan", "feb", "mar", "apr", "jun", "jul", "aug", "rest", "no",
+        "matches", "match", "november", "december", "january", "february", "march",
+        "april", "may", "june", "july", "august", "september", "october", "monday",
+        "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday", "venue",
+        "stadium", "city", "location", "date", "dates", "vs"
     }
 
     prefix = clean_prefix(category)
@@ -66,12 +74,12 @@ def extract_matches_from_text(text: str, source_name: str, source_url: str, cate
             if not _is_valid_team_name(home_raw, blocked_words) or not _is_valid_team_name(away_raw, blocked_words):
                 continue
 
-            home = re.sub(r"\s+", " ", home_raw).strip(" -–—.:|/()[]")
-            away = re.sub(r"\s+", " ", away_raw).strip(" -–—.:|/()[]")
+            home = _clean_team(home_raw)
+            away = _clean_team(away_raw)
             h_score = int(h_s)
             a_score = int(a_s)
 
-            if home.lower() == away.lower():
+            if len(home) < 2 or len(away) < 2 or home.lower() == away.lower():
                 continue
             if h_score > 25 or a_score > 25:
                 continue
@@ -84,8 +92,8 @@ def extract_matches_from_text(text: str, source_name: str, source_url: str, cate
             matches.append({
                 "match_id": f"{prefix}-{len(matches) + 1}",
                 "category": category,
-                "home_team": home.title(),
-                "away_team": away.title(),
+                "home_team": home,
+                "away_team": away,
                 "home_score": h_score,
                 "away_score": a_score,
                 "status": "finished",
