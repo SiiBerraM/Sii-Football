@@ -4,19 +4,29 @@ import re
 from datetime import datetime, timezone
 
 
+def clean_prefix(category: str) -> str:
+    slug = re.sub(r"[^a-z0-9]+", "", category.lower())
+    return (slug[:3] or "mat")
+
+
 def extract_matches_from_text(text: str, source_name: str, source_url: str, category: str, fetched_at: str):
     matches = []
     seen = set()
     patterns = [
         re.compile(
-            r"\b([A-Za-z][A-Za-z0-9\s\.\'-]{1,25}?)\s+(\d{1,2})\s*(?:[-–:]|vs\.?)\s*(\d{1,2})\s+([A-Za-z][A-Za-z0-9\s\.\'-]{1,25}?)(?=\s|$|[.,;()|\[\]])"
+            r"\b([A-Za-z][A-Za-z0-9\s\.\'-]{2,24}?)\s+(\d{1,2})\s*(?:[-–:]|vs\.?)\s*(\d{1,2})\s+([A-Za-z][A-Za-z0-9\s\.\'-]{2,24}?)(?=\s|$|[.,;()|\[\]])"
         ),
         re.compile(
-            r"\b([A-Za-z][A-Za-z0-9\s\.\'-]{1,25}?)\s+(?:vs\.?|v)\s+([A-Za-z][A-Za-z0-9\s\.\'-]{1,25}?)\s+(\d{1,2})\s*[-–:]\s*(\d{1,2})(?=\s|$|[.,;()|\[\]])",
+            r"\b([A-Za-z][A-Za-z0-9\s\.\'-]{2,24}?)\s+(?:vs\.?|v)\s+([A-Za-z][A-Za-z0-9\s\.\'-]{2,24}?)\s+(\d{1,2})\s*[-–:]\s*(\d{1,2})(?=\s|$|[.,;()|\[\]])",
             re.IGNORECASE,
         ),
     ]
-    blocked_words = {"cookie", "privacy", "copyright", "version", "page", "http", "menu", "home", "news", "about", "contact", "login", "search"}
+    blocked_words = {
+        "cookie", "privacy", "copyright", "version", "page", "http", "menu", "home",
+        "news", "about", "contact", "login", "search", "defeat", "win", "draw", "in",
+        "on", "at", "to", "for", "from", "with", "by", "the", "and", "or", "of"
+    }
+    prefix = clean_prefix(category)
 
     for pat_idx, pattern in enumerate(patterns):
         for m in pattern.finditer(text):
@@ -30,12 +40,13 @@ def extract_matches_from_text(text: str, source_name: str, source_url: str, cate
             h_score = int(h_s)
             a_score = int(a_s)
 
-            if len(home) < 2 or len(away) < 2 or home.lower() == away.lower():
+            if len(home) < 3 or len(away) < 3 or home.lower() == away.lower():
                 continue
             if h_score > 25 or a_score > 25:
                 continue
-            combined_tokens = set((home + " " + away).lower().split())
-            if combined_tokens & blocked_words:
+            home_tokens = set(home.lower().split())
+            away_tokens = set(away.lower().split())
+            if (home_tokens & blocked_words) or (away_tokens & blocked_words):
                 continue
 
             key = (category, home.lower(), away.lower(), h_score, a_score)
@@ -43,7 +54,7 @@ def extract_matches_from_text(text: str, source_name: str, source_url: str, cate
                 continue
             seen.add(key)
             matches.append({
-                "match_id": f"{category[:3]}-{len(matches) + 1}",
+                "match_id": f"{prefix}-{len(matches) + 1}",
                 "category": category,
                 "home_team": home.title(),
                 "away_team": away.title(),

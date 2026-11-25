@@ -141,7 +141,7 @@ def main():
                 "status": "ok",
                 "discovered_pdfs": discovered_pdfs,
                 "excerpt": content[:1200],
-                "full_text": content[:15000],
+                "full_text": content[:80000],
                 "char_length": len(content),
                 "fetched_at": now_iso,
             })
@@ -161,7 +161,7 @@ def main():
                             "category": category,
                             "status": "ok",
                             "excerpt": pdf_text[:1200],
-                            "full_text": pdf_text[:15000],
+                            "full_text": pdf_text[:80000],
                             "char_length": len(pdf_text),
                             "fetched_at": now_iso,
                         })
