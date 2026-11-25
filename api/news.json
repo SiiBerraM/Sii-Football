@@ -2,8 +2,8 @@
   "project": "Sii-Football",
   "consumer_app": "SiiMatchMind",
   "license_note": "Aggregated from public para-football HTML and PDF sources with attribution.",
-  "updated_at": "2026-11-25T18:11:59Z",
-  "count": 3,
+  "updated_at": "2026-11-25T18:21:57Z",
+  "count": 8,
   "items": [
     {
       "id": 1,
@@ -12,9 +12,10 @@
       "source_type": "html",
       "category": "amputee-football",
       "status": "ok",
-      "excerpt": "World Ampute Football Federation – WAFF Website HOME ABOUT WAFF Who We Are WAFF Board What is Amputee Football History of Amputee Football Documents and Forms NEWS WAFF Projects Amputee Football Junior Camps 2026/2027 supported by UEFA Foundation NEW COUNTRIES WOMEN AMPUTEE FOOTBALL WAFF MEMBERS Africa America North America South Asia Europe WORLD CUPS WAFF World Cup 2026 WAFF Women`s World Cup 2024 WAFF World Cup 2022 WAFF World Cup 2018 WAFF World Cup 2014 WAFF World Cup 2012 CONTINENTAL TOURNAMENTS Asian Amputee Football Cup 2025 – Jakarta South American Amputee Football Cup – São Paulo Nor",
+      "discovered_pdfs": [],
+      "excerpt": "World Ampute Football Federation – WAFF Website HOME ABOUT WAFF Who We Are WAFF Board What is Amputee Football History of Amputee Football Documents and Forms NEWS WAFF Projects Amputee Football Junior Camps 2026/2027 supported by UEFA Foundation NEW COUNTRIES WOMEN AMPUTEE FOOTBALL WAFF MEMBERS Africa America North America South Asia Europe WORLD CUPS WAFF World Cup 2026 WAFF Women`s World Cup 2024 WAFF World Cup 2022 WAFF World Cup 2018 WAFF World Cup 2014 WAFF World Cup 2012 CONTINENTAL TOURNAMENTS Asian Amputee Football Cup 2025 – Jakarta South American Amputee Football Cup – São Paulo North American Amputee Football- San Juan de los Lagos European Amputee Football Cup – Evian African Amputee Football Cup – Cairo CLEAN SPORT Clean Sport and WAFF WAFF Anti Doping Code – draft Risks of the use of supplements Rights and Responsibilities under the Code WADA – Players/Athlete Whereabouts Therapeutic Use Exemption (TUE) Doping Control Anti-Doping Rule violation Consequences of Doping CONTACT HOME ABOUT WAFF Who We Are WAFF Board What is Amputee Football History of Amputee Football Documents and Forms NEWS WAFF Projects Amputee Football Junior Camps 2026/2027 supported by UEFA Foundat",
       "char_length": 4863,
-      "fetched_at": "2026-11-25T18:11:59Z"
+      "fetched_at": "2026-11-25T18:21:57Z"
     },
     {
       "id": 2,
@@ -23,9 +24,10 @@
       "source_type": "html",
       "category": "blind-football",
       "status": "ok",
-      "excerpt": "IBSA | International Blind Sports IBSA - International Blind Sports Federation Contact Home Sports Paralympic Sports Football Goalball Judo Sport Blind Tennis Chess Ninepin Bowling Powerlifting Showdown Tenping Bowling Torball About Who we are History Executive Board IBSA Team IBSA Regions What we do Sports governing body IBSA World Games Vision, mission and values How we do it IBSA Committees Publications Our partners Our strategy Growing Sports IBSA World Games Overview IBSA World Games 2023 Past Games Host an IBSA World Games Growing blind sports Classification Support and resources Helping",
+      "discovered_pdfs": [],
+      "excerpt": "IBSA | International Blind Sports IBSA - International Blind Sports Federation Contact Home Sports Paralympic Sports Football Goalball Judo Sport Blind Tennis Chess Ninepin Bowling Powerlifting Showdown Tenping Bowling Torball About Who we are History Executive Board IBSA Team IBSA Regions What we do Sports governing body IBSA World Games Vision, mission and values How we do it IBSA Committees Publications Our partners Our strategy Growing Sports IBSA World Games Overview IBSA World Games 2023 Past Games Host an IBSA World Games Growing blind sports Classification Support and resources Helping other sports grow Anti-Doping Classification Overview For athletes and teams For classifiers For competition organisers Rules, forms and manuals Anti-doping Overview App The Prohibited List Testing procedures Registered testing pool Athlete Biological Passport Therapeutic Use Exemptions Consequences of doping Your rights and responsibilities Education Whistleblowing Members Contact us Football Historical Results Home Football Historical Results Overview History Sports Committee Calendar Classification Rules & Downloads Athlete Licensing Referees and officials Live Results Historical Results W",
       "char_length": 1636,
-      "fetched_at": "2026-11-25T18:11:59Z"
+      "fetched_at": "2026-11-25T18:21:57Z"
     },
     {
       "id": 3,
@@ -34,9 +36,71 @@
       "source_type": "html",
       "category": "cp-football",
       "status": "ok",
-      "excerpt": "Home - CP Football Member login Menu 🏠 About About IFCPF PayPal - Donate IFCPF Strategic Direction 2024 - 2028 IFCPF Player Representation IFCPF Annual Report Strategic Direction 2024-2028...and beyond Board Meeting Summary Organisation Sustainability What is CP Football? History of CP Football Becoming a Member Our Members 🇫🇷 France 🇩🇿 Algeria 🇦🇷 Argentina 🇦🇺 Australia 🇦🇹 Austria 🇧🇩 Bangladesh 🇧🇪 Belgium 🇧🇷 Brazil 🇨🇦 Canada 🇨🇱 Chile 🇨🇴 Colombia 🇩🇰 Denmark 🇪🇨 Ecuador 🇪🇬 Egypt 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 🇫🇮 Finland 🇬🇪 Georgia 🇩🇪 Germany 🇬🇭 Ghana 🇮🇳 India 🇮🇷 I.R. Iran 🇮🇪 Ireland 🇮🇹 Italy 🇯🇵 Japan 🇯🇴 Jordan ",
+      "discovered_pdfs": [
+        "https://www.ifcpf.com/static/upload/raw/3f4a132d-dc98-41d4-bb95-c20144870d69/IFCPF+-+Only+the+Captain+Guidelines+%281%29.pdf",
+        "https://www.ifcpf.com/static/upload/raw/d8e2411a-a2d4-4cd0-945c-0f781b19abf5/IFCPF+-+Age+Dispensation+Policy.pdf",
+        "https://www.ifcpf.com/static/upload/raw/1f83a3b2-08c7-4eef-acc3-0d3dd2f1a139/20180110+-+IFCPF+-+Athlete+Nationality+Policy.pdf",
+        "https://www.ifcpf.com/static/upload/raw/f17c1cb9-92eb-4a5d-b46d-fbb532a7ec87/IFCPF+-+Competition+Rules+-+2022.pdf",
+        "https://www.ifcpf.com/static/upload/raw/71933712-5882-4625-92cb-24bbacc9067d/IFCPF+-+Modifications+to+the+Laws+of+the+Game+-+2022.pdf"
+      ],
+      "excerpt": "Home - CP Football Member login Menu 🏠 About About IFCPF PayPal - Donate IFCPF Strategic Direction 2024 - 2028 IFCPF Player Representation IFCPF Annual Report Strategic Direction 2024-2028...and beyond Board Meeting Summary Organisation Sustainability What is CP Football? History of CP Football Becoming a Member Our Members 🇫🇷 France 🇩🇿 Algeria 🇦🇷 Argentina 🇦🇺 Australia 🇦🇹 Austria 🇧🇩 Bangladesh 🇧🇪 Belgium 🇧🇷 Brazil 🇨🇦 Canada 🇨🇱 Chile 🇨🇴 Colombia 🇩🇰 Denmark 🇪🇨 Ecuador 🇪🇬 Egypt 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 🇫🇮 Finland 🇬🇪 Georgia 🇩🇪 Germany 🇬🇭 Ghana 🇮🇳 India 🇮🇷 I.R. Iran 🇮🇪 Ireland 🇮🇹 Italy 🇯🇵 Japan 🇯🇴 Jordan 🇰🇿 Kazakhstan 🇰🇪 Kenya 🇰🇬 Kyrgyzstan 🇲🇾 Malaysia 🇳🇱 Netherlands 🇳🇵 Nepal 🇳🇮 Nicaragua 🇳🇬 Nigeria 🇬🇧 Northern Ireland 🇵🇸 Palestine 🇵🇪 Peru 🇵🇭 Philippines 🇵🇹 Portugal 🇷🇺 Russia 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland 🇸🇬 Singapore 🇿🇦 South Africa 🇰🇷 South Korea 🇪🇸 Spain 🇹🇭 Thailand 🇹🇹 Trinidad & Tobago 🇺🇦 Ukraine 🇺🇸 USA 🇻🇪 Venezuela Sponsorship and Funding Our Partners Stasism Queen Margaret University Loughborough University Para Football SPIN Sport Innovation University of Sheffield Miguel Hernández University Asian Football Confederation (AFC) Union of European Football Associations (UEFA) Cerebral Palsy Alliance (C",
       "char_length": 7515,
-      "fetched_at": "2026-11-25T18:11:59Z"
+      "fetched_at": "2026-11-25T18:21:57Z"
+    },
+    {
+      "id": 4,
+      "source_name": "International Federation of CP Football (IFCPF) (PDF)",
+      "source_url": "https://www.ifcpf.com/static/upload/raw/3f4a132d-dc98-41d4-bb95-c20144870d69/IFCPF+-+Only+the+Captain+Guidelines+%281%29.pdf",
+      "source_type": "pdf",
+      "category": "cp-football",
+      "status": "ok",
+      "excerpt": "IFCPF - Only the Captain Guidelines Skia/PDF m133 Google Docs Renderer ¾\u0013¯´F¸>Âãúù7ñV§=°ÂÿfÖîîWtV¥%JôÔ-ÚØ¬Sá#LQ\"ì'IB ENîÆPyâzfISP\u0017ÕY½ÏH õä'\u0015 \u00137Ó÷4Î2 ¿¿\u000fò}î90à¥9xû\u0019%üãt{;º\u000fÝîC÷¡ûÐ}è>t º¯_¾oº<ÝE3½Fýjµ&EØ È÷ùclõ÷e:atghÈèvÑ%\u000fy]¸mõb.m Ü\u0007s]îûìa¶$Â½p«ì¾¸ÀÞöH. ;º\u000fÝwÿº\u000fö¶\u0013ý1÷ \u0013·8ß\u0003Ö\u001bzo{À}´ÔsÎvç´R~¨%\u000eè>t º\u000fÝîC÷¡ûÐ}cÛ}ò ¿\u001aÍ\\ka°=ß\"n ãîci>¦¿ûR\u001bÔK¸´¥\\:U ´;å¾\u0010[â .A®ó´&È \u0000Ñ}è>t º\u000fÝîC÷¡û r÷M­¯Óüù¾jt¡Ñ7ÆÝ'\u0015ç\u0005\u0011µYËüù¾EÜí¸o -e¹- &>¬óD÷ ÷MØÞø\"s_û&î³4\u0007¿îz~0\u00116¶;p\u0003º\u000fÝîC÷¡ûÐ}è¾ß}\u0001ý\u0001\u0000«u¯Öè\u0013 [AßXw«8[-gújÒ\u0016RñÝÆ\\\u0017¨ó¤{ HÕ$&Ôfä6j ÓçÒ©]zæ»<Zê9R ¬ö£Ü\u0013igK#åÅÚ\u0013Cm±a¶Ø\b;\u0004 \u000f\"\u001aÝî{ÝW$ &m !!çþ E¹|ITèÐ.±\u0006Ò|½ù>@_MÚrk/úr©Kl©KìiËlÄ ?J}×6¢ûú æyjúö÷e9²£\bú¬ñPØi Ð\u000fj>Ñ}è¾1é¾\"~\u0012MöM,\u0016'ò\u0013ÊFÊ÷\u0011÷ÍÝ×<Ëâ³Ã5uîC÷ ã>5øjìÐ©4w\u0004YÈó^\u0015*-íJ ÁÚ1xH\u0019¨4 \u000f\"çòvr`Ü£/8NßuTQq\u0014Ðg ¸¯M6`\u0005½Z T\u0011\u0003Òn¾\\A+È}þè ^ó&ît\u001aQ³Ï\u000e ¡XçîC÷Ý¦ûÆo\u0012§YÜó!7 ÷YÜÁ;\\Ï0÷mÁ®\u00150ß÷ »\u000fê9 !¯\u0007S:!«X\u000e* /Õ¢0 þçêÎ g¾êüáü+ÓU\u0014þÍ¾ªO/?i?¥°°.¿#\"¬8¤Ø{è¯Þj õ\u0014§¬çû ué×ëî»\u001bî#ñÂrò K,Nqè\u0016ZWÉ<ïú\\~î­ÏÈ§¥#Ìóì5 S\u0017oO\u000fµ\u0012ÜÅ£ûÐ}è¾íq\u0018ïwßäµï\u001b_\"<¶I´çÀïÍîà=}Ã»ï\u000f®iëø>9>á\u0011tß]v ,qøuÃg\u0017»<²Þäv2l| +ïd ­a³R¾n¹&ÔûÕµîÆÏé\u000eÂ:ú-¨éÊ:Ò\u000e}q©«¥ÏÒ\u000e®Å|mä5ãÈ ,w|®KÛÍÝWÑ:Î ú£HlQ ?îC÷¡ûÐ}è¾{]çYei[Äï$ôKnØäØ1x¨ËXv_¢C\u0013líSäy7Ý·ÂÆn\u0013Y\u0013ûÂlÉj§N",
+      "char_length": 23878,
+      "fetched_at": "2026-11-25T18:21:57Z"
+    },
+    {
+      "id": 5,
+      "source_name": "International Federation of CP Football (IFCPF) (PDF)",
+      "source_url": "https://www.ifcpf.com/static/upload/raw/d8e2411a-a2d4-4cd0-945c-0f781b19abf5/IFCPF+-+Age+Dispensation+Policy.pdf",
+      "source_type": "pdf",
+      "category": "cp-football",
+      "status": "ok",
+      "excerpt": "IFCPF - Age Dispensation Policy Skia/PDF m132 Google Docs Renderer ¾\u0013¯´F¸>Âãúù7ñV§=°ÂÿfÖîîWtV¥%JôÔ-ÚØ¬Sá#LQ\"ì'IB ENîÆPyâzfISP\u0017ÕY½ÏH õä'\u0015 \u00137Ó÷4Î2 ¿¿\u000fò}î90à¥9xû\u0019%üãt{;º\u000fÝîC÷¡ûÐ}è>t º¯_¾oº<ÝE3½Fýjµ&EØ È÷ùclõ÷e:atghÈèvÑ%\u000fy]¸mõb.m Ü\u0007s]îûìa¶$Â½p«ì¾¸ÀÞöH. ;º\u000fÝwÿº\u000fö¶\u0013ý1÷ \u0013·8ß\u0003Ö\u001bzo{À}´ÔsÎvç´R~¨%\u000eè>t º\u000fÝîC÷¡ûÐ}cÛ}ò ¿\u001aÍ\\ka°=ß\"n ãîci>¦¿ûR\u001bÔK¸´¥\\:U ´;å¾\u0010[â .A®ó´&È \u0000Ñ}è>t º\u000fÝîC÷¡û r÷M­¯Óüù¾jt¡Ñ7ÆÝ'\u0015ç\u0005\u0011µYËüù¾EÜí¸o -e¹- &>¬óD÷ ÷MØÞø\"s_û&î³4\u0007¿îz~0\u00116¶;p\u0003º\u000fÝîC÷¡ûÐ}è¾ß}\u0001ý\u0001\u0000«u¯Öè\u0013 [AßXw«8[-gújÒ\u0016RñÝÆ\\\u0017¨ó¤{ HÕ$&Ôfä6j ÓçÒ©]zæ»<Zê9R ¬ö£Ü\u0013igK#åÅÚ\u0013Cm±a¶Ø\b;\u0004 \u000f\"\u001aÝî{ÝW$ &m !!çþ E¹|ITèÐ.±\u0006Ò|½ù>@_MÚrk/úr©Kl©KìiËlÄ ?J}×6¢ûú æyjúö÷e9²£\bú¬ñPØi Ð\u000fj>Ñ}è¾1é¾\"~\u0012MöM,\u0016'ò\u0013ÊFÊ÷\u0011÷ÍÝ×<Ëâ³Ã5uîC÷ ã>5øjìÐ©4w\u0004YÈó^\u0015*-íJ ÁÚ1xH\u0019¨4 \u000f\"çòvr`Ü£/8NßuTQq\u0014Ðg ¸¯M6`\u0005½Z T\u0011\u0003Òn¾\\A+È}þè ^ó&ît\u001aQ³Ï\u000e ¡XçîC÷Ý¦ûÆo\u0012§YÜó!7 ÷YÜÁ;\\Ï0÷mÁ®\u00150ß÷ »\u000fê9 !¯\u0007S:!«X\u000e* /Õ¢0 þçêÎ g¾êüáü+ÓU\u0014þÍ¾ªO/?i?¥°°.¿#\"¬8¤Ø{è¯Þj õ\u0014§¬çû ué×ëî»\u001bî#ñÂrò K,Nqè\u0016ZWÉ<ïú\\~î­ÏÈ§¥#Ìóì5 S\u0017oO\u000fµ\u0012ÜÅ£ûÐ}è¾íq\u0018ïwßäµï\u001b_\"<¶I´çÀïÍîà=}Ã»ï\u000f®iëø>9>á\u0011tß]v ,qøuÃg\u0017»<²Þäv2l| +ïd ­a³R¾n¹&ÔûÕµîÆÏé\u000eÂ:ú-¨éÊ:Ò\u000e}q©«¥ÏÒ\u000e®Å|mä5ãÈ ,w|®KÛÍÝWÑ:Î ú£HlQ ?îC÷¡ûÐ}è¾{]çYei[Äï$ôKnØäØ1x¨ËXv_¢C\u0013líSäy7Ý·ÂÆn\u0013Y\u0013ûÂlÉj§NEM7¤",
+      "char_length": 22645,
+      "fetched_at": "2026-11-25T18:21:57Z"
+    },
+    {
+      "id": 6,
+      "source_name": "International Federation of CP Football (IFCPF) (PDF)",
+      "source_url": "https://www.ifcpf.com/static/upload/raw/1f83a3b2-08c7-4eef-acc3-0d3dd2f1a139/20180110+-+IFCPF+-+Athlete+Nationality+Policy.pdf",
+      "source_type": "pdf",
+      "category": "cp-football",
+      "status": "ok",
+      "excerpt": "en-US áÑ2¸ \u0007¹¶hÚäöÚöctEÉcVl+SÅ\u0011Z@}£SnÎ NÑ»Æ#ùÂ¼&Ôã¶âaw\"\\®R\u001a§o³|Æu\u000eÎÑiþrúùClë Ã\\M§<OXÅã\u000fË³!ryÖúq³<lV\u0011¸\\Ä±+|~&\u000e®\"\u0001¬\u00067ï\u0011}¥fk\u000fÖ b$Ó\u0002_v©ÌãÄÊØ?ßÕX$l \u0018oÊÂ\u0013\u0011º[YNç\u0019ü\u0011 û\u0012 %èHÖS\u0006óªÕ3øwªU \u0007ãà{\u0003>·FsCOËyÿE°\u001961B\u0018 \u001a¸´q0pÌG\u0019ü0Oò¹/£\u0005Vå.mÐK\u0007P ìfCnÜýóUkIa&¾âÅ¤o¢YÂÑEvàX=`\"®n®´Çk q *E{6m<\u0007Æ<!&j \u0014ÆUs¹R\u0001¦Y\u0001kE ~KQëó\u0002$ÔTäÕ\u0016Áñ¤Pzv4ókGy^`öd3¯éôæé&%ü*Nf\u0010\u0013ßðÈ}EM ÌÊ5é\u0001_á±[ Ð&T= ¿ÀúR+ÞkN/Ð5û Ò f ;úÂ\u00191dºÏ\u0010§è4â -ABöm\u001aÌ ¸\u0000ßÂt\u0017JMnÑ\u0003µÒÌîzA<AË«½Xö¥/:\u0015{Õàïê\u0002gVÎèfìZ Y²õQ\u0014qQì\u0010Û\u000fB\\bþpjf4èyiijéE\u0017dvM`â ìYÂÄ ÿ*\u0006TÞ¬ÿ¸Öú6SL¦÷LÆÚ\u0017Ï¸«B Ð9Íàso«` ¢\u0000 \u0001E\u0014 \u0000¢ ¤\u0001E\u0014R\u0000¢ ¤\u0001E\u0014R\u0000¢ ¤0¢*@ ¢¥ ¤\u0001E\u0014R\u0000¢ ¢\u0005\u0014QR\u0001E\u0014R\u0000¢ ¤\u0001E\u0014R\u0000¢ ¢¥ ¢\u0000 \u0001E\u0014 \u0000¢ ¤\u0001E\u0014R\u0000¢ ¤\u0001E\u0014R\u0000¢ ¢¤\u0002¡¹}±í Z¦ªS¾ùO àRb²#¢*\u0019 r!v ¢¥ ¤\u0001EjXxsXÔk]>fB2 Å?BØ\u0006º\u001b_77VÐ\u0003Ùrì?ýk â ¤\u0001E\u0014R\u0000¢ \u0000¢ QRÊBÒÒRÔ ¥\u0014¢¤¤\u0014´µ%\u0005-%-K ¢\u0000 ª\u0017ÚÖ¦çíÐBÀga|·ýò9ý+1rvHíã\u0005y;\"ý\u0015É\\üEÐá8í7 8ð?ñâ\u000féY²|O7î´¹\u0019}Z`¿Ð×Dpuå´N \u0000¢ ¤\u0001E\u0014R\u0000¢ ¤\u0001E\u0014R\u0000¢ ¢¥ ©\u0000¢ ¤\u0001E\u0014R\u0000¢ ©e!ii ¢¥ ´TÒîüÔ ¹ºàºÿ\u0000ç#ùøíkhZýæx&¶mÑ7úØXü®?¡ô?þªäÄa¹´§¤¿3ÑÁf } ux?½y¯ëÐï´ß\u0017ÜX_ex1op¸ r\u0007ÈþúgÔqëWd\b`\b9\u0007¡\u0015Î²èÞ8Ñ \u0012\u0007\u0007$ þGÐâ°4ýOQð]úiz¸i´×lCr: ööõ^Ý½üÉRU/Ê­%ºÿ\u0000/ò>&X{{IsS{K·ø¿Ïï= ¢¸·îÞKyÐ<R ¤\u0001E\u0014R\u0000¢ ¤\u0001E\u0014R\u0000¢ ¢¥ ®fHQE\u0015 aE\u0014Tåii ¢½óàÂ ÉíÀçè«zZ,½:F\u0003 ¬ª7|ÇæöÍeë\u0006Ñµk",
+      "char_length": 14015,
+      "fetched_at": "2026-11-25T18:21:57Z"
+    },
+    {
+      "id": 7,
+      "source_name": "International Federation of CP Football (IFCPF) (PDF)",
+      "source_url": "https://www.ifcpf.com/static/upload/raw/f17c1cb9-92eb-4a5d-b46d-fbb532a7ec87/IFCPF+-+Competition+Rules+-+2022.pdf",
+      "source_type": "pdf",
+      "category": "cp-football",
+      "status": "ok",
+      "excerpt": "\u0016&ç­¨Ú <ZEY cI+\u0017ä\u0017»f%cKvbª¬BJ& \u001a ÎÔ \u0010 Coq87M©.¤\u0015Ûæ±æt¢'ô\u00145 +vä\u0010K è.X ·úDmÞ¾\u0004\u00187ãªG^\u0019ÞJÕ$¬`³>[÷µ\u0001\u001bO-±MfíZ D@\u0004D@\u0004D`N\u0002þíÓRY ºsbÒB\u0011\u0010\u0001\u0011\u0010ÅF\u0000*äÛPuÛ|3ª^ùêõ«çñ\u00016 ô\u0016;GË­Cåto!ÕWJô\u0016ã C©n\u0004=!ÙH 1ÍÎ4cM\u0018Üx.1K\u0016sQ7A$' Í4M, édE@\u0004D@\u0004\u0016-\u0001'Oh f Ýc¥üP z¼æQËã &Ñ±Ô2x] à8Jø#¨\"õ·?\u0013 Ç2ý]ÅÂXÁ´\u0014£Úà§\"¡Þ[·P¯\" \u0002\" \u0002\"p¸\u0004T#\u0015=\\ZZO\u0004D@\u0004DàC'Àú·ôÐñb©o¼ÄrC\u0003¥To\u0019¡Ïx >*L{Û&Û³cÍ, äêÐ:\u0011{:Û9!5\u0005ó\u0014â D\u000f¨m\u0018 4 «ø×<DòÞåp­Ü;\u0010æ1Ê ZÛ#´: cð<RÝIM D \u0001{s! \u0013¸j5­3VPB\u0016dp D£Ã`B\u0003\"á&¤ïÚL\u0010¾ M iÎ`ôÒòèw½¬Ì\u0011Æ|ñôÔ\u001b³W Ê\"¹ÊHî \u0012z Ù-g65ÖÁ+zZÀ\u0014#ÂÄ2Ñ®dÌ\u0005IaÇ< P\u0013¹°]ä]\u000fä\u0013¥þ®RqÒu#õî\u0010×Å\u0018oÌMÝC\u000f»gð^?\" \u0002\" \u0002Ë\u0000T´ëë±i9¼ÎA\u0004D@\u0004D`\u0001\u0004Ì\u0011`¡\u0015e°è¨%ÙZ×¿âÀD1;XDoPVÄµ0h\u0019¸\u0015àfE\u0004·JÃ=ãmÉá\u0014º\u0010&b8¢fèûáHðy [\"\u0002«ÃXMIú&¢o\u0011¾Zé¡\u0004Q `F\b\u0013Mó¾ -ñ÷lÒçÇ }ñô×lnZ0ÔÞliõ\u0005\u0010íÁà 9ùÂ«{;ûÕ_¡z?\\Í:cÎµ>Ó_as#¹x&ÁSPÿ\u0007ã° º JU\u0012Z $%I?Ü §~7\u0015µá] aÇÁæi ´õJÝ]\u0005\\Sä\u0006ÃXaÊ\u0003^lÔ\u001b\u0014ÇIa¬ÒfDQ\u0017ÑRªw66O5'q\u0016 Ö3vè¬\u0019íÄ%ïÃp'Û2HäfÏbÜ¶xá~d¢ï÷XÛ\bÀ¢ \u0000\u0015¯ºõ\u0017EëÕ\b\u0011\u0010\u0001\u0011\u0010£OÀ`t²Ô:X÷#\u0012Zî\u0018 T¶ôW´\u0019ñYD\u0015\u0011HÅ¹àÝ Ècr\u0012êÛçP=ã\u0007+ ¼Í+ÑR¼u\u0000Þú^ï3ñÈÁt\u0014 e\u0000:'¢\b\u000fF/ J{%a}Ý«\u0004+\u0019toþ:\u00197È¦ÿzÈ\u0000heýi+Ìéª¶Ðß¡'nsn ®y6Ð§ÛdÚþ\u0011V£^P[&IZïÜ\u0010.g|¦GÓ¬^Í%QWÖ÷Ä\u0013+êâ¢ ÄÌ«é* [QOï\bØª{´Ú¹©Þx< ¨ÈËûUÈªýxq:,1ÃcÏý¹ ½z<¨M*\u0016G %£HèebZ$ \u0011\u0004\u0002³¢¥D=ãQÜë\bW]é\u0017\"\u0018Å¹H\b\u0016<Ö¸§\u000e+½GÑ",
+      "char_length": 175980,
+      "fetched_at": "2026-11-25T18:21:57Z"
+    },
+    {
+      "id": 8,
+      "source_name": "International Federation of CP Football (IFCPF) (PDF)",
+      "source_url": "https://www.ifcpf.com/static/upload/raw/71933712-5882-4625-92cb-24bbacc9067d/IFCPF+-+Modifications+to+the+Laws+of+the+Game+-+2022.pdf",
+      "source_type": "pdf",
+      "category": "cp-football",
+      "status": "ok",
+      "excerpt": "9­2 é|vÊõ\u001321Ç\u0002\u0013£\u000e6ýtµ¡¯ô\u0007ÝÊGçä?3 ö{l\u0005¢\u0001îýU³æâÓÕýêêîáßåî×PE\u0016\u0005O\u001aÉ±J1q ? \u0012áHeulÅüÐ1hHÜqgz\u0015üò \u0013]µ\u00189H*Æ\beàËÇÇGñ\u0007,¾I\u0014'12\bÜ¨¾Uðg*ëÚ/p[hÅ²ÞYãêf R ·=ç ¨­¸KÏ\u0013{¯6*ÓR\u0000\u0001m»V =¢bÅéLp00\u0007©%|è2µïRÈAT½\u000e\u000f5ØëX:\u0002 ¨ó\bFëQ.T ²rÚfÃá¤ò% \u0010 Coq87M©.¤\u0015Ûæ±æt¢'ô\u00145 +vä\u0010K è.X ·úDmÞ¾\u0004\u00187ãªG^\u0019ÞJÕ$¬`³>[÷µ\u0001\u001bO-±MfíZ D@\u0004D@\u0004D`N\u0002þíÓRY ºsbÒB\u0011\u0010\u0001\u0011\u0010ÅF\u0000*äÛPuÛ|3ª^ùêõ«çñ\u00016 ô\u0016;GË­Cåto!ÕWJô\u0016ã C©n\u0004=!ÙH 1ÍÎ4cM\u0018Üx.1K\u0016sQ7A$' Í4M, édE@\u0004D@\u0004\u0016-\u0001'Oh f Ýc¥üP z¼æQËã &Ñ±Ô2x] à8Jø#¨\"õ·?\u0013 Ç2ý]ÅÂXÁ´\u0014£Úà§\"¡Þ[·P¯\" \u0002\" \u0002\"p¸\u0004T#\u0015=\\ZZO\u0004D@\u0004DàC'Àú·ôÐñb©o¼ÄrC\u0003¥To\u0019¡Ïx >*L{Û&Û³cÍ, äêÐ:\u0011{:Û9!5\u0005ó\u0014â D\u000f¨m\u0018 4 «ø×<DòÞåp­Ü;\u0010æ1Ê ZÛ#´: cð<RÝIM D \u0001{s! \u0013¸j5­3VPB\u0016dp D£Ã`B\u0003\"á&¤ïÚL\u0010¾ M iÎ`ôÒòèw½¬Ì\u0011Æ|ñôÔ\u001b³W Ê\"¹ÊHî \u0012z Ù-g65ÖÁ+zZÀ\u0014#ÂÄ2Ñ®dÌ\u0005IaÇ< P\u0013¹°]ä]\u000fä\u0013¥þ®RqÒu#õî\u0010×Å\u0018oÌMÝC\u000f»gð^?\" \u0002\" \u0002Ë\u0000T´ëë±i9¼ÎA\u0004D@\u0004D`\u0001\u0004Ì\u0011`¡\u0015e°è¨%ÙZ×¿âÀD1;XDoPVÄµ0h\u0019¸\u0015àfE\u0004·JÃ=ãmÉá\u0014º\u0010&b8¢fèûáHðy [\"\u0002«ÃXMIú&¢o\u0011¾Zé¡\u0004Q `F\b\u0013Mó¾ -ñ÷lÒçÇ }ñô×lnZ0ÔÞliõ\u0005\u0010íÁà 9ùÂ«{;ûÕ_¡z?\\Í:cÎµ>Ó_as#¹x&ÁSPÿ\u0007ã° º JU\u0012Z $%I?Ü §~7\u0015µá] aÇÁæi ´õJÝ]\u0005\\Sä\u0006ÃXaÊ\u0003^lÔ\u001b\u0014ÇIa¬ÒfDQ\u0017ÑRªw66O5'q\u0016 Ö3vè¬\u0019íÄ%ïÃp'Û2HäfÏbÜ¶xá~d¢ï÷XÛ\bÀ¢ \u0000\u0015¯ºõ\u0017EëÕ\b\u0011\u0010\u0001\u0011\u0010£OÀ`t²Ô:X÷#\u0012Zî\u0018 T¶ôW´\u0019ñYD\u0015\u0011HÅ¹àÝ Ècr\u0012êÛçP=ã\u0007+ ¼Í+ÑR¼u\u0000Þú^ï3ñÈÁt\u0014 e\u0000:'¢\b\u000fF/ ",
+      "char_length": 821535,
+      "fetched_at": "2026-11-25T18:21:57Z"
     }
   ]
 }

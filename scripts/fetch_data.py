@@ -13,15 +13,23 @@ from urllib.robotparser import RobotFileParser
 USER_AGENT = "SiiFootballBot/1.0 (+https://siiberram.github.io/Sii-Football/)"
 
 
-class TextExtractor(HTMLParser):
-    def __init__(self):
+class LinkAndTextExtractor(HTMLParser):
+    def __init__(self, base_url: str):
         super().__init__()
+        self.base_url = base_url
         self.chunks = []
+        self.pdf_links = []
         self.skip = False
 
     def handle_starttag(self, tag, attrs):
         if tag in ("script", "style", "noscript", "svg"):
             self.skip = True
+        elif tag == "a":
+            href = dict(attrs).get("href", "").strip()
+            if href:
+                full_url = urljoin(self.base_url, href)
+                if ".pdf" in full_url.lower() and full_url not in self.pdf_links:
+                    self.pdf_links.append(full_url)
 
     def handle_endtag(self, tag):
         if tag in ("script", "style", "noscript", "svg"):
@@ -45,7 +53,6 @@ def is_allowed_by_robots(url: str) -> bool:
         rp.read()
         return rp.can_fetch(USER_AGENT, url)
     except Exception:
-        # في حال تعذر قراءة robots.txt نسمح مع الالتزام بالهدوء والاحترام
         return True
 
 
@@ -55,11 +62,11 @@ def fetch_bytes(url: str, timeout: int = 25) -> bytes:
         return resp.read()
 
 
-def parse_html(url: str) -> str:
+def parse_html(url: str):
     raw = fetch_bytes(url).decode("utf-8", errors="ignore")
-    parser = TextExtractor()
+    parser = LinkAndTextExtractor(url)
     parser.feed(raw)
-    return " ".join(parser.chunks)
+    return " ".join(parser.chunks), parser.pdf_links[:5]
 
 
 def parse_pdf(path_or_url: str) -> str:
@@ -94,8 +101,10 @@ def main():
             sources = json.load(f).get("sources", [])
 
     items = []
-    for idx, src in enumerate(sources):
-        name = src.get("name", f"Source {idx + 1}")
+    idx_counter = 0
+
+    for src in sources:
+        name = src.get("name", "Para-Football Source")
         url = src.get("url", "").strip()
         src_type = src.get("type", "html").lower()
         category = src.get("category", "para-football")
@@ -103,8 +112,9 @@ def main():
             continue
 
         if url.startswith(("http://", "https://")) and not is_allowed_by_robots(url):
+            idx_counter += 1
             items.append({
-                "id": idx + 1,
+                "id": idx_counter,
                 "source_name": name,
                 "source_url": url,
                 "source_type": src_type,
@@ -115,21 +125,51 @@ def main():
             continue
 
         try:
-            content = parse_pdf(url) if src_type == "pdf" else parse_html(url)
+            discovered_pdfs = []
+            if src_type == "pdf":
+                content = parse_pdf(url)
+            else:
+                content, discovered_pdfs = parse_html(url)
+
+            idx_counter += 1
             items.append({
-                "id": idx + 1,
+                "id": idx_counter,
                 "source_name": name,
                 "source_url": url,
                 "source_type": src_type,
                 "category": category,
                 "status": "ok",
-                "excerpt": content[:600],
+                "discovered_pdfs": discovered_pdfs,
+                "excerpt": content[:1200],
                 "char_length": len(content),
                 "fetched_at": now_iso,
             })
+
+            for pdf_url in discovered_pdfs:
+                if not is_allowed_by_robots(pdf_url):
+                    continue
+                try:
+                    pdf_text = parse_pdf(pdf_url)
+                    if pdf_text:
+                        idx_counter += 1
+                        items.append({
+                            "id": idx_counter,
+                            "source_name": f"{name} (PDF)",
+                            "source_url": pdf_url,
+                            "source_type": "pdf",
+                            "category": category,
+                            "status": "ok",
+                            "excerpt": pdf_text[:1200],
+                            "char_length": len(pdf_text),
+                            "fetched_at": now_iso,
+                        })
+                except Exception:
+                    pass
+                time.sleep(0.5)
         except Exception as exc:
+            idx_counter += 1
             items.append({
-                "id": idx + 1,
+                "id": idx_counter,
                 "source_name": name,
                 "source_url": url,
                 "source_type": src_type,
@@ -153,7 +193,7 @@ def main():
     with open("api/news.json", "w", encoding="utf-8") as f:
         json.dump(news_payload, f, ensure_ascii=False, indent=2)
 
-    print(f"Done. Processed {len(items)} sources -> api/news.json")
+    print(f"Done. Processed {len(items)} items (HTML + discovered PDFs) -> api/news.json")
 
 
 if __name__ == "__main__":
