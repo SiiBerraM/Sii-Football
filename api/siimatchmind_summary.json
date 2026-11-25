@@ -1,7 +1,7 @@
 {
   "app": "SiiMatchMind",
   "source_project": "Sii-Football",
-  "updated_at": "2026-11-25T19:28:37Z",
+  "updated_at": "2026-11-25T19:28:50Z",
   "totals": {
     "competitions": 27,
     "matches": 15,
@@ -356,6 +356,36 @@
           "fetched_at": "2026-11-25T19:21:26Z"
         }
       ]
+    },
+    "world-football": {
+      "competitions": 0,
+      "matches": 0,
+      "standings": 0,
+      "news": 0
+    },
+    "basketball": {
+      "competitions": 0,
+      "matches": 0,
+      "standings": 0,
+      "news": 0
+    },
+    "motorsport": {
+      "competitions": 0,
+      "matches": 0,
+      "standings": 0,
+      "news": 0
+    },
+    "tennis": {
+      "competitions": 0,
+      "matches": 0,
+      "standings": 0,
+      "news": 0
+    },
+    "multi-sport": {
+      "competitions": 0,
+      "matches": 0,
+      "standings": 0,
+      "news": 0
     }
   },
   "attribution_license": "Open Aggregator with Source Attribution"

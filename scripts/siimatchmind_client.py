@@ -1,3 +1,7 @@
+
+# --- Auto-synced sport categories ---
+ALL_SPORT_CATEGORIES = ['amputee-football', 'blind-football', 'cp-football', 'world-football', 'basketball', 'motorsport', 'tennis', 'multi-sport']
+
 from urllib.request import urlopen
 import json
 import os
