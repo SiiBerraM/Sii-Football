@@ -2,7 +2,7 @@
   "project": "Sii-Football",
   "consumer_app": "SiiMatchMind",
   "license_note": "Structured para-football leagues and match records from public HTML and PDF sources with attribution.",
-  "updated_at": "2026-11-25T18:46:46Z",
+  "updated_at": "2026-11-25T18:47:53Z",
   "by_category": {
     "amputee-football": {
       "competitions": 1,
@@ -10,11 +10,11 @@
     },
     "blind-football": {
       "competitions": 3,
-      "matches": 7
+      "matches": 6
     },
     "cp-football": {
       "competitions": 8,
-      "matches": 1
+      "matches": 0
     }
   },
   "competitions_count": 12,
@@ -27,7 +27,7 @@
       "source_url": "https://amputeefootball.org/world-cup-2026/",
       "discovered_pdfs": [],
       "char_length": 8322,
-      "fetched_at": "2026-11-25T18:46:46Z"
+      "fetched_at": "2026-11-25T18:47:53Z"
     },
     {
       "id": 2,
@@ -37,7 +37,7 @@
       "source_url": "https://ibsasport.org/sports/football/about/historical-results/",
       "discovered_pdfs": [],
       "char_length": 337,
-      "fetched_at": "2026-11-25T18:46:46Z"
+      "fetched_at": "2026-11-25T18:47:53Z"
     },
     {
       "id": 3,
@@ -50,7 +50,7 @@
         "https://www.blindfootball.in/storage/pdf/NationsCup_Schedule.pdf"
       ],
       "char_length": 4908,
-      "fetched_at": "2026-11-25T18:46:46Z"
+      "fetched_at": "2026-11-25T18:47:53Z"
     },
     {
       "id": 4,
@@ -60,7 +60,7 @@
       "source_url": "https://www.blindfootball.in/pdf/GRASSROOTS_DEVELOPMENT_PLAN.pdf",
       "discovered_pdfs": [],
       "char_length": 8008,
-      "fetched_at": "2026-11-25T18:46:46Z"
+      "fetched_at": "2026-11-25T18:47:53Z"
     },
     {
       "id": 5,
@@ -79,7 +79,7 @@
         "https://www.ifcpf.com/static/upload/raw/71cbe2b1-a44d-47f0-a371-6837cb604ee6/IFCPF+-+2019++Clean+Sports+Report.pdf"
       ],
       "char_length": 2061,
-      "fetched_at": "2026-11-25T18:46:46Z"
+      "fetched_at": "2026-11-25T18:47:53Z"
     },
     {
       "id": 6,
@@ -89,7 +89,7 @@
       "source_url": "https://www.ifcpf.com/static/upload/raw/f17c1cb9-92eb-4a5d-b46d-fbb532a7ec87/IFCPF+-+Competition+Rules+-+2022.pdf",
       "discovered_pdfs": [],
       "char_length": 26916,
-      "fetched_at": "2026-11-25T18:46:46Z"
+      "fetched_at": "2026-11-25T18:47:53Z"
     },
     {
       "id": 7,
@@ -99,7 +99,7 @@
       "source_url": "https://www.ifcpf.com/static/upload/raw/dcc5743d-6f05-49b0-a01d-63755aeb6da6/2022+IFCPF+World+Cup+-+Schedules+-+Women.pdf",
       "discovered_pdfs": [],
       "char_length": 653,
-      "fetched_at": "2026-11-25T18:46:46Z"
+      "fetched_at": "2026-11-25T18:47:53Z"
     },
     {
       "id": 8,
@@ -109,7 +109,7 @@
       "source_url": "https://www.ifcpf.com/static/upload/raw/bc11b7db-b385-47f9-8321-d8f813a2d9c4/2022+IFCPF+World+Cup+-+Schedules+-+Men.pdf",
       "discovered_pdfs": [],
       "char_length": 3461,
-      "fetched_at": "2026-11-25T18:46:46Z"
+      "fetched_at": "2026-11-25T18:47:53Z"
     },
     {
       "id": 9,
@@ -119,7 +119,7 @@
       "source_url": "https://www.ifcpf.com/static/upload/raw/718b9093-aec3-46af-bb3b-18280dfa80c0/20220323+Draw+procedure+Women%27s+World+Cup+Spain.pdf",
       "discovered_pdfs": [],
       "char_length": 929,
-      "fetched_at": "2026-11-25T18:46:46Z"
+      "fetched_at": "2026-11-25T18:47:53Z"
     },
     {
       "id": 10,
@@ -129,7 +129,7 @@
       "source_url": "https://www.ifcpf.com/static/upload/raw/41ad350f-472e-4758-b1b5-3ae46df631a4/20220323+Draw+procedure+Men%27s+World+Cup+Spain.pdf",
       "discovered_pdfs": [],
       "char_length": 2330,
-      "fetched_at": "2026-11-25T18:46:46Z"
+      "fetched_at": "2026-11-25T18:47:53Z"
     },
     {
       "id": 11,
@@ -139,7 +139,7 @@
       "source_url": "https://www.ifcpf.com/static/upload/raw/4abe972b-6d87-4173-b41d-a8d833493c7b/IFCPF+-+AD+-+Results+Management+Procedures+Guide.pdf",
       "discovered_pdfs": [],
       "char_length": 6946,
-      "fetched_at": "2026-11-25T18:46:46Z"
+      "fetched_at": "2026-11-25T18:47:53Z"
     },
     {
       "id": 12,
@@ -149,10 +149,10 @@
       "source_url": "https://www.ifcpf.com/static/upload/raw/71cbe2b1-a44d-47f0-a371-6837cb604ee6/IFCPF+-+2019++Clean+Sports+Report.pdf",
       "discovered_pdfs": [],
       "char_length": 2143,
-      "fetched_at": "2026-11-25T18:46:46Z"
+      "fetched_at": "2026-11-25T18:47:53Z"
     }
   ],
-  "matches_count": 8,
+  "matches_count": 6,
   "matches": [
     {
       "match_id": "bli-1",
@@ -217,37 +217,13 @@
     {
       "match_id": "bli-6",
       "category": "blind-football",
-      "home_team": "Sep 2025 Iran",
+      "home_team": "Iran",
       "away_team": "England",
       "home_score": 0,
       "away_score": 0,
       "status": "finished",
       "source_name": "IBSA Men's Blind Football Nations Cup",
       "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
-      "fetched_at": "2026-11-25T18:41:46Z"
-    },
-    {
-      "match_id": "bli-1",
-      "category": "blind-football",
-      "home_team": "Each State Currently Has",
-      "away_team": "Coaches",
-      "home_score": 1,
-      "away_score": 2,
-      "status": "finished",
-      "source_name": "IBSA Men's Blind Football Nations Cup (PDF)",
-      "source_url": "https://www.blindfootball.in/pdf/GRASSROOTS_DEVELOPMENT_PLAN.pdf",
-      "fetched_at": "2026-11-25T18:41:46Z"
-    },
-    {
-      "match_id": "cpf-1",
-      "category": "cp-football",
-      "home_team": "E3 4Th B F3 4Th A 7 8Th 19",
-      "away_team": "E3",
-      "home_score": 9,
-      "away_score": 14,
-      "status": "finished",
-      "source_name": "IFCPF Tournaments & Results (PDF)",
-      "source_url": "https://www.ifcpf.com/static/upload/raw/bc11b7db-b385-47f9-8321-d8f813a2d9c4/2022+IFCPF+World+Cup+-+Schedules+-+Men.pdf",
       "fetched_at": "2026-11-25T18:41:46Z"
     }
   ]
