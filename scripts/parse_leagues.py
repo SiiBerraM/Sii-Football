@@ -8,16 +8,19 @@ def extract_matches_from_text(text: str, source_name: str, source_url: str, cate
     matches = []
     seen = set()
     pattern = re.compile(
-        r"\b([A-Z][A-Za-z0-9\s\.\-]{1,28}?)\s+(\d{1,2})\s*(?:[-–:]|vs\.?)\s*(\d{1,2})\s+([A-Z][A-Za-z0-9\s\.\-]{1,28}?)(?=\s|$|[.,;()|])"
+        r"([A-Z][A-Za-z0-9\s\.\'-]{1,26}?)\s+(\d{1,2})\s*(?:[-–:]|vs\.?|x)\s*(\d{1,2})\s+([A-Z][A-Za-z0-9\s\.\'-]{1,26}?)(?=\s|$|[.,;()|\[\]])",
+        re.IGNORECASE,
     )
     for m in pattern.finditer(text):
-        home = re.sub(r"\s+", " ", m.group(1)).strip(" -–.")
-        away = re.sub(r"\s+", " ", m.group(4)).strip(" -–.")
+        home = re.sub(r"\s+", " ", m.group(1)).strip(" -–.:")
+        away = re.sub(r"\s+", " ", m.group(4)).strip(" -–.:")
         h_score = int(m.group(2))
         a_score = int(m.group(3))
         if len(home) < 2 or len(away) < 2 or home.lower() == away.lower():
             continue
         if h_score > 30 or a_score > 30:
+            continue
+        if any(w in (home + " " + away).lower() for w in ["cookie", "privacy", "copyright", "version", "page", "http"]):
             continue
         key = (category, home.lower(), away.lower(), h_score, a_score)
         if key in seen:
@@ -26,8 +29,8 @@ def extract_matches_from_text(text: str, source_name: str, source_url: str, cate
         matches.append({
             "match_id": f"{category[:3]}-{len(matches) + 1}",
             "category": category,
-            "home_team": home,
-            "away_team": away,
+            "home_team": home.title(),
+            "away_team": away.title(),
             "home_score": h_score,
             "away_score": a_score,
             "status": "finished",
