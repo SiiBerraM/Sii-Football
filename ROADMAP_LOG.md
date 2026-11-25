@@ -91,3 +91,14 @@ Project brief file (اوامر_المشروع_والافكار_الاضافية.
 - Goal reminder: all data must feed the SiiMatchMind app via the public JSON API (https://siiberram.github.io/Sii-Football/data/api/v1/)
 - Lesson: check the tournament year of every article before using a result
 - Next: group stage results, penalties field, SiiMatchMind integration, more IBSA PDFs, tests
+
+## Session 01 - Part 10 (SiiMatchMind integration)
+- App repo: SiiBerraM/siimatchmind-ai (PWA on GitHub Pages from docs/, daily workflow update.yml at 05:00 UTC)
+- Added backend/import_sii_football.py: imports our latest.json into the app DB (source sii-football, leagues SF-*, team ids sf:sport:slug), prunes removed matches, does not touch other sources or settings
+- Added refresh_sf_once() + loop hook in autorefresh.py (SMM_SF_REFRESH_HOURS, default 6, 0 disables)
+- Added workflow step Import Sii-Football before Track predictions (non-fatal)
+- Tested on temp DBs: import 54 matches, service reads 2 leagues/28 teams, analyze() works, build_static outputs both leagues
+- Merged via PR #1 into main
+- Known issues: engine applies home advantage to nominal home/away on neutral venue; low confidence with few matches; UI display of SF leagues not yet verified; static build computes analyses only for upcoming/today matches
+- Lesson: read the target system (storage, mixing rules, deploy path) before writing the bridge; use a feature branch and PR for someone elses live app
+- Next: verify after the 05:00 UTC run that the site shows both leagues, add neutral-venue handling, group stage results, more sources
