@@ -80,6 +80,19 @@ def extract_competitions(items: list, fetched_at: str):
     return competitions
 
 
+def build_category_summary(competitions: list, matches: list):
+    summary = {}
+    for comp in competitions:
+        cat = comp.get("category", "para-football")
+        summary.setdefault(cat, {"competitions": 0, "matches": 0})
+        summary[cat]["competitions"] += 1
+    for match in matches:
+        cat = match.get("category", "para-football")
+        summary.setdefault(cat, {"competitions": 0, "matches": 0})
+        summary[cat]["matches"] += 1
+    return summary
+
+
 def main():
     os.makedirs("api", exist_ok=True)
     now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -106,12 +119,14 @@ def main():
         )
 
     competitions = extract_competitions(items, now_iso)
+    by_category = build_category_summary(competitions, all_matches)
 
     leagues_payload = {
         "project": "Sii-Football",
         "consumer_app": "SiiMatchMind",
         "license_note": "Structured para-football leagues and match records from public HTML and PDF sources with attribution.",
         "updated_at": now_iso,
+        "by_category": by_category,
         "competitions_count": len(competitions),
         "competitions": competitions,
         "matches_count": len(all_matches),
@@ -121,7 +136,7 @@ def main():
     with open("api/leagues.json", "w", encoding="utf-8") as f:
         json.dump(leagues_payload, f, ensure_ascii=False, indent=2)
 
-    print(f"Done. Competitions: {len(competitions)} | Matches: {len(all_matches)} -> api/leagues.json")
+    print(f"Done. Competitions: {len(competitions)} | Matches: {len(all_matches)} | Categories: {list(by_category.keys())}")
 
 
 if __name__ == "__main__":
