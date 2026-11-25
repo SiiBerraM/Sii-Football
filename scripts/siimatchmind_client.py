@@ -8,7 +8,7 @@ import os
 from typing import Dict, List, Optional
 
 BASE_API = "https://siiberram.github.io/Sii-Football/api"
-VALID_CATEGORIES = ("amputee-football", "blind-football", "cp-football")
+VALID_CATEGORIES = tuple(ALL_SPORT_CATEGORIES) if "ALL_SPORT_CATEGORIES" in globals() and ALL_SPORT_CATEGORIES else ("amputee-football", "blind-football", "cp-football", "world-football", "basketball", "motorsport", "tennis", "multi-sport")
 
 
 def get_json(endpoint: str, local_dir: Optional[str] = None) -> dict:
