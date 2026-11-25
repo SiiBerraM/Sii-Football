@@ -34,11 +34,19 @@ jobs:
           python scripts/parse_standings.py
           python scripts/validate_api.py
           python - << 'PY'
-          import json, subprocess
+          import json, os, subprocess
           out = subprocess.check_output(["python", "scripts/siimatchmind_client.py"], text=True, encoding="utf-8")
-          summary = json.loads(out[out.find("{"):])
-          with open("api/siimatchmind_summary.json", "w", encoding="utf-8") as fp:
-              json.dump(summary, fp, ensure_ascii=False, indent=2)
+          new_summary = json.loads(out[out.find("{"):])
+          path = "api/siimatchmind_summary.json"
+          if os.path.exists(path):
+              with open(path, encoding="utf-8") as fp:
+                  old_summary = json.load(fp)
+              old_cmp = {k: v for k, v in old_summary.items() if k != "updated_at"}
+              new_cmp = {k: v for k, v in new_summary.items() if k != "updated_at"}
+              if old_cmp == new_cmp:
+                  new_summary["updated_at"] = old_summary.get("updated_at", new_summary.get("updated_at"))
+          with open(path, "w", encoding="utf-8") as fp:
+              json.dump(new_summary, fp, ensure_ascii=False, indent=2)
           PY
 
       - name: Commit and push updated API files
