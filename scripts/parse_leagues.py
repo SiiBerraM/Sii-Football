@@ -13,6 +13,12 @@ def _clean_team(name: str) -> str:
     cleaned = re.sub(r"\s+", " ", (name or "")).strip(" -–—.:|/()[]")
     cleaned = re.sub(r"^(?:vs\.?|v)\s+", "", cleaned, flags=re.IGNORECASE).strip()
     cleaned = re.sub(
+        r"^(?:mon|tue|wed|thu|fri|sat|sun|monday|tuesday|wednesday|thursday|friday|saturday|sunday)\s+(?:\d{4}[-/]\d{1,2}[-/]\d{1,2}\s+)?",
+        "",
+        cleaned,
+        flags=re.IGNORECASE,
+    ).strip()
+    cleaned = re.sub(
         r"^(?:jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)[a-z]*\s+(?:20\d{2}\s+)?",
         "",
         cleaned,
@@ -27,7 +33,6 @@ def _is_valid_team_name(name: str, blocked_words: set) -> bool:
         return False
     if not re.search(r"[A-Za-zÀ-ÿ]", cleaned):
         return False
-    # Reject bracket/group codes or schedule codes like "E3 4Th B..."
     if re.search(r"\b(?:19|20)\d{2}[-/]\d{1,2}[-/]\d{1,2}\b", cleaned):
         return False
     if re.search(r"\b(?:1st|2nd|3rd|4th|5th|6th|7th|8th)\b", cleaned, flags=re.IGNORECASE):
@@ -56,12 +61,19 @@ def extract_matches_from_text(
     id_counters.setdefault(prefix, 0)
 
     patterns = [
+        # e.g. 2026-10-24 ENG - USA 2 - 1 (0 - 0) or TeamA 2 - 1 TeamB
         re.compile(
-            r"\b([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ0-9\s\.\'\-]{1,28}?)\s+(\d{1,2})\s*[-–—]\s*(\d{1,2})\s*(?:\((?:a\.?e\.?t\.?|et|pen\.?|p)\))?\s+([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ0-9\s\.\'\-]{1,28}?)(?=\s|$|[.,;()|\[\]])",
+            r"(?:(?:\b(?:19|20)\d{2}[-/]\d{1,2}[-/]\d{1,2}\b)\s+)?\b([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ0-9\s\.\'\-]{1,26}?)\s*[-–—]\s*([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ0-9\s\.\'\-]{1,26}?)\s+(\d{1,2})\s*[-–—]\s*(\d{1,2})(?:\s*\([^)]*\))?(?=\s|$|[.,;()|\[\]])",
             re.IGNORECASE,
         ),
+        # e.g. Morocco 4 - 1 Uruguay or Ghana 6 - 0 Iraq
         re.compile(
-            r"\b([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ0-9\s\.\'\-]{1,28}?)\s+(?:vs\.?|v)\s+([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ0-9\s\.\'\-]{1,28}?)\s+(\d{1,2})\s*[-–—:]\s*(\d{1,2})(?!\s*(?:am|pm)\b)(?=\s|$|[.,;()|\[\]])",
+            r"\b([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ0-9\s\.\'\-]{1,26}?)\s+(\d{1,2})\s*[-–—]\s*(\d{1,2})\s*(?:\((?:a\.?e\.?t\.?|et|pen\.?|p)\))?\s+([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ0-9\s\.\'\-]{1,26}?)(?=\s|$|[.,;()|\[\]])",
+            re.IGNORECASE,
+        ),
+        # e.g. Morocco vs Ghana 2-1
+        re.compile(
+            r"\b([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ0-9\s\.\'\-]{1,26}?)\s+(?:vs\.?|v)\s+([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ0-9\s\.\'\-]{1,26}?)\s+(\d{1,2})\s*[-–—:]\s*(\d{1,2})(?!\s*(?:am|pm)\b)(?=\s|$|[.,;()|\[\]])",
             re.IGNORECASE,
         ),
     ]
@@ -77,15 +89,16 @@ def extract_matches_from_text(
         "pm", "sep", "sept", "oct", "nov", "dec", "jan", "feb", "mar", "apr", "jun",
         "jul", "aug", "rest", "no", "matches", "match", "november", "december",
         "january", "february", "march", "april", "may", "june", "july", "august",
-        "september", "october", "monday", "tuesday", "wednesday", "thursday", "friday",
-        "mon", "tue", "wed", "thu", "fri", "sat", "sun", "saturday", "sunday", "venue", "stadium", "city", "location", "date", "dates",
-        "vs", "each", "state", "currently", "has", "coaches", "plan", "development",
-        "grassroots", "player", "players", "team", "teams"
+        "september", "october", "mon", "tue", "wed", "thu", "fri", "sat", "sun",
+        "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday",
+        "venue", "stadium", "city", "location", "date", "dates", "vs", "each", "state",
+        "currently", "has", "coaches", "plan", "development", "grassroots", "player",
+        "players", "team", "teams", "half", "start", "referee"
     }
 
     for pat_idx, pattern in enumerate(patterns):
         for m in pattern.finditer(text or ""):
-            if pat_idx == 0:
+            if pat_idx == 1:
                 home_raw, h_s, a_s, away_raw = m.group(1), m.group(2), m.group(3), m.group(4)
             else:
                 home_raw, away_raw, h_s, a_s = m.group(1), m.group(2), m.group(3), m.group(4)
