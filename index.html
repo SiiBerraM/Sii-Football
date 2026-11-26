@@ -14,12 +14,17 @@
     pre { padding: 14px; overflow-x: auto; }
     a { color: #38bdf8; }
     ul { padding-left: 20px; margin: 8px 0; }
+
+    .ad-slot { margin-top: 18px; padding: 12px 16px; border: 1px dashed #475569; border-radius: 10px; background: #0b1120; color: #94a3b8; font-size: 13px; text-align: center; }
+    .ad-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: #64748b; display: block; margin-bottom: 4px; }
   </style>
 </head>
 <body>
   <div class="wrap">
     <span class="badge">Open &amp; Free JSON API • HTML &amp; PDF Aggregator</span>
     <h1>Sii-Football API</h1>
+    <div class="ad-slot" data-ad-slot="top-banner"><span class="ad-label">Advertisement</span>Sponsor / Ad Space — Top Banner</div>
+
     <p>Structured disability and para-football data (Amputee, Blind, CP Football) aggregated from public HTML and PDF sources with attribution, powering <strong>SiiMatchMind</strong> and open developers.</p>
 
     <div class="card">
@@ -29,9 +34,12 @@
         <li><code>GET /api/sources.json</code> — <a href="api/sources.json">Registered HTML/PDF sources</a></li>
         <li><code>GET /api/news.json</code> — <a href="api/news.json">Extracted HTML &amp; PDF items</a></li>
         <li><code>GET /api/leagues.json</code> — <a href="api/leagues.json">Competitions &amp; structured matches</a></li>
+        <li><code>GET /api/teams.json</code> — <a href="api/teams.json">Teams &amp; match stats</a></li>
       </ul>
     </div>
 
+    
+    <div class="ad-slot" data-ad-slot="mid-content"><span class="ad-label">Advertisement</span>Sponsor / Ad Space — API &amp; Sports Slot</div>
     <div class="card">
       <h2>Live Endpoint Status</h2>
       <pre id="live-status">Loading /api/index.json...</pre>

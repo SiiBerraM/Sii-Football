@@ -10,11 +10,14 @@
     "news": "/api/news.json",
     "leagues": "/api/leagues.json",
     "standings": "/api/standings.json",
-    "disclaimer": "/api/disclaimer.json"
+    "disclaimer": "/api/disclaimer.json",
+    "teams": "api/teams.json"
   },
   "categories": [
     "amputee-football",
     "blind-football",
     "cp-football"
-  ]
+  ],
+  "project": "Sii-Football",
+  "updated_at": "2026-11-26T04:10:42Z"
 }

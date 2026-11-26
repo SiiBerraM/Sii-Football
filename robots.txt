@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://siiberram.github.io/Sii-Football/sitemap.xml
