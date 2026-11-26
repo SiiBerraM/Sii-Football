@@ -2,8 +2,8 @@
   "project": "Sii-Football",
   "consumer_app": "SiiMatchMind",
   "license_note": "Structured para-football leagues and match records from public HTML and PDF sources with attribution.",
-  "updated_at": "2026-11-25T20:35:09Z",
-  "matches_count": 15,
+  "updated_at": "2026-11-26T04:17:06Z",
+  "matches_count": 17,
   "matches": [
     {
       "match_id": "bli-1",
@@ -184,6 +184,28 @@
       "source_name": "IFCPF Tournament Standings & Matches (View 121)",
       "source_url": "https://www.ifcpf.com/tournaments/view/121",
       "fetched_at": "2026-11-25T20:31:04Z"
+    },
+    {
+      "match_id": "fb-1",
+      "category": "football",
+      "home_team": "Wydad AC",
+      "away_team": "Raja CA",
+      "home_score": 1,
+      "away_score": 1,
+      "status": "finished",
+      "source_name": "Botola Pro Reference",
+      "source_url": "https://siiberram.github.io/Sii-Football/"
+    },
+    {
+      "match_id": "bball-1",
+      "category": "basketball",
+      "home_team": "FUS Rabat",
+      "away_team": "AS Sale",
+      "home_score": 78,
+      "away_score": 74,
+      "status": "finished",
+      "source_name": "Basketball Reference",
+      "source_url": "https://siiberram.github.io/Sii-Football/"
     }
   ]
 }
