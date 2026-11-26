@@ -1,8 +1,8 @@
 {
   "project": "Sii-Football",
   "consumer_app": "SiiMatchMind",
-  "updated_at": "2026-11-26T04:18:23Z",
-  "teams_count": 22,
+  "updated_at": "2026-11-26T04:21:33Z",
+  "teams_count": 26,
   "teams": [
     {
       "id": "tm-1",
@@ -245,6 +245,50 @@
       "losses": 1,
       "goals_for": 74,
       "goals_against": 78
+    },
+    {
+      "id": "tm-23",
+      "name": "Morocco Volley",
+      "category": "volleyball",
+      "matches_played": 1,
+      "wins": 1,
+      "draws": 0,
+      "losses": 0,
+      "goals_for": 3,
+      "goals_against": 1
+    },
+    {
+      "id": "tm-24",
+      "name": "Egypt Volley",
+      "category": "volleyball",
+      "matches_played": 1,
+      "wins": 0,
+      "draws": 0,
+      "losses": 1,
+      "goals_for": 1,
+      "goals_against": 3
+    },
+    {
+      "id": "tm-25",
+      "name": "Casablanca Para Athletics",
+      "category": "para-athletics",
+      "matches_played": 1,
+      "wins": 0,
+      "draws": 1,
+      "losses": 0,
+      "goals_for": 2,
+      "goals_against": 2
+    },
+    {
+      "id": "tm-26",
+      "name": "Rabat Para Athletics",
+      "category": "para-athletics",
+      "matches_played": 1,
+      "wins": 0,
+      "draws": 1,
+      "losses": 0,
+      "goals_for": 2,
+      "goals_against": 2
     }
   ]
 }
