@@ -18,8 +18,91 @@
     .ad-slot { margin-top: 18px; padding: 12px 16px; border: 1px dashed #475569; border-radius: 10px; background: #0b1120; color: #94a3b8; font-size: 13px; text-align: center; }
     .ad-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: #64748b; display: block; margin-bottom: 4px; }
   </style>
+<script src="https://www.paypal.com/sdk/js?client-id=BAAPtuFQFbd4BCzSrLX4a_d58tGwnU1B7o6FgvXEpO5CcRnCKLiG161aUCkOOeQOfl_nUwPxgivpWa5DKo&components=hosted-buttons&disable-funding=venmo&currency=USD"></script>
+
+<style>
+  @keyframes nyGlow {
+    0%, 100% { box-shadow: 0 2px 14px rgba(212, 175, 55, 0.35); }
+    50% { box-shadow: 0 2px 22px rgba(230, 57, 70, 0.55); }
+  }
+  @keyframes nyMarquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+  #ny-gift-bar {
+    background: linear-gradient(90deg, #1b4332 0%, #7f1d1d 50%, #1b4332 100%);
+    border-bottom: 1.5px solid #f4d03f;
+    color: #fffdf5;
+    padding: 8px 14px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    animation: nyGlow 3.2s infinite ease-in-out;
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+  #ny-ticker-wrap {
+    flex: 1 1 280px;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+  }
+  #ny-ticker-text {
+    display: inline-block;
+    padding-left: 100%;
+    font-size: 13.5px;
+    font-weight: 600;
+    color: #fef3c7;
+    animation: nyMarquee 22s linear infinite;
+  }
+  #ny-gift-bar:hover #ny-ticker-text {
+    animation-play-state: paused;
+  }
+  #ny-gift-action {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(0, 0, 0, 0.28);
+    border: 1px solid rgba(244, 208, 63, 0.65);
+    border-radius: 10px;
+    padding: 4px 10px;
+  }
+  #ny-gift-label {
+    font-size: 12.5px;
+    font-weight: 700;
+    color: #fde68a;
+    white-space: nowrap;
+  }
+  #paypal-container-EY5BNZ6VKRBD4 {
+    transform: scale(0.86);
+    transform-origin: center center;
+    min-width: 130px;
+    max-height: 38px;
+    overflow: hidden;
+    display: inline-flex;
+    align-items: center;
+  }
+</style>
+
 </head>
 <body>
+
+<div id="ny-gift-bar" role="region" aria-label="New Year Support Banner">
+  <div id="ny-ticker-wrap">
+    <span id="ny-ticker-text">🎄✨ Happy New Year! Send a small gift to support Sii-Football so we can keep improving our free stats, services &amp; live updates for everyone 🎁⚽ ✨🎄</span>
+  </div>
+  <div id="ny-gift-action">
+    <span id="ny-gift-label">🎁 New Year Gift:</span>
+    <div id="paypal-container-EY5BNZ6VKRBD4"></div>
+  </div>
+</div>
+<script>
+  if (window.paypal && paypal.HostedButtons) {
+    paypal.HostedButtons({ hostedButtonId: "EY5BNZ6VKRBD4" }).render("#paypal-container-EY5BNZ6VKRBD4");
+  }
+</script>
+
   <div class="wrap">
     <span class="badge">Open &amp; Free JSON API • HTML &amp; PDF Aggregator</span>
     <h1>Sii-Football API</h1>
