@@ -1,9 +1,9 @@
 {
   "app": "SiiMatchMind",
   "source_project": "Sii-Football",
-  "updated_at": "2026-11-25T22:01:40Z",
+  "updated_at": "2026-11-26T07:10:05Z",
   "totals": {
-    "competitions": 29,
+    "competitions": 23,
     "matches": 15,
     "standings": 12,
     "news": 45
@@ -23,7 +23,7 @@
           "source_url": "https://amputeefootball.org/world-cup-2026/",
           "source_type": "html",
           "excerpt": "WAFF World Cup 2026 – Mexico – World Ampute Football Federation HOME ABOUT WAFF Who We Are WAFF Board What is Amputee Football History of Amputee Football Documents and Forms NEWS WAFF Projects Amputee Football Junior Camps 2026/2027 supported by UEFA Foundation NEW COUNTRIES WOMEN AMPUTEE FOOTBALL WAFF MEMBERS Africa America North America South Asia Europe WORLD CUPS WAFF World Cup 2026 WAFF Women`s World Cup 2024 WAFF World Cup 2022 WAFF World Cup 2018 WAFF World Cup 2014 WAFF World Cup 2012 CONTINENTAL TOURNAMENTS Asian Amputee Football Cup 2025 – Jakarta South American Amputee Football Cup – São Paulo North American Amputee Football- San Juan de los Lagos European Amputee Football Cup – Evian African Amputee Football Cup – Cairo CLEAN SPORT Clean Sport and WAFF WAFF Anti Doping Code – draft Risks of the use of supplements Rights and Responsibilities under the Code WADA – Players/Athlete Whereabouts Therapeutic Use Exemption (TUE) Doping Control Anti-Doping Rule violation Consequences of Doping CONTACT HOME ABOUT WAFF Who We Are WAFF Board What is Amputee Football History of Amputee Football Documents and Forms NEWS WAFF Projects Amputee Football Junior Camps 2026/2027 supported",
-          "fetched_at": "2026-11-25T22:00:05Z"
+          "fetched_at": "2026-11-26T07:08:15Z"
         },
         {
           "id": 2,
@@ -31,7 +31,7 @@
           "source_url": "https://amputeefootball.org/Worldcup-test/",
           "source_type": "html",
           "excerpt": "WAFF AMPUTEE FOOTBALL WORLD CUP 2026 MEXICO English Español WAFF AMPUTEE FOOTBALL WORLD CUP 2026 MEXICO Close From its early international competitions in the 1980s, amputee football has grown into a truly global sport, bringing together players, teams and communities from around the world. What began with pioneering tournaments in the United States has developed over more than four decades into an established international movement built on competition, inclusion, resilience and a shared passion for football. The Amputee Football World Cup has played a central role in this journey. Over the years, teams from Africa, Asia, Europe and the Americas have come together to compete at the highest level and to showcase the quality, intensity and spirit of amputee football. Recent World Cups have taken place in Culiacán, Mexico in 2014, San Juan de los Lagos, Mexico in 2018, and Istanbul, Türkiye in 2022. At the most recent World Cup, Türkiye was crowned World Champion in 2022, winning the title on home soil. In 2026, the World Amputee Football Federation is proud to return to San Juan de los Lagos, Mexico. From 13–22 November 2026, 24 teams from four continents will come together to compe",
-          "fetched_at": "2026-11-25T22:00:05Z"
+          "fetched_at": "2026-11-26T07:08:15Z"
         }
       ]
     },
@@ -51,7 +51,7 @@
           "status": "finished",
           "source_name": "IBSA Men's Blind Football Nations Cup",
           "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
-          "fetched_at": "2026-11-25T22:00:05Z"
+          "fetched_at": "2026-11-26T07:08:15Z"
         },
         {
           "match_id": "bli-2",
@@ -63,7 +63,7 @@
           "status": "finished",
           "source_name": "IBSA Men's Blind Football Nations Cup",
           "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
-          "fetched_at": "2026-11-25T22:00:05Z"
+          "fetched_at": "2026-11-26T07:08:15Z"
         },
         {
           "match_id": "bli-3",
@@ -75,7 +75,7 @@
           "status": "finished",
           "source_name": "IBSA Men's Blind Football Nations Cup",
           "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
-          "fetched_at": "2026-11-25T22:00:05Z"
+          "fetched_at": "2026-11-26T07:08:15Z"
         },
         {
           "match_id": "bli-4",
@@ -87,7 +87,7 @@
           "status": "finished",
           "source_name": "IBSA Men's Blind Football Nations Cup",
           "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
-          "fetched_at": "2026-11-25T22:00:05Z"
+          "fetched_at": "2026-11-26T07:08:15Z"
         },
         {
           "match_id": "bli-5",
@@ -99,7 +99,7 @@
           "status": "finished",
           "source_name": "IBSA Men's Blind Football Nations Cup",
           "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
-          "fetched_at": "2026-11-25T22:00:05Z"
+          "fetched_at": "2026-11-26T07:08:15Z"
         }
       ],
       "top_standings": [
@@ -114,7 +114,7 @@
           "points": 13,
           "source_name": "IBSA Men's Blind Football Nations Cup",
           "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
-          "fetched_at": "2026-11-25T22:00:05Z"
+          "fetched_at": "2026-11-26T07:08:15Z"
         },
         {
           "position": 2,
@@ -127,7 +127,7 @@
           "points": 13,
           "source_name": "IBSA Men's Blind Football Nations Cup",
           "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
-          "fetched_at": "2026-11-25T22:00:05Z"
+          "fetched_at": "2026-11-26T07:08:15Z"
         },
         {
           "position": 3,
@@ -140,7 +140,7 @@
           "points": 9,
           "source_name": "IBSA Men's Blind Football Nations Cup",
           "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
-          "fetched_at": "2026-11-25T22:00:05Z"
+          "fetched_at": "2026-11-26T07:08:15Z"
         },
         {
           "position": 4,
@@ -153,7 +153,7 @@
           "points": 6,
           "source_name": "IBSA Men's Blind Football Nations Cup",
           "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
-          "fetched_at": "2026-11-25T22:00:05Z"
+          "fetched_at": "2026-11-26T07:08:15Z"
         },
         {
           "position": 5,
@@ -166,7 +166,7 @@
           "points": 3,
           "source_name": "IBSA Men's Blind Football Nations Cup",
           "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
-          "fetched_at": "2026-11-25T22:00:05Z"
+          "fetched_at": "2026-11-26T07:08:15Z"
         }
       ],
       "latest_news": [
@@ -176,7 +176,7 @@
           "source_url": "https://ibsasport.org/sports/football/about/historical-results/",
           "source_type": "html",
           "excerpt": "IBSA | International Blind Sports IBSA - International Blind Sports Federation Contact Football Historical Results Historical Results Explore past blind football competitions, tournament results, and historical achievements. Discover the rich history of blind football through comprehensive archives. Join Us On Social Media Our Partners",
-          "fetched_at": "2026-11-25T22:00:05Z"
+          "fetched_at": "2026-11-26T07:08:15Z"
         },
         {
           "id": 4,
@@ -184,7 +184,7 @@
           "source_url": "https://ibsablindeuro2026.com/en/home-2/",
           "source_type": "html",
           "excerpt": "European Blind Football Championship - Strasbourg - 2026 Skip to content FR PRESS Buy tickets FR EN PRESS Buy tickets EUROPEAN BLIND FOOTBALL CHAMPIONSHIPS August 17-23, 2026 PROGRAM & TICKET OFFICE NEXT MATCHES 17 august → 13h30 Group match: Group A Greece — Germany → 16h Group match: Group A France — England BUY A TICKET 2 matches → 18h30 Group match: Group B Türkiye — Spain → 21h Group match: Group B Romania — Italy BUY A TICKET 2 matches 18 august → 13h30 Group match: Group A Germany — England → 16h Group match: Group A France — Greece BUY A TICKET 2 matches → 18h30 Group match: Group B Spain — Italy → 21h Group match: Group B Romania — Türkiye BUY A TICKET 2 matches 19 august → 13h30 Group match: Group A England — Greece → 16h Group match: Group A Germany — France BUY A TICKET 2 matches → 18h30 Group match: Group B Italy — Türkiye → 21h Group match: Group B Spain — Romania BUY A TICKET 2 matches 21 august → 12h15 Knockout stage Spain — Greece → 15h Knockout stage Germany — Romania BUY A TICKET 2 matches → 18h15 Semi-final Türkiye — England → 21h Semi-final France — Italy BUY A TICKET 2 matches 22 august → 12h15 Knockout stage Greece — Romania → 15h Knockout stage Germany — Spa",
-          "fetched_at": "2026-11-25T22:00:05Z"
+          "fetched_at": "2026-11-26T07:08:15Z"
         },
         {
           "id": 5,
@@ -192,7 +192,7 @@
           "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
           "source_type": "html",
           "excerpt": "The Home of Blind Football in India - Home 2025 IBSA Men’s Blind Football Nations Cup Kochi, Kerala • 22nd September – 2nd October 2025 Participating Nations England India Iran Italy Korea Poland 🏆 About the Tournament The IBSA Men’s Blind Football Nations Cup is a prestigious global competition under the International Blind Sports Federation (IBSA). Featuring the world’s top-ranked teams between 9th and 16th, the Nations Cup showcases the intensity, skill, and passion of blind football on the international stage. For the first time in history, India will host this flagship men’s event — a landmark opportunity to promote inclusion, accessibility, and sporting excellence. Why India? India has quickly become a hub for blind football in Asia, with an impressive track record of hosting world-class events: 2022 IBSA Asia-Oceania Blind Football Championship 2023 IBSA Intercontinental Cup With top-class facilities, dedicated volunteers, and a passionate blind football community, India is ready once again to welcome the world and set the stage for unforgettable sporting action. 📺 Media & Live Broadcast Fans around the globe won’t miss a moment! Live streaming through official partners Dail",
-          "fetched_at": "2026-11-25T22:00:05Z"
+          "fetched_at": "2026-11-26T07:08:15Z"
         }
       ]
     },
@@ -212,7 +212,7 @@
           "status": "finished",
           "source_name": "IFCPF Tournament Standings & Matches (View 121)",
           "source_url": "https://www.ifcpf.com/tournaments/view/121",
-          "fetched_at": "2026-11-25T22:00:05Z"
+          "fetched_at": "2026-11-26T07:08:15Z"
         },
         {
           "match_id": "cpf-2",
@@ -224,7 +224,7 @@
           "status": "finished",
           "source_name": "IFCPF Tournament Standings & Matches (View 121)",
           "source_url": "https://www.ifcpf.com/tournaments/view/121",
-          "fetched_at": "2026-11-25T22:00:05Z"
+          "fetched_at": "2026-11-26T07:08:15Z"
         },
         {
           "match_id": "cpf-3",
@@ -236,7 +236,7 @@
           "status": "finished",
           "source_name": "IFCPF Tournament Standings & Matches (View 121)",
           "source_url": "https://www.ifcpf.com/tournaments/view/121",
-          "fetched_at": "2026-11-25T22:00:05Z"
+          "fetched_at": "2026-11-26T07:08:15Z"
         },
         {
           "match_id": "cpf-4",
@@ -248,7 +248,7 @@
           "status": "finished",
           "source_name": "IFCPF Tournament Standings & Matches (View 121)",
           "source_url": "https://www.ifcpf.com/tournaments/view/121",
-          "fetched_at": "2026-11-25T22:00:05Z"
+          "fetched_at": "2026-11-26T07:08:15Z"
         },
         {
           "match_id": "cpf-5",
@@ -260,7 +260,7 @@
           "status": "finished",
           "source_name": "IFCPF Tournament Standings & Matches (View 121)",
           "source_url": "https://www.ifcpf.com/tournaments/view/121",
-          "fetched_at": "2026-11-25T22:00:05Z"
+          "fetched_at": "2026-11-26T07:08:15Z"
         }
       ],
       "top_standings": [
@@ -275,7 +275,7 @@
           "points": 1,
           "source_name": "IFCPF Tournament Standings & Matches (View 121)",
           "source_url": "https://www.ifcpf.com/tournaments/view/121",
-          "fetched_at": "2026-11-25T22:00:05Z"
+          "fetched_at": "2026-11-26T07:08:15Z"
         },
         {
           "position": 3,
@@ -288,7 +288,7 @@
           "points": 0,
           "source_name": "IFCPF Tournament Standings & Matches (View 121)",
           "source_url": "https://www.ifcpf.com/tournaments/view/121",
-          "fetched_at": "2026-11-25T22:00:05Z"
+          "fetched_at": "2026-11-26T07:08:15Z"
         },
         {
           "position": 3,
@@ -301,7 +301,7 @@
           "points": 0,
           "source_name": "IFCPF Tournament Standings & Matches (View 121)",
           "source_url": "https://www.ifcpf.com/tournaments/view/121",
-          "fetched_at": "2026-11-25T22:00:05Z"
+          "fetched_at": "2026-11-26T07:08:15Z"
         },
         {
           "position": 7,
@@ -314,7 +314,7 @@
           "points": 7,
           "source_name": "IFCPF Tournament Standings & Matches (View 121)",
           "source_url": "https://www.ifcpf.com/tournaments/view/121",
-          "fetched_at": "2026-11-25T22:00:05Z"
+          "fetched_at": "2026-11-26T07:08:15Z"
         },
         {
           "position": 9,
@@ -327,7 +327,7 @@
           "points": 6,
           "source_name": "IFCPF Tournament Standings & Matches (View 121)",
           "source_url": "https://www.ifcpf.com/tournaments/view/121",
-          "fetched_at": "2026-11-25T22:00:05Z"
+          "fetched_at": "2026-11-26T07:08:15Z"
         }
       ],
       "latest_news": [
@@ -337,7 +337,7 @@
           "source_url": "https://www.ifcpf.com/tournaments",
           "source_type": "html",
           "excerpt": "Tournaments - CP Football Member login Menu Tournaments Previous United States 2026-10-14 - 2026-10-24 United States 2026-10-12 - 2026-10-25 England 2026-08-15 - 2026-08-24 Thailand 2026-01-19 - 2026-01-25 Indonesia 2025-11-12 - 2025-11-23 Chile 2025-10-31 - 2025-11-10 Uruguay 2025-10-08 - 2025-10-19 England 2025-08-17 - 2025-08-24 England 2025-08-13 - 2025-08-24 Spain 2024-11-11 - 2024-11-20 Spain 2024-11-06 - 2024-11-23 Spain 2024-07-02 - 2024-07-07 Spain 2024-04-08 - 2024-04-18 Chile 2023-11-17 - 2023-11-25 Australia 2023-10-31 - 2023-11-12 Australia 2023-10-31 - 2023-11-11 Denmark 2023-10-19 - 2023-10-22 Spain 2023-09-12 - 2023-09-18 Colombia 2023-09-01 - 2023-09-11 Spain 2023-06-28 - 2023-07-02 Cambodia 2023-06-03 - 2023-06-09 Colombia 2023-06-02 - 2023-06-12 Italy 2023-05-29 - 2023-06-14 Italy 2022-09-24 - 2022-10-04 Spain 2022-06-01 - 2022-06-05 Spain 2022-05-07 - 2022-05-18 Spain 2022-04-27 - 2022-05-16 Spain 2021-11-24 - 2021-11-28 Ireland 2021-10-15 - 2021-10-17 Peru 2019-08-23 - 2019-09-01 Spain 2019-07-02 - 2019-07-20 Iran 2018-11-22 - 2018-11-30 Ecuador 2018-10-23 - 2018-11-03 Spain 2018-08-08 - 2018-08-13 Spain 2018-08-05 - 2018-08-17 Netherlands 2018-07-22 - 2018-08-",
-          "fetched_at": "2026-11-25T22:00:05Z"
+          "fetched_at": "2026-11-26T07:08:15Z"
         },
         {
           "id": 8,
@@ -345,7 +345,7 @@
           "source_url": "https://www.ifcpf.com/static/upload/raw/f17c1cb9-92eb-4a5d-b46d-fbb532a7ec87/IFCPF+-+Competition+Rules+-+2022.pdf",
           "source_type": "pdf",
           "excerpt": "International Federation of CP Football | info@ifcpf.com | www.ifcpf.com Competition Rules 2022 IFCPF | Competition Rules | 2022 International Federation of CP Football | info@ifcpf.com | www.ifcpf.com 2 Introduction This document states the IFCPF Competition Rules which are applicable in all IFCPF sanctioned tournaments for CP Football. The IFCPF Competition Rules should be read in conjunction with the current issue of the IFCPF Modifications to the Laws of the Game. All matches must be played in accordance with the current IFCPF Modifications to the Laws of the Game which are available at www.ifcpf.com For further guidance please visit www.ifcpf.com or contact the International Federation of CP Football info@ifcpf.com 2022 Updates Please note that all updates for 2022 are underlined and marked in yellow. Women’s CP Football CP Football is the name of our sport, therefore Women’s CP Football refers specifically to the format played with further modifications for the development of the game for women players. IFCPF have chosen to implement modifications to the CP Football sport rules with the aim to grow women’s participation, with the ultimate objective that all CP Football player",
-          "fetched_at": "2026-11-25T22:00:05Z"
+          "fetched_at": "2026-11-26T07:08:15Z"
         },
         {
           "id": 9,
@@ -353,37 +353,47 @@
           "source_url": "https://www.ifcpf.com/static/upload/raw/71933712-5882-4625-92cb-24bbacc9067d/IFCPF+-+Modifications+to+the+Laws+of+the+Game+-+2022.pdf",
           "source_type": "pdf",
           "excerpt": "International Federation of CP Football | info@ifcpf.com | www.ifcpf.com Modifications to the IFAB Laws of the Game 2022 IFCPF | Modifications to the IFAB Laws of the Game | 2022 International Federation of CP Football | info@ifcpf.com | www.ifcpf.com 2 Introduction This document states the IFCPF Modifications to the International Football Association Board (IFAB) Laws of the Game which are applicable in all IFCPF sanctioned tournaments for CP Football. The IFCPF Modifications to the IFAB Laws of the Game should be read in conjunction with the current issue of the IFCPF Competition Rules. These amendments to the IFAB Laws of the Game applicable to CP Football (also known as Football 7- a-side) should be read in conjunction with the current issue of the IFAB Laws of the Game which are available at www.theifab.com Subject to the agreement of the national football association concerned, and provided the principles of these Laws are maintained, the Laws may be modified in their application for matches for players of under 15 years of age, for female footballers and for veteran footballers in any or all of the following ways: • number of players i.e. use of small-sided formats • size of",
-          "fetched_at": "2026-11-25T22:00:05Z"
+          "fetched_at": "2026-11-26T07:08:15Z"
         }
       ]
     },
     "world-football": {
-      "competitions_count": 2,
+      "competitions_count": 1,
       "matches_count": 0,
       "standings_count": 0,
-      "news_count": 2,
+      "news_count": 1,
       "latest_matches": [],
       "top_standings": [],
       "latest_news": [
-        {
-          "id": 34,
-          "source_name": "ESPN Soccer News RSS",
-          "source_url": "https://www.espn.com/espn/rss/soccer/news",
-          "source_type": "rss",
-          "excerpt": "<![CDATA[www.espn.com - SOCCER]]> Latest SOCCER news from www.espn.com https://www.espn.com 30 en ESPN Inc. https://www.espn.com Copyright 2015 ESPN Inc. Wed, 25 Nov 2026 22:00:00 GMT https://a.espncdn.com/i/espn/teamlogos/lrg/trans/espn_dotcom_black.gif www.espn.com - SOCCER https://www.espn.com 110 110 <![CDATA[Champions League live updates: Sabah take on Barça, Sporting host United]]> Wed, 25 Nov 2026 12:26:34 EST <![CDATA[Dortmund draw shows that the jury is still out on Gyökeres]]> Wed, 25 Nov 2026 12:26:34 EST <![CDATA[Source: MLS owners agree new 16-team playoff format starting in 2027-28]]> Wed, 25 Nov 2026 16:40:25 EST <![CDATA[Pep 'embarrassed' to turn down Italy job, says national team 'next step']]> Wed, 25 Nov 2026 16:40:25 EST <![CDATA[Gordon enjoys 'very special' Baku again to lead Barcelona rout]]> Wed, 25 Nov 2026 16:40:25 EST <![CDATA[FIFA's Jill Ellis: '27 Women's World Cup will be first to turn a profit]]> Wed, 25 Nov 2026 16:40:25 EST <![CDATA[Suárez says 'no excuses left' as Miami looks to avoid early playoff exit]]> Wed, 25 Nov 2026 16:40:25 EST <![CDATA[Sterling avoids jail after smashing Lamborghini while inhaling from balloon]]> Wed, 25 Nov 2026 16:40:25 E",
-          "fetched_at": "2026-11-25T22:00:05Z"
-        },
         {
           "id": 35,
           "source_name": "BBC Sport Football RSS",
           "source_url": "https://feeds.bbci.co.uk/sport/football/rss.xml",
           "source_type": "rss",
-          "excerpt": "<![CDATA[BBC Sport]]> https://www.bbc.co.uk/sport/football http://news.bbc.co.uk/sol/shared/img/sport_120x60.gif BBC Sport https://www.bbc.co.uk/sport/football RSS for Node Wed, 25 Nov 2026 22:01:17 GMT 15 <![CDATA[Regulator chief 'has stomach' to face Man City]]> https://www.bbc.co.uk/sport/football/articles/c65y10z8k59jo?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/football/articles/c65y10z8k59jo#0 Wed, 25 Nov 2026 21:27:35 GMT <![CDATA['Best midfielder in the world' - where does Bellingham rank?]]> https://www.bbc.co.uk/sport/football/articles/cmkgdjkr2y70o?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/football/articles/cmkgdjkr2y70o#0 Wed, 25 Nov 2026 16:46:36 GMT <![CDATA[Glasner criticises Forest players yet to learn English ]]> https://www.bbc.co.uk/sport/football/articles/cw20xr4d7x55o?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/football/articles/cw20xr4d7x55o#0 Wed, 25 Nov 2026 18:32:55 GMT <![CDATA[Confusion and anger - Yoro red card rescinded, but row goes on]]> https://www.bbc.co.uk/sport/football/articles/cvze7y6n2redo?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/football/articles/cvze7y6n2redo#0 Wed, 25 Nov 2026 16:2",
-          "fetched_at": "2026-11-25T22:00:05Z"
+          "excerpt": "<![CDATA[BBC Sport]]> https://www.bbc.co.uk/sport/football http://news.bbc.co.uk/sol/shared/img/sport_120x60.gif BBC Sport https://www.bbc.co.uk/sport/football RSS for Node Thu, 26 Nov 2026 07:09:44 GMT 15 <![CDATA[Frustration reigns for Pochettino in chaotic start to Man Utd job]]> https://www.bbc.co.uk/sport/football/articles/c6vg24l724l4o?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/football/articles/c6vg24l724l4o#0 Thu, 26 Nov 2026 00:24:48 GMT <![CDATA[Divots, howlers and bad decisions - dissecting Man Utd's draw in Lisbon]]> https://www.bbc.co.uk/sport/football/articles/cvrlg074ld74o?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/football/articles/cvrlg074ld74o#0 Thu, 26 Nov 2026 00:22:28 GMT <![CDATA[Lammens howler denies Man Utd victory against Sporting in incident-packed game]]> https://www.bbc.co.uk/sport/football/videos/c6ly5145gg1do?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/football/videos/c6ly5145gg1do#0 Wed, 25 Nov 2026 22:32:51 GMT <![CDATA['All coming together' - Isak repaying Liverpool faith]]> https://www.bbc.co.uk/sport/football/articles/cqm2l0gelkzxo?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/football/articl",
+          "fetched_at": "2026-11-26T07:08:15Z"
         }
       ]
     },
     "basketball": {
+      "competitions_count": 1,
+      "matches_count": 0,
+      "standings_count": 0,
+      "news_count": 1,
+      "latest_matches": [],
+      "top_standings": [],
+      "latest_news": [
+        {
+          "id": 37,
+          "source_name": "BBC Sport Basketball RSS",
+          "source_url": "https://feeds.bbci.co.uk/sport/basketball/rss.xml",
+          "source_type": "rss",
+          "excerpt": "<![CDATA[BBC Sport]]> https://www.bbc.co.uk/sport/basketball http://news.bbc.co.uk/sol/shared/img/sport_120x60.gif BBC Sport https://www.bbc.co.uk/sport/basketball RSS for Node Thu, 26 Nov 2026 07:09:48 GMT 15 <![CDATA[NBA plans to invest 10bn euros in European arenas]]> https://www.bbc.co.uk/sport/basketball/articles/crjeqlpnqjxjo?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/basketball/articles/crjeqlpnqjxjo#0 Wed, 25 Nov 2026 19:58:59 GMT <![CDATA[‘Showing off for Selena Gomez’ - Wembanyama hits 50 points in Spurs win]]> https://www.bbc.co.uk/sport/basketball/articles/c6x20yeqg18vo?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/basketball/articles/c6x20yeqg18vo#0 Sun, 22 Nov 2026 07:42:24 GMT <![CDATA[Harden passes Bryant for 50-point games]]> https://www.bbc.co.uk/sport/basketball/articles/cwx2e8y1lr8lo?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/basketball/articles/cwx2e8y1lr8lo#0 Sat, 21 Nov 2026 09:10:18 GMT <![CDATA[Coach given one-game ban for head push on female player]]> https://www.bbc.co.uk/sport/basketball/articles/cw808v4vj7exo?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/basketball/articles/cw808v4vj7exo#0 Tue, 17 No",
+          "fetched_at": "2026-11-26T07:08:15Z"
+        }
+      ]
+    },
+    "motorsport": {
       "competitions_count": 2,
       "matches_count": 0,
       "standings_count": 0,
@@ -392,106 +402,56 @@
       "top_standings": [],
       "latest_news": [
         {
-          "id": 36,
-          "source_name": "ESPN NBA News RSS",
-          "source_url": "https://www.espn.com/espn/rss/nba/news",
-          "source_type": "rss",
-          "excerpt": "<![CDATA[www.espn.com - NBA]]> Latest NBA news from www.espn.com https://www.espn.com 30 en ESPN Inc. https://www.espn.com Copyright 2015 ESPN Inc. Wed, 25 Nov 2026 21:57:34 GMT https://a.espncdn.com/i/espn/teamlogos/lrg/trans/espn_dotcom_black.gif www.espn.com - NBA https://www.espn.com 110 110 <![CDATA['A collective': LaMelo Ball and the squad lifting the Ant-less Timberwolves]]> Wed, 25 Nov 2026 12:59:51 EST <![CDATA[Shai Gilgeous-Alexander and the 'fun' of weathering the storm]]> Wed, 25 Nov 2026 12:56:54 EST <![CDATA[Reaves rejoins Lakers for full practice, status for Spurs matchup TBD]]> Wed, 25 Nov 2026 16:51:51 EST <![CDATA[NBA, amid push for Europe league, launches $11B arena initiative]]> Wed, 25 Nov 2026 16:51:51 EST <![CDATA[Embiid out vs. Heat, misses second straight game due to illness]]> Wed, 25 Nov 2026 16:51:51 EST <![CDATA[Former Bucks guard Porter finalizing 2-year deal to join Magic, agent says]]> Wed, 25 Nov 2026 16:51:51 EST <![CDATA[Kawhi's return from knee swelling still at least week away]]> Wed, 25 Nov 2026 16:51:51 EST <![CDATA[Sources: Wolves' DiVincenzo eyes New Year's for season debut]]> Wed, 25 Nov 2026 16:51:51 EST <![CDATA[🍼 'Baby Hali': Tyrese and ",
-          "fetched_at": "2026-11-25T22:00:05Z"
-        },
-        {
-          "id": 37,
-          "source_name": "BBC Sport Basketball RSS",
-          "source_url": "https://feeds.bbci.co.uk/sport/basketball/rss.xml",
-          "source_type": "rss",
-          "excerpt": "<![CDATA[BBC Sport]]> https://www.bbc.co.uk/sport/basketball http://news.bbc.co.uk/sol/shared/img/sport_120x60.gif BBC Sport https://www.bbc.co.uk/sport/basketball RSS for Node Wed, 25 Nov 2026 22:01:29 GMT 15 <![CDATA[NBA plans to invest 10bn euros in European arenas]]> https://www.bbc.co.uk/sport/basketball/articles/crjeqlpnqjxjo?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/basketball/articles/crjeqlpnqjxjo#0 Wed, 25 Nov 2026 19:58:59 GMT <![CDATA[‘Showing off for Selena Gomez’ - Wembanyama hits 50 points in Spurs win]]> https://www.bbc.co.uk/sport/basketball/articles/c6x20yeqg18vo?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/basketball/articles/c6x20yeqg18vo#0 Sun, 22 Nov 2026 07:42:24 GMT <![CDATA[Harden passes Bryant for 50-point games]]> https://www.bbc.co.uk/sport/basketball/articles/cwx2e8y1lr8lo?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/basketball/articles/cwx2e8y1lr8lo#0 Sat, 21 Nov 2026 09:10:18 GMT <![CDATA[Coach given one-game ban for head push on female player]]> https://www.bbc.co.uk/sport/basketball/articles/cw808v4vj7exo?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/basketball/articles/cw808v4vj7exo#0 Tue, 17 No",
-          "fetched_at": "2026-11-25T22:00:05Z"
-        }
-      ]
-    },
-    "motorsport": {
-      "competitions_count": 4,
-      "matches_count": 0,
-      "standings_count": 0,
-      "news_count": 3,
-      "latest_matches": [],
-      "top_standings": [],
-      "latest_news": [
-        {
-          "id": 38,
-          "source_name": "ESPN F1 News RSS",
-          "source_url": "https://www.espn.com/espn/rss/f1/news",
-          "source_type": "rss",
-          "excerpt": "<![CDATA[www.espn.com - F1]]> Latest F1 news from www.espn.com https://www.espn.com 30 en ESPN Inc. https://www.espn.com Copyright 2015 ESPN Inc. Wed, 25 Nov 2026 22:00:13 GMT https://a.espncdn.com/i/espn/teamlogos/lrg/trans/espn_dotcom_black.gif www.espn.com - F1 https://www.espn.com 110 110 <![CDATA[Leclerc and Hamilton situation 'unmanageable,' says Ferrari boss]]> Tue, 24 Nov 2026 07:00:14 EST <![CDATA[Hamilton: No.1 at Ferrari would have boosted 8th world title hopes]]> Tue, 24 Nov 2026 07:00:14 EST <![CDATA[Max Verstappen, George Russell's latest war of words unlikely to stay in Vegas]]> Tue, 24 Nov 2026 03:42:35 EST <![CDATA[Verstappen mocks 'complete joke' Russell at Las Vegas GP as feud intensifies]]> Tue, 24 Nov 2026 03:42:35 EST <![CDATA[Verstappen: Las Vegas Grand Prix was like 'Mario Kart']]> Tue, 24 Nov 2026 03:42:34 EST <![CDATA[Williams, Alpine fined £627k by FIA for breaching F1's cost cap]]> Wed, 25 Nov 2026 12:29:22 EST <![CDATA[Verstappen binges 40-hour GTA VI spree during Las Vegas GP win]]> Wed, 25 Nov 2026 06:06:44 EST <![CDATA[Haas confirm Camara will finish 2026 season with the team]]> Sun, 22 Nov 2026 14:39:40 EST <![CDATA[Ferrari boss fumes over Leclerc, ",
-          "fetched_at": "2026-11-25T22:00:05Z"
-        },
-        {
           "id": 39,
           "source_name": "BBC Sport Formula 1 RSS",
           "source_url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
           "source_type": "rss",
-          "excerpt": "<![CDATA[BBC Sport]]> https://www.bbc.co.uk/sport/formula1 http://news.bbc.co.uk/sol/shared/img/sport_120x60.gif BBC Sport https://www.bbc.co.uk/sport/formula1 RSS for Node Wed, 25 Nov 2026 22:01:20 GMT 15 <![CDATA[Williams exceeded F1 cost cap by £627,000]]> https://www.bbc.co.uk/sport/formula1/articles/cxj05mv79z0do?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/formula1/articles/cxj05mv79z0do#0 Wed, 25 Nov 2026 17:37:34 GMT <![CDATA[Is Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A]]> https://www.bbc.co.uk/sport/formula1/articles/cw30gq2633ljo?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/formula1/articles/cw30gq2633ljo#0 Tue, 24 Nov 2026 08:10:15 GMT <![CDATA[Verstappen a constant amid chaos as he says Russell is 'so far below my level']]> https://www.bbc.co.uk/sport/formula1/articles/c3n0l5p5x5x5o?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/formula1/articles/c3n0l5p5x5x5o#0 Sun, 22 Nov 2026 11:07:32 GMT <![CDATA[Hamilton-Leclerc collision completely unacceptable, says Ferrari boss]]> https://www.bbc.co.uk/sport/formula1/articles/c6j9mepj0j1go?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/formula1/articles/c6j9mep",
-          "fetched_at": "2026-11-25T22:00:05Z"
+          "excerpt": "<![CDATA[BBC Sport]]> https://www.bbc.co.uk/sport/formula1 http://news.bbc.co.uk/sol/shared/img/sport_120x60.gif BBC Sport https://www.bbc.co.uk/sport/formula1 RSS for Node Thu, 26 Nov 2026 07:09:49 GMT 15 <![CDATA[Williams exceeded F1 cost cap by £627,000]]> https://www.bbc.co.uk/sport/formula1/articles/cxj05mv79z0do?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/formula1/articles/cxj05mv79z0do#0 Wed, 25 Nov 2026 17:37:34 GMT <![CDATA[Is Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A]]> https://www.bbc.co.uk/sport/formula1/articles/cw30gq2633ljo?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/formula1/articles/cw30gq2633ljo#0 Tue, 24 Nov 2026 08:10:15 GMT <![CDATA[Verstappen a constant amid chaos as he says Russell is 'so far below my level']]> https://www.bbc.co.uk/sport/formula1/articles/c3n0l5p5x5x5o?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/formula1/articles/c3n0l5p5x5x5o#0 Sun, 22 Nov 2026 11:07:32 GMT <![CDATA[Hamilton-Leclerc collision completely unacceptable, says Ferrari boss]]> https://www.bbc.co.uk/sport/formula1/articles/c6j9mepj0j1go?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/formula1/articles/c6j9mep",
+          "fetched_at": "2026-11-26T07:08:15Z"
         },
         {
           "id": 44,
           "source_name": "BBC Sport Motorsport RSS",
           "source_url": "https://feeds.bbci.co.uk/sport/motorsport/rss.xml",
           "source_type": "rss",
-          "excerpt": "<![CDATA[BBC Sport]]> https://www.bbc.co.uk/sport/motorsport http://news.bbc.co.uk/sol/shared/img/sport_120x60.gif BBC Sport https://www.bbc.co.uk/sport/motorsport RSS for Node Wed, 25 Nov 2026 22:01:31 GMT 15 <![CDATA[Is Marquez MotoGP's greatest of all time? ]]> https://www.bbc.co.uk/sport/motorsport/articles/crd9100xkgp9o?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/motorsport/articles/crd9100xkgp9o#0 Mon, 23 Nov 2026 14:48:26 GMT <![CDATA[Marquez collects eighth MotoGP title]]> https://www.bbc.co.uk/sport/motorsport/videos/cr930y14v3n4o?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/motorsport/videos/cr930y14v3n4o#0 Mon, 23 Nov 2026 15:50:48 GMT <![CDATA[Marquez wins record-equalling eighth MotoGP title]]> https://www.bbc.co.uk/sport/motorsport/articles/c64gnrdzq8zzo?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/motorsport/articles/c64gnrdzq8zzo#0 Sun, 22 Nov 2026 14:58:23 GMT <![CDATA[Hickman breaks 16-year-old lap record in Macau win]]> https://www.bbc.co.uk/sport/motorsport/articles/ckr5gd36d669o?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/motorsport/articles/ckr5gd36d669o#0 Sat, 21 Nov 2026 11:14:13 GMT <![CDATA[Alonso to dr",
-          "fetched_at": "2026-11-25T22:00:05Z"
+          "excerpt": "<![CDATA[BBC Sport]]> https://www.bbc.co.uk/sport/motorsport http://news.bbc.co.uk/sol/shared/img/sport_120x60.gif BBC Sport https://www.bbc.co.uk/sport/motorsport RSS for Node Thu, 26 Nov 2026 07:10:01 GMT 15 <![CDATA[Is Marquez MotoGP's greatest of all time? ]]> https://www.bbc.co.uk/sport/motorsport/articles/crd9100xkgp9o?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/motorsport/articles/crd9100xkgp9o#0 Mon, 23 Nov 2026 14:48:26 GMT <![CDATA[Marquez collects eighth MotoGP title]]> https://www.bbc.co.uk/sport/motorsport/videos/cr930y14v3n4o?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/motorsport/videos/cr930y14v3n4o#0 Mon, 23 Nov 2026 15:50:48 GMT <![CDATA[Marquez wins record-equalling eighth MotoGP title]]> https://www.bbc.co.uk/sport/motorsport/articles/c64gnrdzq8zzo?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/motorsport/articles/c64gnrdzq8zzo#0 Sun, 22 Nov 2026 14:58:23 GMT <![CDATA[Hickman breaks 16-year-old lap record in Macau win]]> https://www.bbc.co.uk/sport/motorsport/articles/ckr5gd36d669o?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/motorsport/articles/ckr5gd36d669o#0 Sat, 21 Nov 2026 11:14:13 GMT <![CDATA[Alonso to dr",
+          "fetched_at": "2026-11-26T07:08:15Z"
         }
       ]
     },
     "tennis": {
-      "competitions_count": 2,
+      "competitions_count": 1,
       "matches_count": 0,
       "standings_count": 0,
-      "news_count": 2,
+      "news_count": 1,
       "latest_matches": [],
       "top_standings": [],
       "latest_news": [
-        {
-          "id": 40,
-          "source_name": "ESPN Tennis News RSS",
-          "source_url": "https://www.espn.com/espn/rss/tennis/news",
-          "source_type": "rss",
-          "excerpt": "<![CDATA[www.espn.com - TENNIS]]> Latest TENNIS news from www.espn.com https://www.espn.com 30 en ESPN Inc. https://www.espn.com Copyright 2015 ESPN Inc. Wed, 25 Nov 2026 21:58:02 GMT https://a.espncdn.com/i/espn/teamlogos/lrg/trans/espn_dotcom_black.gif www.espn.com - TENNIS https://www.espn.com 110 110 <![CDATA[The best tennis players of 2026: Zverev, Rybakina and many more]]> Mon, 23 Nov 2026 17:53:18 EST <![CDATA[What does the future hold for the WTA Finals?]]> Mon, 16 Nov 2026 18:29:23 EST <![CDATA[Zverev: 'Not too concerned' with ex-partner's lawsuit in alleged abuse case]]> Wed, 25 Nov 2026 12:48:05 EST <![CDATA[Rinderknech charged with refusing to give doping sample]]> Wed, 25 Nov 2026 07:26:37 EST <![CDATA[Lehecka, Czechs beat Canada, reach Davis Cup semifinals]]> Tue, 24 Nov 2026 16:01:39 EST <![CDATA[Sinner abandons treatment on right knee to have it surgically repaired]]> Tue, 24 Nov 2026 12:48:15 EST <![CDATA['My mouth was open in horror': Patten drops Heliovaara to team up with Skupski]]> Mon, 23 Nov 2026 18:46:08 EST <![CDATA[Consistent Zverev earns final No. 1 ATP ranking despite loss to Alcaraz]]> Mon, 23 Nov 2026 06:25:22 EST <![CDATA[Alcaraz adds ATP Finals troph",
-          "fetched_at": "2026-11-25T22:00:05Z"
-        },
         {
           "id": 41,
           "source_name": "BBC Sport Tennis RSS",
           "source_url": "https://feeds.bbci.co.uk/sport/tennis/rss.xml",
           "source_type": "rss",
-          "excerpt": "<![CDATA[BBC Sport]]> https://www.bbc.co.uk/sport/tennis http://news.bbc.co.uk/sol/shared/img/sport_120x60.gif BBC Sport https://www.bbc.co.uk/sport/tennis RSS for Node Wed, 25 Nov 2026 22:01:22 GMT 15 <![CDATA['It was ruthless'- GB's Patten on ending top-ranked partnership with Heliovaara]]> https://www.bbc.co.uk/sport/tennis/articles/cwm25m10ng20o?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/tennis/articles/cwm25m10ng20o#0 Wed, 25 Nov 2026 17:30:41 GMT <![CDATA[Rinderknech denies refusing doping test]]> https://www.bbc.co.uk/sport/tennis/articles/cr9d7gxjq99po?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/tennis/articles/cr9d7gxjq99po#0 Wed, 25 Nov 2026 08:10:52 GMT <![CDATA['I miss being on court' - Sinner has 'minor surgery' on knee]]> https://www.bbc.co.uk/sport/tennis/articles/cxlylr3p4q8mo?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/tennis/articles/cxlylr3p4q8mo#0 Tue, 24 Nov 2026 18:00:06 GMT <![CDATA[84 days, four titles, one historic feat - Alcaraz's remarkable return]]> https://www.bbc.co.uk/sport/tennis/articles/crp3e43gvgpwo?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/tennis/articles/crp3e43gvgpwo#0 Mon, 23 Nov 2026 ",
-          "fetched_at": "2026-11-25T22:00:05Z"
+          "excerpt": "<![CDATA[BBC Sport]]> https://www.bbc.co.uk/sport/tennis http://news.bbc.co.uk/sol/shared/img/sport_120x60.gif BBC Sport https://www.bbc.co.uk/sport/tennis RSS for Node Thu, 26 Nov 2026 07:09:54 GMT 15 <![CDATA['It was ruthless'- GB's Patten on ending top-ranked partnership with Heliovaara]]> https://www.bbc.co.uk/sport/tennis/articles/cwm25m10ng20o?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/tennis/articles/cwm25m10ng20o#0 Wed, 25 Nov 2026 17:30:41 GMT <![CDATA[Rinderknech denies refusing doping test]]> https://www.bbc.co.uk/sport/tennis/articles/cr9d7gxjq99po?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/tennis/articles/cr9d7gxjq99po#0 Wed, 25 Nov 2026 08:10:52 GMT <![CDATA['I miss being on court' - Sinner has 'minor surgery' on knee]]> https://www.bbc.co.uk/sport/tennis/articles/cxlylr3p4q8mo?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/tennis/articles/cxlylr3p4q8mo#0 Tue, 24 Nov 2026 18:00:06 GMT <![CDATA[84 days, four titles, one historic feat - Alcaraz's remarkable return]]> https://www.bbc.co.uk/sport/tennis/articles/crp3e43gvgpwo?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/tennis/articles/crp3e43gvgpwo#0 Mon, 23 Nov 2026 ",
+          "fetched_at": "2026-11-26T07:08:15Z"
         }
       ]
     },
     "multi-sport": {
-      "competitions_count": 2,
+      "competitions_count": 1,
       "matches_count": 0,
       "standings_count": 0,
-      "news_count": 2,
+      "news_count": 1,
       "latest_matches": [],
       "top_standings": [],
       "latest_news": [
-        {
-          "id": 42,
-          "source_name": "ESPN General Sports RSS",
-          "source_url": "https://www.espn.com/espn/rss/news",
-          "source_type": "rss",
-          "excerpt": "<![CDATA[www.espn.com - TOP]]> Latest TOP news from www.espn.com https://www.espn.com 30 en ESPN Inc. https://www.espn.com Copyright 2015 ESPN Inc. Wed, 25 Nov 2026 22:01:35 GMT https://a.espncdn.com/i/espn/teamlogos/lrg/trans/espn_dotcom_black.gif www.espn.com - TOP https://www.espn.com 110 110 <![CDATA[Sources: Steelers cut Rodgers after QB rips McCarthy in scorched-earth interview]]> Wed, 25 Nov 2026 15:28:24 EST <![CDATA[Sources corroborate Rodgers' shocking McCarthy allegations: 'It's all true']]> Wed, 25 Nov 2026 16:38:22 EST <![CDATA[Aiyuk to sign with Commanders, will reunite with college QB Daniels]]> Wed, 25 Nov 2026 16:38:22 EST <![CDATA[Falcons 'aware' of insinuations Pearce still trying to contact ex Jackson]]> Wed, 25 Nov 2026 16:56:53 EST <![CDATA[Former Bucks guard Porter finalizing 2-year deal to join Magic, agent says]]> Wed, 25 Nov 2026 16:57:52 EST <![CDATA[MLB sues players' union, asking court to declare lockout legal]]> Wed, 25 Nov 2026 16:38:22 EST <![CDATA[Judge denies SEC's request for restraining order against LSU in membership vote]]> Wed, 25 Nov 2026 16:38:22 EST <![CDATA[Free agent Bohm reaches 2-year deal with Royals, reports say]]> Wed, 25 Nov 2026 16",
-          "fetched_at": "2026-11-25T22:00:05Z"
-        },
         {
           "id": 43,
           "source_name": "BBC Sport All Sports RSS",
           "source_url": "https://feeds.bbci.co.uk/sport/rss.xml",
           "source_type": "rss",
-          "excerpt": "<![CDATA[BBC Sport]]> https://www.bbc.co.uk/sport http://news.bbc.co.uk/sol/shared/img/sport_120x60.gif BBC Sport https://www.bbc.co.uk/sport RSS for Node Wed, 25 Nov 2026 22:01:33 GMT 15 <![CDATA['Best midfielder in the world' - where does Bellingham rank?]]> https://www.bbc.co.uk/sport/football/articles/cmkgdjkr2y70o?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/football/articles/cmkgdjkr2y70o#0 Wed, 25 Nov 2026 16:46:36 GMT <![CDATA[Dubois to defend title against Parker in Manchester]]> https://www.bbc.co.uk/sport/boxing/articles/cmde1zjykky6o?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/boxing/articles/cmde1zjykky6o#0 Wed, 25 Nov 2026 20:37:40 GMT <![CDATA[Williams exceeded F1 cost cap by £627,000]]> https://www.bbc.co.uk/sport/formula1/articles/cxj05mv79z0do?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/formula1/articles/cxj05mv79z0do#0 Wed, 25 Nov 2026 17:37:34 GMT <![CDATA[Regulator chief 'has stomach' to face Man City]]> https://www.bbc.co.uk/sport/football/articles/c65y10z8k59jo?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/football/articles/c65y10z8k59jo#0 Wed, 25 Nov 2026 21:27:35 GMT <![CDATA[Sterling - from England icon ",
-          "fetched_at": "2026-11-25T22:00:05Z"
+          "excerpt": "<![CDATA[BBC Sport]]> https://www.bbc.co.uk/sport http://news.bbc.co.uk/sol/shared/img/sport_120x60.gif BBC Sport https://www.bbc.co.uk/sport RSS for Node Thu, 26 Nov 2026 07:09:59 GMT 15 <![CDATA[Frustration reigns for Pochettino in chaotic start to Man Utd job]]> https://www.bbc.co.uk/sport/football/articles/c6vg24l724l4o?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/football/articles/c6vg24l724l4o#0 Thu, 26 Nov 2026 00:24:48 GMT <![CDATA[Lammens howler denies Man Utd victory against Sporting in incident-packed game]]> https://www.bbc.co.uk/sport/football/videos/c6ly5145gg1do?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/football/videos/c6ly5145gg1do#0 Wed, 25 Nov 2026 22:32:51 GMT <![CDATA['All coming together' - Isak repaying Liverpool faith]]> https://www.bbc.co.uk/sport/football/articles/cqm2l0gelkzxo?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/football/articles/cqm2l0gelkzxo#0 Wed, 25 Nov 2026 23:25:30 GMT <![CDATA[Isak scores twice as clinical Liverpool beat Brugge]]> https://www.bbc.co.uk/sport/football/videos/cqvg28l0z8mro?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/football/videos/cqvg28l0z8mro#0 Wed, 25 Nov 2026 22:12:",
+          "fetched_at": "2026-11-26T07:08:15Z"
         }
       ]
     }

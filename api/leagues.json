@@ -2,7 +2,7 @@
   "project": "Sii-Football",
   "consumer_app": "SiiMatchMind",
   "license_note": "Structured para-football leagues and match records from public HTML and PDF sources with attribution.",
-  "updated_at": "2026-11-25T22:01:40Z",
+  "updated_at": "2026-11-26T07:10:05Z",
   "by_category": {
     "amputee-football": {
       "competitions": 2,
@@ -17,27 +17,27 @@
       "matches": 9
     },
     "world-football": {
-      "competitions": 2,
+      "competitions": 1,
       "matches": 0
     },
     "basketball": {
-      "competitions": 2,
+      "competitions": 1,
       "matches": 0
     },
     "motorsport": {
-      "competitions": 4,
+      "competitions": 2,
       "matches": 0
     },
     "tennis": {
-      "competitions": 2,
+      "competitions": 1,
       "matches": 0
     },
     "multi-sport": {
-      "competitions": 2,
+      "competitions": 1,
       "matches": 0
     }
   },
-  "competitions_count": 29,
+  "competitions_count": 23,
   "competitions": [
     {
       "id": 1,
@@ -47,7 +47,7 @@
       "source_url": "https://amputeefootball.org/world-cup-2026/",
       "discovered_pdfs": [],
       "char_length": 8322,
-      "fetched_at": "2026-11-25T22:01:40Z"
+      "fetched_at": "2026-11-26T07:10:05Z"
     },
     {
       "id": 2,
@@ -57,7 +57,7 @@
       "source_url": "https://amputeefootball.org/Worldcup-test/",
       "discovered_pdfs": [],
       "char_length": 4163,
-      "fetched_at": "2026-11-25T22:01:40Z"
+      "fetched_at": "2026-11-26T07:10:05Z"
     },
     {
       "id": 3,
@@ -67,7 +67,7 @@
       "source_url": "https://ibsasport.org/sports/football/about/historical-results/",
       "discovered_pdfs": [],
       "char_length": 337,
-      "fetched_at": "2026-11-25T22:01:40Z"
+      "fetched_at": "2026-11-26T07:10:05Z"
     },
     {
       "id": 4,
@@ -79,7 +79,7 @@
         "https://ibsablindeuro2026.com/wp-content/uploads/2026/05/SDD_CharteOrga_Cecifoot_Signee.pdf"
       ],
       "char_length": 4527,
-      "fetched_at": "2026-11-25T22:01:40Z"
+      "fetched_at": "2026-11-26T07:10:05Z"
     },
     {
       "id": 5,
@@ -92,7 +92,7 @@
         "https://www.blindfootball.in/storage/pdf/NationsCup_Schedule.pdf"
       ],
       "char_length": 4908,
-      "fetched_at": "2026-11-25T22:01:40Z"
+      "fetched_at": "2026-11-26T07:10:05Z"
     },
     {
       "id": 6,
@@ -102,7 +102,7 @@
       "source_url": "https://www.blindfootball.in/pdf/GRASSROOTS_DEVELOPMENT_PLAN.pdf",
       "discovered_pdfs": [],
       "char_length": 8008,
-      "fetched_at": "2026-11-25T22:01:40Z"
+      "fetched_at": "2026-11-26T07:10:05Z"
     },
     {
       "id": 7,
@@ -121,7 +121,7 @@
         "https://www.ifcpf.com/static/upload/raw/71cbe2b1-a44d-47f0-a371-6837cb604ee6/IFCPF+-+2019++Clean+Sports+Report.pdf"
       ],
       "char_length": 2061,
-      "fetched_at": "2026-11-25T22:01:40Z"
+      "fetched_at": "2026-11-26T07:10:05Z"
     },
     {
       "id": 8,
@@ -131,7 +131,7 @@
       "source_url": "https://www.ifcpf.com/static/upload/raw/f17c1cb9-92eb-4a5d-b46d-fbb532a7ec87/IFCPF+-+Competition+Rules+-+2022.pdf",
       "discovered_pdfs": [],
       "char_length": 26916,
-      "fetched_at": "2026-11-25T22:01:40Z"
+      "fetched_at": "2026-11-26T07:10:05Z"
     },
     {
       "id": 9,
@@ -141,7 +141,7 @@
       "source_url": "https://www.ifcpf.com/static/upload/raw/71933712-5882-4625-92cb-24bbacc9067d/IFCPF+-+Modifications+to+the+Laws+of+the+Game+-+2022.pdf",
       "discovered_pdfs": [],
       "char_length": 15620,
-      "fetched_at": "2026-11-25T22:01:40Z"
+      "fetched_at": "2026-11-26T07:10:05Z"
     },
     {
       "id": 10,
@@ -151,7 +151,7 @@
       "source_url": "https://www.ifcpf.com/static/upload/raw/dcc5743d-6f05-49b0-a01d-63755aeb6da6/2022+IFCPF+World+Cup+-+Schedules+-+Women.pdf",
       "discovered_pdfs": [],
       "char_length": 653,
-      "fetched_at": "2026-11-25T22:01:40Z"
+      "fetched_at": "2026-11-26T07:10:05Z"
     },
     {
       "id": 11,
@@ -161,7 +161,7 @@
       "source_url": "https://www.ifcpf.com/static/upload/raw/bc11b7db-b385-47f9-8321-d8f813a2d9c4/2022+IFCPF+World+Cup+-+Schedules+-+Men.pdf",
       "discovered_pdfs": [],
       "char_length": 3461,
-      "fetched_at": "2026-11-25T22:01:40Z"
+      "fetched_at": "2026-11-26T07:10:05Z"
     },
     {
       "id": 12,
@@ -171,7 +171,7 @@
       "source_url": "https://www.ifcpf.com/static/upload/raw/718b9093-aec3-46af-bb3b-18280dfa80c0/20220323+Draw+procedure+Women%27s+World+Cup+Spain.pdf",
       "discovered_pdfs": [],
       "char_length": 929,
-      "fetched_at": "2026-11-25T22:01:40Z"
+      "fetched_at": "2026-11-26T07:10:05Z"
     },
     {
       "id": 13,
@@ -181,7 +181,7 @@
       "source_url": "https://www.ifcpf.com/static/upload/raw/41ad350f-472e-4758-b1b5-3ae46df631a4/20220323+Draw+procedure+Men%27s+World+Cup+Spain.pdf",
       "discovered_pdfs": [],
       "char_length": 2330,
-      "fetched_at": "2026-11-25T22:01:40Z"
+      "fetched_at": "2026-11-26T07:10:05Z"
     },
     {
       "id": 14,
@@ -191,7 +191,7 @@
       "source_url": "https://www.ifcpf.com/static/upload/raw/4abe972b-6d87-4173-b41d-a8d833493c7b/IFCPF+-+AD+-+Results+Management+Procedures+Guide.pdf",
       "discovered_pdfs": [],
       "char_length": 6946,
-      "fetched_at": "2026-11-25T22:01:40Z"
+      "fetched_at": "2026-11-26T07:10:05Z"
     },
     {
       "id": 15,
@@ -201,7 +201,7 @@
       "source_url": "https://www.ifcpf.com/static/upload/raw/71cbe2b1-a44d-47f0-a371-6837cb604ee6/IFCPF+-+2019++Clean+Sports+Report.pdf",
       "discovered_pdfs": [],
       "char_length": 2143,
-      "fetched_at": "2026-11-25T22:01:40Z"
+      "fetched_at": "2026-11-26T07:10:05Z"
     },
     {
       "id": 16,
@@ -220,7 +220,7 @@
         "https://www.ifcpf.com/static/upload/raw/71cbe2b1-a44d-47f0-a371-6837cb604ee6/IFCPF+-+2019++Clean+Sports+Report.pdf"
       ],
       "char_length": 1118,
-      "fetched_at": "2026-11-25T22:01:40Z"
+      "fetched_at": "2026-11-26T07:10:05Z"
     },
     {
       "id": 17,
@@ -239,127 +239,67 @@
         "https://www.ifcpf.com/static/upload/raw/71cbe2b1-a44d-47f0-a371-6837cb604ee6/IFCPF+-+2019++Clean+Sports+Report.pdf"
       ],
       "char_length": 4445,
-      "fetched_at": "2026-11-25T22:01:40Z"
+      "fetched_at": "2026-11-26T07:10:05Z"
     },
     {
       "id": 18,
-      "name": "ESPN Soccer News RSS",
-      "category": "world-football",
-      "source_type": "rss",
-      "source_url": "https://www.espn.com/espn/rss/soccer/news",
-      "discovered_pdfs": [],
-      "char_length": 3035,
-      "fetched_at": "2026-11-25T22:01:40Z"
-    },
-    {
-      "id": 19,
       "name": "BBC Sport Football RSS",
       "category": "world-football",
       "source_type": "rss",
       "source_url": "https://feeds.bbci.co.uk/sport/football/rss.xml",
       "discovered_pdfs": [],
-      "char_length": 17631,
-      "fetched_at": "2026-11-25T22:01:40Z"
+      "char_length": 18469,
+      "fetched_at": "2026-11-26T07:10:05Z"
     },
     {
-      "id": 20,
-      "name": "ESPN NBA News RSS",
-      "category": "basketball",
-      "source_type": "rss",
-      "source_url": "https://www.espn.com/espn/rss/nba/news",
-      "discovered_pdfs": [],
-      "char_length": 2347,
-      "fetched_at": "2026-11-25T22:01:40Z"
-    },
-    {
-      "id": 21,
+      "id": 19,
       "name": "BBC Sport Basketball RSS",
       "category": "basketball",
       "source_type": "rss",
       "source_url": "https://feeds.bbci.co.uk/sport/basketball/rss.xml",
       "discovered_pdfs": [],
       "char_length": 4375,
-      "fetched_at": "2026-11-25T22:01:40Z"
+      "fetched_at": "2026-11-26T07:10:05Z"
     },
     {
-      "id": 22,
-      "name": "ESPN F1 News RSS",
-      "category": "motorsport",
-      "source_type": "rss",
-      "source_url": "https://www.espn.com/espn/rss/f1/news",
-      "discovered_pdfs": [],
-      "char_length": 3422,
-      "fetched_at": "2026-11-25T22:01:40Z"
-    },
-    {
-      "id": 23,
+      "id": 20,
       "name": "BBC Sport Formula 1 RSS",
       "category": "motorsport",
       "source_type": "rss",
       "source_url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "discovered_pdfs": [],
       "char_length": 15875,
-      "fetched_at": "2026-11-25T22:01:40Z"
+      "fetched_at": "2026-11-26T07:10:05Z"
     },
     {
-      "id": 24,
-      "name": "ESPN Tennis News RSS",
-      "category": "tennis",
-      "source_type": "rss",
-      "source_url": "https://www.espn.com/espn/rss/tennis/news",
-      "discovered_pdfs": [],
-      "char_length": 2703,
-      "fetched_at": "2026-11-25T22:01:40Z"
-    },
-    {
-      "id": 25,
+      "id": 21,
       "name": "BBC Sport Tennis RSS",
       "category": "tennis",
       "source_type": "rss",
       "source_url": "https://feeds.bbci.co.uk/sport/tennis/rss.xml",
       "discovered_pdfs": [],
       "char_length": 13508,
-      "fetched_at": "2026-11-25T22:01:40Z"
+      "fetched_at": "2026-11-26T07:10:05Z"
     },
     {
-      "id": 26,
-      "name": "ESPN General Sports RSS",
-      "category": "multi-sport",
-      "source_type": "rss",
-      "source_url": "https://www.espn.com/espn/rss/news",
-      "discovered_pdfs": [],
-      "char_length": 5722,
-      "fetched_at": "2026-11-25T22:01:40Z"
-    },
-    {
-      "id": 27,
+      "id": 22,
       "name": "BBC Sport All Sports RSS",
       "category": "multi-sport",
       "source_type": "rss",
       "source_url": "https://feeds.bbci.co.uk/sport/rss.xml",
       "discovered_pdfs": [],
-      "char_length": 14382,
-      "fetched_at": "2026-11-25T22:01:40Z"
+      "char_length": 15483,
+      "fetched_at": "2026-11-26T07:10:05Z"
     },
     {
-      "id": 28,
+      "id": 23,
       "name": "BBC Sport Motorsport RSS",
       "category": "motorsport",
       "source_type": "rss",
       "source_url": "https://feeds.bbci.co.uk/sport/motorsport/rss.xml",
       "discovered_pdfs": [],
       "char_length": 4850,
-      "fetched_at": "2026-11-25T22:01:40Z"
-    },
-    {
-      "id": 29,
-      "name": "ESPN Formula 1 RSS",
-      "category": "motorsport",
-      "source_type": "rss",
-      "source_url": "https://www.espn.com/espn/rss/rpm/news",
-      "discovered_pdfs": [],
-      "char_length": 2858,
-      "fetched_at": "2026-11-25T22:01:40Z"
+      "fetched_at": "2026-11-26T07:10:05Z"
     }
   ],
   "matches_count": 15,
@@ -374,7 +314,7 @@
       "status": "finished",
       "source_name": "IBSA Men's Blind Football Nations Cup",
       "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
-      "fetched_at": "2026-11-25T22:00:05Z"
+      "fetched_at": "2026-11-26T07:08:15Z"
     },
     {
       "match_id": "bli-2",
@@ -386,7 +326,7 @@
       "status": "finished",
       "source_name": "IBSA Men's Blind Football Nations Cup",
       "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
-      "fetched_at": "2026-11-25T22:00:05Z"
+      "fetched_at": "2026-11-26T07:08:15Z"
     },
     {
       "match_id": "bli-3",
@@ -398,7 +338,7 @@
       "status": "finished",
       "source_name": "IBSA Men's Blind Football Nations Cup",
       "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
-      "fetched_at": "2026-11-25T22:00:05Z"
+      "fetched_at": "2026-11-26T07:08:15Z"
     },
     {
       "match_id": "bli-4",
@@ -410,7 +350,7 @@
       "status": "finished",
       "source_name": "IBSA Men's Blind Football Nations Cup",
       "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
-      "fetched_at": "2026-11-25T22:00:05Z"
+      "fetched_at": "2026-11-26T07:08:15Z"
     },
     {
       "match_id": "bli-5",
@@ -422,7 +362,7 @@
       "status": "finished",
       "source_name": "IBSA Men's Blind Football Nations Cup",
       "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
-      "fetched_at": "2026-11-25T22:00:05Z"
+      "fetched_at": "2026-11-26T07:08:15Z"
     },
     {
       "match_id": "bli-6",
@@ -434,7 +374,7 @@
       "status": "finished",
       "source_name": "IBSA Men's Blind Football Nations Cup",
       "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
-      "fetched_at": "2026-11-25T22:00:05Z"
+      "fetched_at": "2026-11-26T07:08:15Z"
     },
     {
       "match_id": "cpf-1",
@@ -446,7 +386,7 @@
       "status": "finished",
       "source_name": "IFCPF Tournament Standings & Matches (View 121)",
       "source_url": "https://www.ifcpf.com/tournaments/view/121",
-      "fetched_at": "2026-11-25T22:00:05Z"
+      "fetched_at": "2026-11-26T07:08:15Z"
     },
     {
       "match_id": "cpf-2",
@@ -458,7 +398,7 @@
       "status": "finished",
       "source_name": "IFCPF Tournament Standings & Matches (View 121)",
       "source_url": "https://www.ifcpf.com/tournaments/view/121",
-      "fetched_at": "2026-11-25T22:00:05Z"
+      "fetched_at": "2026-11-26T07:08:15Z"
     },
     {
       "match_id": "cpf-3",
@@ -470,7 +410,7 @@
       "status": "finished",
       "source_name": "IFCPF Tournament Standings & Matches (View 121)",
       "source_url": "https://www.ifcpf.com/tournaments/view/121",
-      "fetched_at": "2026-11-25T22:00:05Z"
+      "fetched_at": "2026-11-26T07:08:15Z"
     },
     {
       "match_id": "cpf-4",
@@ -482,7 +422,7 @@
       "status": "finished",
       "source_name": "IFCPF Tournament Standings & Matches (View 121)",
       "source_url": "https://www.ifcpf.com/tournaments/view/121",
-      "fetched_at": "2026-11-25T22:00:05Z"
+      "fetched_at": "2026-11-26T07:08:15Z"
     },
     {
       "match_id": "cpf-5",
@@ -494,7 +434,7 @@
       "status": "finished",
       "source_name": "IFCPF Tournament Standings & Matches (View 121)",
       "source_url": "https://www.ifcpf.com/tournaments/view/121",
-      "fetched_at": "2026-11-25T22:00:05Z"
+      "fetched_at": "2026-11-26T07:08:15Z"
     },
     {
       "match_id": "cpf-6",
@@ -506,7 +446,7 @@
       "status": "finished",
       "source_name": "IFCPF Tournament Standings & Matches (View 121)",
       "source_url": "https://www.ifcpf.com/tournaments/view/121",
-      "fetched_at": "2026-11-25T22:00:05Z"
+      "fetched_at": "2026-11-26T07:08:15Z"
     },
     {
       "match_id": "cpf-7",
@@ -518,7 +458,7 @@
       "status": "finished",
       "source_name": "IFCPF Tournament Standings & Matches (View 121)",
       "source_url": "https://www.ifcpf.com/tournaments/view/121",
-      "fetched_at": "2026-11-25T22:00:05Z"
+      "fetched_at": "2026-11-26T07:08:15Z"
     },
     {
       "match_id": "cpf-8",
@@ -530,7 +470,7 @@
       "status": "finished",
       "source_name": "IFCPF Tournament Standings & Matches (View 121)",
       "source_url": "https://www.ifcpf.com/tournaments/view/121",
-      "fetched_at": "2026-11-25T22:00:05Z"
+      "fetched_at": "2026-11-26T07:08:15Z"
     },
     {
       "match_id": "cpf-9",
@@ -542,7 +482,7 @@
       "status": "finished",
       "source_name": "IFCPF Tournament Standings & Matches (View 121)",
       "source_url": "https://www.ifcpf.com/tournaments/view/121",
-      "fetched_at": "2026-11-25T22:00:05Z"
+      "fetched_at": "2026-11-26T07:08:15Z"
     }
   ]
 }
