@@ -1,8 +1,8 @@
 {
   "project": "Sii-Football",
   "consumer_app": "SiiMatchMind",
-  "updated_at": "2026-11-26T04:25:58Z",
-  "teams_count": 26,
+  "updated_at": "2026-11-26T04:27:46Z",
+  "teams_count": 28,
   "teams": [
     {
       "id": "tm-1",
@@ -288,6 +288,28 @@
       "draws": 1,
       "losses": 0,
       "goals_for": 2,
+      "goals_against": 2
+    },
+    {
+      "id": "tm-27",
+      "name": "FAR Rabat",
+      "category": "football",
+      "matches_played": 1,
+      "wins": 1,
+      "draws": 0,
+      "losses": 0,
+      "goals_for": 2,
+      "goals_against": 1
+    },
+    {
+      "id": "tm-28",
+      "name": "RS Berkane",
+      "category": "football",
+      "matches_played": 1,
+      "wins": 0,
+      "draws": 0,
+      "losses": 1,
+      "goals_for": 1,
       "goals_against": 2
     }
   ]

@@ -2,8 +2,8 @@
   "project": "Sii-Football",
   "consumer_app": "SiiMatchMind",
   "license_note": "Structured para-football leagues and match records from public HTML and PDF sources with attribution.",
-  "updated_at": "2026-11-26T04:21:33Z",
-  "matches_count": 19,
+  "updated_at": "2026-11-26T04:27:46Z",
+  "matches_count": 20,
   "matches": [
     {
       "match_id": "bli-1",
@@ -227,6 +227,17 @@
       "away_score": 2,
       "status": "finished",
       "source_name": "Para Athletics Reference",
+      "source_url": "https://siiberram.github.io/Sii-Football/"
+    },
+    {
+      "match_id": "football-20",
+      "category": "football",
+      "home_team": "FAR Rabat",
+      "away_team": "RS Berkane",
+      "home_score": 2,
+      "away_score": 1,
+      "status": "finished",
+      "source_name": "Sii-Football Manual Entry",
       "source_url": "https://siiberram.github.io/Sii-Football/"
     }
   ]
