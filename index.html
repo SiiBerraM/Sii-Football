@@ -130,6 +130,56 @@
     background: #005ea6;
   }
 </style>
+<style>
+  #sii-pro-footer {
+    margin-top: 36px;
+    background: #0b1120;
+    color: #cbd5e1;
+    border-top: 1px solid rgba(250, 204, 21, 0.45);
+    padding: 16px 20px;
+    font-family: system-ui, -apple-system, sans-serif;
+    font-size: 13px;
+  }
+  .sii-footer-bar {
+    max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+  }
+  .sii-footer-marks {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    color: #f8fafc;
+  }
+  .sii-reg-badge {
+    color: #facc15;
+    font-weight: 700;
+  }
+  .sii-footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 14px;
+  }
+  .sii-footer-links a {
+    color: #cbd5e1;
+    text-decoration: none;
+  }
+  .sii-footer-links a:hover {
+    color: #facc15;
+    text-decoration: underline;
+  }
+  .sii-footer-right {
+    color: #94a3b8;
+    font-size: 12.5px;
+  }
+</style>
 </head>
 <body>
 <div id="ny-gift-bar" role="region" aria-label="New Year Greeting and Support Banner">
@@ -274,5 +324,79 @@
         document.getElementById("live-status").textContent = "Error: " + err.message;
       });
   </script>
+<footer id="sii-pro-footer" aria-label="Site Footer">
+  <div class="sii-footer-bar">
+    <div class="sii-footer-marks">
+      <span>© 2026</span>
+      <span class="sii-reg-badge">Sii-Football®</span>
+      <span>•</span>
+      <span class="sii-reg-badge">SiiMatchMind®</span>
+      <span id="sf-rights"></span>
+    </div>
+    <div class="sii-footer-links">
+      <a id="sf-home" href="./index.html"></a>
+      <a id="sf-about" href="./about.html"></a>
+      <a id="sf-gift" href="#ny-center-gift-box"></a>
+    </div>
+    <div class="sii-footer-right" id="sf-by"></div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  const footerI18n = {
+    ar: {
+      dir: "rtl",
+      rights: "جميع الحقوق محفوظة",
+      home: "الرئيسية",
+      about: "عن الموقع",
+      gift: "هدية الدعم",
+      by: "Berra • بالشراكة مع SiiMatchMind®"
+    },
+    en: {
+      dir: "ltr",
+      rights: "All rights reserved.",
+      home: "Home",
+      about: "About",
+      gift: "Gift Support",
+      by: "Berra • In Partnership with SiiMatchMind®"
+    },
+    fr: {
+      dir: "ltr",
+      rights: "Tous droits réservés.",
+      home: "Accueil",
+      about: "À propos",
+      gift: "Soutien",
+      by: "Berra • En partenariat avec SiiMatchMind®"
+    }
+  };
+
+  function getActiveLang() {
+    const saved = localStorage.getItem("sii_lang");
+    if (saved && footerI18n[saved]) return saved;
+    const nav = (navigator.language || "en").toLowerCase();
+    if (nav.startsWith("ar")) return "ar";
+    if (nav.startsWith("fr")) return "fr";
+    return "en";
+  }
+
+  function renderFooter(lang) {
+    const d = footerI18n[lang] || footerI18n.en;
+    const foot = document.getElementById("sii-pro-footer");
+    if (!foot) return;
+    foot.style.direction = d.dir;
+    document.getElementById("sf-rights").textContent = d.rights;
+    document.getElementById("sf-home").textContent = d.home;
+    document.getElementById("sf-about").textContent = d.about;
+    document.getElementById("sf-gift").textContent = d.gift;
+    document.getElementById("sf-by").textContent = d.by;
+  }
+
+  renderFooter(getActiveLang());
+  document.querySelectorAll(".ny-lang-btn").forEach(btn => {
+    btn.addEventListener("click", () => renderFooter(btn.dataset.lang));
+  });
+})();
+</script>
 </body>
 </html>
