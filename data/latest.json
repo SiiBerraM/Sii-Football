@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T01:40:05Z",
+  "generated_at": "2026-11-27T02:07:50Z",
   "count": 54,
   "matches": [
     {
@@ -10,7 +10,7 @@
       "status": "finished",
       "home_team": {
         "name": "Spain",
-        "code": "SPA",
+        "code": "ESP",
         "score": 2
       },
       "away_team": {
@@ -21,7 +21,7 @@
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
       "match_id": "ab0cea9e5beb9f13",
@@ -31,18 +31,18 @@
       "status": "finished",
       "home_team": {
         "name": "China",
-        "code": "CHI",
+        "code": "CHN",
         "score": 2
       },
       "away_team": {
         "name": "South Korea",
-        "code": "SOU",
+        "code": "KOR",
         "score": 0
       },
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
       "match_id": "af935fbed43ad48f",
@@ -57,13 +57,13 @@
       },
       "away_team": {
         "name": "Morocco",
-        "code": "MOR",
+        "code": "MAR",
         "score": 2
       },
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
       "match_id": "e2aa172919a245df",
@@ -78,13 +78,13 @@
       },
       "away_team": {
         "name": "Iran",
-        "code": "IRA",
+        "code": "IRN",
         "score": 0
       },
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
       "match_id": "1429e1fa45aed7fd",
@@ -105,7 +105,7 @@
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
       "match_id": "7ccc8010ff77e0bf",
@@ -120,19 +120,19 @@
       },
       "away_team": {
         "name": "Mali",
-        "code": "MAL",
+        "code": "MLI",
         "score": 1
       },
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
-      "match_id": "be6cc3aa736ea468",
+      "match_id": "d7bdfbebf709c0a7",
       "sport": "blind",
       "competition": "ibsa-world-championships",
-      "date_utc": "2018-06-08T22:00:00Z",
+      "date_utc": "2018-06-09T10:00:00Z",
       "status": "finished",
       "home_team": {
         "name": "Russia",
@@ -147,34 +147,34 @@
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
-      "match_id": "8c1077a1ede100ac",
+      "match_id": "0af496cfbe0754be",
       "sport": "blind",
       "competition": "ibsa-world-championships",
-      "date_utc": "2018-06-08T22:00:00Z",
+      "date_utc": "2018-06-09T10:00:00Z",
       "status": "finished",
       "home_team": {
         "name": "Spain",
-        "code": "SPA",
+        "code": "ESP",
         "score": 3
       },
       "away_team": {
         "name": "Morocco",
-        "code": "MOR",
+        "code": "MAR",
         "score": 0
       },
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
-      "match_id": "e7fc0db20a9a251a",
+      "match_id": "d2ecec44423f5d55",
       "sport": "blind",
       "competition": "ibsa-world-championships",
-      "date_utc": "2018-06-08T22:00:00Z",
+      "date_utc": "2018-06-09T10:00:00Z",
       "status": "finished",
       "home_team": {
         "name": "England",
@@ -183,19 +183,19 @@
       },
       "away_team": {
         "name": "Mali",
-        "code": "MAL",
+        "code": "MLI",
         "score": 0
       },
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
-      "match_id": "24b38d61641cbd2a",
+      "match_id": "44cc35c3b9527d3e",
       "sport": "blind",
       "competition": "ibsa-world-championships",
-      "date_utc": "2018-06-08T22:00:00Z",
+      "date_utc": "2018-06-09T10:00:00Z",
       "status": "finished",
       "home_team": {
         "name": "Argentina",
@@ -210,13 +210,13 @@
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
-      "match_id": "04e35bb9ac176b01",
+      "match_id": "3e04db5ce987fe01",
       "sport": "blind",
       "competition": "ibsa-world-championships",
-      "date_utc": "2018-06-08T22:00:00Z",
+      "date_utc": "2018-06-09T10:00:00Z",
       "status": "finished",
       "home_team": {
         "name": "Brazil",
@@ -225,23 +225,23 @@
       },
       "away_team": {
         "name": "Costa Rica",
-        "code": "COS",
+        "code": "CRC",
         "score": 1
       },
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
-      "match_id": "748bdc336fca42aa",
+      "match_id": "4b549dd3df2dd754",
       "sport": "blind",
       "competition": "ibsa-world-championships",
-      "date_utc": "2018-06-09T22:00:00Z",
+      "date_utc": "2018-06-10T10:00:00Z",
       "status": "finished",
       "home_team": {
         "name": "China",
-        "code": "CHI",
+        "code": "CHN",
         "score": 1
       },
       "away_team": {
@@ -252,13 +252,13 @@
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
-      "match_id": "cc5f029f39f1770c",
+      "match_id": "5957befb20bbab58",
       "sport": "blind",
       "competition": "ibsa-world-championships",
-      "date_utc": "2018-06-09T22:00:00Z",
+      "date_utc": "2018-06-10T10:00:00Z",
       "status": "finished",
       "home_team": {
         "name": "Turkey",
@@ -273,13 +273,13 @@
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
-      "match_id": "48b611d08a6ab3ce",
+      "match_id": "a0216d8b6b58ba8f",
       "sport": "blind",
       "competition": "ibsa-world-championships",
-      "date_utc": "2018-06-09T22:00:00Z",
+      "date_utc": "2018-06-10T10:00:00Z",
       "status": "finished",
       "home_team": {
         "name": "France",
@@ -288,19 +288,19 @@
       },
       "away_team": {
         "name": "Iran",
-        "code": "IRA",
+        "code": "IRN",
         "score": 7
       },
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
-      "match_id": "ff4d8a3e53df4fcb",
+      "match_id": "fb53bbe7308a6b37",
       "sport": "blind",
       "competition": "ibsa-world-championships",
-      "date_utc": "2018-06-10T22:00:00Z",
+      "date_utc": "2018-06-11T10:00:00Z",
       "status": "finished",
       "home_team": {
         "name": "Russia",
@@ -309,23 +309,23 @@
       },
       "away_team": {
         "name": "South Korea",
-        "code": "SOU",
+        "code": "KOR",
         "score": 0
       },
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
-      "match_id": "95b3d6da953d6c7d",
+      "match_id": "08db24598518162c",
       "sport": "blind",
       "competition": "ibsa-world-championships",
-      "date_utc": "2018-06-10T22:00:00Z",
+      "date_utc": "2018-06-11T10:00:00Z",
       "status": "finished",
       "home_team": {
         "name": "Spain",
-        "code": "SPA",
+        "code": "ESP",
         "score": 0
       },
       "away_team": {
@@ -336,34 +336,34 @@
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
-      "match_id": "aee75a1c530faac7",
+      "match_id": "2819aaaa497f60fd",
       "sport": "blind",
       "competition": "ibsa-world-championships",
-      "date_utc": "2018-06-10T22:00:00Z",
+      "date_utc": "2018-06-11T10:00:00Z",
       "status": "finished",
       "home_team": {
         "name": "Costa Rica",
-        "code": "COS",
+        "code": "CRC",
         "score": 0
       },
       "away_team": {
         "name": "Mali",
-        "code": "MAL",
+        "code": "MLI",
         "score": 1
       },
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
-      "match_id": "b5a234478acee582",
+      "match_id": "7fa21c02c21259ea",
       "sport": "blind",
       "competition": "ibsa-world-championships",
-      "date_utc": "2018-06-10T22:00:00Z",
+      "date_utc": "2018-06-11T10:00:00Z",
       "status": "finished",
       "home_team": {
         "name": "Argentina",
@@ -378,13 +378,13 @@
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
-      "match_id": "8b239363f959e6e7",
+      "match_id": "6d45d1f52df93f5a",
       "sport": "blind",
       "competition": "ibsa-world-championships",
-      "date_utc": "2018-06-10T22:00:00Z",
+      "date_utc": "2018-06-11T10:00:00Z",
       "status": "finished",
       "home_team": {
         "name": "Brazil",
@@ -399,17 +399,17 @@
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
-      "match_id": "5f72fdce28293df9",
+      "match_id": "68eb0d7b261afcbf",
       "sport": "blind",
       "competition": "ibsa-world-championships",
-      "date_utc": "2018-06-11T22:00:00Z",
+      "date_utc": "2018-06-12T10:00:00Z",
       "status": "finished",
       "home_team": {
         "name": "China",
-        "code": "CHI",
+        "code": "CHN",
         "score": 1
       },
       "away_team": {
@@ -420,17 +420,17 @@
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
-      "match_id": "b5929f48857bb50a",
+      "match_id": "a98bed0a3b25b78d",
       "sport": "blind",
       "competition": "ibsa-world-championships",
-      "date_utc": "2018-06-11T22:00:00Z",
+      "date_utc": "2018-06-12T10:00:00Z",
       "status": "finished",
       "home_team": {
         "name": "Morocco",
-        "code": "MOR",
+        "code": "MAR",
         "score": 3
       },
       "away_team": {
@@ -441,13 +441,13 @@
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
-      "match_id": "f8d76220a7790c45",
+      "match_id": "adc0e9a885596e60",
       "sport": "blind",
       "competition": "ibsa-world-championships",
-      "date_utc": "2018-06-11T22:00:00Z",
+      "date_utc": "2018-06-12T10:00:00Z",
       "status": "finished",
       "home_team": {
         "name": "Mexico",
@@ -456,19 +456,19 @@
       },
       "away_team": {
         "name": "South Korea",
-        "code": "SOU",
+        "code": "KOR",
         "score": 1
       },
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
-      "match_id": "ec3711400e8f5d5e",
+      "match_id": "869a1e922a8cd0a6",
       "sport": "blind",
       "competition": "ibsa-world-championships",
-      "date_utc": "2018-06-11T22:00:00Z",
+      "date_utc": "2018-06-12T10:00:00Z",
       "status": "finished",
       "home_team": {
         "name": "Colombia",
@@ -477,19 +477,19 @@
       },
       "away_team": {
         "name": "Iran",
-        "code": "IRA",
+        "code": "IRN",
         "score": 1
       },
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
-      "match_id": "1644332a89792ef1",
+      "match_id": "063de7543c6a126f",
       "sport": "blind",
       "competition": "ibsa-world-championships",
-      "date_utc": "2018-06-11T22:00:00Z",
+      "date_utc": "2018-06-12T10:00:00Z",
       "status": "finished",
       "home_team": {
         "name": "England",
@@ -498,13 +498,13 @@
       },
       "away_team": {
         "name": "Costa Rica",
-        "code": "COS",
+        "code": "CRC",
         "score": 1
       },
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
       "match_id": "c5d48d0ce2ec30e9",
@@ -514,7 +514,7 @@
       "status": "finished",
       "home_team": {
         "name": "Spain",
-        "code": "SPA",
+        "code": "ESP",
         "score": 0
       },
       "away_team": {
@@ -525,7 +525,7 @@
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
       "match_id": "84391daecf3fb2b9",
@@ -535,18 +535,18 @@
       "status": "finished",
       "home_team": {
         "name": "China",
-        "code": "CHI",
+        "code": "CHN",
         "score": 1
       },
       "away_team": {
         "name": "Morocco",
-        "code": "MOR",
+        "code": "MAR",
         "score": 0
       },
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
       "match_id": "62a2cc6cf00332af",
@@ -567,7 +567,7 @@
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
       "match_id": "fda6a18ba924d757",
@@ -588,7 +588,7 @@
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
       "match_id": "bedd9be3c88881b0",
@@ -609,28 +609,28 @@
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
-      "match_id": "82fe65c95f1aef17",
+      "match_id": "be40dba971726c7a",
       "sport": "blind",
       "competition": "ibsa-world-championships",
       "date_utc": "2018-06-14T09:30:00Z",
       "status": "finished",
       "home_team": {
         "name": "Costa Rica",
-        "code": "COS",
+        "code": "CRC",
         "score": 2
       },
       "away_team": {
-        "name": "Korea",
+        "name": "South Korea",
         "code": "KOR",
         "score": 1
       },
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
       "match_id": "c367bc66971f9b8c",
@@ -645,13 +645,13 @@
       },
       "away_team": {
         "name": "Spain",
-        "code": "SPA",
+        "code": "ESP",
         "score": 0
       },
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
       "match_id": "0db1a749aef2edf2",
@@ -666,13 +666,13 @@
       },
       "away_team": {
         "name": "Iran",
-        "code": "IRA",
+        "code": "IRN",
         "score": 4
       },
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
       "match_id": "f8625b996117e1e1",
@@ -687,13 +687,13 @@
       },
       "away_team": {
         "name": "Mali",
-        "code": "MAL",
+        "code": "MLI",
         "score": 2
       },
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
       "match_id": "2106c1489c212037",
@@ -708,13 +708,13 @@
       },
       "away_team": {
         "name": "South Korea",
-        "code": "SOU",
+        "code": "KOR",
         "score": 0
       },
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
       "match_id": "96630ec94cb879ef",
@@ -729,13 +729,13 @@
       },
       "away_team": {
         "name": "Costa Rica",
-        "code": "COS",
+        "code": "CRC",
         "score": 0
       },
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
       "match_id": "73891a4a28cf54ee",
@@ -745,7 +745,7 @@
       "status": "finished",
       "home_team": {
         "name": "Morocco",
-        "code": "MOR",
+        "code": "MAR",
         "score": 1
       },
       "away_team": {
@@ -756,7 +756,7 @@
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
       "match_id": "c60a7272e5d2c118",
@@ -777,7 +777,7 @@
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
       "match_id": "9486462c3c79ad23",
@@ -792,13 +792,13 @@
       },
       "away_team": {
         "name": "China",
-        "code": "CHI",
+        "code": "CHN",
         "score": 0
       },
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
       "match_id": "9cff947a71e54602",
@@ -819,7 +819,7 @@
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
       "match_id": "4078d3ebd5f4e9f6",
@@ -829,18 +829,18 @@
       "status": "finished",
       "home_team": {
         "name": "Iran",
-        "code": "IRA",
+        "code": "IRN",
         "score": 2
       },
       "away_team": {
         "name": "Mali",
-        "code": "MAL",
+        "code": "MLI",
         "score": 2
       },
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
       "match_id": "8a11904074906da7",
@@ -855,13 +855,13 @@
       },
       "away_team": {
         "name": "Morocco",
-        "code": "MOR",
+        "code": "MAR",
         "score": 1
       },
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
       "match_id": "d6630cadae65fe83",
@@ -871,7 +871,7 @@
       "status": "finished",
       "home_team": {
         "name": "Spain",
-        "code": "SPA",
+        "code": "ESP",
         "score": 4
       },
       "away_team": {
@@ -882,7 +882,7 @@
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
       "match_id": "78db1c753a77fe4f",
@@ -897,13 +897,13 @@
       },
       "away_team": {
         "name": "China",
-        "code": "CHI",
+        "code": "CHN",
         "score": 2
       },
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
       "match_id": "9ad6b4e82a3b9264",
@@ -924,13 +924,13 @@
       "venue": "Madrid, Spain",
       "source_url": "https://web.archive.org/web/2022id_/https://blindfootball.sport/wp-content/uploads/2021/02/IBSA-Blind-Football-World-Championships-Madrid-2018-results.pdf",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
       "match_id": "ab33e3b1ae047740",
       "sport": "amputee",
       "competition": "waff-world-cup",
-      "date_utc": "2026-11-16T06:00:00Z",
+      "date_utc": "2026-11-16T18:00:00Z",
       "status": "finished",
       "home_team": {
         "name": "Ghana",
@@ -939,23 +939,23 @@
       },
       "away_team": {
         "name": "Iraq",
-        "code": "IRA",
+        "code": "IRQ",
         "score": 0
       },
       "venue": "San Juan de los Lagos, Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
       "match_id": "2133e1b5ac29fdb9",
       "sport": "amputee",
       "competition": "waff-world-cup",
-      "date_utc": "2026-11-18T06:00:00Z",
+      "date_utc": "2026-11-18T18:00:00Z",
       "status": "finished",
       "home_team": {
         "name": "Morocco",
-        "code": "MOR",
+        "code": "MAR",
         "score": 4
       },
       "away_team": {
@@ -966,13 +966,13 @@
       "venue": "San Juan de los Lagos, Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
       "match_id": "fe0c6281b4448446",
       "sport": "amputee",
       "competition": "waff-world-cup",
-      "date_utc": "2026-11-18T06:00:00Z",
+      "date_utc": "2026-11-18T18:00:00Z",
       "status": "finished",
       "home_team": {
         "name": "Ghana",
@@ -987,17 +987,17 @@
       "venue": "San Juan de los Lagos, Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
       "match_id": "f8511c6399e47003",
       "sport": "amputee",
       "competition": "waff-world-cup",
-      "date_utc": "2026-11-18T06:00:00Z",
+      "date_utc": "2026-11-18T18:00:00Z",
       "status": "finished",
       "home_team": {
         "name": "Angola",
-        "code": "ANG",
+        "code": "AGO",
         "score": 2
       },
       "away_team": {
@@ -1008,13 +1008,13 @@
       "venue": "San Juan de los Lagos, Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
       "match_id": "ccab753d55ba6c96",
       "sport": "amputee",
       "competition": "waff-world-cup",
-      "date_utc": "2026-11-18T06:00:00Z",
+      "date_utc": "2026-11-18T18:00:00Z",
       "status": "finished",
       "home_team": {
         "name": "Egypt",
@@ -1029,13 +1029,13 @@
       "venue": "San Juan de los Lagos, Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
       "match_id": "cb5c6eb41487528b",
       "sport": "amputee",
       "competition": "waff-world-cup",
-      "date_utc": "2026-11-19T06:00:00Z",
+      "date_utc": "2026-11-19T18:00:00Z",
       "status": "finished",
       "home_team": {
         "name": "Ghana",
@@ -1050,38 +1050,38 @@
       "venue": "San Juan de los Lagos, Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
       "match_id": "29f45642c0e8febc",
       "sport": "amputee",
       "competition": "waff-world-cup",
-      "date_utc": "2026-11-19T06:00:00Z",
+      "date_utc": "2026-11-19T18:00:00Z",
       "status": "finished",
       "home_team": {
         "name": "Morocco",
-        "code": "MOR",
+        "code": "MAR",
         "score": 4
       },
       "away_team": {
         "name": "Angola",
-        "code": "ANG",
+        "code": "AGO",
         "score": 1
       },
       "venue": "San Juan de los Lagos, Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
       "match_id": "ff345a87d272b0ae",
       "sport": "amputee",
       "competition": "waff-world-cup",
-      "date_utc": "2026-11-20T06:00:00Z",
+      "date_utc": "2026-11-20T18:00:00Z",
       "status": "finished",
       "home_team": {
         "name": "Morocco",
-        "code": "MOR",
+        "code": "MAR",
         "score": 2
       },
       "away_team": {
@@ -1092,13 +1092,13 @@
       "venue": "San Juan de los Lagos, Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
       "match_id": "267d3be17daf65fc",
       "sport": "amputee",
       "competition": "waff-world-cup",
-      "date_utc": "2026-11-20T06:00:00Z",
+      "date_utc": "2026-11-20T18:00:00Z",
       "status": "finished",
       "home_team": {
         "name": "Ghana",
@@ -1113,13 +1113,13 @@
       "venue": "San Juan de los Lagos, Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     },
     {
       "match_id": "0bedb79b30d248d8",
       "sport": "amputee",
       "competition": "waff-world-cup",
-      "date_utc": "2026-11-22T06:00:00Z",
+      "date_utc": "2026-11-22T18:00:00Z",
       "status": "finished",
       "home_team": {
         "name": "Ghana",
@@ -1128,13 +1128,13 @@
       },
       "away_team": {
         "name": "Morocco",
-        "code": "MOR",
+        "code": "MAR",
         "score": 0
       },
       "venue": "San Juan de los Lagos, Mexico",
       "source_url": "manual://waff-2026",
       "is_stale": false,
-      "source_updated_at": "2026-11-27T01:40:05Z"
+      "source_updated_at": "2026-11-27T02:07:50Z"
     }
   ]
 }
