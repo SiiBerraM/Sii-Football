@@ -1,0 +1,52 @@
+{
+  "service": "Sii-Football Multi-Sport Encyclopedia API",
+  "owner": "Berra",
+  "access": "free_open",
+  "updated_at": "2026-11-27T02:43:18Z",
+  "sport": {
+    "id": "volleyball",
+    "name": {
+      "ar": "الكرة الطائرة",
+      "en": "Volleyball",
+      "fr": "Volley-ball",
+      "es": "Voleibol"
+    },
+    "players_per_side": 6,
+    "governing_body": "FIVB",
+    "rules": {
+      "ar": "ستة لاعبين في كل جهة يفصل بينهما شبكة، ويهدف كل فريق لإسقاط الكرة في ملعب المنافس خلال أشواط تُحسم غالباً بـ 25 نقطة.",
+      "en": "Six players per side across a net aim to ground the ball on the opponent's court in sets typically played to 25 points."
+    },
+    "major_competitions": [
+      "FIVB Volleyball World Championship",
+      "FIVB Nations League",
+      "Olympic Volleyball Tournament"
+    ]
+  },
+  "glossary": [
+    {
+      "term_ar": "المرتدة السريعة",
+      "term_en": "Counter-Attack",
+      "definition_ar": "انتقال سريع من الدفاع إلى الهجوم لاستغلال المساحات قبل عودة الخصم.",
+      "term_fr": "Contre-attaque",
+      "term_es": "Contraataque",
+      "definition_en": "A rapid transition from defense to attack exploiting space before opponents organize."
+    },
+    {
+      "term_ar": "الضغط العالي",
+      "term_en": "High Press",
+      "definition_ar": "ملاحقة حامل الكرة في مناطق متقدمة من ملعب الخصم لاستعادتها مبكراً.",
+      "term_fr": "Pressing haut",
+      "term_es": "Presión alta",
+      "definition_en": "Pressuring the ball carrier high up the pitch to win possession early."
+    },
+    {
+      "term_ar": "التمريرة الحاسمة",
+      "term_en": "Assist",
+      "definition_ar": "آخر تمريرة أو لمسة تؤدي مباشرة إلى تسجيل هدف.",
+      "term_fr": "Passe décisive",
+      "term_es": "Asistencia",
+      "definition_en": "The final pass or touch that directly sets up a goal."
+    }
+  ]
+}

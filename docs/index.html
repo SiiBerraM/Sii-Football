@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sii-API — موسوعة البيانات الرياضية المفتوحة</title>
+  <style>
+    :root {
+      --bg: #071226;
+      --card: #0e1e3a;
+      --card-2: #13284d;
+      --gold: #f5b727;
+      --text: #f8fafc;
+      --muted: #cbd5e1;
+      --border: rgba(245, 183, 39, 0.25);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: radial-gradient(circle at top, #122952, var(--bg) 65%);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    .wrap {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 28px 18px 56px;
+    }
+    .top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 24px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .brand img {
+      width: 64px;
+      height: 64px;
+      border-radius: 14px;
+      border: 1.5px solid var(--gold);
+      object-fit: cover;
+      background: #09172e;
+    }
+    .brand h1 {
+      margin: 0;
+      font-size: 1.45rem;
+      color: var(--gold);
+    }
+    .brand p {
+      margin: 2px 0 0;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+    .langs {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .langs button {
+      background: var(--card);
+      color: var(--text);
+      border: 1px solid var(--border);
+      padding: 6px 12px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 700;
+    }
+    .langs button.active {
+      background: var(--gold);
+      color: #071226;
+      border-color: var(--gold);
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px;
+      margin-bottom: 18px;
+    }
+    .support-card {
+      background: linear-gradient(135deg, rgba(245, 183, 39, 0.14), rgba(19, 40, 77, 0.95));
+      border: 1.5px solid var(--gold);
+    }
+    h2 {
+      margin: 0 0 10px;
+      font-size: 1.15rem;
+      color: var(--gold);
+    }
+    p { margin: 0 0 12px; color: var(--muted); }
+    p:last-child { margin-bottom: 0; }
+    .actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 14px;
+    }
+    .paypal-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #ffc439;
+      color: #0b1936;
+      text-decoration: none;
+      font-weight: 800;
+      padding: 10px 18px;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+    }
+    .link-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--card-2);
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 700;
+      padding: 10px 16px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 10px;
+      margin-top: 10px;
+    }
+    .ep {
+      display: block;
+      background: var(--card-2);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 10px;
+      padding: 10px 12px;
+      color: var(--text);
+      text-decoration: none;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.85rem;
+    }
+    .ep:hover { border-color: var(--gold); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div class="brand">
+        <img src="../icon.svg" alt="Sii-API Icon" />
+        <div>
+          <h1 id="title">Sii-API — موسوعة البيانات الرياضية المفتوحة</h1>
+          <p id="subtitle">بيانات وموسوعة رياضية مجانية ومفتوحة لتطبيقاتك وللمطورين حول العالم</p>
+        </div>
+      </div>
+      <div class="langs">
+        <button type="button" data-lang="ar" class="active">العربية</button>
+        <button type="button" data-lang="en">English</button>
+        <button type="button" data-lang="fr">Français</button>
+        <button type="button" data-lang="es">Español</button>
+      </div>
+    </div>
+
+    <section class="card support-card">
+      <h2 id="supportTitle">لماذا يوجد زر الدعم عبر PayPal؟</h2>
+      <p id="supportBody">
+        هذه المنصة وموسوعة البيانات الرياضية مفتوحة ومجانية بالكامل للجميع — للمستخدمين والمطورين في كل مكان دون أي رسوم أو قيود. مساهمتك الاختيارية عبر PayPal تساعدنا على تطوير الأدوات وتوسيع الرياضات واللغات والبيانات لتبقى الخدمة مجانية ومتاحة للجميع.
+      </p>
+      <div class="actions">
+        <!-- ضع رابط PayPal الخاص بك مكان # أدناه عند التجهيز -->
+        <a id="paypalBtn" class="paypal-btn" href="https://www.paypal.com/ncp/payment/EY5BNZ6VKRBD4" target="_blank" rel="noopener noreferrer">
+          PayPal — <span id="paypalLabel">ادعم استمرار المنصة</span>
+        </a>
+        <a class="link-btn" href="api/index.json" target="_blank" rel="noopener">/api/index.json</a>
+        <a class="link-btn" href="api/encyclopedia.json" target="_blank" rel="noopener">/api/encyclopedia.json</a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 id="endpointsTitle">نقاط النهاية المتاحة (Open JSON Endpoints)</h2>
+      <div class="grid">
+        <a class="ep" href="api/index.json">GET /api/index.json</a>
+        <a class="ep" href="api/encyclopedia.json">GET /api/encyclopedia.json</a>
+        <a class="ep" href="api/support.json">GET /api/support.json</a>
+        <a class="ep" href="api/sports/football.json">GET /api/sports/football.json</a>
+        <a class="ep" href="api/sports/basketball.json">GET /api/sports/basketball.json</a>
+        <a class="ep" href="api/sports/tennis.json">GET /api/sports/tennis.json</a>
+        <a class="ep" href="api/sports/handball.json">GET /api/sports/handball.json</a>
+        <a class="ep" href="api/sports/volleyball.json">GET /api/sports/volleyball.json</a>
+        <a class="ep" href="api/sports/formula-1.json">GET /api/sports/formula-1.json</a>
+        <a class="ep" href="api/sports/combat-sports.json">GET /api/sports/combat-sports.json</a>
+        <a class="ep" href="api/sports/athletics.json">GET /api/sports/athletics.json</a>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    (function () {
+      var i18n = {
+        ar: {
+          dir: "rtl", lang: "ar",
+          title: "Sii-API — موسوعة البيانات الرياضية المفتوحة",
+          subtitle: "بيانات وموسوعة رياضية مجانية ومفتوحة لتطبيقاتك وللمطورين حول العالم",
+          supportTitle: "لماذا يوجد زر الدعم عبر PayPal؟",
+          supportBody: "هذه المنصة وموسوعة البيانات الرياضية مفتوحة ومجانية بالكامل للجميع — للمستخدمين والمطورين في كل مكان دون أي رسوم أو قيود. مساهمتك الاختيارية عبر PayPal تساعدنا على تطوير الأدوات وتوسيع الرياضات واللغات والبيانات لتبقى الخدمة مجانية ومتاحة للجميع.",
+          paypalLabel: "ادعم استمرار المنصة",
+          endpointsTitle: "نقاط النهاية المتاحة (Open JSON Endpoints)"
+        },
+        en: {
+          dir: "ltr", lang: "en",
+          title: "Sii-API — Open Multi-Sport Encyclopedia",
+          subtitle: "Free and open sports data & encyclopedia for your apps and developers worldwide",
+          supportTitle: "Why is there a PayPal support button?",
+          supportBody: "This platform and multi-sport encyclopedia are 100% free and open to users and developers worldwide with zero paywalls or restrictions. Your voluntary PayPal contribution helps us expand sports, datasets, languages, and tooling while keeping open access free for everyone.",
+          paypalLabel: "Support the Platform",
+          endpointsTitle: "Available Open JSON Endpoints"
+        },
+        fr: {
+          dir: "ltr", lang: "fr",
+          title: "Sii-API — Encyclopédie Sportive Ouverte",
+          subtitle: "Données et encyclopédie sportives gratuites et ouvertes pour vos apps et développeurs",
+          supportTitle: "Pourquoi ce bouton de soutien PayPal ?",
+          supportBody: "Cette plateforme et cette encyclopédie multi-sports sont 100 % gratuites et ouvertes aux utilisateurs et développeurs du monde entier, sans abonnement ni restriction. Votre soutien volontaire via PayPal nous aide à enrichir les données, ajouter de nouveaux sports et langues, et garder l'accès libre pour tous.",
+          paypalLabel: "Soutenir la plateforme",
+          endpointsTitle: "Points d'accès JSON ouverts"
+        },
+        es: {
+          dir: "ltr", lang: "es",
+          title: "Sii-API — Enciclopedia Deportiva Abierta",
+          subtitle: "Datos y enciclopedia multideporte gratuitos y abiertos para tus apps y desarrolladores",
+          supportTitle: "¿Por qué existe el botón de apoyo por PayPal?",
+          supportBody: "Esta plataforma y enciclopedia multideporte son 100 % gratuitas y abiertas para usuarios y desarrolladores de todo el mundo, sin pagos ni restricciones. Tu aporte voluntario por PayPal ayuda a ampliar deportes, datos, idiomas y herramientas manteniendo el acceso libre para todos.",
+          paypalLabel: "Apoyar la plataforma",
+          endpointsTitle: "Endpoints JSON abiertos disponibles"
+        }
+      };
+
+      document.querySelectorAll(".langs button").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          var code = btn.getAttribute("data-lang");
+          var cfg = i18n[code];
+          if (!cfg) return;
+          document.documentElement.lang = cfg.lang;
+          document.documentElement.dir = cfg.dir;
+          document.querySelectorAll(".langs button").forEach(function (b) {
+            b.classList.toggle("active", b === btn);
+          });
+          Object.keys(cfg).forEach(function (k) {
+            var el = document.getElementById(k);
+            if (el && k !== "dir" && k !== "lang") el.textContent = cfg[k];
+          });
+        });
+      });
+    })();
+  </script>
+</body>
+</html>

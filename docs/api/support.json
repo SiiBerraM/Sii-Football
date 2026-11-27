@@ -1,0 +1,15 @@
+{
+  "service": "Sii-Football Multi-Sport Encyclopedia API",
+  "owner": "Berra",
+  "access": "free_open",
+  "support_type": "voluntary_donation",
+  "provider": "PayPal",
+  "why_support": {
+    "ar": "هذه المنصة وموسوعة البيانات الرياضية مفتوحة ومجانية بالكامل للجميع — للمستخدمين والمطورين في كل مكان دون أي رسوم أو قيود. مساهمتك الاختيارية عبر PayPal تساعدنا على تطوير الأدوات وتوسيع الرياضات واللغات والبيانات لتبقى الخدمة مجانية ومتاحة للجميع.",
+    "en": "This platform and multi-sport encyclopedia are 100% free and open to users and developers worldwide with zero paywalls or restrictions. Your voluntary PayPal contribution helps us expand sports, datasets, languages, and tooling while keeping open access free for everyone.",
+    "fr": "Cette plateforme et cette encyclopédie multi-sports sont 100 % gratuites et ouvertes aux utilisateurs et développeurs du monde entier, sans abonnement ni restriction. Votre soutien volontaire via PayPal nous aide à enrichir les données, ajouter de nouveaux sports et langues, et garder l'accès libre pour tous.",
+    "es": "Esta plataforma y enciclopedia multideporte son 100 % gratuitas y abiertas para usuarios y desarrolladores de todo el mundo, sin pagos ni restricciones. Tu aporte voluntario por PayPal ayuda a ampliar deportes, datos, idiomas y herramientas manteniendo el acceso libre para todos."
+  },
+  "paypal_url": "https://www.paypal.com/ncp/payment/EY5BNZ6VKRBD4",
+  "support_url": "https://www.paypal.com/ncp/payment/EY5BNZ6VKRBD4"
+}

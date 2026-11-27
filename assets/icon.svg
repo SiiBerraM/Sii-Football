@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#0B3D2E"/>
+  <circle cx="256" cy="236" r="150" fill="#fff"/>
+  <polygon points="256,170 316,214 293,284 219,284 196,214" fill="#0B3D2E"/>
+  <g stroke="#0B3D2E" stroke-width="10" stroke-linecap="round">
+    <line x1="256" y1="170" x2="256" y2="92"/><line x1="316" y1="214" x2="384" y2="186"/>
+    <line x1="293" y1="284" x2="340" y2="344"/><line x1="219" y1="284" x2="172" y2="344"/>
+    <line x1="196" y1="214" x2="128" y2="186"/>
+  </g>
+  <circle cx="256" cy="236" r="150" fill="none" stroke="#F5B301" stroke-width="12"/>
+  <text x="256" y="452" font-family="monospace" font-size="64" font-weight="700" fill="#F5B301" text-anchor="middle">{ API }</text>
+</svg>

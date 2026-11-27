@@ -1,0 +1,85 @@
+{
+  "service": "Sii-Football Multi-Sport Encyclopedia API",
+  "owner": "Berra",
+  "access": "free_open",
+  "updated_at": "2026-11-27T02:43:18Z",
+  "sport": {
+    "id": "football",
+    "name": {
+      "ar": "كرة القدم",
+      "en": "Football",
+      "fr": "Football",
+      "es": "Fútbol"
+    },
+    "players_per_side": 11,
+    "governing_body": "FIFA",
+    "rules": {
+      "ar": "تُلعب بين فريقين من 11 لاعباً لمدة شوطين كل منهما 45 دقيقة، ويهدف كل فريق لإدخال الكرة في مرمى الخصم.",
+      "en": "Played between two teams of 11 players over two 45-minute halves to score more goals than the opponent."
+    },
+    "major_competitions": [
+      "FIFA World Cup",
+      "UEFA Champions League",
+      "English Premier League",
+      "La Liga",
+      "Serie A",
+      "Bundesliga",
+      "Ligue 1",
+      "CAF Africa Cup of Nations",
+      "Copa América"
+    ],
+    "para_categories": [
+      "amputee-football",
+      "blind-football",
+      "cp-football"
+    ],
+    "iconic_clubs": [
+      "Real Madrid",
+      "FC Barcelona",
+      "Manchester United",
+      "Liverpool",
+      "Bayern Munich",
+      "AC Milan",
+      "Juventus",
+      "Raja Club Athletic",
+      "Wydad AC",
+      "Al Ahly SC"
+    ],
+    "historical_records": [
+      {
+        "title_ar": "الأكثر تتويجاً بكأس العالم للمنتخبات",
+        "holder": "Brazil (5 titles)"
+      },
+      {
+        "title_ar": "الأكثر تتويجاً بدوري أبطال أوروبا",
+        "holder": "Real Madrid (15 titles)"
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "term_ar": "المرتدة السريعة",
+      "term_en": "Counter-Attack",
+      "definition_ar": "انتقال سريع من الدفاع إلى الهجوم لاستغلال المساحات قبل عودة الخصم.",
+      "term_fr": "Contre-attaque",
+      "term_es": "Contraataque",
+      "definition_en": "A rapid transition from defense to attack exploiting space before opponents organize."
+    },
+    {
+      "term_ar": "الضغط العالي",
+      "term_en": "High Press",
+      "definition_ar": "ملاحقة حامل الكرة في مناطق متقدمة من ملعب الخصم لاستعادتها مبكراً.",
+      "term_fr": "Pressing haut",
+      "term_es": "Presión alta",
+      "definition_en": "Pressuring the ball carrier high up the pitch to win possession early."
+    },
+    {
+      "term_ar": "التمريرة الحاسمة",
+      "term_en": "Assist",
+      "definition_ar": "آخر تمريرة أو لمسة تؤدي مباشرة إلى تسجيل هدف.",
+      "term_fr": "Passe décisive",
+      "term_es": "Asistencia",
+      "definition_en": "The final pass or touch that directly sets up a goal."
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "service": "Sii-Football Multi-Sport Encyclopedia API",
+  "owner": "Berra",
+  "access": "free_open",
+  "version": "2.0.0",
+  "languages": [
+    "ar",
+    "en",
+    "fr",
+    "es"
+  ],
+  "sports": [
+    {
+      "id": "football",
+      "name": {
+        "ar": "كرة القدم",
+        "en": "Football",
+        "fr": "Football",
+        "es": "Fútbol"
+      },
+      "players_per_side": 11,
+      "governing_body": "FIFA",
+      "rules": {
+        "ar": "تُلعب بين فريقين من 11 لاعباً لمدة شوطين كل منهما 45 دقيقة، ويهدف كل فريق لإدخال الكرة في مرمى الخصم.",
+        "en": "Played between two teams of 11 players over two 45-minute halves to score more goals than the opponent."
+      },
+      "major_competitions": [
+        "FIFA World Cup",
+        "UEFA Champions League",
+        "English Premier League",
+        "La Liga",
+        "Serie A",
+        "Bundesliga",
+        "Ligue 1",
+        "CAF Africa Cup of Nations",
+        "Copa América"
+      ],
+      "para_categories": [
+        "amputee-football",
+        "blind-football",
+        "cp-football"
+      ],
+      "iconic_clubs": [
+        "Real Madrid",
+        "FC Barcelona",
+        "Manchester United",
+        "Liverpool",
+        "Bayern Munich",
+        "AC Milan",
+        "Juventus",
+        "Raja Club Athletic",
+        "Wydad AC",
+        "Al Ahly SC"
+      ],
+      "historical_records": [
+        {
+          "title_ar": "الأكثر تتويجاً بكأس العالم للمنتخبات",
+          "holder": "Brazil (5 titles)"
+        },
+        {
+          "title_ar": "الأكثر تتويجاً بدوري أبطال أوروبا",
+          "holder": "Real Madrid (15 titles)"
+        }
+      ]
+    },
+    {
+      "id": "basketball",
+      "name": {
+        "ar": "كرة السلة",
+        "en": "Basketball",
+        "fr": "Basket-ball",
+        "es": "Baloncesto"
+      },
+      "players_per_side": 5,
+      "governing_body": "FIBA",
+      "rules": {
+        "ar": "خمسة لاعبين لكل فريق على ملعب مستطيل، وتسجيل النقاط عبر رمي الكرة في السلة المرتفعة (نقطتان، ثلاث نقاط، أو رمية حرة).",
+        "en": "Five players per side score points by shooting through the opponent's hoop (2-pointers, 3-pointers, and free throws)."
+      },
+      "major_competitions": [
+        "NBA",
+        "FIBA Basketball World Cup",
+        "EuroLeague",
+        "Olympic Basketball Tournament"
+      ],
+      "iconic_teams": [
+        "Los Angeles Lakers",
+        "Boston Celtics",
+        "Chicago Bulls",
+        "Real Madrid Baloncesto"
+      ],
+      "historical_records": [
+        {
+          "title_ar": "أكثر الفرق تتويجاً بلقب NBA",
+          "holder": "Boston Celtics & Los Angeles Lakers (18 titles each)"
+        }
+      ]
+    },
+    {
+      "id": "tennis",
+      "name": {
+        "ar": "التنس",
+        "en": "Tennis",
+        "fr": "Tennis",
+        "es": "Tenis"
+      },
+      "players_per_side": "1 or 2",
+      "governing_body": "ITF",
+      "rules": {
+        "ar": "تُضرب الكرة بمضرب فوق الشبكة داخل حدود الملعب الفردي أو الزوجي وفق نظام الأشواط والمجموعات.",
+        "en": "Players hit a ball over a net within court boundaries in singles or doubles matches scored by points, games, and sets."
+      },
+      "major_competitions": [
+        "Australian Open",
+        "Roland-Garros",
+        "Wimbledon",
+        "US Open",
+        "ATP Finals",
+        "WTA Finals"
+      ],
+      "historical_records": [
+        {
+          "title_ar": "الأكثر تتويجاً بألقاب الجراند سلام (فردي)",
+          "holder": "Margaret Court (24) / Novak Djokovic (24)"
+        }
+      ]
+    },
+    {
+      "id": "handball",
+      "name": {
+        "ar": "كرة اليد",
+        "en": "Handball",
+        "fr": "Handball",
+        "es": "Balonmano"
+      },
+      "players_per_side": 7,
+      "governing_body": "IHF",
+      "rules": {
+        "ar": "سبعة لاعبين لكل فريق (6 لاعبين في الملعب + حارس مرمى)، يتنافسون على تسجيل الأهداف باليد خلال شوطين مدة كل منهما 30 دقيقة.",
+        "en": "Seven players per side (six outfield players and a goalkeeper) compete across two 30-minute halves to score goals by hand."
+      },
+      "major_competitions": [
+        "IHF World Men's Handball Championship",
+        "EHF Champions League",
+        "Olympic Handball Tournament"
+      ]
+    },
+    {
+      "id": "volleyball",
+      "name": {
+        "ar": "الكرة الطائرة",
+        "en": "Volleyball",
+        "fr": "Volley-ball",
+        "es": "Voleibol"
+      },
+      "players_per_side": 6,
+      "governing_body": "FIVB",
+      "rules": {
+        "ar": "ستة لاعبين في كل جهة يفصل بينهما شبكة، ويهدف كل فريق لإسقاط الكرة في ملعب المنافس خلال أشواط تُحسم غالباً بـ 25 نقطة.",
+        "en": "Six players per side across a net aim to ground the ball on the opponent's court in sets typically played to 25 points."
+      },
+      "major_competitions": [
+        "FIVB Volleyball World Championship",
+        "FIVB Nations League",
+        "Olympic Volleyball Tournament"
+      ]
+    },
+    {
+      "id": "formula-1",
+      "name": {
+        "ar": "الفورمولا 1",
+        "en": "Formula 1",
+        "fr": "Formule 1",
+        "es": "Fórmula 1"
+      },
+      "governing_body": "FIA",
+      "rules": {
+        "ar": "سباقات سيارات ذات مقعد واحد على حلبات عالمية، وتُمنح النقاط لأصحاب المراكز الأولى في كل سباق جائزة كبرى.",
+        "en": "Single-seater open-wheel circuit racing awarding championship points to top finishers in each Grand Prix."
+      },
+      "major_competitions": [
+        "FIA Formula One World Championship",
+        "Monaco Grand Prix",
+        "British Grand Prix",
+        "Italian Grand Prix"
+      ]
+    },
+    {
+      "id": "combat-sports",
+      "name": {
+        "ar": "رياضات القتال (الملاكمة وMMA)",
+        "en": "Combat Sports (Boxing & MMA)",
+        "fr": "Sports de combat (Boxe & MMA)",
+        "es": "Deportes de combate (Boxeo y MMA)"
+      },
+      "governing_body": "WBA / WBC / IBF / WBO / Unified MMA",
+      "rules": {
+        "ar": "مواجهات فردية منظمة حسب فئات الوزن والجولات، وتُحسم بالنقاط أو الضربة القاضية أو الإخضاع أو القرار التحكيمي.",
+        "en": "Structured weight-class bouts contested over rounds and decided by decision, knockout, technical knockout, or submission."
+      },
+      "major_competitions": [
+        "World Championship Boxing",
+        "UFC",
+        "Olympic Boxing & Wrestling"
+      ]
+    },
+    {
+      "id": "athletics",
+      "name": {
+        "ar": "ألعاب القوى",
+        "en": "Athletics",
+        "fr": "Athlétisme",
+        "es": "Atletismo"
+      },
+      "governing_body": "World Athletics",
+      "rules": {
+        "ar": "منافسات الجري والوثب والرمي والسباقات المجمعة التي تُقاس بالزمن أو المسافة أو الارتفاع.",
+        "en": "Track running, jumping, throwing, and combined events measured by time, distance, or height."
+      },
+      "major_competitions": [
+        "World Athletics Championships",
+        "Diamond League",
+        "Olympic Track & Field"
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term_ar": "المرتدة السريعة",
+      "term_en": "Counter-Attack",
+      "definition_ar": "انتقال سريع من الدفاع إلى الهجوم لاستغلال المساحات قبل عودة الخصم.",
+      "term_fr": "Contre-attaque",
+      "term_es": "Contraataque",
+      "definition_en": "A rapid transition from defense to attack exploiting space before opponents organize."
+    },
+    {
+      "term_ar": "الضغط العالي",
+      "term_en": "High Press",
+      "definition_ar": "ملاحقة حامل الكرة في مناطق متقدمة من ملعب الخصم لاستعادتها مبكراً.",
+      "term_fr": "Pressing haut",
+      "term_es": "Presión alta",
+      "definition_en": "Pressuring the ball carrier high up the pitch to win possession early."
+    },
+    {
+      "term_ar": "التمريرة الحاسمة",
+      "term_en": "Assist",
+      "definition_ar": "آخر تمريرة أو لمسة تؤدي مباشرة إلى تسجيل هدف.",
+      "term_fr": "Passe décisive",
+      "term_es": "Asistencia",
+      "definition_en": "The final pass or touch that directly sets up a goal."
+    }
+  ],
+  "updated_at": "2026-11-27T02:43:18Z"
+}

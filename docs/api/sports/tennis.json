@@ -1,0 +1,61 @@
+{
+  "service": "Sii-Football Multi-Sport Encyclopedia API",
+  "owner": "Berra",
+  "access": "free_open",
+  "updated_at": "2026-11-27T02:43:18Z",
+  "sport": {
+    "id": "tennis",
+    "name": {
+      "ar": "التنس",
+      "en": "Tennis",
+      "fr": "Tennis",
+      "es": "Tenis"
+    },
+    "players_per_side": "1 or 2",
+    "governing_body": "ITF",
+    "rules": {
+      "ar": "تُضرب الكرة بمضرب فوق الشبكة داخل حدود الملعب الفردي أو الزوجي وفق نظام الأشواط والمجموعات.",
+      "en": "Players hit a ball over a net within court boundaries in singles or doubles matches scored by points, games, and sets."
+    },
+    "major_competitions": [
+      "Australian Open",
+      "Roland-Garros",
+      "Wimbledon",
+      "US Open",
+      "ATP Finals",
+      "WTA Finals"
+    ],
+    "historical_records": [
+      {
+        "title_ar": "الأكثر تتويجاً بألقاب الجراند سلام (فردي)",
+        "holder": "Margaret Court (24) / Novak Djokovic (24)"
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "term_ar": "المرتدة السريعة",
+      "term_en": "Counter-Attack",
+      "definition_ar": "انتقال سريع من الدفاع إلى الهجوم لاستغلال المساحات قبل عودة الخصم.",
+      "term_fr": "Contre-attaque",
+      "term_es": "Contraataque",
+      "definition_en": "A rapid transition from defense to attack exploiting space before opponents organize."
+    },
+    {
+      "term_ar": "الضغط العالي",
+      "term_en": "High Press",
+      "definition_ar": "ملاحقة حامل الكرة في مناطق متقدمة من ملعب الخصم لاستعادتها مبكراً.",
+      "term_fr": "Pressing haut",
+      "term_es": "Presión alta",
+      "definition_en": "Pressuring the ball carrier high up the pitch to win possession early."
+    },
+    {
+      "term_ar": "التمريرة الحاسمة",
+      "term_en": "Assist",
+      "definition_ar": "آخر تمريرة أو لمسة تؤدي مباشرة إلى تسجيل هدف.",
+      "term_fr": "Passe décisive",
+      "term_es": "Asistencia",
+      "definition_en": "The final pass or touch that directly sets up a goal."
+    }
+  ]
+}

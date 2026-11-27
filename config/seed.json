@@ -1,0 +1,24 @@
+{
+  "sports": [
+    {"code": "amputee", "name": "Amputee Football", "description": "Football for players with limb amputations"},
+    {"code": "blind", "name": "Blind Football", "description": "5-a-side football for visually impaired players"},
+    {"code": "deaf", "name": "Deaf Football", "description": "Football for deaf and hard-of-hearing players"},
+    {"code": "powerchair", "name": "Powerchair Football", "description": "Football played in powered wheelchairs"},
+    {"code": "para", "name": "Para Football", "description": "CP / Para football (7-a-side)"}
+  ],
+  "competitions": [
+    {"code": "waff-world-cup", "sport": "amputee", "name": "WAFF Amputee World Cup", "country": "INT", "season": "2026"},
+    {"code": "ibsa-world-championships", "sport": "blind", "name": "IBSA Blind Football World Championships", "country": "INT", "season": "2026"},
+    {"code": "deaflympics-football", "sport": "deaf", "name": "Deaflympics Football", "country": "INT", "season": "2026"},
+    {"code": "fipfa-world-cup", "sport": "powerchair", "name": "FIPFA Powerchair Football World Cup", "country": "INT", "season": "2026"},
+    {"code": "ifcpf-world-cup", "sport": "para", "name": "IFCPF CP Football World Cup", "country": "INT", "season": "2026"}
+  ],
+  "matches": [
+    {"match_id": "seed0000000000001", "sport": "amputee", "competition": "waff-world-cup", "date_utc": "2026-12-01T15:00:00Z", "status": "scheduled",
+     "home_team": {"name": "Demo Team A", "code": "DTA", "score": null}, "away_team": {"name": "Demo Team B", "code": "DTB", "score": null},
+     "venue": "Demo Stadium", "source_url": "seed://demo", "source_id": "seed", "is_stale": false},
+    {"match_id": "seed0000000000002", "sport": "blind", "competition": "ibsa-world-championships", "date_utc": "2026-11-20T12:00:00Z", "status": "finished",
+     "home_team": {"name": "Demo Team C", "code": "DTC", "score": 2}, "away_team": {"name": "Demo Team D", "code": "DTD", "score": 1},
+     "venue": "Demo Arena", "source_url": "seed://demo", "source_id": "seed", "is_stale": false}
+  ]
+}
