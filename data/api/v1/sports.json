@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-11-27T02:07:50Z",
+  "count": 5,
+  "data": [
+    {
+      "code": "amputee",
+      "name": "Amputee Football",
+      "description": "Football for players with limb amputations"
+    },
+    {
+      "code": "blind",
+      "name": "Blind Football",
+      "description": "5-a-side football for visually impaired players"
+    },
+    {
+      "code": "deaf",
+      "name": "Deaf Football",
+      "description": "Football for deaf and hard-of-hearing players"
+    },
+    {
+      "code": "para",
+      "name": "Para Football",
+      "description": "CP / Para football (7-a-side)"
+    },
+    {
+      "code": "powerchair",
+      "name": "Powerchair Football",
+      "description": "Football played in powered wheelchairs"
+    }
+  ]
+}

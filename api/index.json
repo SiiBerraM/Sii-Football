@@ -1,0 +1,32 @@
+{
+  "service": "Sii-Football API",
+  "owner": "Berra",
+  "consumer_app": "SiiMatchMind",
+  "access": "free_open",
+  "base_url": "https://siiberram.github.io/Sii-Football/api",
+  "endpoints": {
+    "index": "/api/index.json",
+    "sources": "/api/sources.json",
+    "news": "/api/news.json",
+    "leagues": "/api/leagues.json",
+    "standings": "/api/standings.json",
+    "disclaimer": "/api/disclaimer.json",
+    "teams": "api/teams.json"
+  },
+  "categories": [
+    "amputee-football",
+    "blind-football",
+    "cp-football"
+  ],
+  "project": "Sii-Football",
+  "updated_at": "2026-11-26T05:42:16Z",
+  "about_page": "about.html",
+  "siimatchmind_access": {
+    "app": "SiiMatchMind",
+    "unrestricted": true,
+    "conditions": "none",
+    "scope": "all_data_and_endpoints"
+  },
+  "matches_count": 20,
+  "teams_count": 28
+}

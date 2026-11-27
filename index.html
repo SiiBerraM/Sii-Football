@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sii-Football API — Para-Football Data &amp; Leagues</title>
+  <style>
+    body { font-family: system-ui, -apple-system, sans-serif; margin: 0; background: #0f172a; color: #e2e8f0; line-height: 1.6; }
+    .wrap { max-width: 900px; margin: 0 auto; padding: 32px 20px; }
+    h1 { margin: 0 0 8px; color: #38bdf8; }
+    .badge { display: inline-block; background: #1e293b; border: 1px solid #334155; padding: 4px 10px; border-radius: 999px; font-size: 13px; color: #94a3b8; }
+    .card { background: #1e293b; border: 1px solid #334155; border-radius: 10px; padding: 18px; margin-top: 18px; }
+    code, pre { background: #020617; color: #7dd3fc; padding: 2px 6px; border-radius: 6px; font-family: monospace; }
+    pre { padding: 14px; overflow-x: auto; }
+    a { color: #38bdf8; }
+    ul { padding-left: 20px; margin: 8px 0; }
+
+    .ad-slot { margin-top: 18px; padding: 12px 16px; border: 1px dashed #475569; border-radius: 10px; background: #0b1120; color: #94a3b8; font-size: 13px; text-align: center; }
+    .ad-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: #64748b; display: block; margin-bottom: 4px; }
+  </style>
+
+
+
+
+<script id="paypal-sdk" src="https://www.paypal.com/sdk/js?client-id=BAAPtuFQFbd4BCzSrLX4a_d58tGwnU1B7o6FgvXEpO5CcRnCKLiG161aUCkOOeQOfl_nUwPxgivpWa5DKo&components=hosted-buttons&disable-funding=venmo&currency=USD"></script>
+<style>
+  @keyframes nyGlow {
+    0%, 100% { box-shadow: 0 2px 16px rgba(244, 208, 63, 0.35); }
+    50% { box-shadow: 0 2px 24px rgba(239, 68, 68, 0.55); }
+  }
+  @keyframes nyMarquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+  #ny-gift-bar {
+    background: linear-gradient(90deg, #14532d 0%, #7f1d1d 50%, #14532d 100%);
+    border-bottom: 2px solid #facc15;
+    color: #fffbeb;
+    padding: 10px 14px;
+    animation: nyGlow 3.2s infinite ease-in-out;
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+  #ny-top-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  #ny-ticker-wrap {
+    flex: 1;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  #ny-ticker-text {
+    display: inline-block;
+    padding-left: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fef08a;
+    animation: nyMarquee 24s linear infinite;
+  }
+  #ny-gift-bar:hover #ny-ticker-text {
+    animation-play-state: paused;
+  }
+  #ny-lang-switcher {
+    display: inline-flex;
+    gap: 4px;
+    flex-shrink: 0;
+  }
+  .ny-lang-btn {
+    background: rgba(0, 0, 0, 0.35);
+    color: #fef9c3;
+    border: 1px solid rgba(250, 204, 21, 0.55);
+    border-radius: 6px;
+    padding: 3px 7px;
+    font-size: 11.5px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .ny-lang-btn.active {
+    background: #facc15;
+    color: #111827;
+  }
+  #ny-center-gift-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto 6px auto;
+    padding: 10px 16px;
+    max-width: 420px;
+    background: rgba(20, 83, 45, 0.14);
+    border: 1.5px solid rgba(212, 175, 55, 0.65);
+    border-radius: 14px;
+    text-align: center;
+    gap: 8px;
+  }
+  #ny-center-label {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  #ny-paypal-controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-height: 36px;
+  }
+  #paypal-container-EY5BNZ6VKRBD4 {
+    min-width: 140px;
+    min-height: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #ny-direct-paypal-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #0070ba;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+    padding: 7px 14px;
+    border-radius: 8px;
+    border: 1px solid #005ea6;
+  }
+  #ny-direct-paypal-btn:hover {
+    background: #005ea6;
+  }
+</style>
+
+
+<style id="ny-gift-fix-style">
+  #ny-center-gift-box {
+    display: block;
+    width: 92%;
+    max-width: 440px;
+    margin: 12px auto;
+    padding: 14px 16px;
+    background: #0f172a;
+    border: 1.5px solid #facc15;
+    border-radius: 14px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  #ny-center-label {
+    display: block;
+    width: 100%;
+    color: #f8fafc;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  #ny-direct-paypal-btn {
+    display: inline-block;
+    width: auto;
+    min-width: 190px;
+    padding: 10px 18px;
+    background: #0070ba;
+    color: #ffffff !important;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-decoration: none;
+    border-radius: 8px;
+    white-space: nowrap;
+  }
+</style>
+<style>
+  #sii-pro-footer {
+    margin-top: 36px;
+    background: #0b1120;
+    color: #cbd5e1;
+    border-top: 1px solid rgba(250, 204, 21, 0.45);
+    padding: 16px 20px;
+    font-family: system-ui, -apple-system, sans-serif;
+    font-size: 13px;
+  }
+  .sii-footer-bar {
+    max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+  }
+  .sii-footer-marks {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    color: #f8fafc;
+  }
+  .sii-reg-badge {
+    color: #facc15;
+    font-weight: 700;
+  }
+  .sii-footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 14px;
+  }
+  .sii-footer-links a {
+    color: #cbd5e1;
+    text-decoration: none;
+  }
+  .sii-footer-links a:hover {
+    color: #facc15;
+    text-decoration: underline;
+  }
+  .sii-footer-right {
+    color: #94a3b8;
+    font-size: 12.5px;
+  }
+</style>
+</head>
+<body>
+<div id="ny-gift-bar" role="region" aria-label="New Year Greeting and Support Banner">
+  <div id="ny-top-row">
+    <div id="ny-ticker-wrap">
+      <span id="ny-ticker-text"></span>
+    </div>
+    <div id="ny-lang-switcher" aria-label="Language switcher">
+      <button type="button" class="ny-lang-btn" data-lang="ar">العربية</button>
+      <button type="button" class="ny-lang-btn" data-lang="en">EN</button>
+      <button type="button" class="ny-lang-btn" data-lang="fr">FR</button>
+    </div>
+  </div>
+<div id="ny-center-gift-box">
+  <div id="ny-center-label"></div>
+  <a id="ny-direct-paypal-btn" href="https://www.paypal.com/ncp/payment/EY5BNZ6VKRBD4" target="_blank" rel="noopener noreferrer"></a>
+</div>
+
+
+
+
+<script>
+(function() {
+  const translations = {
+    ar: {
+      dir: "rtl",
+      marquee: "🎄✨ Berra يتمنى لكم سنة سعيدة! أرسل هدية دعم لموقع Sii-Football لتساندنا ونتمكن من زيادة جودة الخدمات والمعلومات المجانية للجميع 🎁⚽ ✨🎄",
+      centerLabel: "🎁 ادعم Sii-Football بهدية في رأس السنة لتطوير الخدمات والمعلومات المجانية",
+      directBtn: "🎁 إرسال هدية عبر PayPal"
+    },
+    en: {
+      dir: "ltr",
+      marquee: "🎄✨ Berra wishes you a Happy New Year! Send a gift to support Sii-Football so we can keep improving free services and information for everyone 🎁⚽ ✨🎄",
+      centerLabel: "🎁 Support Sii-Football with a New Year gift to improve free services & info",
+      directBtn: "🎁 Send Gift via PayPal"
+    },
+    fr: {
+      dir: "ltr",
+      marquee: "🎄✨ Berra vous souhaite une Bonne Année ! Envoyez un cadeau pour soutenir Sii-Football afin d'améliorer nos services et informations gratuites pour tous 🎁⚽ ✨🎄",
+      centerLabel: "🎁 Soutenez Sii-Football avec un cadeau du Nouvel An pour améliorer les services gratuits",
+      directBtn: "🎁 Offrir via PayPal"
+    }
+  };
+
+  function detectLang() {
+    const saved = localStorage.getItem("sii_lang");
+    if (saved && translations[saved]) return saved;
+    const htmlLang = (document.documentElement.lang || "").toLowerCase();
+    if (htmlLang.startsWith("ar")) return "ar";
+    if (htmlLang.startsWith("fr")) return "fr";
+    if (htmlLang.startsWith("en")) return "en";
+    const nav = (navigator.language || "en").toLowerCase();
+    if (nav.startsWith("ar")) return "ar";
+    if (nav.startsWith("fr")) return "fr";
+    return "en";
+  }
+
+  function applyLang(lang) {
+    const cfg = translations[lang] || translations.en;
+    localStorage.setItem("sii_lang", lang);
+    const ticker = document.getElementById("ny-ticker-text");
+    const centerLabel = document.getElementById("ny-center-label");
+    const directBtn = document.getElementById("ny-direct-paypal-btn");
+    if (ticker) {
+      ticker.textContent = cfg.marquee;
+      ticker.style.direction = cfg.dir;
+    }
+    if (centerLabel) {
+      centerLabel.textContent = cfg.centerLabel;
+      centerLabel.style.direction = cfg.dir;
+    }
+    if (directBtn) {
+      directBtn.textContent = cfg.directBtn;
+    }
+    document.querySelectorAll(".ny-lang-btn").forEach(btn => {
+      btn.classList.toggle("active", btn.dataset.lang === lang);
+    });
+  }
+
+  function initPayPalButton() {
+    const container = document.getElementById("paypal-container-EY5BNZ6VKRBD4");
+    if (!container) return;
+    if (window.paypal && typeof paypal.HostedButtons === "function") {
+      try {
+        container.innerHTML = "";
+        paypal.HostedButtons({ hostedButtonId: "EY5BNZ6VKRBD4" }).render("#paypal-container-EY5BNZ6VKRBD4");
+      } catch (e) {
+        // fallback remains active
+      }
+    }
+  }
+
+  document.querySelectorAll(".ny-lang-btn").forEach(btn => {
+    btn.addEventListener("click", () => applyLang(btn.dataset.lang));
+  });
+
+  applyLang(detectLang());
+  window.addEventListener("load", initPayPalButton);
+  setTimeout(initPayPalButton, 1200);
+})();
+</script>
+
+
+
+  <div class="wrap">
+    <span class="badge">Open &amp; Free JSON API • HTML &amp; PDF Aggregator</span>
+    <h1>Sii-Football API</h1>
+    <p><a href="about.html">About Us (Who We Are)</a></p>
+    <div class="ad-slot" data-ad-slot="top-banner"><span class="ad-label">Advertisement</span>Sponsor / Ad Space — Top Banner</div>
+
+    <p>Structured disability and para-football data (Amputee, Blind, CP Football) aggregated from public HTML and PDF sources with attribution, powering <strong>SiiMatchMind</strong> and open developers.</p>
+
+    <div class="card">
+      <h2>Endpoints</h2>
+      <ul>
+        <li><code>GET /api/index.json</code> — <a href="api/index.json">Service &amp; endpoint catalog</a></li>
+        <li><code>GET /api/sources.json</code> — <a href="api/sources.json">Registered HTML/PDF sources</a></li>
+        <li><code>GET /api/news.json</code> — <a href="api/news.json">Extracted HTML &amp; PDF items</a></li>
+        <li><code>GET /api/leagues.json</code> — <a href="api/leagues.json">Competitions &amp; structured matches</a></li>
+        <li><code>GET /api/teams.json</code> — <a href="api/teams.json">Teams &amp; match stats</a></li>
+      </ul>
+    </div>
+
+    
+    <div class="ad-slot" data-ad-slot="mid-content"><span class="ad-label">Advertisement</span>Sponsor / Ad Space — API &amp; Sports Slot</div>
+    <div class="card">
+      <h2>Live Endpoint Status</h2>
+      <pre id="live-status">Loading /api/index.json...</pre>
+    </div>
+  </div>
+  <script>
+    fetch("api/index.json")
+      .then(r => r.json())
+      .then(data => {
+        document.getElementById("live-status").textContent = JSON.stringify(data, null, 2);
+      })
+      .catch(err => {
+        document.getElementById("live-status").textContent = "Error: " + err.message;
+      });
+  </script>
+
+<footer id="sii-pro-footer" aria-label="Site Footer">
+  <div class="sii-footer-bar">
+    <div class="sii-footer-marks">
+      <span>© 2026</span>
+      <span class="sii-reg-badge">Sii-Football®</span>
+      <span>•</span>
+      <span class="sii-reg-badge">SiiMatchMind®</span>
+      <span id="sf-rights"></span>
+    </div>
+    <div class="sii-footer-links">
+      <a id="sf-home" href="./index.html"></a>
+      <a id="sf-about" href="./about.html"></a>
+      <a id="sf-gift" href="#ny-center-gift-box"></a>
+    </div>
+    <div class="sii-footer-right" id="sf-by"></div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  const footerI18n = {
+    ar: {
+      dir: "rtl",
+      rights: "جميع الحقوق محفوظة",
+      home: "الرئيسية",
+      about: "عن الموقع",
+      gift: "هدية الدعم",
+      by: "Berra • بالشراكة مع SiiMatchMind®"
+    },
+    en: {
+      dir: "ltr",
+      rights: "All rights reserved.",
+      home: "Home",
+      about: "About",
+      gift: "Gift Support",
+      by: "Berra • In Partnership with SiiMatchMind®"
+    },
+    fr: {
+      dir: "ltr",
+      rights: "Tous droits réservés.",
+      home: "Accueil",
+      about: "À propos",
+      gift: "Soutien",
+      by: "Berra • En partenariat avec SiiMatchMind®"
+    }
+  };
+
+  function getActiveLang() {
+    const saved = localStorage.getItem("sii_lang");
+    if (saved && footerI18n[saved]) return saved;
+    const nav = (navigator.language || "en").toLowerCase();
+    if (nav.startsWith("ar")) return "ar";
+    if (nav.startsWith("fr")) return "fr";
+    return "en";
+  }
+
+  function renderFooter(lang) {
+    const d = footerI18n[lang] || footerI18n.en;
+    const foot = document.getElementById("sii-pro-footer");
+    if (!foot) return;
+    foot.style.direction = d.dir;
+    document.getElementById("sf-rights").textContent = d.rights;
+    document.getElementById("sf-home").textContent = d.home;
+    document.getElementById("sf-about").textContent = d.about;
+    document.getElementById("sf-gift").textContent = d.gift;
+    document.getElementById("sf-by").textContent = d.by;
+  }
+
+  renderFooter(getActiveLang());
+  document.querySelectorAll(".ny-lang-btn").forEach(btn => {
+    btn.addEventListener("click", () => renderFooter(btn.dataset.lang));
+  });
+})();
+</script>
+</body>
+</html>

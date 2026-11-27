@@ -1,0 +1,216 @@
+{
+  "generated_at": "2026-11-27T02:07:50Z",
+  "count": 10,
+  "data": [
+    {
+      "match_id": "0bedb79b30d248d8",
+      "sport": "amputee",
+      "competition": "waff-world-cup",
+      "date_utc": "2026-11-22T18:00:00Z",
+      "status": "finished",
+      "home_team": {
+        "name": "Ghana",
+        "code": "GHA",
+        "score": 1
+      },
+      "away_team": {
+        "name": "Morocco",
+        "code": "MAR",
+        "score": 0
+      },
+      "venue": "San Juan de los Lagos, Mexico",
+      "source_url": "manual://waff-2026",
+      "is_stale": false,
+      "source_updated_at": "2026-11-27T02:07:50Z"
+    },
+    {
+      "match_id": "ff345a87d272b0ae",
+      "sport": "amputee",
+      "competition": "waff-world-cup",
+      "date_utc": "2026-11-20T18:00:00Z",
+      "status": "finished",
+      "home_team": {
+        "name": "Morocco",
+        "code": "MAR",
+        "score": 2
+      },
+      "away_team": {
+        "name": "Brazil",
+        "code": "BRA",
+        "score": 1
+      },
+      "venue": "San Juan de los Lagos, Mexico",
+      "source_url": "manual://waff-2026",
+      "is_stale": false,
+      "source_updated_at": "2026-11-27T02:07:50Z"
+    },
+    {
+      "match_id": "267d3be17daf65fc",
+      "sport": "amputee",
+      "competition": "waff-world-cup",
+      "date_utc": "2026-11-20T18:00:00Z",
+      "status": "finished",
+      "home_team": {
+        "name": "Ghana",
+        "code": "GHA",
+        "score": 1
+      },
+      "away_team": {
+        "name": "Turkiye",
+        "code": "TUR",
+        "score": 1
+      },
+      "venue": "San Juan de los Lagos, Mexico",
+      "source_url": "manual://waff-2026",
+      "is_stale": false,
+      "source_updated_at": "2026-11-27T02:07:50Z"
+    },
+    {
+      "match_id": "cb5c6eb41487528b",
+      "sport": "amputee",
+      "competition": "waff-world-cup",
+      "date_utc": "2026-11-19T18:00:00Z",
+      "status": "finished",
+      "home_team": {
+        "name": "Ghana",
+        "code": "GHA",
+        "score": 2
+      },
+      "away_team": {
+        "name": "Egypt",
+        "code": "EGY",
+        "score": 0
+      },
+      "venue": "San Juan de los Lagos, Mexico",
+      "source_url": "manual://waff-2026",
+      "is_stale": false,
+      "source_updated_at": "2026-11-27T02:07:50Z"
+    },
+    {
+      "match_id": "29f45642c0e8febc",
+      "sport": "amputee",
+      "competition": "waff-world-cup",
+      "date_utc": "2026-11-19T18:00:00Z",
+      "status": "finished",
+      "home_team": {
+        "name": "Morocco",
+        "code": "MAR",
+        "score": 4
+      },
+      "away_team": {
+        "name": "Angola",
+        "code": "AGO",
+        "score": 1
+      },
+      "venue": "San Juan de los Lagos, Mexico",
+      "source_url": "manual://waff-2026",
+      "is_stale": false,
+      "source_updated_at": "2026-11-27T02:07:50Z"
+    },
+    {
+      "match_id": "2133e1b5ac29fdb9",
+      "sport": "amputee",
+      "competition": "waff-world-cup",
+      "date_utc": "2026-11-18T18:00:00Z",
+      "status": "finished",
+      "home_team": {
+        "name": "Morocco",
+        "code": "MAR",
+        "score": 4
+      },
+      "away_team": {
+        "name": "Italy",
+        "code": "ITA",
+        "score": 1
+      },
+      "venue": "San Juan de los Lagos, Mexico",
+      "source_url": "manual://waff-2026",
+      "is_stale": false,
+      "source_updated_at": "2026-11-27T02:07:50Z"
+    },
+    {
+      "match_id": "fe0c6281b4448446",
+      "sport": "amputee",
+      "competition": "waff-world-cup",
+      "date_utc": "2026-11-18T18:00:00Z",
+      "status": "finished",
+      "home_team": {
+        "name": "Ghana",
+        "code": "GHA",
+        "score": 3
+      },
+      "away_team": {
+        "name": "USA",
+        "code": "USA",
+        "score": 1
+      },
+      "venue": "San Juan de los Lagos, Mexico",
+      "source_url": "manual://waff-2026",
+      "is_stale": false,
+      "source_updated_at": "2026-11-27T02:07:50Z"
+    },
+    {
+      "match_id": "f8511c6399e47003",
+      "sport": "amputee",
+      "competition": "waff-world-cup",
+      "date_utc": "2026-11-18T18:00:00Z",
+      "status": "finished",
+      "home_team": {
+        "name": "Angola",
+        "code": "AGO",
+        "score": 2
+      },
+      "away_team": {
+        "name": "Poland",
+        "code": "POL",
+        "score": 1
+      },
+      "venue": "San Juan de los Lagos, Mexico",
+      "source_url": "manual://waff-2026",
+      "is_stale": false,
+      "source_updated_at": "2026-11-27T02:07:50Z"
+    },
+    {
+      "match_id": "ccab753d55ba6c96",
+      "sport": "amputee",
+      "competition": "waff-world-cup",
+      "date_utc": "2026-11-18T18:00:00Z",
+      "status": "finished",
+      "home_team": {
+        "name": "Egypt",
+        "code": "EGY",
+        "score": 2
+      },
+      "away_team": {
+        "name": "England",
+        "code": "ENG",
+        "score": 1
+      },
+      "venue": "San Juan de los Lagos, Mexico",
+      "source_url": "manual://waff-2026",
+      "is_stale": false,
+      "source_updated_at": "2026-11-27T02:07:50Z"
+    },
+    {
+      "match_id": "ab33e3b1ae047740",
+      "sport": "amputee",
+      "competition": "waff-world-cup",
+      "date_utc": "2026-11-16T18:00:00Z",
+      "status": "finished",
+      "home_team": {
+        "name": "Ghana",
+        "code": "GHA",
+        "score": 6
+      },
+      "away_team": {
+        "name": "Iraq",
+        "code": "IRQ",
+        "score": 0
+      },
+      "venue": "San Juan de los Lagos, Mexico",
+      "source_url": "manual://waff-2026",
+      "is_stale": false,
+      "source_updated_at": "2026-11-27T02:07:50Z"
+    }
+  ]
+}
