@@ -15,7 +15,7 @@ if _db.startswith("sqlite:///") and not _db.startswith("sqlite:////"):
 DATABASE_URL = _db
 
 OWNER_NAME = "Berra"
-OWNER_EMAIL = "berramouhcine13@gmail.com"
+OWNER_EMAIL = "noreply@users.noreply.github.com"
 ADMIN_API_KEY = os.getenv("ADMIN_API_KEY", "")
 REQUIRE_API_KEY = os.getenv("REQUIRE_API_KEY", "true").lower() == "true"
 DEFAULT_RATE_LIMIT = int(os.getenv("DEFAULT_RATE_LIMIT_PER_MIN", "60"))

@@ -1,6 +1,6 @@
 # Sii-Football Data API
 Free & open football data API. Phase 1: disability football (Amputee, Blind, Deaf, Powerchair, Para).
-Owner: **Berra** — berramouhcine13@gmail.com — 100% free stack.
+Owner: **Berra** — noreply@users.noreply.github.com — 100% free stack.
 
 ## Run locally
     pip install -r requirements.txt

@@ -1,6 +1,6 @@
 {
   "service": "Sii-Football API",
-  "owner": "Berra Mouhcine",
+  "owner": "Berra",
   "consumer_app": "SiiMatchMind",
   "access": "free_open",
   "base_url": "https://siiberram.github.io/Sii-Football/api",
@@ -20,7 +20,6 @@
   ],
   "project": "Sii-Football",
   "updated_at": "2026-11-26T05:42:16Z",
-  "location": "Casablanca, Morocco",
   "about_page": "about.html",
   "siimatchmind_access": {
     "app": "SiiMatchMind",

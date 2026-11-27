@@ -1,7 +1,7 @@
 import time
 import requests
 
-HEADERS = {"User-Agent": "Sii-FootballBot/1.0 (+berramouhcine13@gmail.com)"}
+HEADERS = {"User-Agent": "Sii-FootballBot/1.0 (+noreply@users.noreply.github.com)"}
 
 
 class SourceError(Exception):
