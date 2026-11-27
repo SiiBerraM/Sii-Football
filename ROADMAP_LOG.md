@@ -102,3 +102,18 @@ Project brief file (اوامر_المشروع_والافكار_الاضافية.
 - Known issues: engine applies home advantage to nominal home/away on neutral venue; low confidence with few matches; UI display of SF leagues not yet verified; static build computes analyses only for upcoming/today matches
 - Lesson: read the target system (storage, mixing rules, deploy path) before writing the bridge; use a feature branch and PR for someone elses live app
 - Next: verify after the 05:00 UTC run that the site shows both leagues, add neutral-venue handling, group stage results, more sources
+
+## Session 01 - Part 11 (audit and fixes)
+- Fixed: date shift for unknown kickoff times, wrong team codes (Iran/Iraq etc), Korea/South Korea duplicate (scrapers/normalize.py)
+- Removed full name, city and personal email from project files
+- Found: user added a second system in the same repo (api/*.json, scripts/fetch_data.py, update_api.yml, about.html, new index.html); both run in parallel
+- TODO: add robots.txt check to scrapers/base.py (terms promise it)
+- TODO: disclaimer/index.json list all categories (add deaf, powerchair)
+- TODO: rewrite README (describes undeployed FastAPI); no tests; no license decision
+- TODO: replace registered-mark symbol with TM unless trademark is registered
+- TODO: check api/news.json (355KB) for full article text (copyright), keep titles, links, short summary
+- TODO: decide how the two systems (data/api/v1 and api/) merge; avoid duplicate names and bot conflicts
+- TODO: manual WAFF rows need real source_url and is_stale handling; add group stage results; no upcoming fixtures exist
+- TODO: neutral venue handling in SiiMatchMind engine
+- Open: SiiMatchMind PR #1 merged; verify site shows SF leagues after daily run
+- New chat: say "continue Sii-Football from ROADMAP_LOG.md", run termux-setup-storage first
