@@ -1,9 +1,9 @@
 {
   "app": "SiiMatchMind",
   "source_project": "Sii-Football",
-  "updated_at": "2026-11-27T20:47:17Z",
+  "updated_at": "2026-11-28T05:31:18Z",
   "totals": {
-    "competitions": 22,
+    "competitions": 24,
     "matches": 15,
     "standings": 12,
     "news": 42
@@ -454,6 +454,24 @@
           "fetched_at": "2026-11-27T20:45:38Z"
         }
       ]
+    },
+    "deaf-football": {
+      "competitions_count": 1,
+      "matches_count": 0,
+      "standings_count": 0,
+      "news_count": 0,
+      "latest_matches": [],
+      "top_standings": [],
+      "latest_news": []
+    },
+    "powerchair-football": {
+      "competitions_count": 1,
+      "matches_count": 0,
+      "standings_count": 0,
+      "news_count": 0,
+      "latest_matches": [],
+      "top_standings": [],
+      "latest_news": []
     }
   },
   "attribution_license": "Open Aggregator with Source Attribution"

@@ -2,7 +2,7 @@
   "project": "Sii-Football",
   "consumer_app": "SiiMatchMind",
   "license_note": "Structured para-football leagues and match records from public HTML and PDF sources with attribution.",
-  "updated_at": "2026-11-27T20:47:17Z",
+  "updated_at": "2026-11-28T05:31:18Z",
   "by_category": {
     "amputee-football": {
       "competitions": 2,
@@ -35,9 +35,17 @@
     "multi-sport": {
       "competitions": 1,
       "matches": 0
+    },
+    "deaf-football": {
+      "competitions": 1,
+      "matches": 0
+    },
+    "powerchair-football": {
+      "competitions": 1,
+      "matches": 0
     }
   },
-  "competitions_count": 22,
+  "competitions_count": 24,
   "competitions": [
     {
       "id": 1,
@@ -290,6 +298,26 @@
       "discovered_pdfs": [],
       "char_length": 4861,
       "fetched_at": "2026-11-27T20:47:17Z"
+    },
+    {
+      "id": 23,
+      "name": "Deaflympics Football",
+      "category": "deaf-football",
+      "source_type": "db",
+      "source_url": "https://www.deaflympics.com/sports/fb",
+      "discovered_pdfs": [],
+      "char_length": 0,
+      "fetched_at": "2026-11-28T05:31:18Z"
+    },
+    {
+      "id": 24,
+      "name": "FIPFA Powerchair Football World Cup",
+      "category": "powerchair-football",
+      "source_type": "db",
+      "source_url": "https://fipfa.org/",
+      "discovered_pdfs": [],
+      "char_length": 0,
+      "fetched_at": "2026-11-28T05:31:18Z"
     }
   ],
   "matches_count": 15,
