@@ -2,87 +2,9 @@
   "project": "Sii-Football",
   "consumer_app": "SiiMatchMind",
   "license_note": "Structured para-football standings from public HTML and PDF sources with attribution.",
-  "updated_at": "2026-11-26T21:01:31Z",
-  "standings_count": 12,
+  "updated_at": "2026-11-28T06:41:57Z",
+  "standings_count": 6,
   "standings": [
-    {
-      "position": 1,
-      "team": "England",
-      "category": "blind-football",
-      "played": 5,
-      "won": 4,
-      "drawn": 1,
-      "lost": 0,
-      "points": 13,
-      "source_name": "IBSA Men's Blind Football Nations Cup",
-      "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
-      "fetched_at": "2026-11-26T20:59:56Z"
-    },
-    {
-      "position": 2,
-      "team": "Iran",
-      "category": "blind-football",
-      "played": 5,
-      "won": 4,
-      "drawn": 1,
-      "lost": 0,
-      "points": 13,
-      "source_name": "IBSA Men's Blind Football Nations Cup",
-      "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
-      "fetched_at": "2026-11-26T20:59:56Z"
-    },
-    {
-      "position": 3,
-      "team": "Italy",
-      "category": "blind-football",
-      "played": 5,
-      "won": 3,
-      "drawn": 0,
-      "lost": 2,
-      "points": 9,
-      "source_name": "IBSA Men's Blind Football Nations Cup",
-      "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
-      "fetched_at": "2026-11-26T20:59:56Z"
-    },
-    {
-      "position": 4,
-      "team": "India",
-      "category": "blind-football",
-      "played": 5,
-      "won": 2,
-      "drawn": 0,
-      "lost": 3,
-      "points": 6,
-      "source_name": "IBSA Men's Blind Football Nations Cup",
-      "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
-      "fetched_at": "2026-11-26T20:59:56Z"
-    },
-    {
-      "position": 5,
-      "team": "Korea",
-      "category": "blind-football",
-      "played": 5,
-      "won": 1,
-      "drawn": 0,
-      "lost": 4,
-      "points": 3,
-      "source_name": "IBSA Men's Blind Football Nations Cup",
-      "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
-      "fetched_at": "2026-11-26T20:59:56Z"
-    },
-    {
-      "position": 6,
-      "team": "Poland",
-      "category": "blind-football",
-      "played": 5,
-      "won": 0,
-      "drawn": 0,
-      "lost": 5,
-      "points": 0,
-      "source_name": "IBSA Men's Blind Football Nations Cup",
-      "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
-      "fetched_at": "2026-11-26T20:59:56Z"
-    },
     {
       "position": 1,
       "team": "Chile",
@@ -94,7 +16,7 @@
       "points": 1,
       "source_name": "IFCPF Tournament Standings & Matches (View 121)",
       "source_url": "https://www.ifcpf.com/tournaments/view/121",
-      "fetched_at": "2026-11-26T20:59:56Z"
+      "fetched_at": "2026-11-28T06:37:51Z"
     },
     {
       "position": 3,
@@ -107,7 +29,7 @@
       "points": 0,
       "source_name": "IFCPF Tournament Standings & Matches (View 121)",
       "source_url": "https://www.ifcpf.com/tournaments/view/121",
-      "fetched_at": "2026-11-26T20:59:56Z"
+      "fetched_at": "2026-11-28T06:37:51Z"
     },
     {
       "position": 3,
@@ -120,7 +42,7 @@
       "points": 0,
       "source_name": "IFCPF Tournament Standings & Matches (View 121)",
       "source_url": "https://www.ifcpf.com/tournaments/view/121",
-      "fetched_at": "2026-11-26T20:59:56Z"
+      "fetched_at": "2026-11-28T06:37:51Z"
     },
     {
       "position": 7,
@@ -133,7 +55,7 @@
       "points": 7,
       "source_name": "IFCPF Tournament Standings & Matches (View 121)",
       "source_url": "https://www.ifcpf.com/tournaments/view/121",
-      "fetched_at": "2026-11-26T20:59:56Z"
+      "fetched_at": "2026-11-28T06:37:51Z"
     },
     {
       "position": 9,
@@ -146,7 +68,7 @@
       "points": 6,
       "source_name": "IFCPF Tournament Standings & Matches (View 121)",
       "source_url": "https://www.ifcpf.com/tournaments/view/121",
-      "fetched_at": "2026-11-26T20:59:56Z"
+      "fetched_at": "2026-11-28T06:37:51Z"
     },
     {
       "position": 9,
@@ -159,7 +81,7 @@
       "points": 6,
       "source_name": "IFCPF Tournament Standings & Matches (View 121)",
       "source_url": "https://www.ifcpf.com/tournaments/view/121",
-      "fetched_at": "2026-11-26T20:59:56Z"
+      "fetched_at": "2026-11-28T06:37:51Z"
     }
   ]
 }
