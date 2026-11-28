@@ -1,0 +1,149 @@
+{
+  "project": "Sii-Football",
+  "consumer_app": "SiiMatchMind",
+  "license_note": "Public official and tournament para-football sources with attribution.",
+  "sources": [
+    {
+      "id": 1,
+      "name": "WAFF World Cup 2026 – Mexico",
+      "url": "https://amputeefootball.org/world-cup-2026/",
+      "type": "html",
+      "category": "amputee-football"
+    },
+    {
+      "id": 2,
+      "name": "WAFF World Cup 2026 – Matches & Results",
+      "url": "https://amputeefootball.org/Worldcup-test/",
+      "type": "html",
+      "category": "amputee-football"
+    },
+    {
+      "id": 4,
+      "name": "IBSA Football Historical Results",
+      "url": "https://ibsasport.org/sports/football/about/historical-results/",
+      "type": "html",
+      "category": "blind-football"
+    },
+    {
+      "id": 5,
+      "name": "IBSA European Blind Football Championship 2026",
+      "url": "https://ibsablindeuro2026.com/en/home-2/",
+      "type": "html",
+      "category": "blind-football"
+    },
+    {
+      "id": 6,
+      "name": "IBSA Men's Blind Football Nations Cup",
+      "url": "https://www.blindfootball.in/ibsa-mens-2025",
+      "type": "html",
+      "category": "blind-football"
+    },
+    {
+      "id": 7,
+      "name": "IFCPF Tournaments & Results",
+      "url": "https://www.ifcpf.com/tournaments",
+      "type": "html",
+      "category": "cp-football"
+    },
+    {
+      "id": 8,
+      "name": "IFCPF Official Results Page",
+      "url": "https://www.ifcpf.com/tournaments/results",
+      "type": "html",
+      "category": "cp-football"
+    },
+    {
+      "id": 9,
+      "name": "IFCPF Tournament Standings & Matches (View 121)",
+      "url": "https://www.ifcpf.com/tournaments/view/121",
+      "type": "html",
+      "category": "cp-football"
+    },
+    {
+      "id": 10,
+      "name": "ESPN Soccer News RSS",
+      "url": "https://www.espn.com/espn/rss/soccer/news",
+      "type": "rss",
+      "category": "world-football"
+    },
+    {
+      "id": 11,
+      "name": "BBC Sport Football RSS",
+      "url": "https://feeds.bbci.co.uk/sport/football/rss.xml",
+      "type": "rss",
+      "category": "world-football"
+    },
+    {
+      "id": 12,
+      "name": "ESPN NBA News RSS",
+      "url": "https://www.espn.com/espn/rss/nba/news",
+      "type": "rss",
+      "category": "basketball"
+    },
+    {
+      "id": 13,
+      "name": "BBC Sport Basketball RSS",
+      "url": "https://feeds.bbci.co.uk/sport/basketball/rss.xml",
+      "type": "rss",
+      "category": "basketball"
+    },
+    {
+      "id": 14,
+      "name": "ESPN F1 News RSS",
+      "url": "https://www.espn.com/espn/rss/f1/news",
+      "type": "rss",
+      "category": "motorsport"
+    },
+    {
+      "id": 15,
+      "name": "BBC Sport Formula 1 RSS",
+      "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
+      "type": "rss",
+      "category": "motorsport"
+    },
+    {
+      "id": 16,
+      "name": "ESPN Tennis News RSS",
+      "url": "https://www.espn.com/espn/rss/tennis/news",
+      "type": "rss",
+      "category": "tennis"
+    },
+    {
+      "id": 17,
+      "name": "BBC Sport Tennis RSS",
+      "url": "https://feeds.bbci.co.uk/sport/tennis/rss.xml",
+      "type": "rss",
+      "category": "tennis"
+    },
+    {
+      "id": 18,
+      "name": "ESPN General Sports RSS",
+      "url": "https://www.espn.com/espn/rss/news",
+      "type": "rss",
+      "category": "multi-sport"
+    },
+    {
+      "id": 19,
+      "name": "BBC Sport All Sports RSS",
+      "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+      "type": "rss",
+      "category": "multi-sport"
+    },
+    {
+      "id": "bbc-motorsport-rss",
+      "name": "BBC Sport Motorsport RSS",
+      "category": "motorsport",
+      "type": "rss",
+      "url": "https://feeds.bbci.co.uk/sport/motorsport/rss.xml",
+      "enabled": true
+    },
+    {
+      "id": "espn-f1-rss",
+      "name": "ESPN Formula 1 RSS",
+      "category": "motorsport",
+      "type": "rss",
+      "url": "https://www.espn.com/espn/rss/rpm/news",
+      "enabled": true
+    }
+  ]
+}

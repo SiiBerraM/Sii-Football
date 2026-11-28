@@ -90,6 +90,9 @@ jobs:
               json.dump(new_summary, fp, ensure_ascii=False, indent=2)
           PY
 
+      - name: Sync para-football API to docs/api
+        run: |
+          python3 -c 'import shutil, os; os.makedirs("docs/api/para", exist_ok=True); files = ["siimatchmind_summary.json", "leagues.json", "matches.json", "teams.json", "standings.json", "news.json", "sources.json", "disclaimer.json"]; [ (shutil.copy2(os.path.join("api", f), os.path.join("docs/api", f)), shutil.copy2(os.path.join("api", f), os.path.join("docs/api/para", f))) for f in files if os.path.exists(os.path.join("api", f)) ]; shutil.copy2("api/index.json", "docs/api/para/index.json")'
       - name: Commit and push updated API files
         run: |
           git config user.name "github-actions[bot]"

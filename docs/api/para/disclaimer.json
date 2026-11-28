@@ -1,0 +1,13 @@
+{
+  "project": "Sii-Football",
+  "consumer_app": "SiiMatchMind",
+  "license": "Open Aggregator with Source Attribution",
+  "terms": [
+    "Data is compiled automatically from publicly accessible HTML and PDF para-football sources.",
+    "Every record includes source_name and source_url for transparent attribution.",
+    "Requests respect robots.txt and apply rate limiting between fetches.",
+    "Source owners requesting removal or adjustment can open an issue on the repository."
+  ],
+  "repository": "https://github.com/SiiBerraM/Sii-Football",
+  "api_base": "https://siiberram.github.io/Sii-Football/api"
+}

@@ -1,0 +1,460 @@
+{
+  "app": "SiiMatchMind",
+  "source_project": "Sii-Football",
+  "updated_at": "2026-11-26T21:01:31Z",
+  "totals": {
+    "competitions": 23,
+    "matches": 15,
+    "standings": 12,
+    "news": 45
+  },
+  "categories": {
+    "amputee-football": {
+      "competitions_count": 2,
+      "matches_count": 0,
+      "standings_count": 0,
+      "news_count": 2,
+      "latest_matches": [],
+      "top_standings": [],
+      "latest_news": [
+        {
+          "id": 1,
+          "source_name": "WAFF World Cup 2026 – Mexico",
+          "source_url": "https://amputeefootball.org/world-cup-2026/",
+          "source_type": "html",
+          "excerpt": "WAFF World Cup 2026 – Mexico – World Ampute Football Federation HOME ABOUT WAFF Who We Are WAFF Board What is Amputee Football History of Amputee Football Documents and Forms NEWS WAFF Projects Amputee Football Junior Camps 2026/2027 supported by UEFA Foundation NEW COUNTRIES WOMEN AMPUTEE FOOTBALL WAFF MEMBERS Africa America North America South Asia Europe WORLD CUPS WAFF World Cup 2026 WAFF Women`s World Cup 2024 WAFF World Cup 2022 WAFF World Cup 2018 WAFF World Cup 2014 WAFF World Cup 2012 CONTINENTAL TOURNAMENTS Asian Amputee Football Cup 2025 – Jakarta South American Amputee Football Cup – São Paulo North American Amputee Football- San Juan de los Lagos European Amputee Football Cup – Evian African Amputee Football Cup – Cairo CLEAN SPORT Clean Sport and WAFF WAFF Anti Doping Code – draft Risks of the use of supplements Rights and Responsibilities under the Code WADA – Players/Athlete Whereabouts Therapeutic Use Exemption (TUE) Doping Control Anti-Doping Rule violation Consequences of Doping CONTACT HOME ABOUT WAFF Who We Are WAFF Board What is Amputee Football History of Amputee Football Documents and Forms NEWS WAFF Projects Amputee Football Junior Camps 2026/2027 supported",
+          "fetched_at": "2026-11-26T20:59:56Z"
+        },
+        {
+          "id": 2,
+          "source_name": "WAFF World Cup 2026 – Matches & Results",
+          "source_url": "https://amputeefootball.org/Worldcup-test/",
+          "source_type": "html",
+          "excerpt": "WAFF AMPUTEE FOOTBALL WORLD CUP 2026 MEXICO English Español WAFF AMPUTEE FOOTBALL WORLD CUP 2026 MEXICO Close From its early international competitions in the 1980s, amputee football has grown into a truly global sport, bringing together players, teams and communities from around the world. What began with pioneering tournaments in the United States has developed over more than four decades into an established international movement built on competition, inclusion, resilience and a shared passion for football. The Amputee Football World Cup has played a central role in this journey. Over the years, teams from Africa, Asia, Europe and the Americas have come together to compete at the highest level and to showcase the quality, intensity and spirit of amputee football. Recent World Cups have taken place in Culiacán, Mexico in 2014, San Juan de los Lagos, Mexico in 2018, and Istanbul, Türkiye in 2022. At the most recent World Cup, Türkiye was crowned World Champion in 2022, winning the title on home soil. In 2026, the World Amputee Football Federation is proud to return to San Juan de los Lagos, Mexico. From 13–22 November 2026, 24 teams from four continents will come together to compe",
+          "fetched_at": "2026-11-26T20:59:56Z"
+        }
+      ]
+    },
+    "blind-football": {
+      "competitions_count": 4,
+      "matches_count": 6,
+      "standings_count": 6,
+      "news_count": 3,
+      "latest_matches": [
+        {
+          "match_id": "bli-1",
+          "category": "blind-football",
+          "home_team": "Korea",
+          "away_team": "Poland",
+          "home_score": 6,
+          "away_score": 0,
+          "status": "finished",
+          "source_name": "IBSA Men's Blind Football Nations Cup",
+          "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
+          "fetched_at": "2026-11-26T20:59:56Z"
+        },
+        {
+          "match_id": "bli-2",
+          "category": "blind-football",
+          "home_team": "Korea",
+          "away_team": "India",
+          "home_score": 3,
+          "away_score": 0,
+          "status": "finished",
+          "source_name": "IBSA Men's Blind Football Nations Cup",
+          "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
+          "fetched_at": "2026-11-26T20:59:56Z"
+        },
+        {
+          "match_id": "bli-3",
+          "category": "blind-football",
+          "home_team": "Italy",
+          "away_team": "Korea",
+          "home_score": 1,
+          "away_score": 0,
+          "status": "finished",
+          "source_name": "IBSA Men's Blind Football Nations Cup",
+          "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
+          "fetched_at": "2026-11-26T20:59:56Z"
+        },
+        {
+          "match_id": "bli-4",
+          "category": "blind-football",
+          "home_team": "Poland",
+          "away_team": "Iran",
+          "home_score": 2,
+          "away_score": 0,
+          "status": "finished",
+          "source_name": "IBSA Men's Blind Football Nations Cup",
+          "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
+          "fetched_at": "2026-11-26T20:59:56Z"
+        },
+        {
+          "match_id": "bli-5",
+          "category": "blind-football",
+          "home_team": "Poland",
+          "away_team": "India",
+          "home_score": 2,
+          "away_score": 0,
+          "status": "finished",
+          "source_name": "IBSA Men's Blind Football Nations Cup",
+          "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
+          "fetched_at": "2026-11-26T20:59:56Z"
+        }
+      ],
+      "top_standings": [
+        {
+          "position": 1,
+          "team": "England",
+          "category": "blind-football",
+          "played": 5,
+          "won": 4,
+          "drawn": 1,
+          "lost": 0,
+          "points": 13,
+          "source_name": "IBSA Men's Blind Football Nations Cup",
+          "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
+          "fetched_at": "2026-11-26T20:59:56Z"
+        },
+        {
+          "position": 2,
+          "team": "Iran",
+          "category": "blind-football",
+          "played": 5,
+          "won": 4,
+          "drawn": 1,
+          "lost": 0,
+          "points": 13,
+          "source_name": "IBSA Men's Blind Football Nations Cup",
+          "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
+          "fetched_at": "2026-11-26T20:59:56Z"
+        },
+        {
+          "position": 3,
+          "team": "Italy",
+          "category": "blind-football",
+          "played": 5,
+          "won": 3,
+          "drawn": 0,
+          "lost": 2,
+          "points": 9,
+          "source_name": "IBSA Men's Blind Football Nations Cup",
+          "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
+          "fetched_at": "2026-11-26T20:59:56Z"
+        },
+        {
+          "position": 4,
+          "team": "India",
+          "category": "blind-football",
+          "played": 5,
+          "won": 2,
+          "drawn": 0,
+          "lost": 3,
+          "points": 6,
+          "source_name": "IBSA Men's Blind Football Nations Cup",
+          "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
+          "fetched_at": "2026-11-26T20:59:56Z"
+        },
+        {
+          "position": 5,
+          "team": "Korea",
+          "category": "blind-football",
+          "played": 5,
+          "won": 1,
+          "drawn": 0,
+          "lost": 4,
+          "points": 3,
+          "source_name": "IBSA Men's Blind Football Nations Cup",
+          "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
+          "fetched_at": "2026-11-26T20:59:56Z"
+        }
+      ],
+      "latest_news": [
+        {
+          "id": 3,
+          "source_name": "IBSA Football Historical Results",
+          "source_url": "https://ibsasport.org/sports/football/about/historical-results/",
+          "source_type": "html",
+          "excerpt": "IBSA | International Blind Sports IBSA - International Blind Sports Federation Contact Football Historical Results Historical Results Explore past blind football competitions, tournament results, and historical achievements. Discover the rich history of blind football through comprehensive archives. Join Us On Social Media Our Partners",
+          "fetched_at": "2026-11-26T20:59:56Z"
+        },
+        {
+          "id": 4,
+          "source_name": "IBSA European Blind Football Championship 2026",
+          "source_url": "https://ibsablindeuro2026.com/en/home-2/",
+          "source_type": "html",
+          "excerpt": "European Blind Football Championship - Strasbourg - 2026 Skip to content FR PRESS Buy tickets FR EN PRESS Buy tickets EUROPEAN BLIND FOOTBALL CHAMPIONSHIPS August 17-23, 2026 PROGRAM & TICKET OFFICE NEXT MATCHES 17 august → 13h30 Group match: Group A Greece — Germany → 16h Group match: Group A France — England BUY A TICKET 2 matches → 18h30 Group match: Group B Türkiye — Spain → 21h Group match: Group B Romania — Italy BUY A TICKET 2 matches 18 august → 13h30 Group match: Group A Germany — England → 16h Group match: Group A France — Greece BUY A TICKET 2 matches → 18h30 Group match: Group B Spain — Italy → 21h Group match: Group B Romania — Türkiye BUY A TICKET 2 matches 19 august → 13h30 Group match: Group A England — Greece → 16h Group match: Group A Germany — France BUY A TICKET 2 matches → 18h30 Group match: Group B Italy — Türkiye → 21h Group match: Group B Spain — Romania BUY A TICKET 2 matches 21 august → 12h15 Knockout stage Spain — Greece → 15h Knockout stage Germany — Romania BUY A TICKET 2 matches → 18h15 Semi-final Türkiye — England → 21h Semi-final France — Italy BUY A TICKET 2 matches 22 august → 12h15 Knockout stage Greece — Romania → 15h Knockout stage Germany — Spa",
+          "fetched_at": "2026-11-26T20:59:56Z"
+        },
+        {
+          "id": 5,
+          "source_name": "IBSA Men's Blind Football Nations Cup",
+          "source_url": "https://www.blindfootball.in/ibsa-mens-2025",
+          "source_type": "html",
+          "excerpt": "The Home of Blind Football in India - Home 2025 IBSA Men’s Blind Football Nations Cup Kochi, Kerala • 22nd September – 2nd October 2025 Participating Nations England India Iran Italy Korea Poland 🏆 About the Tournament The IBSA Men’s Blind Football Nations Cup is a prestigious global competition under the International Blind Sports Federation (IBSA). Featuring the world’s top-ranked teams between 9th and 16th, the Nations Cup showcases the intensity, skill, and passion of blind football on the international stage. For the first time in history, India will host this flagship men’s event — a landmark opportunity to promote inclusion, accessibility, and sporting excellence. Why India? India has quickly become a hub for blind football in Asia, with an impressive track record of hosting world-class events: 2022 IBSA Asia-Oceania Blind Football Championship 2023 IBSA Intercontinental Cup With top-class facilities, dedicated volunteers, and a passionate blind football community, India is ready once again to welcome the world and set the stage for unforgettable sporting action. 📺 Media & Live Broadcast Fans around the globe won’t miss a moment! Live streaming through official partners Dail",
+          "fetched_at": "2026-11-26T20:59:56Z"
+        }
+      ]
+    },
+    "cp-football": {
+      "competitions_count": 11,
+      "matches_count": 9,
+      "standings_count": 6,
+      "news_count": 3,
+      "latest_matches": [
+        {
+          "match_id": "cpf-1",
+          "category": "cp-football",
+          "home_team": "Bra",
+          "away_team": "Esp",
+          "home_score": 3,
+          "away_score": 0,
+          "status": "finished",
+          "source_name": "IFCPF Tournament Standings & Matches (View 121)",
+          "source_url": "https://www.ifcpf.com/tournaments/view/121",
+          "fetched_at": "2026-11-26T20:59:56Z"
+        },
+        {
+          "match_id": "cpf-2",
+          "category": "cp-football",
+          "home_team": "Sco",
+          "away_team": "Ned",
+          "home_score": 1,
+          "away_score": 12,
+          "status": "finished",
+          "source_name": "IFCPF Tournament Standings & Matches (View 121)",
+          "source_url": "https://www.ifcpf.com/tournaments/view/121",
+          "fetched_at": "2026-11-26T20:59:56Z"
+        },
+        {
+          "match_id": "cpf-3",
+          "category": "cp-football",
+          "home_team": "Idn",
+          "away_team": "Irl",
+          "home_score": 6,
+          "away_score": 7,
+          "status": "finished",
+          "source_name": "IFCPF Tournament Standings & Matches (View 121)",
+          "source_url": "https://www.ifcpf.com/tournaments/view/121",
+          "fetched_at": "2026-11-26T20:59:56Z"
+        },
+        {
+          "match_id": "cpf-4",
+          "category": "cp-football",
+          "home_team": "Aus",
+          "away_team": "Chi",
+          "home_score": 1,
+          "away_score": 2,
+          "status": "finished",
+          "source_name": "IFCPF Tournament Standings & Matches (View 121)",
+          "source_url": "https://www.ifcpf.com/tournaments/view/121",
+          "fetched_at": "2026-11-26T20:59:56Z"
+        },
+        {
+          "match_id": "cpf-5",
+          "category": "cp-football",
+          "home_team": "Jpn",
+          "away_team": "Can",
+          "home_score": 0,
+          "away_score": 4,
+          "status": "finished",
+          "source_name": "IFCPF Tournament Standings & Matches (View 121)",
+          "source_url": "https://www.ifcpf.com/tournaments/view/121",
+          "fetched_at": "2026-11-26T20:59:56Z"
+        }
+      ],
+      "top_standings": [
+        {
+          "position": 1,
+          "team": "Chile",
+          "category": "cp-football",
+          "played": 3,
+          "won": 0,
+          "drawn": 1,
+          "lost": 2,
+          "points": 1,
+          "source_name": "IFCPF Tournament Standings & Matches (View 121)",
+          "source_url": "https://www.ifcpf.com/tournaments/view/121",
+          "fetched_at": "2026-11-26T20:59:56Z"
+        },
+        {
+          "position": 3,
+          "team": "Canada",
+          "category": "cp-football",
+          "played": 3,
+          "won": 0,
+          "drawn": 0,
+          "lost": 3,
+          "points": 0,
+          "source_name": "IFCPF Tournament Standings & Matches (View 121)",
+          "source_url": "https://www.ifcpf.com/tournaments/view/121",
+          "fetched_at": "2026-11-26T20:59:56Z"
+        },
+        {
+          "position": 3,
+          "team": "Japan",
+          "category": "cp-football",
+          "played": 3,
+          "won": 0,
+          "drawn": 0,
+          "lost": 3,
+          "points": 0,
+          "source_name": "IFCPF Tournament Standings & Matches (View 121)",
+          "source_url": "https://www.ifcpf.com/tournaments/view/121",
+          "fetched_at": "2026-11-26T20:59:56Z"
+        },
+        {
+          "position": 7,
+          "team": "Spain",
+          "category": "cp-football",
+          "played": 3,
+          "won": 2,
+          "drawn": 1,
+          "lost": 0,
+          "points": 7,
+          "source_name": "IFCPF Tournament Standings & Matches (View 121)",
+          "source_url": "https://www.ifcpf.com/tournaments/view/121",
+          "fetched_at": "2026-11-26T20:59:56Z"
+        },
+        {
+          "position": 9,
+          "team": "Indonesia",
+          "category": "cp-football",
+          "played": 3,
+          "won": 2,
+          "drawn": 0,
+          "lost": 1,
+          "points": 6,
+          "source_name": "IFCPF Tournament Standings & Matches (View 121)",
+          "source_url": "https://www.ifcpf.com/tournaments/view/121",
+          "fetched_at": "2026-11-26T20:59:56Z"
+        }
+      ],
+      "latest_news": [
+        {
+          "id": 7,
+          "source_name": "IFCPF Tournaments & Results",
+          "source_url": "https://www.ifcpf.com/tournaments",
+          "source_type": "html",
+          "excerpt": "Tournaments - CP Football Member login Menu Tournaments Previous United States 2026-10-14 - 2026-10-24 United States 2026-10-12 - 2026-10-25 England 2026-08-15 - 2026-08-24 Thailand 2026-01-19 - 2026-01-25 Indonesia 2025-11-12 - 2025-11-23 Chile 2025-10-31 - 2025-11-10 Uruguay 2025-10-08 - 2025-10-19 England 2025-08-17 - 2025-08-24 England 2025-08-13 - 2025-08-24 Spain 2024-11-11 - 2024-11-20 Spain 2024-11-06 - 2024-11-23 Spain 2024-07-02 - 2024-07-07 Spain 2024-04-08 - 2024-04-18 Chile 2023-11-17 - 2023-11-25 Australia 2023-10-31 - 2023-11-12 Australia 2023-10-31 - 2023-11-11 Denmark 2023-10-19 - 2023-10-22 Spain 2023-09-12 - 2023-09-18 Colombia 2023-09-01 - 2023-09-11 Spain 2023-06-28 - 2023-07-02 Cambodia 2023-06-03 - 2023-06-09 Colombia 2023-06-02 - 2023-06-12 Italy 2023-05-29 - 2023-06-14 Italy 2022-09-24 - 2022-10-04 Spain 2022-06-01 - 2022-06-05 Spain 2022-05-07 - 2022-05-18 Spain 2022-04-27 - 2022-05-16 Spain 2021-11-24 - 2021-11-28 Ireland 2021-10-15 - 2021-10-17 Peru 2019-08-23 - 2019-09-01 Spain 2019-07-02 - 2019-07-20 Iran 2018-11-22 - 2018-11-30 Ecuador 2018-10-23 - 2018-11-03 Spain 2018-08-08 - 2018-08-13 Spain 2018-08-05 - 2018-08-17 Netherlands 2018-07-22 - 2018-08-",
+          "fetched_at": "2026-11-26T20:59:56Z"
+        },
+        {
+          "id": 8,
+          "source_name": "IFCPF Tournaments & Results (PDF)",
+          "source_url": "https://www.ifcpf.com/static/upload/raw/f17c1cb9-92eb-4a5d-b46d-fbb532a7ec87/IFCPF+-+Competition+Rules+-+2022.pdf",
+          "source_type": "pdf",
+          "excerpt": "International Federation of CP Football | info@ifcpf.com | www.ifcpf.com Competition Rules 2022 IFCPF | Competition Rules | 2022 International Federation of CP Football | info@ifcpf.com | www.ifcpf.com 2 Introduction This document states the IFCPF Competition Rules which are applicable in all IFCPF sanctioned tournaments for CP Football. The IFCPF Competition Rules should be read in conjunction with the current issue of the IFCPF Modifications to the Laws of the Game. All matches must be played in accordance with the current IFCPF Modifications to the Laws of the Game which are available at www.ifcpf.com For further guidance please visit www.ifcpf.com or contact the International Federation of CP Football info@ifcpf.com 2022 Updates Please note that all updates for 2022 are underlined and marked in yellow. Women’s CP Football CP Football is the name of our sport, therefore Women’s CP Football refers specifically to the format played with further modifications for the development of the game for women players. IFCPF have chosen to implement modifications to the CP Football sport rules with the aim to grow women’s participation, with the ultimate objective that all CP Football player",
+          "fetched_at": "2026-11-26T20:59:56Z"
+        },
+        {
+          "id": 9,
+          "source_name": "IFCPF Tournaments & Results (PDF)",
+          "source_url": "https://www.ifcpf.com/static/upload/raw/71933712-5882-4625-92cb-24bbacc9067d/IFCPF+-+Modifications+to+the+Laws+of+the+Game+-+2022.pdf",
+          "source_type": "pdf",
+          "excerpt": "International Federation of CP Football | info@ifcpf.com | www.ifcpf.com Modifications to the IFAB Laws of the Game 2022 IFCPF | Modifications to the IFAB Laws of the Game | 2022 International Federation of CP Football | info@ifcpf.com | www.ifcpf.com 2 Introduction This document states the IFCPF Modifications to the International Football Association Board (IFAB) Laws of the Game which are applicable in all IFCPF sanctioned tournaments for CP Football. The IFCPF Modifications to the IFAB Laws of the Game should be read in conjunction with the current issue of the IFCPF Competition Rules. These amendments to the IFAB Laws of the Game applicable to CP Football (also known as Football 7- a-side) should be read in conjunction with the current issue of the IFAB Laws of the Game which are available at www.theifab.com Subject to the agreement of the national football association concerned, and provided the principles of these Laws are maintained, the Laws may be modified in their application for matches for players of under 15 years of age, for female footballers and for veteran footballers in any or all of the following ways: • number of players i.e. use of small-sided formats • size of",
+          "fetched_at": "2026-11-26T20:59:56Z"
+        }
+      ]
+    },
+    "world-football": {
+      "competitions_count": 1,
+      "matches_count": 0,
+      "standings_count": 0,
+      "news_count": 1,
+      "latest_matches": [],
+      "top_standings": [],
+      "latest_news": [
+        {
+          "id": 35,
+          "source_name": "BBC Sport Football RSS",
+          "source_url": "https://feeds.bbci.co.uk/sport/football/rss.xml",
+          "source_type": "rss",
+          "excerpt": "<![CDATA[BBC Sport]]> https://www.bbc.co.uk/sport/football http://news.bbc.co.uk/sol/shared/img/sport_120x60.gif BBC Sport https://www.bbc.co.uk/sport/football RSS for Node Thu, 26 Nov 2026 21:01:12 GMT 15 <![CDATA[Lammens - the Man Utd goalkeeper under scrutiny like never before]]> https://www.bbc.co.uk/sport/football/articles/cmn4k7v93gvzo?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/football/articles/cmn4k7v93gvzo#0 Thu, 26 Nov 2026 14:56:30 GMT <![CDATA[Calvert-Lewin signs new Leeds deal until 2029]]> https://www.bbc.co.uk/sport/football/articles/cx62pnz1evv4o?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/football/articles/cx62pnz1evv4o#0 Thu, 26 Nov 2026 18:00:31 GMT <![CDATA[Referee being 'drunk' claims are 'entirely unfounded']]> https://www.bbc.co.uk/sport/football/articles/c6x289w0vpr1o?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/football/articles/c6x289w0vpr1o#0 Thu, 26 Nov 2026 19:19:49 GMT <![CDATA[Not even making a 12-man bench - what next for Garnacho?]]> https://www.bbc.co.uk/sport/football/articles/cr3wgd5exl0do?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/football/articles/cr3wgd5exl0do#0 Thu, 26 Nov 2026 13:23:05",
+          "fetched_at": "2026-11-26T20:59:56Z"
+        }
+      ]
+    },
+    "basketball": {
+      "competitions_count": 1,
+      "matches_count": 0,
+      "standings_count": 0,
+      "news_count": 1,
+      "latest_matches": [],
+      "top_standings": [],
+      "latest_news": [
+        {
+          "id": 37,
+          "source_name": "BBC Sport Basketball RSS",
+          "source_url": "https://feeds.bbci.co.uk/sport/basketball/rss.xml",
+          "source_type": "rss",
+          "excerpt": "<![CDATA[BBC Sport]]> https://www.bbc.co.uk/sport/basketball http://news.bbc.co.uk/sol/shared/img/sport_120x60.gif BBC Sport https://www.bbc.co.uk/sport/basketball RSS for Node Thu, 26 Nov 2026 21:01:14 GMT 15 <![CDATA[NBA plans to invest 10bn euros in European arenas]]> https://www.bbc.co.uk/sport/basketball/articles/crjeqlpnqjxjo?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/basketball/articles/crjeqlpnqjxjo#0 Wed, 25 Nov 2026 19:58:59 GMT <![CDATA[‘Showing off for Selena Gomez’ - Wembanyama hits 50 points in Spurs win]]> https://www.bbc.co.uk/sport/basketball/articles/c6x20yeqg18vo?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/basketball/articles/c6x20yeqg18vo#0 Sun, 22 Nov 2026 07:42:24 GMT <![CDATA[Harden passes Bryant for 50-point games]]> https://www.bbc.co.uk/sport/basketball/articles/cwx2e8y1lr8lo?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/basketball/articles/cwx2e8y1lr8lo#0 Sat, 21 Nov 2026 09:10:18 GMT <![CDATA[Coach given one-game ban for head push on female player]]> https://www.bbc.co.uk/sport/basketball/articles/cw808v4vj7exo?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/basketball/articles/cw808v4vj7exo#0 Tue, 17 No",
+          "fetched_at": "2026-11-26T20:59:56Z"
+        }
+      ]
+    },
+    "motorsport": {
+      "competitions_count": 2,
+      "matches_count": 0,
+      "standings_count": 0,
+      "news_count": 2,
+      "latest_matches": [],
+      "top_standings": [],
+      "latest_news": [
+        {
+          "id": 39,
+          "source_name": "BBC Sport Formula 1 RSS",
+          "source_url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
+          "source_type": "rss",
+          "excerpt": "<![CDATA[BBC Sport]]> https://www.bbc.co.uk/sport/formula1 http://news.bbc.co.uk/sol/shared/img/sport_120x60.gif BBC Sport https://www.bbc.co.uk/sport/formula1 RSS for Node Thu, 26 Nov 2026 21:01:12 GMT 15 <![CDATA[Russell says Verstappen's criticism 'quite amusing']]> https://www.bbc.co.uk/sport/formula1/articles/c5lykr98yd88o?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/formula1/articles/c5lykr98yd88o#0 Thu, 26 Nov 2026 16:10:58 GMT <![CDATA[Ferrari facing 'very challenging times' - Hamilton]]> https://www.bbc.co.uk/sport/formula1/articles/c6j9mw2dkzrxo?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/formula1/articles/c6j9mw2dkzrxo#0 Thu, 26 Nov 2026 17:30:01 GMT <![CDATA[Bearman to continue with Haas in 2027]]> https://www.bbc.co.uk/sport/formula1/articles/cqx2wxyk7343o?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/formula1/articles/cqx2wxyk7343o#0 Thu, 26 Nov 2026 09:30:22 GMT <![CDATA[How to follow Qatar Grand Prix on the BBC]]> https://www.bbc.co.uk/sport/formula1/articles/cjzx912pyekdo?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/formula1/articles/cjzx912pyekdo#0 Thu, 26 Nov 2026 10:15:25 GMT <![CDATA[Williams exceeded F1 cost ",
+          "fetched_at": "2026-11-26T20:59:56Z"
+        },
+        {
+          "id": 44,
+          "source_name": "BBC Sport Motorsport RSS",
+          "source_url": "https://feeds.bbci.co.uk/sport/motorsport/rss.xml",
+          "source_type": "rss",
+          "excerpt": "<![CDATA[BBC Sport]]> https://www.bbc.co.uk/sport/motorsport http://news.bbc.co.uk/sol/shared/img/sport_120x60.gif BBC Sport https://www.bbc.co.uk/sport/motorsport RSS for Node Thu, 26 Nov 2026 21:01:17 GMT 15 <![CDATA[Is Marquez MotoGP's greatest of all time? ]]> https://www.bbc.co.uk/sport/motorsport/articles/crd9100xkgp9o?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/motorsport/articles/crd9100xkgp9o#0 Mon, 23 Nov 2026 14:48:26 GMT <![CDATA[Marquez collects eighth MotoGP title]]> https://www.bbc.co.uk/sport/motorsport/videos/cr930y14v3n4o?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/motorsport/videos/cr930y14v3n4o#0 Mon, 23 Nov 2026 15:50:48 GMT <![CDATA[Marquez wins record-equalling eighth MotoGP title]]> https://www.bbc.co.uk/sport/motorsport/articles/c64gnrdzq8zzo?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/motorsport/articles/c64gnrdzq8zzo#0 Sun, 22 Nov 2026 14:58:23 GMT <![CDATA[Hickman breaks 16-year-old lap record in Macau win]]> https://www.bbc.co.uk/sport/motorsport/articles/ckr5gd36d669o?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/motorsport/articles/ckr5gd36d669o#0 Sat, 21 Nov 2026 11:14:13 GMT <![CDATA[Alonso to dr",
+          "fetched_at": "2026-11-26T20:59:56Z"
+        }
+      ]
+    },
+    "tennis": {
+      "competitions_count": 1,
+      "matches_count": 0,
+      "standings_count": 0,
+      "news_count": 1,
+      "latest_matches": [],
+      "top_standings": [],
+      "latest_news": [
+        {
+          "id": 41,
+          "source_name": "BBC Sport Tennis RSS",
+          "source_url": "https://feeds.bbci.co.uk/sport/tennis/rss.xml",
+          "source_type": "rss",
+          "excerpt": "<![CDATA[BBC Sport]]> https://www.bbc.co.uk/sport/tennis http://news.bbc.co.uk/sol/shared/img/sport_120x60.gif BBC Sport https://www.bbc.co.uk/sport/tennis RSS for Node Thu, 26 Nov 2026 21:01:18 GMT 15 <![CDATA[GB win doubles decider to reach Davis Cup semi-finals for first time since 2019]]> https://www.bbc.co.uk/sport/tennis/articles/c5m2lvevrk1mo?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/tennis/articles/c5m2lvevrk1mo#0 Thu, 26 Nov 2026 17:20:42 GMT <![CDATA[Knee surgery rules Sinner out of Australian Open]]> https://www.bbc.co.uk/sport/tennis/articles/c6x29q88r9v5o?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/tennis/articles/c6x29q88r9v5o#0 Thu, 26 Nov 2026 07:19:13 GMT <![CDATA['It was ruthless'- GB's Patten on ending top-ranked partnership with Heliovaara]]> https://www.bbc.co.uk/sport/tennis/articles/cwm25m10ng20o?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/tennis/articles/cwm25m10ng20o#0 Wed, 25 Nov 2026 17:30:41 GMT <![CDATA[Rinderknech denies refusing doping test]]> https://www.bbc.co.uk/sport/tennis/articles/cr9d7gxjq99po?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/tennis/articles/cr9d7gxjq99po#0 Wed, 25 Nov 2026 08",
+          "fetched_at": "2026-11-26T20:59:56Z"
+        }
+      ]
+    },
+    "multi-sport": {
+      "competitions_count": 1,
+      "matches_count": 0,
+      "standings_count": 0,
+      "news_count": 1,
+      "latest_matches": [],
+      "top_standings": [],
+      "latest_news": [
+        {
+          "id": 43,
+          "source_name": "BBC Sport All Sports RSS",
+          "source_url": "https://feeds.bbci.co.uk/sport/rss.xml",
+          "source_type": "rss",
+          "excerpt": "<![CDATA[BBC Sport]]> https://www.bbc.co.uk/sport http://news.bbc.co.uk/sol/shared/img/sport_120x60.gif BBC Sport https://www.bbc.co.uk/sport RSS for Node Thu, 26 Nov 2026 21:01:22 GMT 15 <![CDATA[Boxing chiefs to assess Fury mental health before fight]]> https://www.bbc.co.uk/sport/boxing/articles/cwj3klxj10edo?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/boxing/articles/cwj3klxj10edo#0 Thu, 26 Nov 2026 18:54:27 GMT <![CDATA[Russell says Verstappen's criticism 'quite amusing']]> https://www.bbc.co.uk/sport/formula1/articles/c5lykr98yd88o?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/formula1/articles/c5lykr98yd88o#0 Thu, 26 Nov 2026 16:10:58 GMT <![CDATA[India's Pant joins New Zealand club match under false name]]> https://www.bbc.co.uk/sport/cricket/articles/crx27984p14jo?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/cricket/articles/crx27984p14jo#0 Thu, 26 Nov 2026 16:21:44 GMT <![CDATA[Not even making a 12-man bench - what next for Garnacho?]]> https://www.bbc.co.uk/sport/football/articles/cr3wgd5exl0do?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/football/articles/cr3wgd5exl0do#1 Thu, 26 Nov 2026 13:23:05 GMT <![CDATA[GB win de",
+          "fetched_at": "2026-11-26T20:59:56Z"
+        }
+      ]
+    }
+  },
+  "attribution_license": "Open Aggregator with Source Attribution"
+}
